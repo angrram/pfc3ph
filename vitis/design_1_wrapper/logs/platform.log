@@ -1,0 +1,2080 @@
+TRACE::2024-12-30.15:01:52::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:52::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:52::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:52::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:52::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:52::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:52::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-12-30.15:01:58::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2024-12-30.15:01:58::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-12-30.15:01:58::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-12-30.15:01:58::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2024-12-30.15:01:58::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:01:58::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:01:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:01:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:01:58::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-30.15:01:58::SCWMssOS::No sw design opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::mss does not exists at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::Creating sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::Adding the swdes entry, created swdb C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::Writing mss at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:01:58::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:01:58::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-30.15:01:58::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-12-30.15:01:58::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:01:58::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:02:01::SCWMssOS::Writing the mss file completed C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-30.15:02:01::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:02:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:02:01::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:02:01::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:02:01::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:02:01::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:02:01::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:02:01::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:02:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:02:01::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:02:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:02:01::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-12-30.15:02:01::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-30.15:02:01::SCWMssOS::Copying to export directory.
+TRACE::2024-12-30.15:02:01::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-30.15:02:01::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-30.15:02:01::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:02:01::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-12-30.15:02:01::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-12-30.15:02:01::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-30.15:02:01::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-12-30.15:02:01::SCWSystem::dir created 
+TRACE::2024-12-30.15:02:01::SCWSystem::Writing the bif 
+TRACE::2024-12-30.15:02:01::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-30.15:02:01::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-30.15:02:01::SCWPlatform::Completed generating the platform
+TRACE::2024-12-30.15:02:01::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-30.15:02:01::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:02:01::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:01::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:01::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:01::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:02::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:02::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-30.15:02:02::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:02:02::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:02:02::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:02:02::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:02:02::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:02:02::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:02:02::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:02::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:02::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:02:02::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:02:02::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:02:02::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:02:02::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-12-30.15:02:02::SCWMssOS::Copying to export directory.
+TRACE::2024-12-30.15:02:02::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-30.15:02:02::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-30.15:02:02::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:02:02::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-12-30.15:02:02::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-12-30.15:02:02::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-30.15:02:02::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-12-30.15:02:02::SCWSystem::dir created 
+TRACE::2024-12-30.15:02:02::SCWSystem::Writing the bif 
+TRACE::2024-12-30.15:02:02::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-30.15:02:02::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-30.15:02:02::SCWPlatform::Completed generating the platform
+TRACE::2024-12-30.15:02:02::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:02:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:02:02::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:02::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:02::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:02::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:02::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:02:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:02:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:02:02::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:02:02::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:02:02::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-30.15:02:02::SCWPlatform::updated the xpfm file.
+LOG::2024-12-30.15:04:45::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:04:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:04:45::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:04:45::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:04:45::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:04:45::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:04:45::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:04:45::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:04:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:04:45::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:04:45::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:04:45::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:04:45::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:04:45::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:04:45::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:04:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:04:45::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:04:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:04:45::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:04:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:04:45::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:04:45::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:04:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:04:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:04:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:04:45::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:04:45::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:04:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:04:45::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:04:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:04:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:04:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:04:45::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:04:46::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:04:46::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:04:46::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:04:46::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:04:46::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:04:46::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:04:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:04:46::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:04:46::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:04:47::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:04:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:04:47::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:47::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:04:47::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:04:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:04:47::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:04:47::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:04:47::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:04:47::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:10::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:05:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:05:10::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:05:10::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:10::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:05:10::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:05:10::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:05:10::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:05:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:05:10::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:10::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:10::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:10::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:05:10::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:10::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:05:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:05:10::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:05:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:05:10::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:10::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:05:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:05:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:05:10::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:05:10::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:05:10::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:05:10::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:10::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:10::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:05:10::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:05:10::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:10::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:10::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:05:10::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:05:10::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:05:10::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:05:10::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:05:10::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:10::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:10::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:11::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:11::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:11::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:11::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:05:11::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:05:11::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:33::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:05:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:05:33::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:05:33::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:33::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:05:33::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:05:33::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:05:33::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:05:33::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:05:33::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:33::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:33::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:33::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:05:33::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:33::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:05:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:05:33::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:05:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:05:33::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:33::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:05:33::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:33::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:05:33::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:05:33::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:05:33::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:05:33::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:05:33::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:33::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:33::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:05:33::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:05:33::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:05:33::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:33::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:33::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:05:34::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:05:34::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:05:34::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:05:34::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:34::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:34::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:34::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:34::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:34::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:05:34::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:05:34::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:53::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:05:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:05:53::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:05:53::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:05:53::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:05:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:05:53::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:05:53::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:05:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:05:53::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:53::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:53::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:53::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:05:53::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:05:53::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:05:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:05:53::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:05:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:05:53::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:05:53::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:53::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:05:53::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:05:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:05:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:05:53::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:05:53::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:05:53::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:05:53::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:05:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:05:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:53::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:05:54::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:05:54::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:05:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:05:54::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:05:54::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:05:54::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:05:54::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:05:54::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:54::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:54::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:05:54::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:05:54::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:05:54::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:05:54::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:05:54::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:07:27::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:07:27::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:07:27::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:07:27::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:07:27::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:07:27::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:07:27::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:07:27::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:07:27::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:07:27::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:07:27::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:07:27::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:07:27::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:07:27::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:07:27::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:07:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-12-30.15:07:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-12-30.15:07:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:07:27::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:07:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:07:27::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:07:27::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:07:27::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:07:27::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:07:27::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:07:27::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:07:27::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:07:27::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:07:27::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:07:27::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:07:27::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:07:27::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:07:27::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:07:27::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:07:27::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:07:27::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:07:27::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:07:27::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:07:27::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:07:27::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:07:27::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:07:27::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:07:27::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:07:27::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:07:27::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:18:44::SCWPlatform::Clearing the existing platform
+TRACE::2024-12-30.15:18:44::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-12-30.15:18:44::SCWMssOS::Removing the swdes entry for  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:44::SCWSystem::Clearing the domains completed.
+TRACE::2024-12-30.15:18:44::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-12-30.15:18:44::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform:: Platform location is C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:44::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:44::SCWPlatform::Removing the HwDB with name C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:44::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:44::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:44::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWReader::Active system found as  design_1_wrapper
+TRACE::2024-12-30.15:18:51::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2024-12-30.15:18:51::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:18:51::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-30.15:18:51::SCWMssOS::No sw design opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::mss exists loading the mss file  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::Opened the sw design from mss  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::Adding the swdes entry C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:18:51::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-30.15:18:51::SCWMssOS::Opened the sw design.  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:18:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:18:51::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:18:51::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-12-30.15:18:51::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:18:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:18:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:18:51::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:18:51::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:18:51::SCWReader::No isolation master present  
+TRACE::2024-12-30.15:18:53::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:53::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:53::SCWPlatform:: Platform location is C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa
+TRACE::2024-12-30.15:18:53::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:18:53::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:00::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:19:00::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:19:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2024-12-30.15:19:00::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2024-12-30.15:19:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:00::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:00::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:19:00::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:00::SCWPlatform::update - Opened existing hwdb design_1_wrapper_3
+TRACE::2024-12-30.15:19:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:00::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:19:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:19:00::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:19:00::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-12-30.15:19:00::SCWMssOS::Removing the swdes entry for  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:00::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:00::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:00::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-30.15:19:06::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2024-12-30.15:19:06::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:06::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:19:06::SCWMssOS::Writing the mss file completed C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:06::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:19:06::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:06::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:06::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:06::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:06::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:06::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2024-12-30.15:19:06::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2024-12-30.15:19:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:06::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:19:06::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad61",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-30.15:19:14::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:19:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:19:14::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:19:14::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:19:14::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:19:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:19:14::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:19:14::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:19:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:19:14::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:14::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:14::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:14::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:14::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:14::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2024-12-30.15:19:14::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2024-12-30.15:19:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:14::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:19:14::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:14::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:19:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:14::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2024-12-30.15:19:17::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:19:17::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:19:17::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:19:17::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:19:17::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:19:17::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:19:17::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:19:17::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:19:17::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:19:17::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:19:17::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:19:17::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:19:17::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:19:17::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:18::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:19:18::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:19:18::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:19:18::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:19::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:19:19::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:19:19::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:19:19::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:19::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:19:19::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:19:19::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:19:47::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:19:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:19:47::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:19:47::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:19:47::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:19:47::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:19:47::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:19:47::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:19:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:19:47::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:47::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:47::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:47::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:19:47::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:19:47::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:19:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2024-12-30.15:19:47::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2024-12-30.15:19:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:19:47::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-30.15:19:47::SCWMssOS::No sw design opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::mss exists loading the mss file  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::Opened the sw design from mss  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::Adding the swdes entry C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:19:47::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-30.15:19:47::SCWMssOS::Opened the sw design.  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:19:47::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:19:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:19:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:19:48::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:19:48::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:19:48::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:19:48::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:19:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:19:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:19:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:19:48::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:19:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:19:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:19:48::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:19:48::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:19:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:19:48::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:19:48::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:19:48::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:19:48::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:19:48::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:19:48::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:19:48::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:19:48::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:20:48::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:20:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:20:48::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:20:48::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:20:48::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:20:48::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:20:48::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:20:48::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:20:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:20:48::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:20:48::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:20:48::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:20:48::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:20:48::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:20:48::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:20:48::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2024-12-30.15:20:48::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2024-12-30.15:20:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:20:48::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:20:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:20:48::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:20:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:20:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-12-30.15:20:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-12-30.15:20:48::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-12-30.15:20:48::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:20:48::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:20:48::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:20:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:20:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:20:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:20:48::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:20:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:20:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:20:48::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:20:48::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:20:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:20:48::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:20:48::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:20:48::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:20:48::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:20:48::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:20:48::SCWMssOS::"Compiling pfc3ph_inter..."
+
+ERROR::2024-12-30.15:20:48::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2024-12-30.15:20:48::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:53:51::SCWPlatform::Clearing the existing platform
+TRACE::2024-12-30.15:53:51::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-12-30.15:53:51::SCWMssOS::Removing the swdes entry for  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:51::SCWSystem::Clearing the domains completed.
+TRACE::2024-12-30.15:53:51::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-12-30.15:53:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:51::SCWPlatform:: Platform location is C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:51::SCWPlatform::Removing the HwDB with name C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:52::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:52::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:52::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:52::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:52::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:52::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:52::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened new HwDB with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWReader::Active system found as  design_1_wrapper
+TRACE::2024-12-30.15:53:58::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2024-12-30.15:53:58::SCWDomain::checking for install qemu data   : 
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:53:58::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-12-30.15:53:58::SCWMssOS::No sw design opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::mss exists loading the mss file  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::Opened the sw design from mss  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::Adding the swdes entry C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:53:58::SCWMssOS::updating the scw layer about changes
+TRACE::2024-12-30.15:53:58::SCWMssOS::Opened the sw design.  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:53:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:53:58::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:53:58::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-12-30.15:53:58::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:53:58::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:53:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:53:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:53:58::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:53:58::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:53:58::SCWReader::No isolation master present  
+TRACE::2024-12-30.15:54:02::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:02::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:02::SCWPlatform:: Platform location is C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa
+TRACE::2024-12-30.15:54:02::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:02::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:08::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:54:08::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:54:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2024-12-30.15:54:08::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2024-12-30.15:54:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:08::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:54:08::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:08::SCWPlatform::update - Opened existing hwdb design_1_wrapper_6
+TRACE::2024-12-30.15:54:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:08::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-12-30.15:54:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-12-30.15:54:08::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:54:08::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2024-12-30.15:54:08::SCWMssOS::Removing the swdes entry for  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:08::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:08::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:08::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-12-30.15:54:14::SCWPlatform::Opened new HwDB with name design_1_wrapper_7
+TRACE::2024-12-30.15:54:14::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:14::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:54:14::SCWMssOS::Writing the mss file completed C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:14::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:54:14::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:14::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:14::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:14::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:14::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:14::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-12-30.15:54:14::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-12-30.15:54:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:14::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:54:14::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:14::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad61",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-12-30.15:54:42::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-12-30.15:54:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-12-30.15:54:42::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-12-30.15:54:42::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-12-30.15:54:42::SCWSystem::Not a boot domain 
+LOG::2024-12-30.15:54:42::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-12-30.15:54:42::SCWDomain::Generating domain artifcats
+TRACE::2024-12-30.15:54:42::SCWMssOS::Generating standalone artifcats
+TRACE::2024-12-30.15:54:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-12-30.15:54:42::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:42::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:42::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:42::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:42::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:42::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:42::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-12-30.15:54:42::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-12-30.15:54:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:42::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:42::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:54:42::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:42::SCWMssOS::Completed writing the mss file at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-12-30.15:54:42::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:42::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2024-12-30.15:54:45::SCWMssOS::doing bsp build ... 
+TRACE::2024-12-30.15:54:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-12-30.15:54:45::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:54:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:54:45::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:54:45::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:54:45::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:54:45::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:54:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:54:45::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:54:46::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:54:46::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:54:46::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:46::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:54:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:54:46::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:54:46::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:54:47::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:54:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:54:47::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:47::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:54:47::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:54:47::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:54:47::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:47::SCWMssOS::"Compiling pfc3ph_inter..."
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:54:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:54:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-12-30.15:54:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2024-12-30.15:54:48::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-12-30.15:54:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2024-12-30.15:54:48::SCWMssOS::a-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/pfc3ph_inter_v1_0/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/pfc3ph_inter_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2024-12-30.15:54:48::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2024-12-30.15:54:48::SCWMssOS::s -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-12-30.15:54:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2024-12-30.15:54:48::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2024-12-30.15:54:48::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2024-12-30.15:54:48::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_10/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-12-30.15:54:48::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-12-30.15:54:48::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_18/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_18/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-12-30.15:54:48::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2024-12-30.15:54:48::SCWMssOS::ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_18/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_18/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-12-30.15:54:48::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-s
+TRACE::2024-12-30.15:54:48::SCWMssOS::ections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v9_1/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v9_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-12-30.15:54:48::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fd
+TRACE::2024-12-30.15:54:48::SCWMssOS::ata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_10/src"
+
+TRACE::2024-12-30.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2024-12-30.15:54:48::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fda
+TRACE::2024-12-30.15:54:48::SCWMssOS::ta-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-12-30.15:54:51::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-12-30.15:54:51::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-12-30.15:54:51::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-12-30.15:54:51::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-12-30.15:54:51::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-12-30.15:54:51::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-12-30.15:54:51::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-12-30.15:54:51::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-12-30.15:54:51::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-12-30.15:54:51::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-12-30.15:54:51::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-12-30.15:54:51::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-12-30.15:54:51::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-12-30.15:54:51::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-12-30.15:54:51::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-12-30.15:54:51::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-12-30.15:54:51::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-12-30.15:54:51::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xpm_init.o microblaze_0/lib/xuartlite.o mic
+TRACE::2024-12-30.15:54:51::SCWMssOS::roblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftes
+TRACE::2024-12-30.15:54:51::SCWMssOS::t.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-12-30.15:54:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-12-30.15:54:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-12-30.15:54:51::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-12-30.15:54:51::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-12-30.15:54:51::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-12-30.15:54:51::SCWPlatform::Started preparing the platform 
+TRACE::2024-12-30.15:54:51::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-12-30.15:54:51::SCWSystem::dir created 
+TRACE::2024-12-30.15:54:51::SCWSystem::Writing the bif 
+TRACE::2024-12-30.15:54:51::SCWPlatform::Started writing the spfm file 
+TRACE::2024-12-30.15:54:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-12-30.15:54:51::SCWPlatform::Completed generating the platform
+TRACE::2024-12-30.15:54:51::SCWMssOS::Saving the mss changes C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:51::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-12-30.15:54:51::SCWMssOS::Writing the mss file completed C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:51::SCWMssOS::Commit changes completed.
+TRACE::2024-12-30.15:54:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-12-30.15:54:51::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-12-30.15:54:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:51::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:51::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/angro/Desktop/hil/pfc3ph/vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.1",
+					"mssFile":	"",
+					"md5Digest":	"5044ccfefbfb53efe966f8df4e73dad6",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-12-30.15:54:51::SCWPlatform::updated the xpfm file.
+TRACE::2024-12-30.15:54:51::SCWPlatform::Trying to open the hw design at C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA given C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA absoulate path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform::DSA directory C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw
+TRACE::2024-12-30.15:54:51::SCWPlatform:: Platform Path C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-12-30.15:54:51::SCWPlatform:: Unique name xilinx:cmod-s7-25::0.0
+TRACE::2024-12-30.15:54:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-12-30.15:54:51::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-12-30.15:54:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-12-30.15:54:51::SCWMssOS::Checking the sw design at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-12-30.15:54:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-12-30.15:54:51::SCWMssOS::Sw design exists and opened at  C:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

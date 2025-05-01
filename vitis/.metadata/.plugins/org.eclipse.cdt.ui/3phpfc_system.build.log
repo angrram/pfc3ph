@@ -1,0 +1,6 @@
+08:49:32 **** Incremental Build of configuration Debug for project 3phpfc_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+08:49:32 Build Finished (took 184ms)
+

@@ -1,0 +1,29 @@
+08:49:30 **** Incremental Build of configuration Debug for project 3phpfc ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:70:15: warning: unused variable 'sin_a' [-Wunused-variable]
+   70 |         float sin_a = sin(2*M_PI * 1 );
+      |               ^~~~~
+../src/main.c: At top level:
+../src/main.c:160:1: warning: "/*" within comment [-Wcomment]
+  160 | /*
+      |  
+'Finished building: ../src/main.c'
+' '
+'Building target: 3phpfc.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/angro/Desktop/hil/pfc3ph/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "3phpfc.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 3phpfc.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size 3phpfc.elf  |tee "3phpfc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2080	    392	   3104	   5576	   15c8	3phpfc.elf
+'Finished building: 3phpfc.elf.size'
+' '
+
+08:49:32 Build Finished (took 1s.988ms)
+

@@ -1,0 +1,26 @@
+verilog xil_defaultlib --include "../../../../pfc_3ph_vanilla.gen/sources_1/bd/design_1/ipshared/3242" \
+"../../../bd/design_1/ipshared/8587/a_b_sub.v" \
+"../../../bd/design_1/ipshared/8587/DA_MATRIX.v" \
+"../../../bd/design_1/ipshared/8587/Detect_Rise_Positive.v" \
+"../../../bd/design_1/ipshared/8587/Detect_Rise_Positive1.v" \
+"../../../bd/design_1/ipshared/8587/dsp_block.v" \
+"../../../bd/design_1/ipshared/8587/FPGA_tc.v" \
+"../../../bd/design_1/ipshared/8587/HDL_Algorithm.v" \
+"../../../bd/design_1/ipshared/8587/HDL_Subsystem.v" \
+"../../../bd/design_1/ipshared/8587/MUAC_DSP_2.v" \
+"../../../bd/design_1/ipshared/8587/Positive.v" \
+"../../../bd/design_1/ipshared/8587/Positive_block.v" \
+"../../../bd/design_1/ipshared/8587/Sample_and_Hold.v" \
+"../../../bd/design_1/ipshared/8587/Sample_and_Hold1.v" \
+"../../../bd/design_1/ipshared/8587/SimpleDualPortRAM_generic.v" \
+"../../../bd/design_1/ipshared/8587/Subsystem.v" \
+"../../../bd/design_1/ipshared/8587/FPGA.v" \
+"../../../bd/design_1/ip/design_1_PFC_3PH_0_0/sim/design_1_PFC_3PH_0_0.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_clk_wiz.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
