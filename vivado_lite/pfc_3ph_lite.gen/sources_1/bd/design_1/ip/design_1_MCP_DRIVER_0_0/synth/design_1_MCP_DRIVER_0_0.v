@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:MCP_DRIVER:1.0
-// IP Revision: 11
+// IP Revision: 22
 
 (* X_CORE_INFO = "SPI_DAC,Vivado 2024.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_MCP_DRIVER_0_0,SPI_DAC,{}" *)
-(* CORE_GENERATION_INFO = "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=11,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=22,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_MCP_DRIVER_0_0 (
@@ -63,8 +63,8 @@ module design_1_MCP_DRIVER_0_0 (
   v1_2,
   v2_1,
   v2_2,
-  v3_1,
   v3_2,
+  v3_1,
   v4_1,
   v4_2,
   ce_out,
@@ -89,8 +89,8 @@ input wire [15 : 0] v1_1;
 input wire [15 : 0] v1_2;
 input wire [15 : 0] v2_1;
 input wire [15 : 0] v2_2;
-input wire [15 : 0] v3_1;
 input wire [15 : 0] v3_2;
+input wire [15 : 0] v3_1;
 input wire [15 : 0] v4_1;
 input wire [15 : 0] v4_2;
 output wire ce_out;
@@ -109,8 +109,8 @@ output wire nCS4;
     .v1_2(v1_2),
     .v2_1(v2_1),
     .v2_2(v2_2),
-    .v3_1(v3_1),
     .v3_2(v3_2),
+    .v3_1(v3_1),
     .v4_1(v4_1),
     .v4_2(v4_2),
     .ce_out(ce_out),

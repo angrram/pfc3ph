@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Sun Mar  2 16:46:12 2025
+-- Date        : Fri May  2 16:13:27 2025
 -- Host        : AngelPC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_clk_wiz_15 -prefix
---               design_1_clk_wiz_15_ design_1_clk_wiz_15_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim
+--               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_15/design_1_clk_wiz_15_sim_netlist.vhdl
 -- Design      : design_1_clk_wiz_15
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,7 +15,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz is
+entity design_1_clk_wiz_15_clk_wiz is
   port (
     clk_out1 : out STD_LOGIC;
     clk_out2 : out STD_LOGIC;
@@ -24,9 +24,9 @@ entity design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz is
     locked : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
-end design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz;
+end design_1_clk_wiz_15_clk_wiz;
 
-architecture STRUCTURE of design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz is
+architecture STRUCTURE of design_1_clk_wiz_15_clk_wiz is
   signal clk_in1_design_1_clk_wiz_15 : STD_LOGIC;
   signal clk_out1_design_1_clk_wiz_15 : STD_LOGIC;
   signal clk_out2_design_1_clk_wiz_15 : STD_LOGIC;
@@ -105,7 +105,7 @@ mmcm_adv_inst: unisim.vcomponents.MMCME2_ADV
       CLKOUT1_DUTY_CYCLE => 0.500000,
       CLKOUT1_PHASE => 0.000000,
       CLKOUT1_USE_FINE_PS => false,
-      CLKOUT2_DIVIDE => 6,
+      CLKOUT2_DIVIDE => 20,
       CLKOUT2_DUTY_CYCLE => 0.500000,
       CLKOUT2_PHASE => 0.000000,
       CLKOUT2_USE_FINE_PS => false,
@@ -195,7 +195,7 @@ end design_1_clk_wiz_15;
 
 architecture STRUCTURE of design_1_clk_wiz_15 is
 begin
-inst: entity work.design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz
+inst: entity work.design_1_clk_wiz_15_clk_wiz
      port map (
       clk_in1 => clk_in1,
       clk_out1 => clk_out1,

@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-//Date        : Tue Apr 29 18:38:56 2025
+//Date        : Fri May  2 20:55:54 2025
 //Host        : AngelPC running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=18,numReposBlks=18,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=18,da_clkrst_cnt=48,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=32,numReposBlks=32,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=18,da_clkrst_cnt=48,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DW_L1_0,
     DW_L2_0,
@@ -54,14 +54,14 @@ module design_1
   wire DW_L1_0;
   wire DW_L2_0;
   wire DW_L3_0;
-  wire [15:0]PFC3PH_0_O_I_load;
-  wire [15:0]PFC3PH_0_O_Ia;
-  wire [15:0]PFC3PH_0_O_Ib;
-  wire [15:0]PFC3PH_0_O_Ic;
-  wire [15:0]PFC3PH_0_O_Va;
-  wire [15:0]PFC3PH_0_O_Vb;
-  wire [15:0]PFC3PH_0_O_Vc;
-  wire [15:0]PFC3PH_0_O_Vout;
+  wire [11:0]PFC3PH_0_O_I_load;
+  wire [11:0]PFC3PH_0_O_Ia;
+  wire [11:0]PFC3PH_0_O_Ib;
+  wire [11:0]PFC3PH_0_O_Ic;
+  wire [11:0]PFC3PH_0_O_Va;
+  wire [11:0]PFC3PH_0_O_Vb;
+  wire [11:0]PFC3PH_0_O_Vc;
+  wire [11:0]PFC3PH_0_O_Vout;
   wire SCK;
   wire SDI;
   wire UP_L1_0_1;
@@ -74,10 +74,18 @@ module design_1
   wire [0:0]c_addsub_4_S;
   wire [0:0]c_addsub_5_S;
   wire [0:0]cero_0_dout;
+  wire [11:0]cero_2_dout;
+  wire [11:0]cero_3_dout;
   wire clk_wiz_clk_out1;
   wire clk_wiz_clk_out2;
   wire clk_wiz_clk_out3;
   wire clk_wiz_locked;
+  wire compar_tc_0_c;
+  wire compar_tc_1_c;
+  wire compar_tc_2_c;
+  wire compar_tc_3_c;
+  wire compar_tc_4_c;
+  wire compar_tc_5_c;
   wire en;
   wire en_gd_1;
   wire nCS1;
@@ -92,6 +100,11 @@ module design_1
   wire [17:0]sine_3ph_0_out_vb;
   wire [17:0]sine_3ph_0_out_vc;
   wire sys_clock;
+  wire [0:0]util_vector_logic_0_Res;
+  wire [0:0]util_vector_logic_1_Res;
+  wire [0:0]util_vector_logic_2_Res;
+  wire [0:0]util_vector_logic_3_Res;
+  wire [0:0]util_vector_logic_4_Res;
   wire va;
   wire vb;
   wire vc;
@@ -109,14 +122,14 @@ module design_1
         .nCS3(nCS3),
         .nCS4(nCS4),
         .rst(rst_clk_wiz_1_6M3_peripheral_reset),
-        .v1_1(PFC3PH_0_O_Ia),
-        .v1_2(PFC3PH_0_O_Ib),
-        .v2_1(PFC3PH_0_O_Ic),
-        .v2_2(PFC3PH_0_O_Va),
-        .v3_1(PFC3PH_0_O_Vout),
-        .v3_2(PFC3PH_0_O_I_load),
-        .v4_1(PFC3PH_0_O_Vb),
-        .v4_2(PFC3PH_0_O_Vc));
+        .v1_1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Va}),
+        .v1_2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Vc}),
+        .v2_1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Vb}),
+        .v2_2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ia}),
+        .v3_1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Vout}),
+        .v3_2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_I_load}),
+        .v4_1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .v4_2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ic}));
   design_1_PFC3PH_0_0 PFC3PH_0
        (.DW_L1(c_addsub_1_S),
         .DW_L2(c_addsub_3_S),
@@ -140,23 +153,23 @@ module design_1
         .vb_i(sine_3ph_0_out_vb),
         .vc_i(sine_3ph_0_out_vc));
   design_1_amc_simulator_0_0 amc_simulator_0
-       (.clk(clk_wiz_clk_out3),
+       (.clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .pwm(va),
-        .rst(rst_clk_wiz_1_6M3_peripheral_reset),
-        .v(PFC3PH_0_O_Va));
+        .rst(rst_clk_wiz_1_6M1_peripheral_reset),
+        .v({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ia}));
   design_1_amc_simulator_0_1 amc_simulator_1
-       (.clk(clk_wiz_clk_out3),
+       (.clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .pwm(vb),
-        .rst(rst_clk_wiz_1_6M3_peripheral_reset),
-        .v(PFC3PH_0_O_Vc));
+        .rst(rst_clk_wiz_1_6M1_peripheral_reset),
+        .v({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}));
   design_1_amc_simulator_1_0 amc_simulator_2
-       (.clk(clk_wiz_clk_out3),
+       (.clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .pwm(vc),
-        .rst(rst_clk_wiz_1_6M3_peripheral_reset),
-        .v(PFC3PH_0_O_Vb));
+        .rst(rst_clk_wiz_1_6M1_peripheral_reset),
+        .v({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ic}));
   design_1_c_addsub_0_0 c_addsub_0
        (.A(UP_L1_0_1),
         .B(cero_0_dout),
@@ -195,6 +208,10 @@ module design_1
         .S(c_addsub_5_S));
   design_1_xlconstant_0_0 cero_0
        (.dout(cero_0_dout));
+  design_1_cero_0_1 cero_2
+       (.dout(cero_2_dout));
+  design_1_cero_2_0 cero_3
+       (.dout(cero_3_dout));
   design_1_clk_wiz_15 clk_wiz
        (.clk_in1(sys_clock),
         .clk_out1(clk_wiz_clk_out1),
@@ -202,6 +219,36 @@ module design_1
         .clk_out3(clk_wiz_clk_out3),
         .locked(clk_wiz_locked),
         .reset(reset));
+  design_1_compar_tc_0_0 compar_tc_0
+       (.a({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .b({1'b0,1'b0,1'b0,1'b0,cero_2_dout}),
+        .c(compar_tc_0_c));
+  design_1_compar_tc_0_1 compar_tc_1
+       (.a({1'b0,1'b0,1'b0,1'b0,cero_3_dout}),
+        .b({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .c(compar_tc_1_c));
+  design_1_compar_tc_0_2 compar_tc_2
+       (.a({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ic}),
+        .b({1'b0,1'b0,1'b0,1'b0,cero_2_dout}),
+        .c(compar_tc_2_c));
+  design_1_compar_tc_0_3 compar_tc_3
+       (.a({1'b0,1'b0,1'b0,1'b0,cero_3_dout}),
+        .b({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ic}),
+        .c(compar_tc_3_c));
+  design_1_compar_tc_0_4 compar_tc_4
+       (.a({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .b({1'b0,1'b0,1'b0,1'b0,cero_2_dout}),
+        .c(compar_tc_4_c));
+  design_1_compar_tc_0_5 compar_tc_5
+       (.a({1'b0,1'b0,1'b0,1'b0,cero_3_dout}),
+        .b({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .c(compar_tc_5_c));
+  design_1_ila_0_0 ila_0
+       (.clk(clk_wiz_clk_out1),
+        .probe0({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ia}),
+        .probe1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ib}),
+        .probe2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ic}),
+        .trig_in(util_vector_logic_4_Res));
   design_1_rst_clk_wiz_1_6M_2 rst_clk_wiz_1_6M1
        (.aux_reset_in(1'b1),
         .dcm_locked(clk_wiz_locked),
@@ -230,11 +277,31 @@ module design_1
         .out_vb(sine_3ph_0_out_vb),
         .out_vc(sine_3ph_0_out_vc),
         .reset(rst_clk_wiz_1_6M2_peripheral_reset));
+  design_1_util_vector_logic_0_0 util_vector_logic_0
+       (.Op1(compar_tc_1_c),
+        .Op2(compar_tc_0_c),
+        .Res(util_vector_logic_0_Res));
+  design_1_util_vector_logic_0_1 util_vector_logic_1
+       (.Op1(compar_tc_5_c),
+        .Op2(compar_tc_4_c),
+        .Res(util_vector_logic_1_Res));
+  design_1_util_vector_logic_0_2 util_vector_logic_2
+       (.Op1(compar_tc_3_c),
+        .Op2(compar_tc_2_c),
+        .Res(util_vector_logic_2_Res));
+  design_1_util_vector_logic_0_3 util_vector_logic_3
+       (.Op1(util_vector_logic_0_Res),
+        .Op2(util_vector_logic_1_Res),
+        .Res(util_vector_logic_3_Res));
+  design_1_util_vector_logic_3_0 util_vector_logic_4
+       (.Op1(util_vector_logic_3_Res),
+        .Op2(util_vector_logic_2_Res),
+        .Res(util_vector_logic_4_Res));
   design_1_vio_0_0 vio_0
        (.clk(clk_wiz_clk_out1),
         .probe_in0(c_addsub_0_S),
-        .probe_in1(PFC3PH_0_O_Ia),
-        .probe_in2(PFC3PH_0_O_Vout),
+        .probe_in1({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Ia}),
+        .probe_in2({1'b0,1'b0,1'b0,1'b0,PFC3PH_0_O_Vout}),
         .probe_in3(UP_L1_0_1),
         .probe_in4(en_gd_1),
         .probe_out0(vio_0_probe_out0));

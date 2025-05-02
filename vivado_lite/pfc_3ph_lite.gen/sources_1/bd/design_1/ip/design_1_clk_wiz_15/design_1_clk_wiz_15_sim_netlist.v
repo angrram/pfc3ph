@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Sun Mar  2 16:46:12 2025
+// Date        : Fri May  2 16:13:27 2025
 // Host        : AngelPC running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_clk_wiz_15 -prefix
-//               design_1_clk_wiz_15_ design_1_clk_wiz_15_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_15/design_1_clk_wiz_15_sim_netlist.v
 // Design      : design_1_clk_wiz_15
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -35,7 +35,7 @@ module design_1_clk_wiz_15
   wire locked;
   (* RTL_KEEP = "yes" *) wire reset;
 
-  design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz inst
+  design_1_clk_wiz_15_clk_wiz inst
        (.clk_in1(clk_in1),
         .clk_out1(clk_out1),
         .clk_out2(clk_out2),
@@ -44,7 +44,7 @@ module design_1_clk_wiz_15
         .reset(reset));
 endmodule
 
-module design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz
+module design_1_clk_wiz_15_clk_wiz
    (clk_out1,
     clk_out2,
     clk_out3,
@@ -126,7 +126,7 @@ module design_1_clk_wiz_15_design_1_clk_wiz_15_clk_wiz
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT1_USE_FINE_PS("FALSE"),
-    .CLKOUT2_DIVIDE(6),
+    .CLKOUT2_DIVIDE(20),
     .CLKOUT2_DUTY_CYCLE(0.500000),
     .CLKOUT2_PHASE(0.000000),
     .CLKOUT2_USE_FINE_PS("FALSE"),

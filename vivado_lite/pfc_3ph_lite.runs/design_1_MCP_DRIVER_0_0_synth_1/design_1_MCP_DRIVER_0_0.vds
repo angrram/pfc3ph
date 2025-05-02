@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Tue Apr 29 18:22:43 2025
-# Process ID         : 11412
+# Start of session at: Fri May  2 20:55:58 2025
+# Process ID         : 23216
 # Current directory  : C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.runs/design_1_MCP_DRIVER_0_0_synth_1
 # Command line       : vivado.exe -log design_1_MCP_DRIVER_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_MCP_DRIVER_0_0.tcl
 # Log file           : C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.runs/design_1_MCP_DRIVER_0_0_synth_1/design_1_MCP_DRIVER_0_0.vds
@@ -19,11 +19,12 @@
 # Host memory        : 34042 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 36190 MB
-# Available Virtual  : 18061 MB
+# Available Virtual  : 12977 MB
 #-----------------------------------------------------------
 source design_1_MCP_DRIVER_0_0.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Angel/Desktop/hil/amc/fpga/ip_amc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Angel/Desktop/hil/ips/comparator'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Angel/Desktop/hil/pfc3ph/ips/sine_gen2/sine_gen'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Angel/Desktop/hil/pfc3ph/matlab/sim/hdl_prj2/hdlsrc'.
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Angel/Desktop/hil/ips/MCP_DRIVER'.
@@ -36,152 +37,156 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
 INFO: [Device 21-403] Loading part xc7s25csga225-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3280
+INFO: [Synth 8-7075] Helper process launched with PID 22120
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1117.379 ; gain = 465.730
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1118.672 ; gain = 464.828
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_MCP_DRIVER_0_0' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_MCP_DRIVER_0_0/synth/design_1_MCP_DRIVER_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'SPI_DAC' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/SPI_DAC.v:46]
-INFO: [Synth 8-6157] synthesizing module 'SPI_MNGR' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/SPI_MNGR.v:22]
-INFO: [Synth 8-6157] synthesizing module 'simfcn1' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/simfcn1.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'simfcn1' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/simfcn1.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'SPI_MNGR' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/SPI_MNGR.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'SPI_DAC' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/cfaf/hdlsrc/int2bin_sdi/SPI_DAC.v:46]
+INFO: [Synth 8-6157] synthesizing module 'SPI_DAC' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/SPI_DAC.v:46]
+INFO: [Synth 8-6157] synthesizing module 'SPI_MNGR' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/SPI_MNGR.v:22]
+INFO: [Synth 8-6157] synthesizing module 'simfcn1' [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/simfcn1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'simfcn1' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/simfcn1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'SPI_MNGR' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/SPI_MNGR.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'SPI_DAC' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ipshared/e65b/hdlsrc/int2bin_sdi2/SPI_DAC.v:46]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_MCP_DRIVER_0_0' (0#1) [c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_MCP_DRIVER_0_0/synth/design_1_MCP_DRIVER_0_0.v:53]
 WARNING: [Synth 8-7129] Port vx[15] in module simfcn1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port vx[14] in module simfcn1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port vx[13] in module simfcn1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port vx[12] in module simfcn1 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1365.965 ; gain = 714.316
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1406.371 ; gain = 752.527
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1365.965 ; gain = 714.316
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1406.371 ; gain = 752.527
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1365.965 ; gain = 714.316
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1406.371 ; gain = 752.527
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1365.965 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1406.371 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1432.977 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1476.645 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1434.105 ; gain = 1.129
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1478.406 ; gain = 1.762
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1434.105 ; gain = 782.457
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s25csga225-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1434.105 ; gain = 782.457
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1434.105 ; gain = 782.457
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1434.105 ; gain = 782.457
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_8'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_1' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_9'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_2' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_10'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_3' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_11'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_4' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_12'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_5' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_13'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_6' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_14'
-INFO: [Synth 8-223] decloning instance 'inst/u_SPI_MNGR/u_simfcn1_7' (simfcn1) to 'inst/u_SPI_MNGR/u_simfcn1_15'
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   17 Bit       Adders := 2     
-	   2 Input    4 Bit       Adders := 3     
+	   2 Input   17 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 2     
 +---Registers : 
-	               16 Bit    Registers := 12    
-	                8 Bit    Registers := 204   
-	                5 Bit    Registers := 6     
-	                1 Bit    Registers := 22    
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 20    
+	                8 Bit    Registers := 168   
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 7     
+	                1 Bit    Registers := 40    
 +---Muxes : 
-	   2 Input   22 Bit        Muxes := 4     
-	  16 Input   22 Bit        Muxes := 4     
-	   2 Input   21 Bit        Muxes := 4     
-	  16 Input   21 Bit        Muxes := 4     
-	   2 Input   20 Bit        Muxes := 6     
-	  16 Input   20 Bit        Muxes := 6     
-	   2 Input   19 Bit        Muxes := 5     
-	  16 Input   19 Bit        Muxes := 5     
-	   2 Input   18 Bit        Muxes := 6     
-	  16 Input   18 Bit        Muxes := 6     
-	   2 Input   17 Bit        Muxes := 5     
-	  16 Input   17 Bit        Muxes := 5     
-	   2 Input   16 Bit        Muxes := 31    
-	  16 Input   16 Bit        Muxes := 7     
-	   2 Input   15 Bit        Muxes := 5     
-	  16 Input   15 Bit        Muxes := 5     
-	   2 Input   14 Bit        Muxes := 6     
-	  16 Input   14 Bit        Muxes := 6     
-	   2 Input   13 Bit        Muxes := 5     
-	  16 Input   13 Bit        Muxes := 5     
-	   2 Input   12 Bit        Muxes := 6     
-	  16 Input   12 Bit        Muxes := 6     
-	   2 Input   11 Bit        Muxes := 5     
-	  16 Input   11 Bit        Muxes := 5     
+	   2 Input   26 Bit        Muxes := 4     
+	  16 Input   26 Bit        Muxes := 4     
+	   2 Input   25 Bit        Muxes := 4     
+	  16 Input   25 Bit        Muxes := 4     
+	   2 Input   24 Bit        Muxes := 6     
+	  16 Input   24 Bit        Muxes := 6     
+	   2 Input   23 Bit        Muxes := 5     
+	  16 Input   23 Bit        Muxes := 5     
+	   2 Input   22 Bit        Muxes := 10    
+	  16 Input   22 Bit        Muxes := 10    
+	   2 Input   21 Bit        Muxes := 9     
+	  16 Input   21 Bit        Muxes := 9     
+	   2 Input   20 Bit        Muxes := 12    
+	  16 Input   20 Bit        Muxes := 12    
+	   2 Input   19 Bit        Muxes := 10    
+	  16 Input   19 Bit        Muxes := 10    
+	   2 Input   18 Bit        Muxes := 12    
+	  16 Input   18 Bit        Muxes := 12    
+	   2 Input   17 Bit        Muxes := 10    
+	  16 Input   17 Bit        Muxes := 10    
+	   2 Input   16 Bit        Muxes := 236   
+	  16 Input   16 Bit        Muxes := 12    
+	   2 Input   15 Bit        Muxes := 10    
+	  16 Input   15 Bit        Muxes := 10    
+	   2 Input   14 Bit        Muxes := 12    
+	  16 Input   14 Bit        Muxes := 12    
+	   2 Input   13 Bit        Muxes := 10    
+	  16 Input   13 Bit        Muxes := 10    
+	   2 Input   12 Bit        Muxes := 8     
+	  16 Input   12 Bit        Muxes := 8     
+	   2 Input   11 Bit        Muxes := 6     
+	  16 Input   11 Bit        Muxes := 6     
 	   2 Input   10 Bit        Muxes := 6     
 	  16 Input   10 Bit        Muxes := 6     
 	   2 Input    9 Bit        Muxes := 5     
 	  16 Input    9 Bit        Muxes := 5     
-	   2 Input    8 Bit        Muxes := 648   
-	  16 Input    8 Bit        Muxes := 6     
+	   2 Input    8 Bit        Muxes := 671   
+	  16 Input    8 Bit        Muxes := 52    
 	   3 Input    8 Bit        Muxes := 6     
 	   2 Input    7 Bit        Muxes := 5     
 	  16 Input    7 Bit        Muxes := 5     
 	   2 Input    6 Bit        Muxes := 2     
 	  16 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 74    
+	   5 Input    5 Bit        Muxes := 23    
+	  16 Input    5 Bit        Muxes := 5     
 	   7 Input    5 Bit        Muxes := 4     
 	   6 Input    5 Bit        Muxes := 4     
-	   5 Input    5 Bit        Muxes := 20    
-	   4 Input    5 Bit        Muxes := 8     
-	   3 Input    5 Bit        Muxes := 8     
-	   2 Input    5 Bit        Muxes := 37    
-	  16 Input    5 Bit        Muxes := 6     
-	  16 Input    4 Bit        Muxes := 5     
-	   2 Input    4 Bit        Muxes := 53    
-	   5 Input    4 Bit        Muxes := 22    
+	   4 Input    5 Bit        Muxes := 4     
+	   3 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 63    
+	  16 Input    4 Bit        Muxes := 16    
 	   7 Input    4 Bit        Muxes := 4     
 	   6 Input    4 Bit        Muxes := 4     
-	   4 Input    4 Bit        Muxes := 8     
-	   3 Input    4 Bit        Muxes := 8     
-	   3 Input    3 Bit        Muxes := 6     
+	   5 Input    4 Bit        Muxes := 20    
+	   4 Input    4 Bit        Muxes := 4     
+	   3 Input    4 Bit        Muxes := 4     
+	   3 Input    3 Bit        Muxes := 3     
 	   2 Input    3 Bit        Muxes := 22    
+	   4 Input    3 Bit        Muxes := 3     
 	   7 Input    3 Bit        Muxes := 2     
 	   6 Input    3 Bit        Muxes := 2     
 	   5 Input    3 Bit        Muxes := 10    
-	   4 Input    3 Bit        Muxes := 4     
-	  16 Input    3 Bit        Muxes := 2     
+	  16 Input    3 Bit        Muxes := 4     
 	   7 Input    2 Bit        Muxes := 1     
 	   6 Input    2 Bit        Muxes := 1     
 	   5 Input    2 Bit        Muxes := 5     
-	   4 Input    2 Bit        Muxes := 2     
-	   3 Input    2 Bit        Muxes := 2     
 	   2 Input    2 Bit        Muxes := 9     
+	   4 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
 	  16 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 120   
-	  16 Input    1 Bit        Muxes := 29    
+	   2 Input    1 Bit        Muxes := 132   
+	  16 Input    1 Bit        Muxes := 15    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -198,58 +203,41 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-7129] Port v3_2[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_2[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_2[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_2[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_1[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_1[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_1[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v3_1[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_2[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_2[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_2[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_2[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_1[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_1[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_1[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_1[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_2[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_2[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_2[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v2_2[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_1[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_1[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_1[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v1_1[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_2[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_2[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_2[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_2[12] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_1[15] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_1[14] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_1[13] in module SPI_MNGR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port v4_1[12] in module SPI_MNGR is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1434.105 ; gain = 782.457
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1478.406 ; gain = 824.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+-------------+---------------+----------------+
+|Module Name | RTL Object  | Depth x Width | Implemented As | 
++------------+-------------+---------------+----------------+
+|SPI_MNGR    | p1515_sel_2 | 32x1          | LUT            | 
+|SPI_MNGR    | p1515_sel_2 | 32x1          | LUT            | 
++------------+-------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.777 ; gain = 796.129
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1448.445 ; gain = 796.797
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1478.406 ; gain = 824.562
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1461.688 ; gain = 810.039
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1484.926 ; gain = 831.082
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -267,56 +255,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP, Shift Register and Retiming Reporting
----------------------------------------------------------------------------------
-
-Static Shift Register Report:
-+------------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name             | RTL Name                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|design_1_MCP_DRIVER_0_0 | inst/Delay6_reg_reg[4]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|design_1_MCP_DRIVER_0_0 | inst/Delay7_reg_reg[4]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|design_1_MCP_DRIVER_0_0 | inst/Delay8_reg_reg[4]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|design_1_MCP_DRIVER_0_0 | inst/Delay9_reg_reg[4]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|design_1_MCP_DRIVER_0_0 | inst/Delay10_reg_reg[4] | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|design_1_MCP_DRIVER_0_0 | inst/Delay11_reg_reg[4] | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-+------------------------+-------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -332,42 +301,42 @@ Report Cell Usage:
 +------+-------+------+
 |      |Cell   |Count |
 +------+-------+------+
-|1     |CARRY4 |     8|
+|1     |CARRY4 |    12|
 |2     |LUT1   |     2|
-|3     |LUT2   |    16|
-|4     |LUT3   |   212|
-|5     |LUT4   |    45|
-|6     |LUT5   |   113|
-|7     |LUT6   |    62|
-|8     |SRL16E |     6|
-|9     |FDRE   |   385|
+|3     |LUT2   |    38|
+|4     |LUT3   |   158|
+|5     |LUT4   |    36|
+|6     |LUT5   |   119|
+|7     |LUT6   |   302|
+|8     |FDRE   |   480|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1667.496 ; gain = 947.707
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1667.496 ; gain = 1015.848
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1684.676 ; gain = 958.797
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1684.676 ; gain = 1030.832
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1676.691 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1690.645 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_MCP_DRIVER_0_0' is not ideal for floorplanning, since the cellview 'SPI_MNGR' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1680.355 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1693.293 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 1a87099
+Synth Design complete | Checksum: eeae5298
 INFO: [Common 17-83] Releasing license: Synthesis
-38 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
+31 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1680.355 ; gain = 1180.254
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1680.355 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1693.293 ; gain = 1194.090
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1693.293 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.runs/design_1_MCP_DRIVER_0_0_synth_1/design_1_MCP_DRIVER_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_MCP_DRIVER_0_0, cache-ID = 5d6ca63552eec0aa
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_MCP_DRIVER_0_0, cache-ID = 5a4f179b7255f7b2
 INFO: [Coretcl 2-1174] Renamed 2 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1680.355 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1693.293 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.runs/design_1_MCP_DRIVER_0_0_synth_1/design_1_MCP_DRIVER_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_MCP_DRIVER_0_0_utilization_synth.rpt -pb design_1_MCP_DRIVER_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 18:23:17 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri May  2 20:56:28 2025...

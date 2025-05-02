@@ -49,8 +49,7 @@ if(NOT TARGET rtwshared)
 endif()
 
 # Definition of target "ctrl_ez_rtwlib".
-add_library(ctrl_ez_rtwlib STATIC ${START_DIR}/ARMCortex-M/_ref/ctrl_ez/ctrl_ez.c
-    C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Source)
+add_library(ctrl_ez_rtwlib STATIC ${START_DIR}/ARMCortex-M/_ref/ctrl_ez/ctrl_ez.c)
 
 # Set properties for target "ctrl_ez_rtwlib".
 #(ctrl_ez_rtwlib PROPERTIES PREFIX ""
@@ -78,11 +77,8 @@ target_compile_definitions(ctrl_ez_rtwlib PRIVATE -DMODEL=ctrl_ez
 # Specify include directories for target "ctrl_ez_rtwlib".
 target_include_directories(ctrl_ez_rtwlib PUBLIC $<BUILD_INTERFACE:${START_DIR}>
     $<INSTALL_INTERFACE:$<INSTALL_PREFIX>>
-    C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arm_cortex_m_crl/crl
     $<BUILD_INTERFACE:${START_DIR}/ARMCortex-M/_ref/ctrl_ez>
     $<INSTALL_INTERFACE:$<INSTALL_PREFIX>/ARMCortex-M/_ref/ctrl_ez>
-    C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Include
-    C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS
     $<BUILD_INTERFACE:${MATLAB_ROOT}/extern/include>
     $<BUILD_INTERFACE:${MATLAB_ROOT}/simulink/include>
     $<BUILD_INTERFACE:${MATLAB_ROOT}/rtw/c/src>
@@ -96,8 +92,7 @@ target_include_directories(ctrl_ez_rtwlib PUBLIC $<BUILD_INTERFACE:${START_DIR}>
 # supports multiple platforms with differently named system library 
 # dependencies.
 target_link_libraries(ctrl_ez_rtwlib PUBLIC $<$<BOOL:${FOUND_LIBM}>:m>)
-target_link_libraries(ctrl_ez_rtwlib INTERFACE C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Lib/GCC/libCMSISDSP.a
-    rtwshared)
+target_link_libraries(ctrl_ez_rtwlib INTERFACE rtwshared)
 
 
 ###########################################################################

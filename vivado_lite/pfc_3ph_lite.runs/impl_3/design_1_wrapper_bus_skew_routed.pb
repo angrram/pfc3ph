@@ -1,2 +1,2 @@
 
-2018.1’Bus skew results˜¥Ÿ˜NA
+2018.1’Bus skew results˜¥YuLA

@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:PFC3PH:1.0
-// IP Revision: 27
+// IP Revision: 35
 
 (* X_CORE_INFO = "simscape_system,Vivado 2024.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_PFC3PH_0_0,simscape_system,{}" *)
-(* CORE_GENERATION_INFO = "design_1_PFC3PH_0_0,simscape_system,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=PFC3PH,x_ipVersion=1.0,x_ipCoreRevision=27,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "design_1_PFC3PH_0_0,simscape_system,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=PFC3PH,x_ipVersion=1.0,x_ipCoreRevision=35,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_PFC3PH_0_0 (
@@ -100,14 +100,14 @@ input wire [17 : 0] va_i;
 input wire [17 : 0] vb_i;
 input wire [17 : 0] vc_i;
 output wire ce_out;
-output wire [15 : 0] O_Ia;
-output wire [15 : 0] O_Ib;
-output wire [15 : 0] O_Ic;
-output wire [15 : 0] O_Vc;
-output wire [15 : 0] O_Vb;
-output wire [15 : 0] O_Va;
-output wire [15 : 0] O_Vout;
-output wire [15 : 0] O_I_load;
+output wire [11 : 0] O_Ia;
+output wire [11 : 0] O_Ib;
+output wire [11 : 0] O_Ic;
+output wire [11 : 0] O_Vc;
+output wire [11 : 0] O_Vb;
+output wire [11 : 0] O_Va;
+output wire [11 : 0] O_Vout;
+output wire [11 : 0] O_I_load;
 
   simscape_system inst (
     .clk(clk),

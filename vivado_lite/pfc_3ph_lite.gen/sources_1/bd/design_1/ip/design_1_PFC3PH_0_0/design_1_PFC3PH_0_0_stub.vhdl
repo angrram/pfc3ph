@@ -2,7 +2,7 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Tue Apr 29 18:39:47 2025
+-- Date        : Fri May  2 13:22:16 2025
 -- Host        : AngelPC running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_PFC3PH_0_0/design_1_PFC3PH_0_0_stub.vhdl
@@ -29,20 +29,20 @@ entity design_1_PFC3PH_0_0 is
     vb_i : in STD_LOGIC_VECTOR ( 17 downto 0 );
     vc_i : in STD_LOGIC_VECTOR ( 17 downto 0 );
     ce_out : out STD_LOGIC;
-    O_Ia : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Ib : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Ic : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Vc : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Vb : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Va : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_Vout : out STD_LOGIC_VECTOR ( 15 downto 0 );
-    O_I_load : out STD_LOGIC_VECTOR ( 15 downto 0 )
+    O_Ia : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Ib : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Ic : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Vc : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Vb : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Va : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_Vout : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    O_I_load : out STD_LOGIC_VECTOR ( 11 downto 0 )
   );
 
   attribute CHECK_LICENSE_TYPE : string;
   attribute CHECK_LICENSE_TYPE of design_1_PFC3PH_0_0 : entity is "design_1_PFC3PH_0_0,simscape_system,{}";
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1_PFC3PH_0_0 : entity is "design_1_PFC3PH_0_0,simscape_system,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=PFC3PH,x_ipVersion=1.0,x_ipCoreRevision=27,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
+  attribute CORE_GENERATION_INFO of design_1_PFC3PH_0_0 : entity is "design_1_PFC3PH_0_0,simscape_system,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=PFC3PH,x_ipVersion=1.0,x_ipCoreRevision=35,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_PFC3PH_0_0 : entity is "yes";
   attribute IP_DEFINITION_SOURCE : string;
@@ -53,7 +53,7 @@ architecture stub of design_1_PFC3PH_0_0 is
   attribute syn_black_box : boolean;
   attribute black_box_pad_pin : string;
   attribute syn_black_box of stub : architecture is true;
-  attribute black_box_pad_pin of stub : architecture is "clk,reset,clk_enable,UP_L1,DW_L1,UP_L2,DW_L2,UP_L3,DW_L3,I_load_in[17:0],va_i[17:0],vb_i[17:0],vc_i[17:0],ce_out,O_Ia[15:0],O_Ib[15:0],O_Ic[15:0],O_Vc[15:0],O_Vb[15:0],O_Va[15:0],O_Vout[15:0],O_I_load[15:0]";
+  attribute black_box_pad_pin of stub : architecture is "clk,reset,clk_enable,UP_L1,DW_L1,UP_L2,DW_L2,UP_L3,DW_L3,I_load_in[17:0],va_i[17:0],vb_i[17:0],vc_i[17:0],ce_out,O_Ia[11:0],O_Ib[11:0],O_Ic[11:0],O_Vc[11:0],O_Vb[11:0],O_Va[11:0],O_Vout[11:0],O_I_load[11:0]";
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute X_INTERFACE_MODE : string;

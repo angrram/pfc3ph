@@ -508,7 +508,6 @@ pfc3van.elf: CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/build.make
 pfc3van.elf: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/libctrl_ez_rtwlib.a
 pfc3van.elf: Core/dsogi_3phpll/libdsogi_pll.a
-pfc3van.elf: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Lib/GCC/libCMSISDSP.a
 pfc3van.elf: ARMCortex-M/_shared/librtwshared.a
 pfc3van.elf: CMakeFiles/pfc3van.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable pfc3van.elf"

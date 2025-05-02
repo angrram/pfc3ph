@@ -107,6 +107,7 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
   set_param chipscope.maxJobs 5
   set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 20  }
@@ -122,6 +123,7 @@ OPTRACE "set parameters" START { }
   set_property parent.project_path C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.xpr [current_project]
   set_property ip_repo_paths {
   C:/Users/Angel/Desktop/hil/amc/fpga/ip_amc
+  C:/Users/Angel/Desktop/hil/ips/comparator
   C:/Users/Angel/Desktop/hil/pfc3ph/ips/sine_gen2/sine_gen
   C:/Users/Angel/Desktop/hil/pfc3ph/matlab/sim/hdl_prj2/hdlsrc
   C:/Users/Angel/Desktop/hil/ips/MCP_DRIVER
@@ -129,7 +131,7 @@ OPTRACE "set parameters" START { }
   update_ip_catalog
   set_property ip_output_repo C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.runs/synth_1/design_1_wrapper.dcp
@@ -304,7 +306,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
   catch { write_mem_info -force -no_partial_mmi design_1_wrapper.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }

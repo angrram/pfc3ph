@@ -4,7 +4,7 @@
 # compile C with C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe
 C_DEFINES = -DINTEGER_CODE=0
 
-C_INCLUDES = -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_shared -IC:\ProgramData\MATLAB\SupportPackages\R2024b\toolbox\target\supportpackages\arm_cortex_m_crl\crl -IC:\PROGRA~1\MATLAB\R2024b\extern\include -IC:\PROGRA~1\MATLAB\R2024b\simulink\include -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src\ext_mode\common -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\ert -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS
+C_INCLUDES = -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_shared -IC:\PROGRA~1\MATLAB\R2024b\extern\include -IC:\PROGRA~1\MATLAB\R2024b\simulink\include -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src\ext_mode\common -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\ert
 
 C_FLAGS =  -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O2 -g -DNDEBUG -std=gnu11
 

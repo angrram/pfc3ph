@@ -40,10 +40,8 @@ ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
                               CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj (ctrl_ez_Init)
 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
                               CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj (trigger_pll_fcn)
-C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                              ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (arm_add_f32)
 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                              ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (rtCP_pooled_eByeztG9SgGB)
+                              ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (rtCP_pooled_c9mIltOBYHuW)
 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
                               ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (intrp1d_fu32fl)
 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
@@ -60,8 +58,12 @@ C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.
                               CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj (__errno)
 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
                               ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (fmod)
+C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
+                              ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (sqrt)
 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
                               ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj) (sin)
+C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
+                              C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o) (__ieee754_sqrt)
 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
                               C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o) (__kernel_cos)
 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
@@ -300,13 +302,14 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .data          0x00000000        0x0 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss           0x00000000        0x0 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.vac1.0    0x00000000      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.v_ac_analog.1
+ .bss.iac_1.0   0x00000000      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.iac_2.1   0x00000000      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.iac_3.2   0x00000000      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.v_ac_analog.3
                 0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .data.flaggy   0x00000000        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.vdc_filter
                 0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.cnt       0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .data.set_point
                 0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.comm_sp   0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
@@ -318,6 +321,10 @@ Discarded input sections
  .bss.ctrl_ack  0x00000000        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.en_ctrl   0x00000000        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.LED_CTRL  0x00000000        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.ctrl_ez_outs
+                0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.ctrl_ez_ins
+                0x00000000        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.iacs      0x00000000        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.flt_iac_data
                 0x00000000        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
@@ -977,8 +984,6 @@ Discarded input sections
                 0x00000000        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.HAL_TIM_OC_DeInit
                 0x00000000       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .text.HAL_TIM_OC_Start
-                0x00000000      0x138 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.HAL_TIM_OC_Stop
                 0x00000000       0xdc CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.HAL_TIM_OC_Start_IT
@@ -1438,117 +1443,6 @@ Discarded input sections
                 0x00000000        0x4 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
  .bss.dsogi_3phpll_M_
                 0x00000000        0x4 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .text          0x00000000        0x0 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .data          0x00000000        0x0 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .bss           0x00000000        0x0 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_abs_f32
-                0x00000000       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_abs_f64
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_abs_q15
-                0x00000000       0xa4 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_abs_q31
-                0x00000000       0x8c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_abs_q7
-                0x00000000       0x9c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_add_f64
-                0x00000000       0x18 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_add_q15
-                0x00000000       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_add_q31
-                0x00000000       0x98 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_add_q7
-                0x00000000       0x50 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_and_u16
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_and_u32
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_and_u8
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_dot_prod_f32
-                0x00000000       0x7c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_dot_prod_f64
-                0x00000000       0x28 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_dot_prod_q15
-                0x00000000       0x6c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_dot_prod_q31
-                0x00000000       0xd8 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_dot_prod_q7
-                0x00000000       0x6c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_mult_f64
-                0x00000000       0x18 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_mult_q15
-                0x00000000       0xb0 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_mult_q31
-                0x00000000       0xbc C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_mult_q7
-                0x00000000       0xbc C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_negate_f32
-                0x00000000       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_negate_f64
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_negate_q15
-                0x00000000       0x60 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_negate_q31
-                0x00000000       0x78 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_negate_q7
-                0x00000000       0x64 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_not_u16
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_not_u32
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_not_u8
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_offset_f32
-                0x00000000       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_offset_f64
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_offset_q15
-                0x00000000       0x60 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_offset_q7
-                0x00000000       0x60 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_or_u16
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_or_u32
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_or_u8
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_scale_f64
-                0x00000000       0x14 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_scale_q15
-                0x00000000       0xa8 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_scale_q31
-                0x00000000      0x164 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_scale_q7
-                0x00000000       0xac C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_shift_q15
-                0x00000000      0x104 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_shift_q31
-                0x00000000      0x144 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_shift_q7
-                0x00000000      0x10c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_sub_f32
-                0x00000000       0x90 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_sub_f64
-                0x00000000       0x18 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_sub_q15
-                0x00000000       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_sub_q31
-                0x00000000       0x98 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_sub_q7
-                0x00000000       0x54 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_xor_u16
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_xor_u32
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_xor_u8
-                0x00000000       0x20 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_clip_q31
-                0x00000000       0x2c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_clip_q15
-                0x00000000       0x2c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .text.arm_clip_q7
-                0x00000000       0x2c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
  .text          0x00000000        0x0 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
  .data          0x00000000        0x0 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
  .bss           0x00000000        0x0 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
@@ -1587,9 +1481,15 @@ Discarded input sections
  .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
  .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
  .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
  .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
  .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
  .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
  .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
@@ -1660,7 +1560,6 @@ LOAD CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj
 LOAD CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
 LOAD ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a
 LOAD Core\dsogi_3phpll\libdsogi_pll.a
-LOAD C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a
 LOAD ARMCortex-M\_shared\librtwshared.a
 START GROUP
 LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a
@@ -1684,7 +1583,7 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08000000                g_pfnVectors
                 0x080001f8                        . = ALIGN (0x4)
 
-.text           0x080001f8     0x64d0
+.text           0x080001f8     0x6410
                 0x080001f8                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001f8       0x40 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
@@ -1705,582 +1604,559 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08000580       0xb4 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
                 0x08000580                SystemClock_Config
  .text.startup.main
-                0x08000634      0x734 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
+                0x08000634      0x728 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
                 0x08000634                main
  .text.Error_Handler
-                0x08000d68        0x4 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
-                0x08000d68                Error_Handler
+                0x08000d5c        0x4 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
+                0x08000d5c                Error_Handler
  .text.NMI_Handler
-                0x08000d6c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d6c                NMI_Handler
+                0x08000d60        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d60                NMI_Handler
  .text.HardFault_Handler
-                0x08000d70        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d70                HardFault_Handler
+                0x08000d64        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d64                HardFault_Handler
  .text.MemManage_Handler
-                0x08000d74        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d74                MemManage_Handler
+                0x08000d68        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d68                MemManage_Handler
  .text.BusFault_Handler
-                0x08000d78        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d78                BusFault_Handler
+                0x08000d6c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d6c                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000d7c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d7c                UsageFault_Handler
+                0x08000d70        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d70                UsageFault_Handler
  .text.SVC_Handler
-                0x08000d80        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d80                SVC_Handler
+                0x08000d74        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d74                SVC_Handler
  .text.DebugMon_Handler
-                0x08000d84        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d84                DebugMon_Handler
+                0x08000d78        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d78                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000d88        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d88                PendSV_Handler
+                0x08000d7c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d7c                PendSV_Handler
  .text.SysTick_Handler
-                0x08000d8c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d8c                SysTick_Handler
+                0x08000d80        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d80                SysTick_Handler
  .text.TIM1_TRG_COM_TIM11_IRQHandler
-                0x08000d90       0x58 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000d90                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000d84       0x58 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000d84                TIM1_TRG_COM_TIM11_IRQHandler
  .text.TIM1_CC_IRQHandler
-                0x08000de8       0x38 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000de8                TIM1_CC_IRQHandler
+                0x08000ddc       0x38 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000ddc                TIM1_CC_IRQHandler
  .text.TIM2_IRQHandler
-                0x08000e20      0x40c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08000e20                TIM2_IRQHandler
+                0x08000e14      0x3d8 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08000e14                TIM2_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x0800122c       0xf0 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x0800122c                EXTI15_10_IRQHandler
+                0x080011ec       0xf0 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x080011ec                EXTI15_10_IRQHandler
  .text.TIM5_IRQHandler
-                0x0800131c        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x0800131c                TIM5_IRQHandler
+                0x080012dc        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x080012dc                TIM5_IRQHandler
  .text.DMA2_Stream0_IRQHandler
-                0x08001328        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08001328                DMA2_Stream0_IRQHandler
+                0x080012e8        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x080012e8                DMA2_Stream0_IRQHandler
  .text.DMA2_Stream1_IRQHandler
-                0x08001334        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08001334                DMA2_Stream1_IRQHandler
+                0x080012f4        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x080012f4                DMA2_Stream1_IRQHandler
  .text.DMA2_Stream2_IRQHandler
-                0x08001340        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08001340                DMA2_Stream2_IRQHandler
+                0x08001300        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08001300                DMA2_Stream2_IRQHandler
  .text.DMA2_Stream3_IRQHandler
-                0x0800134c        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x0800134c                DMA2_Stream3_IRQHandler
+                0x0800130c        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x0800130c                DMA2_Stream3_IRQHandler
  .text.DMA2_Stream4_IRQHandler
-                0x08001358        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08001358                DMA2_Stream4_IRQHandler
+                0x08001318        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08001318                DMA2_Stream4_IRQHandler
  .text.DMA2_Stream7_IRQHandler
-                0x08001364        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x08001364                DMA2_Stream7_IRQHandler
+                0x08001324        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x08001324                DMA2_Stream7_IRQHandler
  .text.HAL_MspInit
-                0x08001370       0x7c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                0x08001370                HAL_MspInit
+                0x08001330       0x7c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                0x08001330                HAL_MspInit
  .text.HAL_ADC_MspInit
-                0x080013ec      0x15c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                0x080013ec                HAL_ADC_MspInit
+                0x080013ac      0x15c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                0x080013ac                HAL_ADC_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x08001548      0x298 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                0x08001548                HAL_TIM_Base_MspInit
+                0x08001508      0x298 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                0x08001508                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x080017e0       0xc8 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                0x080017e0                HAL_TIM_MspPostInit
+                0x080017a0       0xc8 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                0x080017a0                HAL_TIM_MspPostInit
  .text.HAL_UART_MspInit
-                0x080018a8       0x9c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                0x080018a8                HAL_UART_MspInit
+                0x08001868       0x9c CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                0x08001868                HAL_UART_MspInit
  .text.HAL_ADC_Init
-                0x08001944      0x15c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001944                HAL_ADC_Init
+                0x08001904      0x15c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001904                HAL_ADC_Init
  .text.HAL_ADC_Start_DMA
-                0x08001aa0      0x148 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001aa0                HAL_ADC_Start_DMA
+                0x08001a60      0x148 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001a60                HAL_ADC_Start_DMA
  .text.HAL_ADC_ConvCpltCallback
-                0x08001be8        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001be8                HAL_ADC_ConvCpltCallback
+                0x08001ba8        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001ba8                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_ConvHalfCpltCallback
-                0x08001bec        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001bec                HAL_ADC_ConvHalfCpltCallback
+                0x08001bac        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001bac                HAL_ADC_ConvHalfCpltCallback
  .text.ADC_DMAHalfConvCplt
-                0x08001bf0        0xc CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001bb0        0xc CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
  .text.HAL_ADC_ErrorCallback
-                0x08001bfc        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001bfc                HAL_ADC_ErrorCallback
+                0x08001bbc        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001bbc                HAL_ADC_ErrorCallback
  .text.ADC_DMAError
-                0x08001c00       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001bc0       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
  .text.ADC_DMAConvCplt
-                0x08001c18       0x6c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001bd8       0x6c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
  .text.HAL_ADC_ConfigChannel
-                0x08001c84      0x17c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-                0x08001c84                HAL_ADC_ConfigChannel
+                0x08001c44      0x17c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+                0x08001c44                HAL_ADC_ConfigChannel
  .text.HAL_RCC_OscConfig
-                0x08001e00      0x3ec CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-                0x08001e00                HAL_RCC_OscConfig
+                0x08001dc0      0x3ec CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+                0x08001dc0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080021ec       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-                0x080021ec                HAL_RCC_GetSysClockFreq
+                0x080021ac       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+                0x080021ac                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002254      0x140 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-                0x08002254                HAL_RCC_ClockConfig
+                0x08002214      0x140 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+                0x08002214                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetPCLK1Freq
-                0x08002394       0x20 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-                0x08002394                HAL_RCC_GetPCLK1Freq
+                0x08002354       0x20 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+                0x08002354                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080023b4       0x20 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-                0x080023b4                HAL_RCC_GetPCLK2Freq
+                0x08002374       0x20 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+                0x08002374                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x080023d4      0x574 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
-                0x080023d4                HAL_RCCEx_PeriphCLKConfig
+                0x08002394      0x574 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+                0x08002394                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_GPIO_Init
-                0x08002948      0x274 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
-                0x08002948                HAL_GPIO_Init
+                0x08002908      0x274 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+                0x08002908                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08002bbc        0x8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
-                0x08002bbc                HAL_GPIO_WritePin
+                0x08002b7c        0x8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+                0x08002b7c                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_Callback
-                0x08002bc4        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
-                0x08002bc4                HAL_GPIO_EXTI_Callback
+                0x08002b84        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+                0x08002b84                HAL_GPIO_EXTI_Callback
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08002bc8       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
-                0x08002bc8                HAL_GPIO_EXTI_IRQHandler
+                0x08002b88       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+                0x08002b88                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_DMA_Init
-                0x08002be0      0x138 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
-                0x08002be0                HAL_DMA_Init
+                0x08002ba0      0x138 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+                0x08002ba0                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x08002d18       0x80 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
-                0x08002d18                HAL_DMA_Start_IT
+                0x08002cd8       0x80 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+                0x08002cd8                HAL_DMA_Start_IT
  .text.HAL_DMA_IRQHandler
-                0x08002d98      0x1a8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
-                0x08002d98                HAL_DMA_IRQHandler
+                0x08002d58      0x1a8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+                0x08002d58                HAL_DMA_IRQHandler
  .text.HAL_PWR_EnableBkUpAccess
-                0x08002f40       0x10 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
-                0x08002f40                HAL_PWR_EnableBkUpAccess
+                0x08002f00       0x10 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+                0x08002f00                HAL_PWR_EnableBkUpAccess
  .text.HAL_PWREx_EnableOverDrive
-                0x08002f50       0x74 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
-                0x08002f50                HAL_PWREx_EnableOverDrive
+                0x08002f10       0x74 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+                0x08002f10                HAL_PWREx_EnableOverDrive
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08002fc4       0x24 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-                0x08002fc4                HAL_NVIC_SetPriorityGrouping
+                0x08002f84       0x24 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+                0x08002f84                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08002fe8       0x78 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-                0x08002fe8                HAL_NVIC_SetPriority
+                0x08002fa8       0x78 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+                0x08002fa8                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08003060       0x1c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-                0x08003060                HAL_NVIC_EnableIRQ
+                0x08003020       0x1c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+                0x08003020                HAL_NVIC_EnableIRQ
  .text.HAL_NVIC_DisableIRQ
-                0x0800307c       0x24 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-                0x0800307c                HAL_NVIC_DisableIRQ
+                0x0800303c       0x24 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+                0x0800303c                HAL_NVIC_DisableIRQ
  .text.HAL_SYSTICK_Config
-                0x080030a0       0x2c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-                0x080030a0                HAL_SYSTICK_Config
+                0x08003060       0x2c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+                0x08003060                HAL_SYSTICK_Config
  .text.HAL_InitTick
-                0x080030cc       0x48 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x080030cc                HAL_InitTick
+                0x0800308c       0x48 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x0800308c                HAL_InitTick
  .text.HAL_Init
-                0x08003114       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x08003114                HAL_Init
+                0x080030d4       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x080030d4                HAL_Init
  .text.HAL_IncTick
-                0x0800312c       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x0800312c                HAL_IncTick
+                0x080030ec       0x18 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x080030ec                HAL_IncTick
  .text.HAL_GetTick
-                0x08003144        0xc CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x08003144                HAL_GetTick
+                0x08003104        0xc CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x08003104                HAL_GetTick
  .text.TIM_OC1_SetConfig
-                0x08003150       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003110       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x080031b4       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003174       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x0800321c       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080031dc       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.TIM_OC5_SetConfig
-                0x08003270       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003230       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.TIM_OC6_SetConfig
-                0x080032c4       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003284       0x54 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.TIM_SlaveTimer_SetConfig.constprop.0
-                0x08003318       0xd8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080032d8       0xd8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
  .text.HAL_TIM_Base_Start
-                0x080033f0       0x9c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x080033f0                HAL_TIM_Base_Start
+                0x080033b0       0x9c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080033b0                HAL_TIM_Base_Start
  .text.HAL_TIM_Base_Start_IT
-                0x0800348c       0xa4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x0800348c                HAL_TIM_Base_Start_IT
+                0x0800344c       0xa4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x0800344c                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_OC_MspInit
-                0x08003530        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003530                HAL_TIM_OC_MspInit
+                0x080034f0        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080034f0                HAL_TIM_OC_MspInit
+ .text.HAL_TIM_OC_Start
+                0x080034f4      0x138 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080034f4                HAL_TIM_OC_Start
  .text.HAL_TIM_PWM_MspInit
-                0x08003534        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003534                HAL_TIM_PWM_MspInit
+                0x0800362c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x0800362c                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_IC_MspInit
-                0x08003538        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003538                HAL_TIM_IC_MspInit
+                0x08003630        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003630                HAL_TIM_IC_MspInit
  .text.HAL_TIM_IC_Start_DMA
-                0x0800353c      0x2b0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x0800353c                HAL_TIM_IC_Start_DMA
+                0x08003634      0x2b0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003634                HAL_TIM_IC_Start_DMA
  .text.HAL_TIM_ConfigClockSource
-                0x080037ec      0x154 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x080037ec                HAL_TIM_ConfigClockSource
+                0x080038e4      0x154 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080038e4                HAL_TIM_ConfigClockSource
  .text.HAL_TIM_SlaveConfigSynchro
-                0x08003940       0x4c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003940                HAL_TIM_SlaveConfigSynchro
+                0x08003a38       0x4c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003a38                HAL_TIM_SlaveConfigSynchro
  .text.HAL_TIM_PeriodElapsedCallback
-                0x0800398c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x0800398c                HAL_TIM_PeriodElapsedCallback
+                0x08003a84        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003a84                HAL_TIM_PeriodElapsedCallback
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x08003990        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003990                HAL_TIM_OC_DelayElapsedCallback
+                0x08003a88        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003a88                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x08003994        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003994                HAL_TIM_IC_CaptureCallback
+                0x08003a8c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003a8c                HAL_TIM_IC_CaptureCallback
  .text.TIM_DMACaptureCplt
-                0x08003998       0x94 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003998                TIM_DMACaptureCplt
+                0x08003a90       0x94 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003a90                TIM_DMACaptureCplt
  .text.HAL_TIM_IC_CaptureHalfCpltCallback
-                0x08003a2c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003a2c                HAL_TIM_IC_CaptureHalfCpltCallback
+                0x08003b24        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003b24                HAL_TIM_IC_CaptureHalfCpltCallback
  .text.TIM_DMACaptureHalfCplt
-                0x08003a30       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003a30                TIM_DMACaptureHalfCplt
+                0x08003b28       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003b28                TIM_DMACaptureHalfCplt
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x08003a98        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003a98                HAL_TIM_PWM_PulseFinishedCallback
+                0x08003b90        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003b90                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x08003a9c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003a9c                HAL_TIM_TriggerCallback
+                0x08003b94        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003b94                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x08003aa0      0x158 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003aa0                HAL_TIM_IRQHandler
+                0x08003b98      0x158 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003b98                HAL_TIM_IRQHandler
  .text.HAL_TIM_ErrorCallback
-                0x08003bf8        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003bf8                HAL_TIM_ErrorCallback
+                0x08003cf0        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003cf0                HAL_TIM_ErrorCallback
  .text.TIM_DMAError
-                0x08003bfc       0x84 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003bfc                TIM_DMAError
+                0x08003cf4       0x84 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003cf4                TIM_DMAError
  .text.TIM_Base_SetConfig
-                0x08003c80       0xe0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003c80                TIM_Base_SetConfig
+                0x08003d78       0xe0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003d78                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x08003d60       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003d60                HAL_TIM_Base_Init
+                0x08003e58       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003e58                HAL_TIM_Base_Init
  .text.HAL_TIM_OC_Init
-                0x08003dc4       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003dc4                HAL_TIM_OC_Init
+                0x08003ebc       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003ebc                HAL_TIM_OC_Init
  .text.HAL_TIM_PWM_Init
-                0x08003e28       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003e28                HAL_TIM_PWM_Init
+                0x08003f20       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003f20                HAL_TIM_PWM_Init
  .text.HAL_TIM_IC_Init
-                0x08003e8c       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003e8c                HAL_TIM_IC_Init
+                0x08003f84       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003f84                HAL_TIM_IC_Init
  .text.TIM_OC2_SetConfig
-                0x08003ef0       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003ef0                TIM_OC2_SetConfig
+                0x08003fe8       0x68 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08003fe8                TIM_OC2_SetConfig
  .text.HAL_TIM_OC_ConfigChannel
-                0x08003f58       0x70 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003f58                HAL_TIM_OC_ConfigChannel
+                0x08004050       0x70 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08004050                HAL_TIM_OC_ConfigChannel
  .text.HAL_TIM_PWM_ConfigChannel
-                0x08003fc8      0x108 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x08003fc8                HAL_TIM_PWM_ConfigChannel
+                0x080040c0      0x108 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080040c0                HAL_TIM_PWM_ConfigChannel
  .text.TIM_TI1_SetConfig
-                0x080040d0       0x7c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x080040d0                TIM_TI1_SetConfig
+                0x080041c8       0x7c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x080041c8                TIM_TI1_SetConfig
  .text.HAL_TIM_IC_ConfigChannel
-                0x0800414c      0x130 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-                0x0800414c                HAL_TIM_IC_ConfigChannel
+                0x08004244      0x130 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+                0x08004244                HAL_TIM_IC_ConfigChannel
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0800427c       0xb4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-                0x0800427c                HAL_TIMEx_MasterConfigSynchronization
+                0x08004374       0xb4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+                0x08004374                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x08004330       0x8c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-                0x08004330                HAL_TIMEx_ConfigBreakDeadTime
+                0x08004428       0x8c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+                0x08004428                HAL_TIMEx_ConfigBreakDeadTime
  .text.HAL_TIMEx_CommutCallback
-                0x080043bc        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-                0x080043bc                HAL_TIMEx_CommutCallback
+                0x080044b4        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+                0x080044b4                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x080043c0        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-                0x080043c0                HAL_TIMEx_BreakCallback
+                0x080044b8        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+                0x080044b8                HAL_TIMEx_BreakCallback
  .text.HAL_TIMEx_Break2Callback
-                0x080043c4        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-                0x080043c4                HAL_TIMEx_Break2Callback
+                0x080044bc        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+                0x080044bc                HAL_TIMEx_Break2Callback
  .text.UART_EndRxTransfer
-                0x080043c8       0x60 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x080044c0       0x60 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x08004428      0x2a0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-                0x08004428                UART_SetConfig
+                0x08004520      0x2a0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x08004520                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x080046c8       0xb0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-                0x080046c8                UART_AdvFeatureConfig
+                0x080047c0       0xb0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x080047c0                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x08004778       0x94 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-                0x08004778                UART_WaitOnFlagUntilTimeout
+                0x08004870       0x94 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x08004870                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x0800480c       0xb8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-                0x0800480c                UART_CheckIdleState
+                0x08004904       0xb8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x08004904                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x080048c4       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-                0x080048c4                HAL_UART_Init
+                0x080049bc       0x64 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+                0x080049bc                HAL_UART_Init
  .text.SystemInit
-                0x08004928       0x14 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
-                0x08004928                SystemInit
+                0x08004a20       0x14 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+                0x08004a20                SystemInit
  .text.Reset_Handler
-                0x0800493c       0x50 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
-                0x0800493c                Reset_Handler
+                0x08004a34       0x50 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+                0x08004a34                Reset_Handler
  .text.Default_Handler
-                0x0800498c        0x2 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
-                0x0800498c                RTC_Alarm_IRQHandler
-                0x0800498c                EXTI2_IRQHandler
-                0x0800498c                TIM8_CC_IRQHandler
-                0x0800498c                UART8_IRQHandler
-                0x0800498c                SPI4_IRQHandler
-                0x0800498c                DMA2_Stream5_IRQHandler
-                0x0800498c                JPEG_IRQHandler
-                0x0800498c                DMA1_Stream5_IRQHandler
-                0x0800498c                CAN3_RX1_IRQHandler
-                0x0800498c                PVD_IRQHandler
-                0x0800498c                TAMP_STAMP_IRQHandler
-                0x0800498c                CAN2_RX1_IRQHandler
-                0x0800498c                EXTI3_IRQHandler
-                0x0800498c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0800498c                DFSDM1_FLT1_IRQHandler
-                0x0800498c                TIM1_UP_TIM10_IRQHandler
-                0x0800498c                TIM8_UP_TIM13_IRQHandler
-                0x0800498c                I2C3_ER_IRQHandler
-                0x0800498c                DFSDM1_FLT2_IRQHandler
-                0x0800498c                EXTI0_IRQHandler
-                0x0800498c                I2C2_EV_IRQHandler
-                0x0800498c                DMA1_Stream2_IRQHandler
-                0x0800498c                CAN1_RX0_IRQHandler
-                0x0800498c                FPU_IRQHandler
-                0x0800498c                OTG_HS_WKUP_IRQHandler
-                0x0800498c                CAN3_SCE_IRQHandler
-                0x0800498c                LTDC_ER_IRQHandler
-                0x0800498c                CAN2_SCE_IRQHandler
-                0x0800498c                SPI1_IRQHandler
-                0x0800498c                TIM6_DAC_IRQHandler
-                0x0800498c                TIM1_BRK_TIM9_IRQHandler
-                0x0800498c                DCMI_IRQHandler
-                0x0800498c                CAN2_RX0_IRQHandler
-                0x0800498c                SAI2_IRQHandler
-                0x0800498c                DFSDM1_FLT3_IRQHandler
-                0x0800498c                USART6_IRQHandler
-                0x0800498c                CAN3_RX0_IRQHandler
-                0x0800498c                USART3_IRQHandler
-                0x0800498c                CAN1_RX1_IRQHandler
-                0x0800498c                UART5_IRQHandler
-                0x0800498c                TIM4_IRQHandler
-                0x0800498c                QUADSPI_IRQHandler
-                0x0800498c                I2C1_EV_IRQHandler
-                0x0800498c                DMA1_Stream6_IRQHandler
-                0x0800498c                DMA1_Stream1_IRQHandler
-                0x0800498c                UART4_IRQHandler
-                0x0800498c                TIM3_IRQHandler
-                0x0800498c                RCC_IRQHandler
-                0x0800498c                TIM8_BRK_TIM12_IRQHandler
-                0x0800498c                Default_Handler
-                0x0800498c                CEC_IRQHandler
-                0x0800498c                ADC_IRQHandler
-                0x0800498c                DMA1_Stream7_IRQHandler
-                0x0800498c                SPI5_IRQHandler
-                0x0800498c                TIM7_IRQHandler
-                0x0800498c                SDMMC1_IRQHandler
-                0x0800498c                CAN2_TX_IRQHandler
-                0x0800498c                I2C3_EV_IRQHandler
-                0x0800498c                EXTI9_5_IRQHandler
-                0x0800498c                RTC_WKUP_IRQHandler
-                0x0800498c                LTDC_IRQHandler
-                0x0800498c                ETH_WKUP_IRQHandler
-                0x0800498c                SPDIF_RX_IRQHandler
-                0x0800498c                SPI2_IRQHandler
-                0x0800498c                OTG_HS_EP1_IN_IRQHandler
-                0x0800498c                DMA1_Stream0_IRQHandler
-                0x0800498c                CAN1_TX_IRQHandler
-                0x0800498c                EXTI4_IRQHandler
-                0x0800498c                RNG_IRQHandler
-                0x0800498c                ETH_IRQHandler
-                0x0800498c                OTG_HS_EP1_OUT_IRQHandler
-                0x0800498c                WWDG_IRQHandler
-                0x0800498c                SPI6_IRQHandler
-                0x0800498c                MDIOS_IRQHandler
-                0x0800498c                I2C4_EV_IRQHandler
-                0x0800498c                CAN3_TX_IRQHandler
-                0x0800498c                OTG_FS_WKUP_IRQHandler
-                0x0800498c                OTG_HS_IRQHandler
-                0x0800498c                DMA2D_IRQHandler
-                0x0800498c                EXTI1_IRQHandler
-                0x0800498c                SDMMC2_IRQHandler
-                0x0800498c                UART7_IRQHandler
-                0x0800498c                USART2_IRQHandler
-                0x0800498c                DFSDM1_FLT0_IRQHandler
-                0x0800498c                I2C2_ER_IRQHandler
-                0x0800498c                CAN1_SCE_IRQHandler
-                0x0800498c                FLASH_IRQHandler
-                0x0800498c                USART1_IRQHandler
-                0x0800498c                OTG_FS_IRQHandler
-                0x0800498c                SPI3_IRQHandler
-                0x0800498c                DMA1_Stream4_IRQHandler
-                0x0800498c                I2C1_ER_IRQHandler
-                0x0800498c                FMC_IRQHandler
-                0x0800498c                LPTIM1_IRQHandler
-                0x0800498c                I2C4_ER_IRQHandler
-                0x0800498c                DMA2_Stream6_IRQHandler
-                0x0800498c                SAI1_IRQHandler
-                0x0800498c                DMA1_Stream3_IRQHandler
- *fill*         0x0800498e        0x2 
+                0x08004a84        0x2 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+                0x08004a84                RTC_Alarm_IRQHandler
+                0x08004a84                EXTI2_IRQHandler
+                0x08004a84                TIM8_CC_IRQHandler
+                0x08004a84                UART8_IRQHandler
+                0x08004a84                SPI4_IRQHandler
+                0x08004a84                DMA2_Stream5_IRQHandler
+                0x08004a84                JPEG_IRQHandler
+                0x08004a84                DMA1_Stream5_IRQHandler
+                0x08004a84                CAN3_RX1_IRQHandler
+                0x08004a84                PVD_IRQHandler
+                0x08004a84                TAMP_STAMP_IRQHandler
+                0x08004a84                CAN2_RX1_IRQHandler
+                0x08004a84                EXTI3_IRQHandler
+                0x08004a84                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08004a84                DFSDM1_FLT1_IRQHandler
+                0x08004a84                TIM1_UP_TIM10_IRQHandler
+                0x08004a84                TIM8_UP_TIM13_IRQHandler
+                0x08004a84                I2C3_ER_IRQHandler
+                0x08004a84                DFSDM1_FLT2_IRQHandler
+                0x08004a84                EXTI0_IRQHandler
+                0x08004a84                I2C2_EV_IRQHandler
+                0x08004a84                DMA1_Stream2_IRQHandler
+                0x08004a84                CAN1_RX0_IRQHandler
+                0x08004a84                FPU_IRQHandler
+                0x08004a84                OTG_HS_WKUP_IRQHandler
+                0x08004a84                CAN3_SCE_IRQHandler
+                0x08004a84                LTDC_ER_IRQHandler
+                0x08004a84                CAN2_SCE_IRQHandler
+                0x08004a84                SPI1_IRQHandler
+                0x08004a84                TIM6_DAC_IRQHandler
+                0x08004a84                TIM1_BRK_TIM9_IRQHandler
+                0x08004a84                DCMI_IRQHandler
+                0x08004a84                CAN2_RX0_IRQHandler
+                0x08004a84                SAI2_IRQHandler
+                0x08004a84                DFSDM1_FLT3_IRQHandler
+                0x08004a84                USART6_IRQHandler
+                0x08004a84                CAN3_RX0_IRQHandler
+                0x08004a84                USART3_IRQHandler
+                0x08004a84                CAN1_RX1_IRQHandler
+                0x08004a84                UART5_IRQHandler
+                0x08004a84                TIM4_IRQHandler
+                0x08004a84                QUADSPI_IRQHandler
+                0x08004a84                I2C1_EV_IRQHandler
+                0x08004a84                DMA1_Stream6_IRQHandler
+                0x08004a84                DMA1_Stream1_IRQHandler
+                0x08004a84                UART4_IRQHandler
+                0x08004a84                TIM3_IRQHandler
+                0x08004a84                RCC_IRQHandler
+                0x08004a84                TIM8_BRK_TIM12_IRQHandler
+                0x08004a84                Default_Handler
+                0x08004a84                CEC_IRQHandler
+                0x08004a84                ADC_IRQHandler
+                0x08004a84                DMA1_Stream7_IRQHandler
+                0x08004a84                SPI5_IRQHandler
+                0x08004a84                TIM7_IRQHandler
+                0x08004a84                SDMMC1_IRQHandler
+                0x08004a84                CAN2_TX_IRQHandler
+                0x08004a84                I2C3_EV_IRQHandler
+                0x08004a84                EXTI9_5_IRQHandler
+                0x08004a84                RTC_WKUP_IRQHandler
+                0x08004a84                LTDC_IRQHandler
+                0x08004a84                ETH_WKUP_IRQHandler
+                0x08004a84                SPDIF_RX_IRQHandler
+                0x08004a84                SPI2_IRQHandler
+                0x08004a84                OTG_HS_EP1_IN_IRQHandler
+                0x08004a84                DMA1_Stream0_IRQHandler
+                0x08004a84                CAN1_TX_IRQHandler
+                0x08004a84                EXTI4_IRQHandler
+                0x08004a84                RNG_IRQHandler
+                0x08004a84                ETH_IRQHandler
+                0x08004a84                OTG_HS_EP1_OUT_IRQHandler
+                0x08004a84                WWDG_IRQHandler
+                0x08004a84                SPI6_IRQHandler
+                0x08004a84                MDIOS_IRQHandler
+                0x08004a84                I2C4_EV_IRQHandler
+                0x08004a84                CAN3_TX_IRQHandler
+                0x08004a84                OTG_FS_WKUP_IRQHandler
+                0x08004a84                OTG_HS_IRQHandler
+                0x08004a84                DMA2D_IRQHandler
+                0x08004a84                EXTI1_IRQHandler
+                0x08004a84                SDMMC2_IRQHandler
+                0x08004a84                UART7_IRQHandler
+                0x08004a84                USART2_IRQHandler
+                0x08004a84                DFSDM1_FLT0_IRQHandler
+                0x08004a84                I2C2_ER_IRQHandler
+                0x08004a84                CAN1_SCE_IRQHandler
+                0x08004a84                FLASH_IRQHandler
+                0x08004a84                USART1_IRQHandler
+                0x08004a84                OTG_FS_IRQHandler
+                0x08004a84                SPI3_IRQHandler
+                0x08004a84                DMA1_Stream4_IRQHandler
+                0x08004a84                I2C1_ER_IRQHandler
+                0x08004a84                FMC_IRQHandler
+                0x08004a84                LPTIM1_IRQHandler
+                0x08004a84                I2C4_ER_IRQHandler
+                0x08004a84                DMA2_Stream6_IRQHandler
+                0x08004a84                SAI1_IRQHandler
+                0x08004a84                DMA1_Stream3_IRQHandler
+ *fill*         0x08004a86        0x2 
  .text.ctrl_ez_Init
-                0x08004990       0x14 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x08004990                ctrl_ez_Init
- *fill*         0x080049a4        0x4 
+                0x08004a88       0x14 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x08004a88                ctrl_ez_Init
+ *fill*         0x08004a9c        0x4 
  .text.ctrl_ez_trigger_ctrl_ez
-                0x080049a8      0x8a0 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x080049a8                ctrl_ez_trigger_ctrl_ez
+                0x08004aa0      0x8dc ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x08004aa0                ctrl_ez_trigger_ctrl_ez
  .text.trigger_pll_fcn
-                0x08005248      0x398 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
-                0x08005248                trigger_pll_fcn
+                0x0800537c      0x398 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x0800537c                trigger_pll_fcn
  .text.dsogi_3phpll_initialize
-                0x080055e0       0x10 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
-                0x080055e0                dsogi_3phpll_initialize
- .text.arm_add_f32
-                0x080055f0       0x90 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                0x080055f0                arm_add_f32
- .text.arm_mult_f32
-                0x08005680       0x90 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                0x08005680                arm_mult_f32
- .text.arm_offset_q31
-                0x08005710       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                0x08005710                arm_offset_q31
- .text.arm_scale_f32
-                0x08005780       0x70 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                0x08005780                arm_scale_f32
- .text.arm_clip_f32
-                0x080057f0       0x38 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                0x080057f0                arm_clip_f32
+                0x08005714       0x10 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x08005714                dsogi_3phpll_initialize
  .text.intrp1d_fu32fl
-                0x08005828       0x1c ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
-                0x08005828                intrp1d_fu32fl
+                0x08005724       0x1c ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+                0x08005724                intrp1d_fu32fl
  .text.plook_u32ff_evenc
-                0x08005844       0x64 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
-                0x08005844                plook_u32ff_evenc
- .text.__errno  0x080058a8        0xc C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
-                0x080058a8                __errno
- *fill*         0x080058b4        0x4 
- .text.fmod     0x080058b8       0x48 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
-                0x080058b8                fmod
- .text.sin      0x08005900       0x98 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
-                0x08005900                sin
+                0x08005740       0x64 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+                0x08005740                plook_u32ff_evenc
+ .text.__errno  0x080057a4        0xc C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x080057a4                __errno
+ .text.fmod     0x080057b0       0x48 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
+                0x080057b0                fmod
+ .text.sqrt     0x080057f8       0x40 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
+                0x080057f8                sqrt
+ .text.sin      0x08005838       0x98 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
+                0x08005838                sin
+ .text.__ieee754_sqrt
+                0x080058d0        0x6 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
+                0x080058d0                __ieee754_sqrt
+ *fill*         0x080058d6        0x2 
  .text.__kernel_cos
-                0x08005998       0xd0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
-                0x08005998                __kernel_cos
+                0x080058d8       0xd0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
+                0x080058d8                __kernel_cos
  .text.__kernel_sin
-                0x08005a68       0xb0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
-                0x08005a68                __kernel_sin
+                0x080059a8       0xb0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
+                0x080059a8                __kernel_sin
  .text.__ieee754_fmod
-                0x08005b18      0x218 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
-                0x08005b18                __ieee754_fmod
+                0x08005a58      0x218 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+                0x08005a58                __ieee754_fmod
  .text.__ieee754_rem_pio2
-                0x08005d30      0x288 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
-                0x08005d30                __ieee754_rem_pio2
- .text.fabs     0x08005fb8       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
-                0x08005fb8                fabs
+                0x08005c70      0x288 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
+                0x08005c70                __ieee754_rem_pio2
+ .text.fabs     0x08005ef8       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
+                0x08005ef8                fabs
  .text.__kernel_rem_pio2
-                0x08005fc8      0x4f8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
-                0x08005fc8                __kernel_rem_pio2
- .text.scalbn   0x080064c0       0xfc C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
-                0x080064c0                scalbn
- *fill*         0x080065bc        0x4 
- .text.floor    0x080065c0       0xf0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
-                0x080065c0                floor
+                0x08005f08      0x4f8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
+                0x08005f08                __kernel_rem_pio2
+ .text.scalbn   0x08006400       0xfc C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
+                0x08006400                scalbn
+ *fill*         0x080064fc        0x4 
+ .text.floor    0x08006500       0xf0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
+                0x08006500                floor
  *(.glue_7)
- .glue_7        0x080066b0        0x0 linker stubs
+ .glue_7        0x080065f0        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080066b0        0x0 linker stubs
+ .glue_7t       0x080065f0        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080066b0        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .eh_frame      0x080065f0        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  *(.init)
- .init          0x080066b0        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x080066b0                _init
- .init          0x080066b4        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .init          0x080065f0        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x080065f0                _init
+ .init          0x080065f4        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
  *(.fini)
- .fini          0x080066bc        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x080066bc                _fini
- .fini          0x080066c0        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
-                0x080066c8                        . = ALIGN (0x4)
-                0x080066c8                        _etext = .
+ .fini          0x080065fc        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x080065fc                _fini
+ .fini          0x08006600        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x08006608                        . = ALIGN (0x4)
+                0x08006608                        _etext = .
 
-.vfp11_veneer   0x080066c8        0x0
- .vfp11_veneer  0x080066c8        0x0 linker stubs
+.vfp11_veneer   0x08006608        0x0
+ .vfp11_veneer  0x08006608        0x0 linker stubs
 
-.v4_bx          0x080066c8        0x0
- .v4_bx         0x080066c8        0x0 linker stubs
+.v4_bx          0x08006608        0x0
+ .v4_bx         0x08006608        0x0 linker stubs
 
-.iplt           0x080066c8        0x0
- .iplt          0x080066c8        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x08006608        0x0
+ .iplt          0x08006608        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.rodata         0x080066c8      0x2b0
-                0x080066c8                        . = ALIGN (0x4)
+.rodata         0x08006608      0x290
+                0x08006608                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.flagBitshiftOffset.0
-                0x080066c8        0x8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+                0x08006608        0x8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
  .rodata.APBPrescTable
-                0x080066d0        0x8 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
-                0x080066d0                APBPrescTable
+                0x08006610        0x8 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+                0x08006610                APBPrescTable
  .rodata.AHBPrescTable
-                0x080066d8       0x10 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
-                0x080066d8                AHBPrescTable
+                0x08006618       0x10 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+                0x08006618                AHBPrescTable
  .rodata.tableData_c.0
-                0x080066e8       0x40 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
- .rodata.rtCP_pooled_eByeztG9SgGB
-                0x08006728        0xc ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x08006728                rtCP_pooled_eByeztG9SgGB
+                0x08006628       0x40 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
  .rodata.rtCP_pooled_c9mIltOBYHuW
-                0x08006734       0x48 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x08006734                rtCP_pooled_c9mIltOBYHuW
- .rodata.rtCP_pooled_XyS18C52bdd7
-                0x0800677c        0x4 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x0800677c                rtCP_pooled_XyS18C52bdd7
- .rodata.rtCP_pooled_IpZ2KYFD0cMi
-                0x08006780        0x4 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x08006780                rtCP_pooled_IpZ2KYFD0cMi
- .rodata.rtCP_pooled_HkVECsDp1mOJ
-                0x08006784        0x4 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x08006784                rtCP_pooled_HkVECsDp1mOJ
- .rodata.rtCP_pooled_69zDzzp3SdVd
-                0x08006788        0x4 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                0x08006788                rtCP_pooled_69zDzzp3SdVd
- *fill*         0x0800678c        0x4 
- .rodata.Zero   0x08006790       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+                0x08006668       0x48 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+                0x08006668                rtCP_pooled_c9mIltOBYHuW
+ .rodata.Zero   0x080066b0       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
  .rodata.npio2_hw
-                0x080067a0       0x80 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
+                0x080066c0       0x80 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
  .rodata.two_over_pi
-                0x08006820      0x108 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
- .rodata.PIo2   0x08006928       0x40 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
+                0x08006740      0x108 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
+ .rodata.PIo2   0x08006848       0x40 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
  .rodata.init_jk
-                0x08006968       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
-                0x08006978                        . = ALIGN (0x4)
+                0x08006888       0x10 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
+                0x08006898                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08006978        0x8
-                0x08006978                        __exidx_start = .
+.ARM            0x08006898        0x8
+                0x08006898                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08006978        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
-                0x08006980                        __exidx_end = .
+ .ARM.exidx     0x08006898        0x8 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x080068a0                        __exidx_end = .
 
-.preinit_array  0x08006980        0x0
-                0x08006980                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080068a0        0x0
+                0x080068a0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08006980                        PROVIDE (__preinit_array_end = .)
+                0x080068a0                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08006980        0x4
-                0x08006980                        PROVIDE (__init_array_start = .)
+.init_array     0x080068a0        0x4
+                0x080068a0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08006980        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x08006984                        PROVIDE (__init_array_end = .)
+ .init_array    0x080068a0        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x080068a4                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08006984        0x4
+.fini_array     0x080068a4        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08006984        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .fini_array    0x080068a4        0x4 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08006988                        _sidata = LOADADDR (.data)
+                0x080068a8                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x5c load address 0x08006988
+.data           0x20000000       0x5c load address 0x080068a8
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2294,10 +2170,13 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .data.first_timer
                 0x20000050        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
                 0x20000050                first_timer
+ .data.rty_lock
+                0x20000051        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20000051                rty_lock
  .data.uwTickFreq
-                0x20000051        0x1 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x20000051                uwTickFreq
- *fill*         0x20000052        0x2 
+                0x20000052        0x1 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x20000052                uwTickFreq
+ *fill*         0x20000053        0x1 
  .data.uwTickPrio
                 0x20000054        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
                 0x20000054                uwTickPrio
@@ -2307,14 +2186,14 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x2000005c                        . = ALIGN (0x4)
                 0x2000005c                        _edata = .
 
-.igot.plt       0x2000005c        0x0 load address 0x080069e4
+.igot.plt       0x2000005c        0x0 load address 0x08006904
  .igot.plt      0x2000005c        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.rel.dyn        0x2000005c        0x0 load address 0x080069e4
+.rel.dyn        0x2000005c        0x0 load address 0x08006904
  .rel.iplt      0x2000005c        0x0 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtbegin.o
                 0x2000005c                        . = ALIGN (0x4)
 
-.bss            0x20000060     0x2770 load address 0x080069e4
+.bss            0x20000060     0x1aa4 load address 0x08006904
                 0x20000060                        _sbss = .
                 0x20000060                        __bss_start__ = _sbss
  *(.bss)
@@ -2366,98 +2245,95 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x20000670                hadc3
  .bss.hadc1     0x200006b8       0x48 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
                 0x200006b8                hadc1
- .bss.tim34.2   0x20000700        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim14.3   0x20000704        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim12.4   0x20000708        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim4.5    0x2000070c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim3.6    0x20000710        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.iac_3.7   0x20000714      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.iac_2.8   0x20000d58      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.iac_1.9   0x2000139c      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.vac3.10   0x200019e0      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.vac2.11   0x20002024      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.cnt.12    0x20002668        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim2.13   0x2000266c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.dc_vacs.14
-                0x20002670        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.vac_rising.15
-                0x2000267c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.tim1.16   0x20002680        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .bss.cnt2.17   0x20002684        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim34.4   0x20000700        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim14.5   0x20000704        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim4.6    0x20000708        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim12.7   0x2000070c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.vac3.8    0x20000710      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.vac2.9    0x20000d54      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.vac1.10   0x20001398      0x644 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim3.11   0x200019dc        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim2.12   0x200019e0        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.dc_vacs.13
+                0x200019e4        0xc CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.vac_rising.14
+                0x200019f0        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.tim1.15   0x200019f4        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.cnt2.16   0x200019f8        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .bss.cnt       0x200019fc        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
  .bss.button_state
-                0x20002688        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x20002688                button_state
- .bss.rty_lock  0x20002689        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x20002689                rty_lock
- *fill*         0x2000268a        0x2 
- .bss.rty_Qa    0x2000268c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x2000268c                rty_Qa
- .bss.rty_Qc    0x20002690        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x20002690                rty_Qc
- .bss.rty_Qb    0x20002694        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x20002694                rty_Qb
- .bss.rtu_vb    0x20002698        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x20002698                rtu_vb
- .bss.rtu_vc    0x2000269c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x2000269c                rtu_vc
- .bss.rtu_va    0x200026a0        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026a0                rtu_va
- .bss.rtu_cos   0x200026a4        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026a4                rtu_cos
- .bss.rtu_sine  0x200026a8        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026a8                rtu_sine
+                0x20001a00        0x1 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a00                button_state
+ *fill*         0x20001a01        0x3 
+ .bss.rty_Qa    0x20001a04        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a04                rty_Qa
+ .bss.rty_Qc    0x20001a08        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a08                rty_Qc
+ .bss.rty_Qb    0x20001a0c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a0c                rty_Qb
+ .bss.rtu_vb    0x20001a10        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a10                rtu_vb
+ .bss.rtu_vc    0x20001a14        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a14                rtu_vc
+ .bss.rtu_va    0x20001a18        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a18                rtu_va
+ .bss.rtu_cos   0x20001a1c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a1c                rtu_cos
+ .bss.rtu_sine  0x20001a20        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a20                rtu_sine
  .bss.rtu_lock_pll
-                0x200026ac        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026ac                rtu_lock_pll
- .bss.rtu_w     0x200026b0        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026b0                rtu_w
+                0x20001a24        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a24                rtu_lock_pll
+ .bss.rtu_w     0x20001a28        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a28                rtu_w
  .bss.rtu_ov_out
-                0x200026b4        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026b4                rtu_ov_out
- .bss.rtu_ic    0x200026b8        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026b8                rtu_ic
- .bss.rtu_ib    0x200026bc        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026bc                rtu_ib
- .bss.rtu_ia    0x200026c0        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                0x200026c0                rtu_ia
- .bss.uwTick    0x200026c4        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-                0x200026c4                uwTick
+                0x20001a2c        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a2c                rtu_ov_out
+ .bss.rtu_ic    0x20001a30        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a30                rtu_ic
+ .bss.rtu_ib    0x20001a34        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a34                rtu_ib
+ .bss.rtu_ia    0x20001a38        0x4 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                0x20001a38                rtu_ia
+ .bss.uwTick    0x20001a3c        0x4 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+                0x20001a3c                uwTick
  .bss.ctrl_ez_DW
-                0x200026c8       0x90 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x200026c8                ctrl_ez_DW
+                0x20001a40       0x4c ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x20001a40                ctrl_ez_DW
  .bss.filter_IC
-                0x20002758        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x20002758                filter_IC
+                0x20001a8c        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x20001a8c                filter_IC
  .bss.filter_IB
-                0x2000275c        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x2000275c                filter_IB
+                0x20001a90        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x20001a90                filter_IB
  .bss.filter_IA
-                0x20002760        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                0x20002760                filter_IA
+                0x20001a94        0x4 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x20001a94                filter_IA
  .bss.dsogi_3phpll_Y
-                0x20002764       0x1c Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
-                0x20002764                dsogi_3phpll_Y
+                0x20001a98       0x1c Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x20001a98                dsogi_3phpll_Y
  .bss.dsogi_3phpll_U
-                0x20002780        0xc Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
-                0x20002780                dsogi_3phpll_U
+                0x20001ab4        0xc Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x20001ab4                dsogi_3phpll_U
  .bss.dsogi_3phpll_DW
-                0x2000278c       0x44 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
-                0x2000278c                dsogi_3phpll_DW
+                0x20001ac0       0x44 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x20001ac0                dsogi_3phpll_DW
  *(COMMON)
-                0x200027d0                        . = ALIGN (0x4)
-                0x200027d0                        _ebss = .
-                0x200027d0                        __bss_end__ = _ebss
+                0x20001b04                        . = ALIGN (0x4)
+                0x20001b04                        _ebss = .
+                0x20001b04                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200027d0      0x600 load address 0x080069e4
-                0x200027d0                        . = ALIGN (0x8)
+                0x20001b04      0x604 load address 0x08006904
+                0x20001b08                        . = ALIGN (0x8)
+ *fill*         0x20001b04        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x200027d0                        PROVIDE (_end = .)
-                0x200029d0                        . = (. + _Min_Heap_Size)
- *fill*         0x200027d0      0x200 
-                0x20002dd0                        . = (. + _Min_Stack_Size)
- *fill*         0x200029d0      0x400 
-                0x20002dd0                        . = ALIGN (0x8)
+                0x20001b08                        PROVIDE (_end = .)
+                0x20001d08                        . = (. + _Min_Heap_Size)
+ *fill*         0x20001b08      0x200 
+                0x20002108                        . = (. + _Min_Stack_Size)
+ *fill*         0x20001d08      0x400 
+                0x20002108                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2522,43 +2398,45 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .ARM.attributes
                 0x0000048d       0x32 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
  .ARM.attributes
-                0x000004bf       0x32 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
+                0x000004bf       0x32 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
  .ARM.attributes
-                0x000004f1       0x32 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+                0x000004f1       0x32 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
  .ARM.attributes
-                0x00000523       0x32 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+                0x00000523       0x32 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
  .ARM.attributes
-                0x00000555       0x32 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+                0x00000555       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000587       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+                0x00000575       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000005a7       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+                0x000005a7       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000005d9       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_dvmd_tls.o)
+                0x000005c7       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
  .ARM.attributes
-                0x000005f9       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x000005f9       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
  .ARM.attributes
-                0x0000062b       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00000619       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
  .ARM.attributes
-                0x0000064b       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
+                0x0000064b       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
  .ARM.attributes
                 0x0000067d       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
  .ARM.attributes
-                0x000006af       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
+                0x000006af       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
  .ARM.attributes
-                0x000006e1       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
+                0x000006e1       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
  .ARM.attributes
-                0x00000713       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+                0x00000713       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
  .ARM.attributes
-                0x00000745       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
+                0x00000745       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
  .ARM.attributes
-                0x00000777       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
+                0x00000777       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
  .ARM.attributes
-                0x000007a9       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
+                0x000007a9       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
  .ARM.attributes
-                0x000007db       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
+                0x000007db       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
  .ARM.attributes
-                0x0000080d       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
+                0x0000080d       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
+ .ARM.attributes
+                0x0000083f       0x32 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
@@ -2580,13 +2458,12 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .comment       0x00000043       0x44 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
  .comment       0x00000043       0x44 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
  .comment       0x00000043       0x44 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .comment       0x00000043       0x44 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
  .comment       0x00000043       0x44 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
  .comment       0x00000043       0x44 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
  .comment       0x00000043       0x44 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
  .comment       0x00000043       0x44 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
-.debug_frame    0x00000000     0x32cc
+.debug_frame    0x00000000     0x2cc0
  .debug_frame   0x00000000      0x144 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-findfp.o)
  .debug_frame   0x00000144       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-memset.o)
  .debug_frame   0x00000164       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libc_nano.a(libc_a-init.o)
@@ -2606,78 +2483,77 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_frame   0x00001ddc      0x438 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
  .debug_frame   0x00002214      0x660 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
  .debug_frame   0x00002874       0x30 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_frame   0x000028a4       0x88 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
- .debug_frame   0x0000292c       0x6c Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .debug_frame   0x00002998      0x678 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .debug_frame   0x00003010       0x20 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
- .debug_frame   0x00003030       0x20 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_frame   0x00003050       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000307c       0x34 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x000030b0       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
- .debug_frame   0x000030d0       0x44 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
- .debug_frame   0x00003114       0x38 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
- .debug_frame   0x0000314c       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
- .debug_frame   0x0000316c       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
- .debug_frame   0x0000318c       0x38 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
- .debug_frame   0x000031c4       0x34 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
- .debug_frame   0x000031f8       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
- .debug_frame   0x00003218       0x68 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
- .debug_frame   0x00003280       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
- .debug_frame   0x000032a0       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
+ .debug_frame   0x000028a4       0x90 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+ .debug_frame   0x00002934       0x6c Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+ .debug_frame   0x000029a0       0x20 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+ .debug_frame   0x000029c0       0x20 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+ .debug_frame   0x000029e0       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002a0c       0x34 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002a40       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x00002a60       0x44 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_fmod.o)
+ .debug_frame   0x00002aa4       0x44 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-w_sqrt.o)
+ .debug_frame   0x00002ae8       0x38 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_sin.o)
+ .debug_frame   0x00002b20       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_sqrt.o)
+ .debug_frame   0x00002b40       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_cos.o)
+ .debug_frame   0x00002b60       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_sin.o)
+ .debug_frame   0x00002b80       0x38 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_fmod.o)
+ .debug_frame   0x00002bb8       0x34 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-e_rem_pio2.o)
+ .debug_frame   0x00002bec       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_fabs.o)
+ .debug_frame   0x00002c0c       0x68 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-k_rem_pio2.o)
+ .debug_frame   0x00002c74       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_scalbn.o)
+ .debug_frame   0x00002c94       0x2c C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a(libm_a-s_floor.o)
 
-.debug_info     0x00000000    0x1e8a9
+.debug_info     0x00000000    0x19dc0
  .debug_info    0x00000000     0x2e70 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
- .debug_info    0x00002e70     0x186f CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_info    0x000046df     0x1d46 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_info    0x00006425      0xdef CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_info    0x00007214      0xbe5 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_info    0x00007df9      0x80e CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_info    0x00008607      0x738 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_info    0x00008d3f      0xb08 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
- .debug_info    0x00009847      0x934 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_info    0x0000a17b      0x9a6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
- .debug_info    0x0000ab21     0x1253 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_info    0x0000bd74      0xb1f CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_info    0x0000c893     0x4880 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_info    0x00011113     0x1d12 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_info    0x00012e25     0x50db CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_info    0x00017f00      0x702 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_info    0x00018602       0x30 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
- .debug_info    0x00018632      0xa76 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
- .debug_info    0x000190a8      0x59d Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .debug_info    0x00019645     0x481b C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .debug_info    0x0001de60      0x11f ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
- .debug_info    0x0001df7f       0xf8 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
- .debug_info    0x0001e077      0x137 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_info    0x0001e1ae      0x6fb C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_info    0x00002e70     0x199e CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_info    0x0000480e     0x1d46 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_info    0x00006554      0xdef CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_info    0x00007343      0xbe5 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_info    0x00007f28      0x80e CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_info    0x00008736      0x738 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_info    0x00008e6e      0xb08 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+ .debug_info    0x00009976      0x934 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_info    0x0000a2aa      0x9a6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+ .debug_info    0x0000ac50     0x1253 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_info    0x0000bea3      0xb1f CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_info    0x0000c9c2     0x4880 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_info    0x00011242     0x1d12 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_info    0x00012f54     0x50db CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_info    0x0001802f      0x702 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_info    0x00018731       0x30 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+ .debug_info    0x00018761      0x6f9 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+ .debug_info    0x00018e5a      0x59d Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+ .debug_info    0x000193f7       0x9f ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+ .debug_info    0x00019496       0xf8 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+ .debug_info    0x0001958e      0x137 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+ .debug_info    0x000196c5      0x6fb C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
-.debug_abbrev   0x00000000     0x367f
+.debug_abbrev   0x00000000     0x32c2
  .debug_abbrev  0x00000000      0x375 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000375      0x339 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_abbrev  0x000006ae      0x2a7 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_abbrev  0x00000955      0x2ce CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_abbrev  0x00000c23      0x344 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_abbrev  0x00000f67      0x1e1 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00001148      0x213 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_abbrev  0x0000135b      0x31c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
- .debug_abbrev  0x00001677      0x1d0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_abbrev  0x00001847      0x1ed CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00001a34      0x387 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_abbrev  0x00001dbb      0x282 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_abbrev  0x0000203d      0x3a7 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_abbrev  0x000023e4      0x349 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000272d      0x44c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_abbrev  0x00002b79      0x13f CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_abbrev  0x00002cb8       0x24 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
- .debug_abbrev  0x00002cdc      0x2bf ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
- .debug_abbrev  0x00002f9b      0x179 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .debug_abbrev  0x00003114      0x25a C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .debug_abbrev  0x0000336e       0x62 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
- .debug_abbrev  0x000033d0       0xa1 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
- .debug_abbrev  0x00003471       0xb0 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_abbrev  0x00003521      0x15e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_abbrev  0x00000375      0x313 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_abbrev  0x00000688      0x2a7 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_abbrev  0x0000092f      0x2ce CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_abbrev  0x00000bfd      0x344 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000f41      0x1e1 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00001122      0x213 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001335      0x31c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+ .debug_abbrev  0x00001651      0x1d0 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_abbrev  0x00001821      0x1ed CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00001a0e      0x387 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001d95      0x282 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_abbrev  0x00002017      0x3a7 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_abbrev  0x000023be      0x349 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00002707      0x44c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_abbrev  0x00002b53      0x13f CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_abbrev  0x00002c92       0x24 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+ .debug_abbrev  0x00002cb6      0x185 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+ .debug_abbrev  0x00002e3b      0x179 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+ .debug_abbrev  0x00002fb4       0x5f ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+ .debug_abbrev  0x00003013       0xa1 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+ .debug_abbrev  0x000030b4       0xb0 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+ .debug_abbrev  0x00003164      0x15e C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
-.debug_aranges  0x00000000     0x1108
+.debug_aranges  0x00000000      0xf18
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
  .debug_aranges
@@ -2717,18 +2593,16 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_aranges
                 0x00000e70       0x30 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
  .debug_aranges
-                0x00000ea0      0x1f0 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
+                0x00000ea0       0x18 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
  .debug_aranges
-                0x00001090       0x18 ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+                0x00000eb8       0x20 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
  .debug_aranges
-                0x000010a8       0x20 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+                0x00000ed8       0x20 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
  .debug_aranges
-                0x000010c8       0x20 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_aranges
-                0x000010e8       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x00000ef8       0x20 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
 .debug_rnglists
-                0x00000000     0x1ac9
+                0x00000000     0x12fe
  .debug_rnglists
                 0x00000000       0x98 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
  .debug_rnglists
@@ -2764,96 +2638,91 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_rnglists
                 0x0000121d       0x19 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
  .debug_rnglists
-                0x00001236       0x34 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x00001236       0x1a ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
  .debug_rnglists
-                0x0000126a       0x75 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x00001250       0x75 Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
  .debug_rnglists
-                0x000012df      0x7b1 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
+                0x000012c5       0x13 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
  .debug_rnglists
-                0x00001a90       0x13 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+                0x000012d8       0x13 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
  .debug_rnglists
-                0x00001aa3       0x13 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_rnglists
-                0x00001ab6       0x13 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+                0x000012eb       0x13 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
-.debug_line     0x00000000    0x19d95
- .debug_line    0x00000000     0x143c CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
- .debug_line    0x0000143c      0xb55 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_line    0x00001f91      0xa58 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_line    0x000029e9     0x134d CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_line    0x00003d36      0xf62 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_line    0x00004c98      0xbe2 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_line    0x0000587a      0x8fd CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_line    0x00006177      0xfc8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
- .debug_line    0x0000713f      0x591 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_line    0x000076d0      0x73c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
- .debug_line    0x00007e0c      0x918 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_line    0x00008724      0x721 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_line    0x00008e45     0x5592 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_line    0x0000e3d7     0x1e01 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_line    0x000101d8     0x4c6f CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_line    0x00014e47      0x2e8 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_line    0x0001512f       0x7a CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
- .debug_line    0x000151a9      0xb22 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
- .debug_line    0x00015ccb      0x4fb Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
- .debug_line    0x000161c6     0x369b C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
- .debug_line    0x00019861       0x7f ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
- .debug_line    0x000198e0      0x15d ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
- .debug_line    0x00019a3d      0x1d3 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
- .debug_line    0x00019c10      0x185 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+.debug_line     0x00000000    0x165e6
+ .debug_line    0x00000000     0x143e CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
+ .debug_line    0x0000143e      0xb93 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_line    0x00001fd1      0xa58 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_line    0x00002a29     0x134d CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_line    0x00003d76      0xf62 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_line    0x00004cd8      0xbe2 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_line    0x000058ba      0x8fd CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_line    0x000061b7      0xfc8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+ .debug_line    0x0000717f      0x591 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_line    0x00007710      0x73c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+ .debug_line    0x00007e4c      0x918 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_line    0x00008764      0x721 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_line    0x00008e85     0x5592 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_line    0x0000e417     0x1e01 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_line    0x00010218     0x4c6f CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_line    0x00014e87      0x2e8 CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_line    0x0001516f       0x7a CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+ .debug_line    0x000151e9      0x9ce ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+ .debug_line    0x00015bb7      0x4fb Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+ .debug_line    0x000160b2       0x7f ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+ .debug_line    0x00016131      0x15d ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+ .debug_line    0x0001628e      0x1d3 ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+ .debug_line    0x00016461      0x185 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
 
-.debug_str      0x00000000     0x6985
+.debug_str      0x00000000     0x6313
  .debug_str     0x00000000     0x1999 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
                                0x1add (size before relaxing)
- .debug_str     0x00001999      0x4e2 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-                               0x1540 (size before relaxing)
- .debug_str     0x00001e7b      0x3dd CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_str     0x00001999      0x517 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
+                               0x157b (size before relaxing)
+ .debug_str     0x00001eb0      0x3dd CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
                                0x177f (size before relaxing)
- .debug_str     0x00002258      0x2f8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_str     0x0000228d      0x2f8 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
                                 0x973 (size before relaxing)
- .debug_str     0x00002550      0x244 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_str     0x00002585      0x244 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
                                 0x756 (size before relaxing)
- .debug_str     0x00002794      0x180 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_str     0x000027c9      0x180 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
                                 0x758 (size before relaxing)
- .debug_str     0x00002914      0x12d CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_str     0x00002949      0x12d CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
                                 0x51c (size before relaxing)
- .debug_str     0x00002a41      0x2e7 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
+ .debug_str     0x00002a76      0x2e7 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
                                 0x795 (size before relaxing)
- .debug_str     0x00002d28      0x359 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_str     0x00002d5d      0x359 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
                                 0x65c (size before relaxing)
- .debug_str     0x00003081      0x1f3 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
+ .debug_str     0x000030b6      0x1f3 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
                                 0x66b (size before relaxing)
- .debug_str     0x00003274      0x4c6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_str     0x000032a9      0x4c6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
                                 0xe9c (size before relaxing)
- .debug_str     0x0000373a      0x347 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_str     0x0000376f      0x347 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
                                 0xd5a (size before relaxing)
- .debug_str     0x00003a81      0xd38 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_str     0x00003ab6      0xd27 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
                                0x179d (size before relaxing)
- .debug_str     0x000047b9      0x52c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_str     0x000047dd      0x52c CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
                                0x10a3 (size before relaxing)
- .debug_str     0x00004ce5      0x7b6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_str     0x00004d09      0x7b6 CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
                                0x104b (size before relaxing)
- .debug_str     0x0000549b       0x7b CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_str     0x000054bf       0x7b CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
                                 0x47a (size before relaxing)
- .debug_str     0x00005516       0x66 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+ .debug_str     0x0000553a       0x66 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
                                  0xa0 (size before relaxing)
- .debug_str     0x0000557c      0x48f ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
-                                0x6d8 (size before relaxing)
- .debug_str     0x00005a0b      0x44d Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+ .debug_str     0x000055a0      0x305 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                                0x53a (size before relaxing)
+ .debug_str     0x000058a5      0x44d Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
                                 0x61b (size before relaxing)
- .debug_str     0x00005e58      0x50c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
-                                0x73c (size before relaxing)
- .debug_str     0x00006364       0xad ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
-                                0x269 (size before relaxing)
- .debug_str     0x00006411       0x73 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
+ .debug_str     0x00005cf2       0xad ARMCortex-M\_shared\librtwshared.a(const_params.c.obj)
+                                0x1ec (size before relaxing)
+ .debug_str     0x00005d9f       0x73 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
                                 0x212 (size before relaxing)
- .debug_str     0x00006484       0x8e ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+ .debug_str     0x00005e12       0x8e ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
                                 0x230 (size before relaxing)
- .debug_str     0x00006512      0x473 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_str     0x00005ea0      0x473 C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libg_nano.a(libc_a-errno.o)
                                 0x52e (size before relaxing)
 
 .debug_loclists
-                0x00000000     0xf983
+                0x00000000     0xab32
  .debug_loclists
                 0x00000000      0x1a8 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
  .debug_loclists
@@ -2883,15 +2752,13 @@ LOAD C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_loclists
                 0x00009c8f       0xcb CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
  .debug_loclists
-                0x00009d5a      0x7f8 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
+                0x00009d5a      0x959 ctrl_ez\ARMCortex-M\_ref\ctrl_ez\libctrl_ez_rtwlib.a(ctrl_ez.c.obj)
  .debug_loclists
-                0x0000a552      0x34f Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
+                0x0000a6b3      0x34f Core\dsogi_3phpll\libdsogi_pll.a(dsogi_3phpll.c.obj)
  .debug_loclists
-                0x0000a8a1     0x4fb2 C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Lib\GCC\libCMSISDSP.a(BasicMathFunctions.c.obj)
+                0x0000aa02       0x53 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
  .debug_loclists
-                0x0000f853       0x53 ARMCortex-M\_shared\librtwshared.a(intrp1d_fu32fl.c.obj)
- .debug_loclists
-                0x0000f8a6       0xdd ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
+                0x0000aa55       0xdd ARMCortex-M\_shared\librtwshared.a(plook_u32ff_evenc.c.obj)
 
 .debug_line_str
                 0x00000000       0x84

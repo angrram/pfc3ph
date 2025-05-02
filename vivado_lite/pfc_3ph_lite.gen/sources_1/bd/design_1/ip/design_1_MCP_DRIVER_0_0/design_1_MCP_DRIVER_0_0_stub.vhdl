@@ -2,7 +2,7 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Tue Apr 29 18:23:17 2025
+-- Date        : Fri May  2 20:56:28 2025
 -- Host        : AngelPC running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_MCP_DRIVER_0_0/design_1_MCP_DRIVER_0_0_stub.vhdl
@@ -22,8 +22,8 @@ entity design_1_MCP_DRIVER_0_0 is
     v1_2 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     v2_1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     v2_2 : in STD_LOGIC_VECTOR ( 15 downto 0 );
-    v3_1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     v3_2 : in STD_LOGIC_VECTOR ( 15 downto 0 );
+    v3_1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     v4_1 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     v4_2 : in STD_LOGIC_VECTOR ( 15 downto 0 );
     ce_out : out STD_LOGIC;
@@ -38,7 +38,7 @@ entity design_1_MCP_DRIVER_0_0 is
   attribute CHECK_LICENSE_TYPE : string;
   attribute CHECK_LICENSE_TYPE of design_1_MCP_DRIVER_0_0 : entity is "design_1_MCP_DRIVER_0_0,SPI_DAC,{}";
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1_MCP_DRIVER_0_0 : entity is "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=11,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
+  attribute CORE_GENERATION_INFO of design_1_MCP_DRIVER_0_0 : entity is "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=22,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_MCP_DRIVER_0_0 : entity is "yes";
   attribute IP_DEFINITION_SOURCE : string;
@@ -49,7 +49,7 @@ architecture stub of design_1_MCP_DRIVER_0_0 is
   attribute syn_black_box : boolean;
   attribute black_box_pad_pin : string;
   attribute syn_black_box of stub : architecture is true;
-  attribute black_box_pad_pin of stub : architecture is "clk,rst,clk_enable,v1_1[15:0],v1_2[15:0],v2_1[15:0],v2_2[15:0],v3_1[15:0],v3_2[15:0],v4_1[15:0],v4_2[15:0],ce_out,SDI,SCK,nCS1,nCS2,nCS3,nCS4";
+  attribute black_box_pad_pin of stub : architecture is "clk,rst,clk_enable,v1_1[15:0],v1_2[15:0],v2_1[15:0],v2_2[15:0],v3_2[15:0],v3_1[15:0],v4_1[15:0],v4_2[15:0],ce_out,SDI,SCK,nCS1,nCS2,nCS3,nCS4";
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute X_INTERFACE_MODE : string;

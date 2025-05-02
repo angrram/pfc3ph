@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Sun Mar  2 16:46:12 2025
+// Date        : Fri May  2 16:13:27 2025
 // Host        : AngelPC running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top design_1_clk_wiz_15 -prefix
-//               design_1_clk_wiz_15_ design_1_clk_wiz_15_stub.v
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_15/design_1_clk_wiz_15_stub.v
 // Design      : design_1_clk_wiz_15
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7s25csga225-1

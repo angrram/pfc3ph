@@ -50,10 +50,19 @@ float v_ac_v = 0, ia_max = 0, ib_max = 0, idc_max = 0, vdc_max = 0,
       flt_iac_data[3], iacs[3];
 float rtu_ia, rtu_ib, rtu_ic, rtu_ov_out, rtu_w, rtu_lock_pll, rtu_sine,
     rtu_cos, rtu_va, rtu_vc, rtu_vb, rty_Qb, rty_Qc, rty_Qa;
+struct ctrl_ez_inputs {
+  float rtu_ia, rtu_ib, rtu_ic, rtu_va, rtu_vb, rtu_vc, rtu_ov_out,
+      rtu_lock_pll, rtu_w, rtu_sine, rtu_cos;
 
-bool volatile rty_lock = false;
+} *ctrl_ez_ins;
+struct ctrl_ez_outputs {
+  float rty_Qa, rty_Qb, rty_Qc, rty_lock;
+
+} *ctrl_ez_outs;
+bool volatile rty_lock = true;
 bool LED_CTRL = false;
 bool button_state = false;
+static volatile uint32_t cnt = 0;
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -69,12 +78,19 @@ void start_my_pwm(TIM_HandleTypeDef *, uint32_t);
 #define CONSTANT_VOLTS ((float)0.232046897899365f)
 #define OFFSET_CURRENT ((float)40.0f)
 #define CONSTANT_VOLTS_2AMP ((float)0.0195f)
+#define OFFSET_VAC ((float)420.0f)
+#define CONSTANT_VOLTS_2AMP_VAC ((float)0.2051f)
 #define CONST_V_AC ((float).330494f)
 #define BUTTON_ON true
 #define M_VAC_CAL ((float).001176238095238095)
 #define VAC_CAL_DC ((float).16666f)
 #define VAC_CAL_VAC ((float)314.0f)
-
+#define VAC_CAL_12BITS_FM2 ((float)83.91792868f)
+#define VAC_CAL_12BITS_FM3 ((float)1017.68441622f)
+#define VAC_CAL_12BITS_CONST ((float)420.0f)
+#define AC_CAL_12BITS_FM2 ((float)7.99218368f)
+#define AC_CAL_12BITS_FM3 ((float)96.92232535f)
+#define AC_CAL_12BITS_CONST ((float)40.0f)
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -92,7 +108,7 @@ uint8_t ctrl_state = 0U;
 float comm_sp;
 float set_point = -5.0f;
 bool first_timer = true;
-int cnt = 0;
+
 float vdc_filter = 0.0f;
 #define TIMOUT_ADC_READING 1U
 bool flaggy = true;
@@ -324,7 +340,7 @@ void TIM2_IRQHandler(void) {
   static volatile float dc_vacs[3];
   static volatile float vac1[401], vac2[401], vac3[401], iac_1[401], iac_2[401],
       iac_3[401];
-  static volatile uint32_t cnt = 0;
+
   if (cnt2 < 102U) {
     cnt2++;
   }
@@ -336,9 +352,41 @@ void TIM2_IRQHandler(void) {
     dc_vacs[0] = ((float)vacs[1]) / vac_rising; // DC VA
     dc_vacs[1] = ((float)vacs[2]) / vac_rising; // DC VB
     dc_vacs[2] = ((float)vacs[3]) / vac_rising; // DC VC
-    dsogi_3phpll_U.va = ((dc_vacs[0] - VAC_CAL_DC) / M_VAC_CAL) - VAC_CAL_VAC;
-    dsogi_3phpll_U.vb = ((dc_vacs[1] - VAC_CAL_DC) / M_VAC_CAL) - VAC_CAL_VAC;
-    dsogi_3phpll_U.vc = ((dc_vacs[2] - VAC_CAL_DC) / M_VAC_CAL) - VAC_CAL_VAC;
+
+    /* dsogi_3phpll_U.va = ((dc_vacs[0] - VAC_CAL_DC) / M_VAC_CAL) -
+     VAC_CAL_VAC; dsogi_3phpll_U.vb = ((dc_vacs[1] - VAC_CAL_DC) / M_VAC_CAL) -
+     VAC_CAL_VAC; dsogi_3phpll_U.vc = ((dc_vacs[2] - VAC_CAL_DC) / M_VAC_CAL) -
+     VAC_CAL_VAC;
+
+     dsogi_3phpll_U.va =
+         ((dc_vacs[0] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
+         VAC_CAL_12BITS_CONST;
+     dsogi_3phpll_U.vb =
+         ((dc_vacs[1] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
+         VAC_CAL_12BITS_CONST;
+     dsogi_3phpll_U.vc =
+         ((dc_vacs[2] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
+         VAC_CAL_12BITS_CONST;
+
+
+    rtu_ia = (((float)iac_data[0] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
+    rtu_ib = (((float)iac_data[1] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
+    rtu_ic = (((float)iac_data[2] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
+*/
+    rtu_ia = ((dc_vacs[0] * AC_CAL_12BITS_FM3) - AC_CAL_12BITS_FM2) -
+             AC_CAL_12BITS_CONST;
+    rtu_ib = ((dc_vacs[1] * AC_CAL_12BITS_FM3) - AC_CAL_12BITS_FM2) -
+             AC_CAL_12BITS_CONST;
+    rtu_ic = ((dc_vacs[2] * AC_CAL_12BITS_FM3) - AC_CAL_12BITS_FM2) -
+             AC_CAL_12BITS_CONST;
+
+    dsogi_3phpll_U.va =
+        (((float)iac_data[0] * CONSTANT_VOLTS_2AMP_VAC) - OFFSET_VAC);
+    dsogi_3phpll_U.vb =
+        (((float)iac_data[1] * CONSTANT_VOLTS_2AMP_VAC) - OFFSET_VAC);
+    dsogi_3phpll_U.vc =
+        (((float)iac_data[2] * CONSTANT_VOLTS_2AMP_VAC) - OFFSET_VAC);
+
     trigger_pll_fcn();
     tim2 = htim5.Instance->CNT;
     rtu_ov_out = ((float)dc_data[0] * CONSTANT_VOLTS);
@@ -351,29 +399,26 @@ void TIM2_IRQHandler(void) {
     rtu_sine = dsogi_3phpll_Y.sine;
     rtu_w = dsogi_3phpll_Y.angle;
     rtu_lock_pll = dsogi_3phpll_Y.pll_lock;
-    rtu_ia = (((float)iac_data[0] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-    rtu_ib = (((float)iac_data[1] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-    rtu_ic = (((float)iac_data[2] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-
-    if (cnt < 400U) {
-      // vac1[cnt] = v_ac_analog;
-      vac2[cnt] = dc_vacs[0];
-      vac3[cnt] = filter_IC;
-      iac_1[cnt] = filter_IA;
-      iac_2[cnt] = rtu_ib;
-      iac_3[cnt] = rtu_ic;
-      cnt++;
-    } else {
-      cnt = 401U;
-    }
     /*
-      if (ctrl_ez_U.vdc > vdc_max)
-        vdc_max = ctrl_ez_U.vdc;
-      if (ctrl_ez_U.ia > 0.0f && ctrl_ez_U.ia > ia_max)
-        ia_max = ctrl_ez_U.ia;
-      if (ctrl_ez_U.ib > 0.0f && ctrl_ez_U.ib > ib_max)
-        ib_max = ctrl_ez_U.ib;
-        */
+       if (cnt < 400U) {
+         // vac1[cnt] = v_ac_analog;
+         vac2[cnt] = dc_vacs[0];
+         vac3[cnt] = filter_IC;
+         iac_1[cnt] = filter_IA;
+         iac_2[cnt] = rtu_ib;
+         iac_3[cnt] = rtu_ic;
+         cnt++;
+       } else {
+         cnt = 401U;
+       }
+
+         if (ctrl_ez_U.vdc > vdc_max)
+           vdc_max = ctrl_ez_U.vdc;
+         if (ctrl_ez_U.ia > 0.0f && ctrl_ez_U.ia > ia_max)
+           ia_max = ctrl_ez_U.ia;
+         if (ctrl_ez_U.ib > 0.0f && ctrl_ez_U.ib > ib_max)
+           ib_max = ctrl_ez_U.ib;
+     */
 
     // Compute DC
     tim3 = htim5.Instance->CNT;
@@ -384,11 +429,23 @@ void TIM2_IRQHandler(void) {
         (const float *)&rtu_cos, (const float *)&rtu_va, (const float *)&rtu_vc,
         (const float *)&rtu_vb, (float *)&rty_Qa, (float *)&rty_Qb,
         (float *)&rty_Qc, (bool *)&rty_lock);
-    tim4 = htim5.Instance->CNT;
+
     // load DC
-    htim1.Instance->CCR1 = ((1.0f - rty_Qa) * (float)htim1.Instance->ARR);
-    htim1.Instance->CCR2 = ((1.0f - rty_Qb) * (float)htim1.Instance->ARR);
-    htim1.Instance->CCR3 = ((1.0f - rty_Qc) * (float)htim1.Instance->ARR);
+    if (cnt <= 400U && !rty_lock) {
+      vac1[cnt] = rty_Qa;
+      vac2[cnt] = rtu_ia;
+      vac3[cnt] = rtu_va;
+      cnt++;
+    }
+    if (cnt > 400U) {
+      cnt = 500U;
+    }
+    htim1.Instance->CCR1 =
+        (uint32_t)((1.0f - rty_Qa) * (float)htim1.Instance->ARR);
+    htim1.Instance->CCR2 =
+        (uint32_t)((1.0f - rty_Qb) * (float)htim1.Instance->ARR);
+    htim1.Instance->CCR3 =
+        (uint32_t)((1.0f - rty_Qc) * (float)htim1.Instance->ARR);
     if (first_timer && !rty_lock) {
       first_timer = false;
       htim1.Instance->CCER |= (TIM_CCER_CC1E | TIM_CCER_CC2E | TIM_CCER_CC3E);
@@ -396,7 +453,7 @@ void TIM2_IRQHandler(void) {
       htim1.Instance->EGR |= TIM_EGR_UG;
       htim1.Instance->DIER |=
           (TIM_DIER_CC1IE | TIM_DIER_CC2IE | TIM_DIER_CC3IE);
-      // HAL_TIM_OC_Start(&htim3, TIM_CHANNEL_1);
+      HAL_TIM_OC_Start(&htim3, TIM_CHANNEL_1);
       htim1.Instance->CR1 |= TIM_CR1_CEN;
     }
   }

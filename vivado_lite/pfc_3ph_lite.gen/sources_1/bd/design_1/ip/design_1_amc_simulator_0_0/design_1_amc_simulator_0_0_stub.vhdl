@@ -2,11 +2,11 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
--- Date        : Mon Apr 21 11:40:29 2025
+-- Date        : Fri May  2 17:14:48 2025
 -- Host        : AngelPC running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_amc_simulator_0_0/design_1_amc_simulator_0_0_stub.vhdl
--- Design      : design_1_amc_simulator_0_0
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_amc_simulator_0_0 -prefix
+--               design_1_amc_simulator_0_0_ design_1_amc_simulator_1_0_stub.vhdl
+-- Design      : design_1_amc_simulator_1_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7s25csga225-1
 -- --------------------------------------------------------------------------------
@@ -24,9 +24,9 @@ entity design_1_amc_simulator_0_0 is
   );
 
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of design_1_amc_simulator_0_0 : entity is "design_1_amc_simulator_0_0,amc_simulator,{}";
+  attribute CHECK_LICENSE_TYPE of design_1_amc_simulator_0_0 : entity is "design_1_amc_simulator_1_0,amc_simulator,{}";
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of design_1_amc_simulator_0_0 : entity is "design_1_amc_simulator_0_0,amc_simulator,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=amc_simulator,x_ipVersion=1.0,x_ipCoreRevision=5,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
+  attribute CORE_GENERATION_INFO of design_1_amc_simulator_0_0 : entity is "design_1_amc_simulator_1_0,amc_simulator,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=amc_simulator,x_ipVersion=1.0,x_ipCoreRevision=9,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_amc_simulator_0_0 : entity is "yes";
   attribute IP_DEFINITION_SOURCE : string;
@@ -43,7 +43,7 @@ architecture stub of design_1_amc_simulator_0_0 is
   attribute X_INTERFACE_MODE : string;
   attribute X_INTERFACE_MODE of clk : signal is "slave";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100750000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_clk_out1, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 30225000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_clk_out1, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
   attribute X_INTERFACE_MODE of rst : signal is "slave";
   attribute X_INTERFACE_PARAMETER of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0";

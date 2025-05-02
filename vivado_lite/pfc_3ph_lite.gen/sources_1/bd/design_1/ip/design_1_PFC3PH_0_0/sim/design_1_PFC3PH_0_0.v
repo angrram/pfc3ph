@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:PFC3PH:1.0
-// IP Revision: 27
+// IP Revision: 35
 
 `timescale 1ns/1ps
 
@@ -99,14 +99,14 @@ input wire [17 : 0] va_i;
 input wire [17 : 0] vb_i;
 input wire [17 : 0] vc_i;
 output wire ce_out;
-output wire [15 : 0] O_Ia;
-output wire [15 : 0] O_Ib;
-output wire [15 : 0] O_Ic;
-output wire [15 : 0] O_Vc;
-output wire [15 : 0] O_Vb;
-output wire [15 : 0] O_Va;
-output wire [15 : 0] O_Vout;
-output wire [15 : 0] O_I_load;
+output wire [11 : 0] O_Ia;
+output wire [11 : 0] O_Ib;
+output wire [11 : 0] O_Ic;
+output wire [11 : 0] O_Vc;
+output wire [11 : 0] O_Vb;
+output wire [11 : 0] O_Va;
+output wire [11 : 0] O_Vout;
+output wire [11 : 0] O_I_load;
 
   simscape_system inst (
     .clk(clk),

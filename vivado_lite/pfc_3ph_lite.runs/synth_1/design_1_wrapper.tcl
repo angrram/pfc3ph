@@ -56,6 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param tcl.collectionResultDisplayLimit 0
 set_param chipscope.maxJobs 5
 set_param xicom.use_bs_reader 1
 set_msg_config -id {HDL-1065} -limit 10000
@@ -70,13 +71,14 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.cache/wt [current_project]
 set_property parent.project_path C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
+set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {C:/Users/Angel/AppData/Roaming/Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:cmod-s7-25:part0:1.0 [current_project]
 set_property ip_repo_paths {
   c:/Users/Angel/Desktop/hil/amc/fpga/ip_amc
+  c:/Users/Angel/Desktop/hil/ips/comparator
   c:/Users/Angel/Desktop/hil/pfc3ph/ips/sine_gen2/sine_gen
   c:/Users/Angel/Desktop/hil/pfc3ph/matlab/sim/hdl_prj2/hdlsrc
   c:/Users/Angel/Desktop/hil/ips/MCP_DRIVER
@@ -105,9 +107,19 @@ set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_c_addsub_2_0/design_1_c_addsub_2_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_c_addsub_3_0/design_1_c_addsub_3_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_c_addsub_4_0/design_1_c_addsub_4_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_0/clock_constraint.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_6M2_0/design_1_rst_clk_wiz_1_6M2_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_6M2_0/design_1_rst_clk_wiz_1_6M2_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_6M2_0/design_1_rst_clk_wiz_1_6M2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_1/clock_constraint.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_2/clock_constraint.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_3/clock_constraint.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_4/clock_constraint.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_compar_tc_0_5/clock_constraint.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 
 OPTRACE "Adding files" END { }

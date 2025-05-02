@@ -60,14 +60,11 @@ target_include_directories(rtwshared PUBLIC $<BUILD_INTERFACE:${START_DIR}>
     $<INSTALL_INTERFACE:$<INSTALL_PREFIX>>
     $<BUILD_INTERFACE:${START_DIR}/ARMCortex-M/_shared>
     $<INSTALL_INTERFACE:$<INSTALL_PREFIX>/ARMCortex-M/_shared>
-    C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arm_cortex_m_crl/crl
     $<BUILD_INTERFACE:${MATLAB_ROOT}/extern/include>
     $<BUILD_INTERFACE:${MATLAB_ROOT}/simulink/include>
     $<BUILD_INTERFACE:${MATLAB_ROOT}/rtw/c/src>
     $<BUILD_INTERFACE:${MATLAB_ROOT}/rtw/c/src/ext_mode/common>
-    $<BUILD_INTERFACE:${MATLAB_ROOT}/rtw/c/ert>
-    C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Include
-    C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS)
+    $<BUILD_INTERFACE:${MATLAB_ROOT}/rtw/c/ert>)
 
 # Specify library link dependencies for target "rtwshared". CMake 
 # generator expressions are used to create a CMakeLists.txt file that 
