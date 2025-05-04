@@ -353,7 +353,8 @@ void TIM2_IRQHandler(void) {
     dc_vacs[1] = ((float)vacs[2]) / vac_rising; // DC VB
     dc_vacs[2] = ((float)vacs[3]) / vac_rising; // DC VC
 
-    /* dsogi_3phpll_U.va = ((dc_vacs[0] - VAC_CAL_DC) / M_VAC_CAL) -
+    /*
+    dsogi_3phpll_U.va = ((dc_vacs[0] - VAC_CAL_DC) / M_VAC_CAL) -
      VAC_CAL_VAC; dsogi_3phpll_U.vb = ((dc_vacs[1] - VAC_CAL_DC) / M_VAC_CAL) -
      VAC_CAL_VAC; dsogi_3phpll_U.vc = ((dc_vacs[2] - VAC_CAL_DC) / M_VAC_CAL) -
      VAC_CAL_VAC;
