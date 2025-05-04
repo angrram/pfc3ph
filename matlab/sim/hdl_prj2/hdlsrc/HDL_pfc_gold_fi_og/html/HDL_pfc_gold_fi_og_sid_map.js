@@ -61,8 +61,8 @@ function RTW_SidParentMap() {
     this.sidParentMap["HDL_pfc_gold_fi_og:342"] = "HDL_pfc_gold_fi_og:106";
     this.sidParentMap["HDL_pfc_gold_fi_og:343"] = "HDL_pfc_gold_fi_og:106";
     this.sidParentMap["HDL_pfc_gold_fi_og:344"] = "HDL_pfc_gold_fi_og:106";
-    this.sidParentMap["HDL_pfc_gold_fi_og:507"] = "HDL_pfc_gold_fi_og:506";
     this.sidParentMap["HDL_pfc_gold_fi_og:508"] = "HDL_pfc_gold_fi_og:506";
+    this.sidParentMap["HDL_pfc_gold_fi_og:507"] = "HDL_pfc_gold_fi_og:506";
     this.sidParentMap["HDL_pfc_gold_fi_og:509"] = "HDL_pfc_gold_fi_og:506";
     this.sidParentMap["HDL_pfc_gold_fi_og:510"] = "HDL_pfc_gold_fi_og:506";
     this.sidParentMap["HDL_pfc_gold_fi_og:764"] = "HDL_pfc_gold_fi_og:506";
@@ -100,6 +100,7 @@ function RTW_SidParentMap() {
     this.sidParentMap["HDL_pfc_gold_fi_og:388"] = "HDL_pfc_gold_fi_og:432";
     this.sidParentMap["HDL_pfc_gold_fi_og:387"] = "HDL_pfc_gold_fi_og:432";
     this.sidParentMap["HDL_pfc_gold_fi_og:411"] = "HDL_pfc_gold_fi_og:432";
+    this.sidParentMap["HDL_pfc_gold_fi_og:1006"] = "HDL_pfc_gold_fi_og:432";
     this.sidParentMap["HDL_pfc_gold_fi_og:443"] = "HDL_pfc_gold_fi_og:432";
     this.sidParentMap["HDL_pfc_gold_fi_og:444"] = "HDL_pfc_gold_fi_og:432";
     this.sidParentMap["HDL_pfc_gold_fi_og:445"] = "HDL_pfc_gold_fi_og:432";

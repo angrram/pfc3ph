@@ -4,7 +4,7 @@
     "xci_name": "design_1_MCP_DRIVER_0_0",
     "cell_name": "MCP_DRIVER_0",
     "component_reference": "xilinx.com:user:MCP_DRIVER:1.0",
-    "ip_revision": "22",
+    "ip_revision": "29",
     "gen_directory": "../../../../../../pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_MCP_DRIVER_0_0",
     "parameters": {
       "component_parameters": {
@@ -25,7 +25,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "22" } ],
+        "IPREVISION": [ { "value": "29" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_MCP_DRIVER_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
@@ -53,7 +53,23 @@
         "nCS1": [ { "direction": "out" } ],
         "nCS2": [ { "direction": "out" } ],
         "nCS3": [ { "direction": "out" } ],
-        "nCS4": [ { "direction": "out" } ]
+        "nCS4": [ { "direction": "out" } ],
+        "debug_0": [ { "direction": "out" } ],
+        "debug_1": [ { "direction": "out" } ],
+        "debug_2": [ { "direction": "out" } ],
+        "debug_3": [ { "direction": "out" } ],
+        "debug_4": [ { "direction": "out" } ],
+        "debug_5": [ { "direction": "out" } ],
+        "debug_6": [ { "direction": "out" } ],
+        "debug_7": [ { "direction": "out" } ],
+        "debug_8": [ { "direction": "out" } ],
+        "debug_9": [ { "direction": "out" } ],
+        "debug_10": [ { "direction": "out" } ],
+        "debug_11": [ { "direction": "out" } ],
+        "debug_12": [ { "direction": "out" } ],
+        "debug_13": [ { "direction": "out" } ],
+        "debug_14": [ { "direction": "out" } ],
+        "debug_15": [ { "direction": "out" } ]
       },
       "interfaces": {
         "rst": {

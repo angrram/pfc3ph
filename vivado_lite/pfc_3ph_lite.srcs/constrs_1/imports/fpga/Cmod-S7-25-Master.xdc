@@ -1,3 +1,15 @@
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay11_reg_reg[1]/C}] -to [get_ports nCS4] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay11_reg_reg[1]/C}] -to [get_ports nCS4] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product2/u_dot_product_7/mul_out1_3_1_reg/B[14]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product2/u_dot_product_7/mul_out1_3_1_reg/B[15]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product2/u_dot_product_7/mul_out1_3_1_reg/B[8]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product2/u_dot_product_7/mul_out1_3_1_reg/B[9]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product/u_dot_product_9/rd_6_reg_reg[0]/B[11]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product2/u_dot_product_7/mul_out1_1_reg[3]/B[13]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product/u_dot_product_9/rd_6_reg_reg[1]/B[2]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product1/u_dot_product_6/mul_out1_1_reg[5]/B[15]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product1/u_dot_product_6/mul_out1_1_reg[4]/B[16]}] 10.000
+set_max_delay -from [get_pins design_1_i/sine_3ph_0/inst/u_sine_3ph_tc/phase_1_reg/C] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product1/u_dot_product_6/mul_out1_1_reg[4]/B[13]}] 10.000
 set_property -dict {PACKAGE_PIN L1 IOSTANDARD LVCMOS33} [get_ports va]
 set_property -dict {PACKAGE_PIN M4 IOSTANDARD LVCMOS33} [get_ports vb]
 set_property -dict {PACKAGE_PIN M3 IOSTANDARD LVCMOS33} [get_ports vc]
@@ -9,12 +21,12 @@ set_property -dict {PACKAGE_PIN B3 IOSTANDARD LVCMOS33} [get_ports nCS1]
 set_property -dict {PACKAGE_PIN B4 IOSTANDARD LVCMOS33} [get_ports nCS2]
 set_property -dict {PACKAGE_PIN A3 IOSTANDARD LVCMOS33} [get_ports nCS3]
 set_property -dict {PACKAGE_PIN A4 IOSTANDARD LVCMOS33} [get_ports nCS4]
-set_property -dict {PACKAGE_PIN P1 IOSTANDARD LVCMOS33} [get_ports UP_L1_0]
-set_property -dict {PACKAGE_PIN N1 IOSTANDARD LVCMOS33} [get_ports DW_L1_0]
-set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports UP_L2_0]
-set_property -dict {PACKAGE_PIN P15 IOSTANDARD LVCMOS33} [get_ports DW_L2_0]
-set_property -dict {PACKAGE_PIN N15 IOSTANDARD LVCMOS33} [get_ports UP_L3_0]
-set_property -dict {PACKAGE_PIN N14 IOSTANDARD LVCMOS33} [get_ports DW_L3_0]
+set_property -dict {PACKAGE_PIN P1 IOSTANDARD LVCMOS33} [get_ports UP_L1_0] #IO_L22P_T3_34 Sch=pio[08]
+set_property -dict {PACKAGE_PIN N1 IOSTANDARD LVCMOS33} [get_ports DW_L1_0]#IO_L22N_T3_34 Sch=pio[09]
+set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports UP_L2_0]#IO_L11P_T1_SRCC_14 Sch=pio[16]
+set_property -dict {PACKAGE_PIN P15 IOSTANDARD LVCMOS33} [get_ports DW_L2_0]#IO_L11N_T1_SRCC_14 Sch=pio[17]
+set_property -dict {PACKAGE_PIN N15 IOSTANDARD LVCMOS33} [get_ports UP_L3_0]#IO_L10N_T1_D15_14 Sch=pio[19]
+set_property -dict {PACKAGE_PIN N14 IOSTANDARD LVCMOS33} [get_ports DW_L3_0]#IO_L10P_T1_D14_14 Sch=pio[20]
 #set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports UP_L1_0]
 #set_property -dict {PACKAGE_PIN P15 IOSTANDARD LVCMOS33} [get_ports DW_L1_0]
 #set_property -dict {PACKAGE_PIN N13 IOSTANDARD LVCMOS33} [get_ports UP_L2_0]
@@ -170,6 +182,153 @@ set_property PULLTYPE PULLDOWN [get_ports vc]
 set_property SLEW FAST [get_ports vc]
 
 
+
+set_max_delay -from [get_pins design_1_i/amc_simulator_1/inst/Delay1_out1_reg/C] -to [get_ports vb] 10.000
+set_max_delay -from [get_pins design_1_i/amc_simulator_2/inst/Delay1_out1_reg/C] -to [get_ports vc] 10.000
+set_max_delay -from [get_pins design_1_i/amc_simulator_0/inst/Delay1_out1_reg/C] -to [get_ports va] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay11_reg_reg[1]/C}] -to [get_ports nCS4] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay8_reg_reg[1]/C}] -to [get_ports nCS1] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay7_reg_reg[1]/C}] -to [get_ports nCS2] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay9_reg_reg[1]/C}] -to [get_ports SCK] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay10_reg_reg[1]/C}] -to [get_ports SDI] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay11_reg_reg[1]/C}] -to [get_ports nCS4] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay8_reg_reg[1]/C}] -to [get_ports nCS1] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay7_reg_reg[1]/C}] -to [get_ports nCS2] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay9_reg_reg[1]/C}] -to [get_ports SCK] 10.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay10_reg_reg[1]/C}] -to [get_ports SDI] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 10.000
+set_max_delay -from [get_pins design_1_i/amc_simulator_0/inst/Delay1_out1_reg/C] -to [get_ports va] 10.000
+set_max_delay -from [get_pins design_1_i/amc_simulator_2/inst/Delay1_out1_reg/C] -to [get_ports vc] 10.000
+set_max_delay -from [get_pins design_1_i/amc_simulator_1/inst/Delay1_out1_reg/C] -to [get_ports vb] 10.000
+
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][12]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][14]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][7]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][9]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][10]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][11]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][13]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][6]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][8]/S}] 20.000
+set_max_delay -from [get_pins {design_1_i/rst_clk_wiz_1_6M1/U0/PR_OUT_DFF[0].FDRE_PER/C}] -to [get_pins {design_1_i/PFC_Van_3ph_0/inst/u_FET_CTRL/rd_9_reg_reg[0][9]/D}] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper/u_SimpleDualPortRAM_generic/ram_reg_0_7_96_101/RAMB_D1/I] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper/u_SimpleDualPortRAM_generic/ram_reg_0_7_90_95/RAMB_D1/I] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMA/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMA_D1/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMB/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMB_D1/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMC/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMC_D1/WADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMD/ADR2] 20.000
+set_max_delay -from [get_ports en_gd] -to [get_pins design_1_i/PFC_Van_3ph_0/inst/u_HDL_Subsystem/u_Sparse_Matrix_Vector_Product3/u_dot_product_7/u_ShiftRegisterRAM_Wrapper_1/u_SimpleDualPortRAM_generic/ram_reg_0_7_30_35/RAMD_D1/ADR2] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 20.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay7_reg_reg[1]/C}] -to [get_ports nCS2] 20.000
+set_max_delay -from [get_pins {design_1_i/MCP_DRIVER_0/inst/Delay9_reg_reg[1]/C}] -to [get_ports SCK] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] 20.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 10.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] 20.000
+
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_clocks VIRTUAL_clk_out1_design_1_clk_wiz_15] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT1]] 20.000
+set_max_delay -from [get_ports en] -to [get_pins {design_1_i/sine_3ph_0/inst/u_va/address_cnt1_reg[0]/R}] 20.000
+set_max_delay -from [get_ports en] -to [get_pins {design_1_i/sine_3ph_0/inst/u_va/address_cnt1_reg[1]/R}] 20.000
+set_max_delay -from [get_ports en] -to [get_pins {design_1_i/sine_3ph_0/inst/u_va/address_cnt1_reg[2]/R}] 20.000
+set_max_delay -from [get_ports en] -to [get_pins {design_1_i/sine_3ph_0/inst/u_va/address_cnt1_reg[3]/R}] 20.000
+
+set_min_delay -from en 0.000
+set_min_delay -from en_gd 0.000
+
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
+set_max_delay -from [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins design_1_i/clk_wiz/inst/mmcm_adv_inst/CLKOUT0]] 10.000
 set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
 set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
 set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]

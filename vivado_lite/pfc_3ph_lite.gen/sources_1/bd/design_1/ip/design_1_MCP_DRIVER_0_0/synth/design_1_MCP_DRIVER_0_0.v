@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:MCP_DRIVER:1.0
-// IP Revision: 22
+// IP Revision: 29
 
 (* X_CORE_INFO = "SPI_DAC,Vivado 2024.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_MCP_DRIVER_0_0,SPI_DAC,{}" *)
-(* CORE_GENERATION_INFO = "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=22,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "design_1_MCP_DRIVER_0_0,SPI_DAC,{x_ipProduct=Vivado 2024.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=MCP_DRIVER,x_ipVersion=1.0,x_ipCoreRevision=29,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_MCP_DRIVER_0_0 (
@@ -73,7 +73,23 @@ module design_1_MCP_DRIVER_0_0 (
   nCS1,
   nCS2,
   nCS3,
-  nCS4
+  nCS4,
+  debug_0,
+  debug_1,
+  debug_2,
+  debug_3,
+  debug_4,
+  debug_5,
+  debug_6,
+  debug_7,
+  debug_8,
+  debug_9,
+  debug_10,
+  debug_11,
+  debug_12,
+  debug_13,
+  debug_14,
+  debug_15
 );
 
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
@@ -100,6 +116,22 @@ output wire nCS1;
 output wire nCS2;
 output wire nCS3;
 output wire nCS4;
+output wire debug_0;
+output wire debug_1;
+output wire debug_2;
+output wire debug_3;
+output wire debug_4;
+output wire debug_5;
+output wire debug_6;
+output wire debug_7;
+output wire debug_8;
+output wire debug_9;
+output wire debug_10;
+output wire debug_11;
+output wire debug_12;
+output wire debug_13;
+output wire debug_14;
+output wire debug_15;
 
   SPI_DAC inst (
     .clk(clk),
@@ -119,6 +151,22 @@ output wire nCS4;
     .nCS1(nCS1),
     .nCS2(nCS2),
     .nCS3(nCS3),
-    .nCS4(nCS4)
+    .nCS4(nCS4),
+    .debug_0(debug_0),
+    .debug_1(debug_1),
+    .debug_2(debug_2),
+    .debug_3(debug_3),
+    .debug_4(debug_4),
+    .debug_5(debug_5),
+    .debug_6(debug_6),
+    .debug_7(debug_7),
+    .debug_8(debug_8),
+    .debug_9(debug_9),
+    .debug_10(debug_10),
+    .debug_11(debug_11),
+    .debug_12(debug_12),
+    .debug_13(debug_13),
+    .debug_14(debug_14),
+    .debug_15(debug_15)
   );
 endmodule

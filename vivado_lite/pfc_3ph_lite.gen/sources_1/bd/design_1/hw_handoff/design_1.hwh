@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri May  2 20:55:54 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun May  4 09:09:01 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="spartan7" BOARD="digilentinc.com:cmod-s7-25:part0:1.0" DEVICE="7s25" NAME="design_1" PACKAGE="csga225" SPEEDGRADE="-1"/>
 
@@ -48,10 +48,10 @@
     <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_en">
       <CONNECTIONS>
         <CONNECTION INSTANCE="sine_3ph_0" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="PFC3PH_0" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="amc_simulator_0" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="amc_simulator_1" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="clk_enable"/>
         <CONNECTION INSTANCE="amc_simulator_2" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="amc_simulator_1" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="amc_simulator_0" PORT="clk_enable"/>
         <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="clk_enable"/>
       </CONNECTIONS>
     </PORT>
@@ -119,7 +119,7 @@
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE COREREVISION="22" FULLNAME="/MCP_DRIVER_0" HWVERSION="1.0" INSTANCE="MCP_DRIVER_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MCP_DRIVER" VLNV="xilinx.com:user:MCP_DRIVER:1.0">
+    <MODULE COREREVISION="29" FULLNAME="/MCP_DRIVER_0" HWVERSION="1.0" INSTANCE="MCP_DRIVER_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MCP_DRIVER" VLNV="xilinx.com:user:MCP_DRIVER:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_MCP_DRIVER_0_0"/>
@@ -129,11 +129,13 @@
         <PORT DIR="O" NAME="SCK" SIGIS="undef" SIGNAME="MCP_DRIVER_0_SCK">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="SCK"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe16"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="SDI" SIGIS="undef" SIGNAME="MCP_DRIVER_0_SDI">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="SDI"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe15"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
@@ -147,24 +149,109 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" NAME="debug_0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_1" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_2" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_3" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_4" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_5" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_6" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_7" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_8" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_9" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_10" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_11" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_12" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe21"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_13" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe22"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_14" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe23"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="debug_15" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ila_0" PORT="probe24"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" NAME="nCS1" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="nCS1"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe17"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="nCS2" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="nCS2"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe18"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="nCS3" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS3">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="nCS3"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe19"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="nCS4" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS4">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="nCS4"/>
+            <CONNECTION INSTANCE="util_vector_logic_5" PORT="Op1"/>
+            <CONNECTION INSTANCE="ila_0" PORT="probe20"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M3_peripheral_reset">
@@ -172,53 +259,53 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v1_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Va">
+        <PORT DIR="I" LEFT="15" NAME="v1_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Va">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Va"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Va"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v1_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vc">
+        <PORT DIR="I" LEFT="15" NAME="v1_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vb">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Vc"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Vb"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v2_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vb">
+        <PORT DIR="I" LEFT="15" NAME="v2_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vc">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Vb"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Vc"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v2_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ia">
+        <PORT DIR="I" LEFT="15" NAME="v2_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vout">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ia"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Vout"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v3_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vout">
+        <PORT DIR="I" LEFT="15" NAME="v3_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Vout"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v3_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_I_load">
+        <PORT DIR="I" LEFT="15" NAME="v3_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_I_load">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_I_load"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_I_load"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v4_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
+        <PORT DIR="I" LEFT="15" NAME="v4_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ib"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v4_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
+        <PORT DIR="I" LEFT="15" NAME="v4_2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ic"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ic"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="35" FULLNAME="/PFC3PH_0" HWVERSION="1.0" INSTANCE="PFC3PH_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="PFC3PH" VLNV="xilinx.com:user:PFC3PH:1.0">
+    <MODULE COREREVISION="6" FULLNAME="/PFC_Van_3ph_0" HWVERSION="1.0" INSTANCE="PFC_Van_3ph_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="PFC_Van_3ph" VLNV="xilinx.com:user:PFC_Van_3ph:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_PFC3PH_0_0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_PFC_Van_3ph_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
@@ -242,58 +329,52 @@
             <CONNECTION INSTANCE="vio_0" PORT="probe_out0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_I_load" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_I_load">
+        <PORT DIR="O" LEFT="15" NAME="O_I_load" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_I_load">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="vio_0" PORT="probe_in2"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v3_2"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Ia" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ia">
+        <PORT DIR="O" LEFT="15" NAME="O_Ia" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
           <CONNECTIONS>
             <CONNECTION INSTANCE="vio_0" PORT="probe_in1"/>
             <CONNECTION INSTANCE="ila_0" PORT="probe0"/>
             <CONNECTION INSTANCE="amc_simulator_0" PORT="v"/>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v2_2"/>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v3_1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Ib" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
+        <PORT DIR="O" LEFT="15" NAME="O_Ib" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_0" PORT="probe1"/>
             <CONNECTION INSTANCE="amc_simulator_1" PORT="v"/>
-            <CONNECTION INSTANCE="compar_tc_0" PORT="a"/>
-            <CONNECTION INSTANCE="compar_tc_1" PORT="b"/>
-            <CONNECTION INSTANCE="compar_tc_4" PORT="a"/>
-            <CONNECTION INSTANCE="compar_tc_5" PORT="b"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v4_1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Ic" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
+        <PORT DIR="O" LEFT="15" NAME="O_Ic" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_0" PORT="probe2"/>
             <CONNECTION INSTANCE="amc_simulator_2" PORT="v"/>
-            <CONNECTION INSTANCE="compar_tc_2" PORT="a"/>
-            <CONNECTION INSTANCE="compar_tc_3" PORT="b"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v4_2"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Va" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Va">
+        <PORT DIR="O" LEFT="15" NAME="O_Va" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Va">
           <CONNECTIONS>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v1_1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Vb" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v2_1"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Vc" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vc">
+        <PORT DIR="O" LEFT="15" NAME="O_Vb" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vb">
           <CONNECTIONS>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v1_2"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="11" NAME="O_Vout" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vout">
+        <PORT DIR="O" LEFT="15" NAME="O_Vc" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vc">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="vio_0" PORT="probe_in2"/>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v3_1"/>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v2_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="O_Vout" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Vout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v2_2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="UP_L1" SIGIS="undef" SIGNAME="c_addsub_0_S">
@@ -312,7 +393,7 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
-        <PORT DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -353,7 +434,7 @@
       </PARAMETERS>
       <PORTS>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -373,9 +454,9 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ia">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ia"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -389,7 +470,7 @@
       </PARAMETERS>
       <PORTS>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -409,9 +490,9 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ib"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -425,7 +506,7 @@
       </PARAMETERS>
       <PORTS>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -445,9 +526,9 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ic"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ic"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -528,7 +609,7 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
@@ -536,7 +617,7 @@
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_0_S">
           <CONNECTIONS>
             <CONNECTION INSTANCE="vio_0" PORT="probe_in0"/>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="UP_L1"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="UP_L1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -617,14 +698,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_1_S">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="DW_L1"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="DW_L1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -705,14 +786,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_2_S">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="UP_L2"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="UP_L2"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -793,14 +874,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_3_S">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="DW_L2"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="DW_L2"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -881,14 +962,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_4_S">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="UP_L3"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="UP_L3"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -969,14 +1050,14 @@
             <CONNECTION INSTANCE="External_Ports" PORT="en_gd"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="0" NAME="S" RIGHT="0" SIGIS="data" SIGNAME="c_addsub_5_S">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="DW_L3"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="DW_L3"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1004,44 +1085,6 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="9" FULLNAME="/cero_2" HWVERSION="1.1" INSTANCE="cero_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="0x7D0"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="12"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_cero_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="11" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="cero_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_0" PORT="b"/>
-            <CONNECTION INSTANCE="compar_tc_4" PORT="b"/>
-            <CONNECTION INSTANCE="compar_tc_2" PORT="b"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="9" FULLNAME="/cero_3" HWVERSION="1.1" INSTANCE="cero_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="CONST_VAL" VALUE="0x3E8"/>
-        <PARAMETER NAME="CONST_WIDTH" VALUE="12"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_cero_2_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="O" LEFT="11" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="cero_3_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_1" PORT="a"/>
-            <CONNECTION INSTANCE="compar_tc_5" PORT="a"/>
-            <CONNECTION INSTANCE="compar_tc_3" PORT="a"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
     <MODULE COREREVISION="15" FULLNAME="/clk_wiz" HWVERSION="6.0" INSTANCE="clk_wiz" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="clk_wiz" VLNV="xilinx.com:ip:clk_wiz:6.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=clk_wiz;v=v6_0;d=pg065-clk-wiz.pdf"/>
@@ -1064,26 +1107,26 @@
         <PARAMETER NAME="C_CLKIN2_JITTER_PS" VALUE="100.0"/>
         <PARAMETER NAME="C_CLKOUT0_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT0_2" VALUE="0000"/>
-        <PARAMETER NAME="C_CLKOUT0_ACTUAL_FREQ" VALUE="72.17910"/>
+        <PARAMETER NAME="C_CLKOUT0_ACTUAL_FREQ" VALUE="95.52941"/>
         <PARAMETER NAME="C_CLKOUT1_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT1_2" VALUE="0000"/>
-        <PARAMETER NAME="C_CLKOUT1_ACTUAL_FREQ" VALUE="4.72266"/>
+        <PARAMETER NAME="C_CLKOUT1_ACTUAL_FREQ" VALUE="4.75781"/>
         <PARAMETER NAME="C_CLKOUT1_DRIVES" VALUE="BUFG"/>
         <PARAMETER NAME="C_CLKOUT1_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT1_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="C_CLKOUT1_OUT_FREQ" VALUE="72.17910"/>
+        <PARAMETER NAME="C_CLKOUT1_OUT_FREQ" VALUE="95.52941"/>
         <PARAMETER NAME="C_CLKOUT1_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT1_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="C_CLKOUT1_REQUESTED_OUT_FREQ" VALUE="72.15"/>
+        <PARAMETER NAME="C_CLKOUT1_REQUESTED_OUT_FREQ" VALUE="95.55"/>
         <PARAMETER NAME="C_CLKOUT1_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT1_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="C_CLKOUT2_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT2_2" VALUE="0000"/>
-        <PARAMETER NAME="C_CLKOUT2_ACTUAL_FREQ" VALUE="30.22500"/>
+        <PARAMETER NAME="C_CLKOUT2_ACTUAL_FREQ" VALUE="30.45000"/>
         <PARAMETER NAME="C_CLKOUT2_DRIVES" VALUE="BUFG"/>
         <PARAMETER NAME="C_CLKOUT2_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT2_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="C_CLKOUT2_OUT_FREQ" VALUE="4.72266"/>
+        <PARAMETER NAME="C_CLKOUT2_OUT_FREQ" VALUE="4.75781"/>
         <PARAMETER NAME="C_CLKOUT2_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT2_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
         <PARAMETER NAME="C_CLKOUT2_REQUESTED_OUT_FREQ" VALUE="4.7"/>
@@ -1096,7 +1139,7 @@
         <PARAMETER NAME="C_CLKOUT3_DRIVES" VALUE="BUFG"/>
         <PARAMETER NAME="C_CLKOUT3_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT3_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="C_CLKOUT3_OUT_FREQ" VALUE="30.22500"/>
+        <PARAMETER NAME="C_CLKOUT3_OUT_FREQ" VALUE="30.45000"/>
         <PARAMETER NAME="C_CLKOUT3_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT3_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
         <PARAMETER NAME="C_CLKOUT3_REQUESTED_OUT_FREQ" VALUE="30"/>
@@ -1169,12 +1212,12 @@
         <PARAMETER NAME="C_DIN_PORT" VALUE="din"/>
         <PARAMETER NAME="C_DIVCLK" VALUE="0000"/>
         <PARAMETER NAME="C_DIVIDE1_AUTO" VALUE="1"/>
-        <PARAMETER NAME="C_DIVIDE2_AUTO" VALUE="15.283582089552239"/>
-        <PARAMETER NAME="C_DIVIDE3_AUTO" VALUE="2.388059701492537"/>
-        <PARAMETER NAME="C_DIVIDE4_AUTO" VALUE="0.11940298507462686"/>
-        <PARAMETER NAME="C_DIVIDE5_AUTO" VALUE="0.11940298507462686"/>
-        <PARAMETER NAME="C_DIVIDE6_AUTO" VALUE="0.11940298507462686"/>
-        <PARAMETER NAME="C_DIVIDE7_AUTO" VALUE="0.11940298507462686"/>
+        <PARAMETER NAME="C_DIVIDE2_AUTO" VALUE="20.07843137254902"/>
+        <PARAMETER NAME="C_DIVIDE3_AUTO" VALUE="3.1372549019607843"/>
+        <PARAMETER NAME="C_DIVIDE4_AUTO" VALUE="0.1568627450980392"/>
+        <PARAMETER NAME="C_DIVIDE5_AUTO" VALUE="0.1568627450980392"/>
+        <PARAMETER NAME="C_DIVIDE6_AUTO" VALUE="0.1568627450980392"/>
+        <PARAMETER NAME="C_DIVIDE7_AUTO" VALUE="0.1568627450980392"/>
         <PARAMETER NAME="C_DOUT_PORT" VALUE="dout"/>
         <PARAMETER NAME="C_DRDY_PORT" VALUE="drdy"/>
         <PARAMETER NAME="C_DWE_PORT" VALUE="dwe"/>
@@ -1212,12 +1255,12 @@
         <PARAMETER NAME="C_MMCMBUFGCEDIV6" VALUE="false"/>
         <PARAMETER NAME="C_MMCMBUFGCEDIV7" VALUE="false"/>
         <PARAMETER NAME="C_MMCM_BANDWIDTH" VALUE="OPTIMIZED"/>
-        <PARAMETER NAME="C_MMCM_CLKFBOUT_MULT_F" VALUE="50.375"/>
+        <PARAMETER NAME="C_MMCM_CLKFBOUT_MULT_F" VALUE="50.750"/>
         <PARAMETER NAME="C_MMCM_CLKFBOUT_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_MMCM_CLKFBOUT_USE_FINE_PS" VALUE="FALSE"/>
         <PARAMETER NAME="C_MMCM_CLKIN1_PERIOD" VALUE="83.333"/>
         <PARAMETER NAME="C_MMCM_CLKIN2_PERIOD" VALUE="10.0"/>
-        <PARAMETER NAME="C_MMCM_CLKOUT0_DIVIDE_F" VALUE="8.375"/>
+        <PARAMETER NAME="C_MMCM_CLKOUT0_DIVIDE_F" VALUE="6.375"/>
         <PARAMETER NAME="C_MMCM_CLKOUT0_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="C_MMCM_CLKOUT0_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_MMCM_CLKOUT0_USE_FINE_PS" VALUE="FALSE"/>
@@ -1259,9 +1302,9 @@
         <PARAMETER NAME="C_OPTIMIZE_CLOCKING_STRUCTURE_EN" VALUE="0"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW0A" VALUE="Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW0B" VALUE="Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)"/>
-        <PARAMETER NAME="C_OUTCLK_SUM_ROW1" VALUE="clk_out1__72.17910______0.000______50.0______589.570____606.680"/>
-        <PARAMETER NAME="C_OUTCLK_SUM_ROW2" VALUE="clk_out2___4.72266______0.000______50.0______999.966____606.680"/>
-        <PARAMETER NAME="C_OUTCLK_SUM_ROW3" VALUE="clk_out3__30.22500______0.000______50.0______721.754____606.680"/>
+        <PARAMETER NAME="C_OUTCLK_SUM_ROW1" VALUE="clk_out1__95.52941______0.000______50.0______562.304____600.446"/>
+        <PARAMETER NAME="C_OUTCLK_SUM_ROW2" VALUE="clk_out2___4.75781______0.000______50.0______990.499____600.446"/>
+        <PARAMETER NAME="C_OUTCLK_SUM_ROW3" VALUE="clk_out3__30.45000______0.000______50.0______714.278____600.446"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW4" VALUE="no_CLK_OUT4_output"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW5" VALUE="no_CLK_OUT5_output"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW6" VALUE="no_CLK_OUT6_output"/>
@@ -1381,27 +1424,27 @@
         <PARAMETER NAME="CLKIN2_JITTER_PS" VALUE="100.0"/>
         <PARAMETER NAME="CLKIN2_UI_JITTER" VALUE="0.010"/>
         <PARAMETER NAME="CLKOUT1_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="CLKOUT1_JITTER" VALUE="589.570"/>
+        <PARAMETER NAME="CLKOUT1_JITTER" VALUE="562.304"/>
         <PARAMETER NAME="CLKOUT1_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="CLKOUT1_PHASE_ERROR" VALUE="606.680"/>
+        <PARAMETER NAME="CLKOUT1_PHASE_ERROR" VALUE="600.446"/>
         <PARAMETER NAME="CLKOUT1_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="CLKOUT1_REQUESTED_OUT_FREQ" VALUE="72.15"/>
+        <PARAMETER NAME="CLKOUT1_REQUESTED_OUT_FREQ" VALUE="95.55"/>
         <PARAMETER NAME="CLKOUT1_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="CLKOUT1_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="CLKOUT1_USED" VALUE="true"/>
         <PARAMETER NAME="CLKOUT2_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="CLKOUT2_JITTER" VALUE="999.966"/>
+        <PARAMETER NAME="CLKOUT2_JITTER" VALUE="990.499"/>
         <PARAMETER NAME="CLKOUT2_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="CLKOUT2_PHASE_ERROR" VALUE="606.680"/>
+        <PARAMETER NAME="CLKOUT2_PHASE_ERROR" VALUE="600.446"/>
         <PARAMETER NAME="CLKOUT2_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
         <PARAMETER NAME="CLKOUT2_REQUESTED_OUT_FREQ" VALUE="4.7"/>
         <PARAMETER NAME="CLKOUT2_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="CLKOUT2_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="CLKOUT2_USED" VALUE="true"/>
         <PARAMETER NAME="CLKOUT3_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="CLKOUT3_JITTER" VALUE="721.754"/>
+        <PARAMETER NAME="CLKOUT3_JITTER" VALUE="714.278"/>
         <PARAMETER NAME="CLKOUT3_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="CLKOUT3_PHASE_ERROR" VALUE="606.680"/>
+        <PARAMETER NAME="CLKOUT3_PHASE_ERROR" VALUE="600.446"/>
         <PARAMETER NAME="CLKOUT3_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
         <PARAMETER NAME="CLKOUT3_REQUESTED_OUT_FREQ" VALUE="30"/>
         <PARAMETER NAME="CLKOUT3_REQUESTED_PHASE" VALUE="0.000"/>
@@ -1492,12 +1535,12 @@
         <PARAMETER NAME="JITTER_SEL" VALUE="No_Jitter"/>
         <PARAMETER NAME="LOCKED_PORT" VALUE="locked"/>
         <PARAMETER NAME="MMCM_BANDWIDTH" VALUE="OPTIMIZED"/>
-        <PARAMETER NAME="MMCM_CLKFBOUT_MULT_F" VALUE="50.375"/>
+        <PARAMETER NAME="MMCM_CLKFBOUT_MULT_F" VALUE="50.750"/>
         <PARAMETER NAME="MMCM_CLKFBOUT_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="MMCM_CLKFBOUT_USE_FINE_PS" VALUE="false"/>
         <PARAMETER NAME="MMCM_CLKIN1_PERIOD" VALUE="83.333"/>
         <PARAMETER NAME="MMCM_CLKIN2_PERIOD" VALUE="10.0"/>
-        <PARAMETER NAME="MMCM_CLKOUT0_DIVIDE_F" VALUE="8.375"/>
+        <PARAMETER NAME="MMCM_CLKOUT0_DIVIDE_F" VALUE="6.375"/>
         <PARAMETER NAME="MMCM_CLKOUT0_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="MMCM_CLKOUT0_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="MMCM_CLKOUT0_USE_FINE_PS" VALUE="false"/>
@@ -1627,18 +1670,18 @@
             <CONNECTION INSTANCE="External_Ports" PORT="sys_clock"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="72179104" DIR="O" NAME="clk_out1" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="O" NAME="clk_out1" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="vio_0" PORT="clk"/>
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="ila_0" PORT="clk"/>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="clk"/>
             <CONNECTION INSTANCE="amc_simulator_2" PORT="clk"/>
             <CONNECTION INSTANCE="amc_simulator_1" PORT="clk"/>
             <CONNECTION INSTANCE="amc_simulator_0" PORT="clk"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="O" NAME="clk_out2" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="c_addsub_0" PORT="CLK"/>
             <CONNECTION INSTANCE="c_addsub_5" PORT="CLK"/>
@@ -1650,7 +1693,7 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M2" PORT="slowest_sync_clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="30225000" DIR="O" NAME="clk_out3" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
+        <PORT CLKFREQUENCY="30450000" DIR="O" NAME="clk_out3" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
           <CONNECTIONS>
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="clk"/>
@@ -1666,156 +1709,6 @@
         <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_0" HWVERSION="1.0" INSTANCE="compar_tc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_0"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="cero_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_2" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_0_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_1" HWVERSION="1.0" INSTANCE="compar_tc_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_1"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="cero_3_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_3" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_1_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_2" HWVERSION="1.0" INSTANCE="compar_tc_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_2"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ic"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="cero_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_2" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_2_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_3" HWVERSION="1.0" INSTANCE="compar_tc_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_3"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="cero_3_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_3" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ic"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_3_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_4" HWVERSION="1.0" INSTANCE="compar_tc_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_4"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="cero_2_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_2" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_4_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="2" FULLNAME="/compar_tc_5" HWVERSION="1.0" INSTANCE="compar_tc_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="compar_tc" VLNV="xilinx.com:user:compar_tc:1.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_compar_tc_0_5"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="15" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="cero_3_dout">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="cero_3" PORT="dout"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="15" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="compar_tc_5_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1853,7 +1746,7 @@
         <PARAMETER NAME="C_MU_TYPE" VALUE="0"/>
         <PARAMETER NAME="C_NEXT_SLAVE" VALUE="0"/>
         <PARAMETER NAME="C_NUM_MONITOR_SLOTS" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="3"/>
+        <PARAMETER NAME="C_NUM_OF_PROBES" VALUE="25"/>
         <PARAMETER NAME="C_PIPE_IFACE" VALUE="1"/>
         <PARAMETER NAME="C_PROBE0_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE0_TYPE" VALUE="1"/>
@@ -4940,7 +4833,7 @@
         <PARAMETER NAME="C_SLOT_0_AXI_WUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_TC_TYPE" VALUE="0"/>
         <PARAMETER NAME="C_TIME_TAG_WIDTH" VALUE="32"/>
-        <PARAMETER NAME="C_TRIGIN_EN" VALUE="1"/>
+        <PARAMETER NAME="C_TRIGIN_EN" VALUE="0"/>
         <PARAMETER NAME="C_TRIGOUT_EN" VALUE="0"/>
         <PARAMETER NAME="C_USE_TEST_REG" VALUE="1"/>
         <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="spartan7"/>
@@ -4961,41 +4854,138 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe0" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ia">
+        <PORT DIR="I" LEFT="15" NAME="probe0" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ia"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ib">
+        <PORT DIR="I" LEFT="15" NAME="probe1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ib"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ib"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ic">
+        <PORT DIR="I" LEFT="15" NAME="probe2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ic"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ic"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="trig_in" SIGIS="undef" SIGNAME="util_vector_logic_4_Res">
+        <PORT DIR="I" LEFT="0" NAME="probe3" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_4" PORT="Res"/>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="trig_in_ack" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="probe4" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe5" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe6" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe7" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe8" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe9" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe10" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe11" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe12" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe13" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe14" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe15" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_SDI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="SDI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe16" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_SCK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="SCK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe17" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe18" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe19" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe20" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe21" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe22" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe23" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="probe24" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_debug_15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="debug_15"/>
+          </CONNECTIONS>
+        </PORT>
       </PORTS>
-      <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="__NOC__" NAME="TRIG_IN" TYPE="TARGET" VLNV="xilinx.com:interface:trigger:1.0">
-          <PORTMAPS>
-            <PORTMAP LOGICAL="ACK" PHYSICAL="trig_in_ack"/>
-            <PORTMAP LOGICAL="TRIG" PHYSICAL="trig_in"/>
-          </PORTMAPS>
-        </BUSINTERFACE>
-      </BUSINTERFACES>
+      <BUSINTERFACES/>
     </MODULE>
     <MODULE COREREVISION="16" FULLNAME="/rst_clk_wiz_1_6M1" HWVERSION="5.0" INSTANCE="rst_clk_wiz_1_6M1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
       <DOCUMENTS>
@@ -5035,13 +5025,13 @@
         <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
         <PORT DIR="O" LEFT="0" NAME="peripheral_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M1_peripheral_reset">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="reset"/>
             <CONNECTION INSTANCE="amc_simulator_1" PORT="rst"/>
             <CONNECTION INSTANCE="amc_simulator_2" PORT="rst"/>
             <CONNECTION INSTANCE="amc_simulator_0" PORT="rst"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -5090,7 +5080,7 @@
             <CONNECTION INSTANCE="sine_3ph_0" PORT="reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="4722656" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
+        <PORT CLKFREQUENCY="4757812" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out2">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out2"/>
           </CONNECTIONS>
@@ -5139,7 +5129,7 @@
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="rst"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="30225000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
+        <PORT CLKFREQUENCY="30450000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out3"/>
           </CONNECTIONS>
@@ -5156,7 +5146,7 @@
       <PORTS>
         <PORT DIR="O" LEFT="17" NAME="alphaout_va" RIGHT="0" SIGIS="undef" SIGNAME="sine_3ph_0_alphaout_va">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="va_i"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="va_i"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
@@ -5172,12 +5162,12 @@
         </PORT>
         <PORT DIR="O" LEFT="17" NAME="out_vb" RIGHT="0" SIGIS="undef" SIGNAME="sine_3ph_0_out_vb">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="vb_i"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="vb_i"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="17" NAME="out_vc" RIGHT="0" SIGIS="undef" SIGNAME="sine_3ph_0_out_vc">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="vc_i"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="vc_i"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M2_peripheral_reset">
@@ -5188,143 +5178,22 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_0" HWVERSION="2.0" INSTANCE="util_vector_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_5" HWVERSION="2.0" INSTANCE="util_vector_logic_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
       <DOCUMENTS/>
       <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
         <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_0_0"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_3_1"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_1_c">
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS4">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_1" PORT="c"/>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS4"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_0_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_0" PORT="c"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_3" PORT="Op1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_1" HWVERSION="2.0" INSTANCE="util_vector_logic_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_0_1"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_5_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_5" PORT="c"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_4_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_4" PORT="c"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_3" PORT="Op2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_2" HWVERSION="2.0" INSTANCE="util_vector_logic_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_0_2"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_3_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_3" PORT="c"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="compar_tc_2_c">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="compar_tc_2" PORT="c"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_4" PORT="Op2"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_3" HWVERSION="2.0" INSTANCE="util_vector_logic_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_0_3"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Res"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Res"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_3_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_4" PORT="Op1"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_4" HWVERSION="2.0" INSTANCE="util_vector_logic_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_3_0"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_3_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_3" PORT="Res"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Res"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_4_Res">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="ila_0" PORT="trig_in"/>
-          </CONNECTIONS>
-        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef"/>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
@@ -6127,7 +5996,7 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT CLKFREQUENCY="72179104" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
+        <PORT CLKFREQUENCY="95529411" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
             <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
@@ -6137,14 +6006,14 @@
             <CONNECTION INSTANCE="c_addsub_0" PORT="S"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe_in1" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Ia">
+        <PORT DIR="I" LEFT="15" NAME="probe_in1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Ia"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe_in2" RIGHT="0" SIGIS="undef" SIGNAME="PFC3PH_0_O_Vout">
+        <PORT DIR="I" LEFT="15" NAME="probe_in2" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_I_load">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="O_Vout"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_I_load"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="probe_in3" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_UP_L1_0">
@@ -6159,7 +6028,7 @@
         </PORT>
         <PORT DIR="O" LEFT="17" NAME="probe_out0" RIGHT="0" SIGIS="undef" SIGNAME="vio_0_probe_out0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC3PH_0" PORT="I_load_in"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="I_load_in"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

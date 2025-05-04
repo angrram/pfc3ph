@@ -15,9 +15,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rs
 # IP: bd/design_1/ip/design_1_amc_simulator_0_0/design_1_amc_simulator_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_amc_simulator_0_0 || ORIG_REF_NAME==design_1_amc_simulator_0_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_PFC3PH_0_0/design_1_PFC3PH_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_PFC3PH_0_0 || ORIG_REF_NAME==design_1_PFC3PH_0_0} -quiet] -quiet
-
 # IP: bd/design_1/ip/design_1_MCP_DRIVER_0_0/design_1_MCP_DRIVER_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_MCP_DRIVER_0_0 || ORIG_REF_NAME==design_1_MCP_DRIVER_0_0} -quiet] -quiet
 
@@ -60,46 +57,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_c_
 # IP: bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ila_0_0 || ORIG_REF_NAME==design_1_ila_0_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_compar_tc_0_0/design_1_compar_tc_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_0 || ORIG_REF_NAME==design_1_compar_tc_0_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_cero_0_1/design_1_cero_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_cero_0_1 || ORIG_REF_NAME==design_1_cero_0_1} -quiet] -quiet
-
 # IP: bd/design_1/ip/design_1_rst_clk_wiz_1_6M2_0/design_1_rst_clk_wiz_1_6M2_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rst_clk_wiz_1_6M2_0 || ORIG_REF_NAME==design_1_rst_clk_wiz_1_6M2_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_compar_tc_0_1/design_1_compar_tc_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_1 || ORIG_REF_NAME==design_1_compar_tc_0_1} -quiet] -quiet
+# IP: bd/design_1/ip/design_1_PFC_Van_3ph_0_0/design_1_PFC_Van_3ph_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_PFC_Van_3ph_0_0 || ORIG_REF_NAME==design_1_PFC_Van_3ph_0_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_cero_2_0/design_1_cero_2_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_cero_2_0 || ORIG_REF_NAME==design_1_cero_2_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_0_0/design_1_util_vector_logic_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_0_0 || ORIG_REF_NAME==design_1_util_vector_logic_0_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_compar_tc_0_2/design_1_compar_tc_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_2 || ORIG_REF_NAME==design_1_compar_tc_0_2} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_compar_tc_0_3/design_1_compar_tc_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_3 || ORIG_REF_NAME==design_1_compar_tc_0_3} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_compar_tc_0_4/design_1_compar_tc_0_4.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_4 || ORIG_REF_NAME==design_1_compar_tc_0_4} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_compar_tc_0_5/design_1_compar_tc_0_5.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_compar_tc_0_5 || ORIG_REF_NAME==design_1_compar_tc_0_5} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_0_1/design_1_util_vector_logic_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_0_1 || ORIG_REF_NAME==design_1_util_vector_logic_0_1} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_0_2/design_1_util_vector_logic_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_0_2 || ORIG_REF_NAME==design_1_util_vector_logic_0_2} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_0_3/design_1_util_vector_logic_0_3.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_0_3 || ORIG_REF_NAME==design_1_util_vector_logic_0_3} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_3_0/design_1_util_vector_logic_3_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_3_0 || ORIG_REF_NAME==design_1_util_vector_logic_3_0} -quiet] -quiet
+# IP: bd/design_1/ip/design_1_util_vector_logic_3_1/design_1_util_vector_logic_3_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_3_1 || ORIG_REF_NAME==design_1_util_vector_logic_3_1} -quiet] -quiet
 
 # XDC: c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/design_1_ooc.xdc
