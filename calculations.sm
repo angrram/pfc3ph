@@ -4,7 +4,7 @@
   <settings ppi="96">
     <identity>
       <id>f09c0cea-ac07-45cf-8ac4-d6f15507f32f</id>
-      <revision>21</revision>
+      <revision>24</revision>
     </identity>
     <calculation>
       <precision>4</precision>
@@ -650,11 +650,11 @@
         </content>
       </text>
     </region>
-    <region left="18" top="1557" width="46" height="24" color="#000000" fontSize="10">
+    <region left="18" top="1557" width="54" height="24" color="#000000" fontSize="10">
       <math>
         <input>
           <e type="operand">A</e>
-          <e type="operand">0</e>
+          <e type="operand">30</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
@@ -663,7 +663,7 @@
       <math>
         <input>
           <e type="operand">dc</e>
-          <e type="operand">.6</e>
+          <e type="operand">.8</e>
           <e type="operator" args="2">:</e>
         </input>
       </math>
@@ -777,7 +777,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">50.1612</e>
+          <e type="operand">69.5457</e>
         </result>
       </math>
     </region>
@@ -791,7 +791,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">0.4952</e>
+          <e type="operand">0.8047</e>
         </result>
       </math>
     </region>
@@ -805,7 +805,7 @@
           <e type="operator" args="2">:</e>
         </input>
         <result action="numeric">
-          <e type="operand">10.1612</e>
+          <e type="operand">29.5457</e>
         </result>
       </math>
     </region>

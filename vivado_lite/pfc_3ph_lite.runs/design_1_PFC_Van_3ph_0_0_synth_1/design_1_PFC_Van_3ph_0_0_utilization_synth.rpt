@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sat May  3 19:13:24 2025
+| Date         : Mon May 12 20:31:44 2025
 | Host         : AngelPC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_PFC_Van_3ph_0_0_utilization_synth.rpt -pb design_1_PFC_Van_3ph_0_0_utilization_synth.pb
 | Design       : design_1_PFC_Van_3ph_0_0
@@ -31,13 +31,13 @@ Table of Contents
 +----------------------------+-------+-------+------------+-----------+-------+
 |          Site Type         |  Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+-------+-------+------------+-----------+-------+
-| Slice LUTs*                |  8000 |     0 |          0 |     14600 | 54.79 |
-|   LUT as Logic             |  7139 |     0 |          0 |     14600 | 48.90 |
-|   LUT as Memory            |   861 |     0 |          0 |      5000 | 17.22 |
-|     LUT as Distributed RAM |   848 |     0 |            |           |       |
+| Slice LUTs*                |  7387 |     0 |          0 |     14600 | 50.60 |
+|   LUT as Logic             |  6850 |     0 |          0 |     14600 | 46.92 |
+|   LUT as Memory            |   537 |     0 |          0 |      5000 | 10.74 |
+|     LUT as Distributed RAM |   524 |     0 |            |           |       |
 |     LUT as Shift Register  |    13 |     0 |            |           |       |
-| Slice Registers            | 14554 |     0 |          0 |     29200 | 49.84 |
-|   Register as Flip Flop    | 14554 |     0 |          0 |     29200 | 49.84 |
+| Slice Registers            | 12462 |     0 |          0 |     29200 | 42.68 |
+|   Register as Flip Flop    | 12462 |     0 |          0 |     29200 | 42.68 |
 |   Register as Latch        |     0 |     0 |          0 |     29200 |  0.00 |
 | F7 Muxes                   |     0 |     0 |          0 |      7300 |  0.00 |
 | F8 Muxes                   |     0 |     0 |          0 |      3650 |  0.00 |
@@ -61,8 +61,8 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 75    |          Yes |         Set |            - |
-| 14479 |          Yes |       Reset |            - |
+| 47    |          Yes |         Set |            - |
+| 12415 |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -152,18 +152,18 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+-------+---------------------+
 | Ref Name |  Used | Functional Category |
 +----------+-------+---------------------+
-| FDRE     | 14479 |        Flop & Latch |
-| LUT5     |  2881 |                 LUT |
-| LUT3     |  2828 |                 LUT |
-| LUT2     |  1862 |                 LUT |
-| RAMD32   |  1266 |  Distributed Memory |
-| CARRY4   |  1151 |          CarryLogic |
-| LUT4     |   987 |                 LUT |
-| LUT6     |   795 |                 LUT |
-| RAMS32   |   420 |  Distributed Memory |
-| FDSE     |    75 |        Flop & Latch |
+| FDRE     | 12415 |        Flop & Latch |
+| LUT3     |  2251 |                 LUT |
+| LUT5     |  2024 |                 LUT |
+| LUT2     |  2010 |                 LUT |
+| LUT4     |  1523 |                 LUT |
+| CARRY4   |  1274 |          CarryLogic |
+| LUT6     |   897 |                 LUT |
+| RAMD32   |   782 |  Distributed Memory |
+| RAMS32   |   260 |  Distributed Memory |
 | DSP48E1  |    61 |    Block Arithmetic |
-| LUT1     |    36 |                 LUT |
+| FDSE     |    47 |        Flop & Latch |
+| LUT1     |    45 |                 LUT |
 | SRL16E   |    13 |  Distributed Memory |
 | RAMD64E  |     2 |  Distributed Memory |
 | RAMB18E1 |     2 |        Block Memory |

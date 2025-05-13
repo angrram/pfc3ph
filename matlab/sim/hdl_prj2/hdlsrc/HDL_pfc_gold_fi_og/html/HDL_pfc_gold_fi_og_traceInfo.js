@@ -1,38 +1,38 @@
 function RTW_Sid2UrlHash() {
 	this.urlHashMap = new Array();
 	/* <S2>/Demux */
-	this.urlHashMap["HDL_pfc_gold_fi_og:526"] = "simscape_system.v:348";
+	this.urlHashMap["HDL_pfc_gold_fi_og:526"] = "simscape_system.v:360";
 	/* <S2>/FET_CTRL */
-	this.urlHashMap["HDL_pfc_gold_fi_og:506"] = "simscape_system.v:347";
+	this.urlHashMap["HDL_pfc_gold_fi_og:506"] = "simscape_system.v:359";
 	/* <S2>/HDL Subsystem */
-	this.urlHashMap["HDL_pfc_gold_fi_og:432"] = "simscape_system.v:382";
+	this.urlHashMap["HDL_pfc_gold_fi_og:432"] = "simscape_system.v:394";
 	/* <S2>/Rate Transition1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:594"] = "simscape_system.v:176";
+	this.urlHashMap["HDL_pfc_gold_fi_og:594"] = "simscape_system.v:188";
 	/* <S2>/Rate Transition11 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:749"] = "simscape_system.v:384";
+	this.urlHashMap["HDL_pfc_gold_fi_og:749"] = "simscape_system.v:396";
 	/* <S2>/Rate Transition12 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:750"] = "simscape_system.v:386";
+	this.urlHashMap["HDL_pfc_gold_fi_og:750"] = "simscape_system.v:398";
 	/* <S2>/Rate Transition13 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:751"] = "simscape_system.v:192";
+	this.urlHashMap["HDL_pfc_gold_fi_og:751"] = "simscape_system.v:204";
 	/* <S2>/Rate Transition14 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:754"] = "simscape_system.v:349";
+	this.urlHashMap["HDL_pfc_gold_fi_og:754"] = "simscape_system.v:361";
 	/* <S2>/Rate Transition2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:595"] = "simscape_system.v:300";
+	this.urlHashMap["HDL_pfc_gold_fi_og:595"] = "simscape_system.v:312";
 	/* <S2>/Rate Transition3 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:596"] = "simscape_system.v:317";
+	this.urlHashMap["HDL_pfc_gold_fi_og:596"] = "simscape_system.v:329";
 	/* <S2>/Rate Transition6 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:597"] = "simscape_system.v:334";
+	this.urlHashMap["HDL_pfc_gold_fi_og:597"] = "simscape_system.v:346";
 	/* <S2>/Vector
 Concatenate */
-	this.urlHashMap["HDL_pfc_gold_fi_og:521"] = "simscape_system.v:383";
+	this.urlHashMap["HDL_pfc_gold_fi_og:521"] = "simscape_system.v:395";
 	/* <S2>/Vector
 Concatenate1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:524"] = "simscape_system.v:385";
+	this.urlHashMap["HDL_pfc_gold_fi_og:524"] = "simscape_system.v:397";
 	/* <S2>/Vector
 Concatenate2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:525"] = "simscape_system.v:191";
+	this.urlHashMap["HDL_pfc_gold_fi_og:525"] = "simscape_system.v:203";
 	/* <S2>/real2uint8 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:629"] = "simscape_system.v:426";
+	this.urlHashMap["HDL_pfc_gold_fi_og:629"] = "simscape_system.v:438";
 	/* <S178>/Constant */
 	this.urlHashMap["HDL_pfc_gold_fi_og:510"] = "FET_CTRL.v:737";
 	/* <S178>/Discrete-Time
@@ -63,68 +63,76 @@ State-Space */
 	this.urlHashMap["HDL_pfc_gold_fi_og:387"] = "HDL_Subsystem.v:480";
 	/* <S179>/Output Demux */
 	this.urlHashMap["HDL_pfc_gold_fi_og:411"] = "HDL_Subsystem.v:1200";
-	/* <S179>/mat_mux */
-	this.urlHashMap["HDL_pfc_gold_fi_og:1006"] = "msg=&block=HDL_pfc_gold_fi_og:1006";
 	/* <S180>/Add2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:612"] = "real2uint8.v:1310";
+	this.urlHashMap["HDL_pfc_gold_fi_og:612"] = "real2uint8.v:339";
 	/* <S180>/Add3 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:680"] = "real2uint8.v:461";
+	this.urlHashMap["HDL_pfc_gold_fi_og:680"] = "real2uint8.v:648";
 	/* <S180>/Constant */
-	this.urlHashMap["HDL_pfc_gold_fi_og:609"] = "real2uint8.v:323";
+	this.urlHashMap["HDL_pfc_gold_fi_og:609"] = "real2uint8.v:262";
 	/* <S180>/Constant1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:619"] = "real2uint8.v:458";
+	this.urlHashMap["HDL_pfc_gold_fi_og:619"] = "real2uint8.v:645";
 	/* <S180>/Data Type Conversion1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:982"] = "real2uint8.v:1057";
+	this.urlHashMap["HDL_pfc_gold_fi_og:1028"] = "real2uint8.v:1151";
 	/* <S180>/Data Type Conversion2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:983"] = "real2uint8.v:811";
+	this.urlHashMap["HDL_pfc_gold_fi_og:1029"] = "real2uint8.v:814";
 	/* <S180>/Data Type Conversion3 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:984"] = "real2uint8.v:1203";
+	this.urlHashMap["HDL_pfc_gold_fi_og:1030"] = "real2uint8.v:994";
+	/* <S180>/Data Type Conversion4 */
+	this.urlHashMap["HDL_pfc_gold_fi_og:1031"] = "real2uint8.v:1295";
 	/* <S180>/Data Type Conversion5 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:601"] = "real2uint8.v:1660";
+	this.urlHashMap["HDL_pfc_gold_fi_og:601"] = "real2uint8.v:505";
 	/* <S180>/Delay */
-	this.urlHashMap["HDL_pfc_gold_fi_og:649"] = "real2uint8.v:1614,1615,1616";
+	this.urlHashMap["HDL_pfc_gold_fi_og:649"] = "real2uint8.v:484";
 	/* <S180>/Delay1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:650"] = "real2uint8.v:1768,1769,1770";
+	this.urlHashMap["HDL_pfc_gold_fi_og:650"] = "real2uint8.v:546";
 	/* <S180>/Delay11 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:682"] = "real2uint8.v:571,572,573";
+	this.urlHashMap["HDL_pfc_gold_fi_og:682"] = "real2uint8.v:691";
 	/* <S180>/Delay12 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:661"] = "real2uint8.v:1250";
+	this.urlHashMap["HDL_pfc_gold_fi_og:661"] = "real2uint8.v:979";
 	/* <S180>/Delay16 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:665"] = "msg=rtwMsg_notTraceable&block=HDL_pfc_gold_fi_og:665";
+	this.urlHashMap["HDL_pfc_gold_fi_og:665"] = "real2uint8.v:1136";
 	/* <S180>/Delay2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:651"] = "real2uint8.v:1420,1421,1422";
+	this.urlHashMap["HDL_pfc_gold_fi_og:651"] = "real2uint8.v:382";
 	/* <S180>/Delay22 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:671"] = "real2uint8.v:765,766,767";
+	this.urlHashMap["HDL_pfc_gold_fi_og:671"] = "real2uint8.v:793";
 	/* <S180>/Delay24 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:673"] = "real2uint8.v:967,968,969";
+	this.urlHashMap["HDL_pfc_gold_fi_og:673"] = "real2uint8.v:855";
 	/* <S180>/Delay25 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:674"] = "real2uint8.v:1249";
+	this.urlHashMap["HDL_pfc_gold_fi_og:674"] = "real2uint8.v:1021";
 	/* <S180>/Delay29 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:678"] = "real2uint8.v:1248";
+	this.urlHashMap["HDL_pfc_gold_fi_og:678"] = "real2uint8.v:1178";
 	/* <S180>/Delay3 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:652"] = "real2uint8.v:1245,1246,1247";
+	this.urlHashMap["HDL_pfc_gold_fi_og:652"] = "real2uint8.v:302";
+	/* <S180>/Delay4 */
+	this.urlHashMap["HDL_pfc_gold_fi_og:1032"] = "real2uint8.v:1274";
+	/* <S180>/Delay5 */
+	this.urlHashMap["HDL_pfc_gold_fi_og:1033"] = "real2uint8.v:1336";
 	/* <S180>/Delay6 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:655"] = "real2uint8.v:970";
+	this.urlHashMap["HDL_pfc_gold_fi_og:655"] = "real2uint8.v:1074";
 	/* <S180>/Delay8 */
 	this.urlHashMap["HDL_pfc_gold_fi_og:657"] = "msg=rtwMsg_notTraceable&block=HDL_pfc_gold_fi_og:657";
 	/* <S180>/Delay9 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:658"] = "real2uint8.v:971";
+	this.urlHashMap["HDL_pfc_gold_fi_og:658"] = "real2uint8.v:917";
 	/* <S180>/Demux */
-	this.urlHashMap["HDL_pfc_gold_fi_og:806"] = "real2uint8.v:1827";
+	this.urlHashMap["HDL_pfc_gold_fi_og:806"] = "real2uint8.v:874";
 	/* <S180>/Demux1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:808"] = "real2uint8.v:1808";
+	this.urlHashMap["HDL_pfc_gold_fi_og:808"] = "real2uint8.v:565";
+	/* <S180>/Demux2 */
+	this.urlHashMap["HDL_pfc_gold_fi_og:1034"] = "real2uint8.v:1355";
+	/* <S180>/Gain1 */
+	this.urlHashMap["HDL_pfc_gold_fi_og:1035"] = "real2uint8.v:1223";
 	/* <S180>/Gain2 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:615"] = "real2uint8.v:1496";
+	this.urlHashMap["HDL_pfc_gold_fi_og:615"] = "real2uint8.v:433";
 	/* <S180>/Gain3 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:616"] = "real2uint8.v:1017";
+	this.urlHashMap["HDL_pfc_gold_fi_og:616"] = "real2uint8.v:1101";
 	/* <S180>/Gain4 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:617"] = "real2uint8.v:1116";
+	this.urlHashMap["HDL_pfc_gold_fi_og:617"] = "real2uint8.v:944";
 	/* <S180>/Gain5 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:684"] = "real2uint8.v:647";
+	this.urlHashMap["HDL_pfc_gold_fi_og:684"] = "real2uint8.v:742";
 	/* <S180>/Mux */
-	this.urlHashMap["HDL_pfc_gold_fi_og:805"] = "real2uint8.v:383";
+	this.urlHashMap["HDL_pfc_gold_fi_og:805"] = "real2uint8.v:570";
 	/* <S180>/Mux1 */
-	this.urlHashMap["HDL_pfc_gold_fi_og:807"] = "real2uint8.v:326";
+	this.urlHashMap["HDL_pfc_gold_fi_og:807"] = "real2uint8.v:265";
 	/* <S181>/Product */
 	this.urlHashMap["HDL_pfc_gold_fi_og:515:1324"] = "msg=rtwMsg_notTraceable&block=HDL_pfc_gold_fi_og:515:1324";
 	/* <S181>/Sum */
@@ -285,6 +293,12 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["HDL_pfc_gold_fi_og:343"] = {rtwname: "<S2>/O_Vout"};
 	this.rtwnameHashMap["<S2>/O_I_load"] = {sid: "HDL_pfc_gold_fi_og:344"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:344"] = {rtwname: "<S2>/O_I_load"};
+	this.rtwnameHashMap["<S2>/O_Ia1"] = {sid: "HDL_pfc_gold_fi_og:1039"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1039"] = {rtwname: "<S2>/O_Ia1"};
+	this.rtwnameHashMap["<S2>/O_Ib1"] = {sid: "HDL_pfc_gold_fi_og:1040"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1040"] = {rtwname: "<S2>/O_Ib1"};
+	this.rtwnameHashMap["<S2>/O_Ic1"] = {sid: "HDL_pfc_gold_fi_og:1041"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1041"] = {rtwname: "<S2>/O_Ic1"};
 	this.rtwnameHashMap["<S178>/is"] = {sid: "HDL_pfc_gold_fi_og:508"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:508"] = {rtwname: "<S178>/is"};
 	this.rtwnameHashMap["<S178>/vs"] = {sid: "HDL_pfc_gold_fi_og:507"};
@@ -429,12 +443,14 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["HDL_pfc_gold_fi_og:609"] = {rtwname: "<S180>/Constant"};
 	this.rtwnameHashMap["<S180>/Constant1"] = {sid: "HDL_pfc_gold_fi_og:619"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:619"] = {rtwname: "<S180>/Constant1"};
-	this.rtwnameHashMap["<S180>/Data Type Conversion1"] = {sid: "HDL_pfc_gold_fi_og:982"};
-	this.sidHashMap["HDL_pfc_gold_fi_og:982"] = {rtwname: "<S180>/Data Type Conversion1"};
-	this.rtwnameHashMap["<S180>/Data Type Conversion2"] = {sid: "HDL_pfc_gold_fi_og:983"};
-	this.sidHashMap["HDL_pfc_gold_fi_og:983"] = {rtwname: "<S180>/Data Type Conversion2"};
-	this.rtwnameHashMap["<S180>/Data Type Conversion3"] = {sid: "HDL_pfc_gold_fi_og:984"};
-	this.sidHashMap["HDL_pfc_gold_fi_og:984"] = {rtwname: "<S180>/Data Type Conversion3"};
+	this.rtwnameHashMap["<S180>/Data Type Conversion1"] = {sid: "HDL_pfc_gold_fi_og:1028"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1028"] = {rtwname: "<S180>/Data Type Conversion1"};
+	this.rtwnameHashMap["<S180>/Data Type Conversion2"] = {sid: "HDL_pfc_gold_fi_og:1029"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1029"] = {rtwname: "<S180>/Data Type Conversion2"};
+	this.rtwnameHashMap["<S180>/Data Type Conversion3"] = {sid: "HDL_pfc_gold_fi_og:1030"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1030"] = {rtwname: "<S180>/Data Type Conversion3"};
+	this.rtwnameHashMap["<S180>/Data Type Conversion4"] = {sid: "HDL_pfc_gold_fi_og:1031"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1031"] = {rtwname: "<S180>/Data Type Conversion4"};
 	this.rtwnameHashMap["<S180>/Data Type Conversion5"] = {sid: "HDL_pfc_gold_fi_og:601"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:601"] = {rtwname: "<S180>/Data Type Conversion5"};
 	this.rtwnameHashMap["<S180>/Delay"] = {sid: "HDL_pfc_gold_fi_og:649"};
@@ -459,6 +475,10 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["HDL_pfc_gold_fi_og:678"] = {rtwname: "<S180>/Delay29"};
 	this.rtwnameHashMap["<S180>/Delay3"] = {sid: "HDL_pfc_gold_fi_og:652"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:652"] = {rtwname: "<S180>/Delay3"};
+	this.rtwnameHashMap["<S180>/Delay4"] = {sid: "HDL_pfc_gold_fi_og:1032"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1032"] = {rtwname: "<S180>/Delay4"};
+	this.rtwnameHashMap["<S180>/Delay5"] = {sid: "HDL_pfc_gold_fi_og:1033"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1033"] = {rtwname: "<S180>/Delay5"};
 	this.rtwnameHashMap["<S180>/Delay6"] = {sid: "HDL_pfc_gold_fi_og:655"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:655"] = {rtwname: "<S180>/Delay6"};
 	this.rtwnameHashMap["<S180>/Delay8"] = {sid: "HDL_pfc_gold_fi_og:657"};
@@ -469,6 +489,10 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["HDL_pfc_gold_fi_og:806"] = {rtwname: "<S180>/Demux"};
 	this.rtwnameHashMap["<S180>/Demux1"] = {sid: "HDL_pfc_gold_fi_og:808"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:808"] = {rtwname: "<S180>/Demux1"};
+	this.rtwnameHashMap["<S180>/Demux2"] = {sid: "HDL_pfc_gold_fi_og:1034"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1034"] = {rtwname: "<S180>/Demux2"};
+	this.rtwnameHashMap["<S180>/Gain1"] = {sid: "HDL_pfc_gold_fi_og:1035"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1035"] = {rtwname: "<S180>/Gain1"};
 	this.rtwnameHashMap["<S180>/Gain2"] = {sid: "HDL_pfc_gold_fi_og:615"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:615"] = {rtwname: "<S180>/Gain2"};
 	this.rtwnameHashMap["<S180>/Gain3"] = {sid: "HDL_pfc_gold_fi_og:616"};
@@ -497,6 +521,12 @@ function RTW_rtwnameSIDMap() {
 	this.sidHashMap["HDL_pfc_gold_fi_og:644"] = {rtwname: "<S180>/O_Vout"};
 	this.rtwnameHashMap["<S180>/O_I_load"] = {sid: "HDL_pfc_gold_fi_og:645"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:645"] = {rtwname: "<S180>/O_I_load"};
+	this.rtwnameHashMap["<S180>/O_Ia1"] = {sid: "HDL_pfc_gold_fi_og:1036"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1036"] = {rtwname: "<S180>/O_Ia1"};
+	this.rtwnameHashMap["<S180>/O_Ib1"] = {sid: "HDL_pfc_gold_fi_og:1037"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1037"] = {rtwname: "<S180>/O_Ib1"};
+	this.rtwnameHashMap["<S180>/O_Ic1"] = {sid: "HDL_pfc_gold_fi_og:1038"};
+	this.sidHashMap["HDL_pfc_gold_fi_og:1038"] = {rtwname: "<S180>/O_Ic1"};
 	this.rtwnameHashMap["<S181>/a"] = {sid: "HDL_pfc_gold_fi_og:515:1321"};
 	this.sidHashMap["HDL_pfc_gold_fi_og:515:1321"] = {rtwname: "<S181>/a"};
 	this.rtwnameHashMap["<S181>/b"] = {sid: "HDL_pfc_gold_fi_og:515:1322"};

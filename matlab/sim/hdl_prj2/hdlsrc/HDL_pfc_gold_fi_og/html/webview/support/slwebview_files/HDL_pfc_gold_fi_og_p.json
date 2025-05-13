@@ -689,51 +689,6 @@
   }
  },
  {
-  "sid":"HDL_pfc_gold_fi_og:485",
-  "inspector":{
-   "params":[
-    "MatrixSource",
-    "constMatrix",
-    "MatrixSize",
-    "ColumnIndices",
-    "RowIndices",
-    "PropDataType",
-    "defWL",
-    "MaskDescription",
-    "Description"
-   ],
-   "values":[
-    "Dialog",
-    "single([stateSpaceParameters_1.Cd stateSpaceParameters_1.Dd])",
-    "[1 1]",
-    "[1]",
-    "[1]",
-    "single",
-    "48",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    7
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":{
-   "blocktype":"SubSystem",
-   "masktype":"",
-   "referenceblock":"hdlssclib/NFPSparseConstMultiply"
-  }
- },
- {
   "sid":"HDL_pfc_gold_fi_og:469",
   "inspector":{
    "params":[
@@ -852,51 +807,6 @@
   "finder":{
    "blocktype":"SubSystem",
    "masktype":""
-  }
- },
- {
-  "sid":"HDL_pfc_gold_fi_og:476",
-  "inspector":{
-   "params":[
-    "MatrixSource",
-    "constMatrix",
-    "MatrixSize",
-    "ColumnIndices",
-    "RowIndices",
-    "PropDataType",
-    "defWL",
-    "MaskDescription",
-    "Description"
-   ],
-   "values":[
-    "Dialog",
-    "single([stateSpaceParameters_1.Ad stateSpaceParameters_1.Bd])",
-    "[1 1]",
-    "[1]",
-    "[1]",
-    "single",
-    "43",
-    "",
-    ""
-   ],
-   "tabs":[
-    "Parameter Attributes",
-    "Documentation"
-   ],
-   "tabs_idx":[
-    0,
-    7
-   ]
-  },
-  "viewer":{
-   "jshandler":"webview/handlers/ElementHandler"
-  },
-  "obj_viewer":[
-  ],
-  "finder":{
-   "blocktype":"SubSystem",
-   "masktype":"",
-   "referenceblock":"hdlssclib/NFPSparseConstMultiply"
   }
  },
  {

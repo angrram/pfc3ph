@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'ctrl_ez'.
  *
- * Model version                  : 1.631
+ * Model version                  : 1.643
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Thu May  1 14:19:19 2025
+ * C/C++ source code generated on : Sun May 11 12:39:25 2025
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -50,8 +50,7 @@ extern void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
  *
  * Block 'Delay' (':869') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
+ * Block 'Constant2' (':2070') : Unused code path elimination
  * Block 'Gain' (':1968') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
@@ -68,40 +67,15 @@ extern void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block 'indexing' (':2053:76:605') : Unused code path elimination
- * Block 'offset' (':2053:76:657') : Unused code path elimination
- * Block 'sine_table_values' (':2053:76:549') : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block synthesized block : Unused code path elimination
- * Block 'indexing' (':2056:76:605') : Unused code path elimination
- * Block 'offset' (':2056:76:657') : Unused code path elimination
- * Block 'sine_table_values' (':2056:76:549') : Unused code path elimination
  * Block 'Bias' (':1856') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
- * Block 'convert_pu' (':2053:76:652') : Eliminated nontunable gain of 1
- * Block 'convert_pu' (':2056:76:652') : Eliminated nontunable gain of 1
  * Block synthesized block : Eliminate redundant data type conversion
- * Block 'Offset' (':2068:753') : Unused code path elimination
+ * Block synthesized block : Eliminate redundant data type conversion
+ * Block synthesized block : Eliminate redundant data type conversion
+ * Block synthesized block : Eliminate redundant data type conversion
+ * Block synthesized block : Eliminate redundant data type conversion
  * Block 'One' (':1981:479') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block 'UseInputPort' (':1981:484') : Unused code path elimination

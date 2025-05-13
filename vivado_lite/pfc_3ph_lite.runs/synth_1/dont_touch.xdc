@@ -57,13 +57,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_c_
 # IP: bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_ila_0_0 || ORIG_REF_NAME==design_1_ila_0_0} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_rst_clk_wiz_1_6M2_0/design_1_rst_clk_wiz_1_6M2_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rst_clk_wiz_1_6M2_0 || ORIG_REF_NAME==design_1_rst_clk_wiz_1_6M2_0} -quiet] -quiet
-
 # IP: bd/design_1/ip/design_1_PFC_Van_3ph_0_0/design_1_PFC_Van_3ph_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_PFC_Van_3ph_0_0 || ORIG_REF_NAME==design_1_PFC_Van_3ph_0_0} -quiet] -quiet
-
-# IP: bd/design_1/ip/design_1_util_vector_logic_3_1/design_1_util_vector_logic_3_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_util_vector_logic_3_1 || ORIG_REF_NAME==design_1_util_vector_logic_3_1} -quiet] -quiet
 
 # XDC: c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/design_1_ooc.xdc

@@ -33,7 +33,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Program Files/MATLAB/R2024b/rtw/c/src/ext_mode/common"
   "C:/Program Files/MATLAB/R2024b/rtw/c/ert"
   "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/ctrl_ez/ARMCortex-M/_shared"
-  "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Core/dsogi_3phpll/Inc"
+  "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/dsogi_3phpll"
+  "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll"
+  "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/dsogi_3phpll/ARMCortex-M/_shared"
   )
 
 # The set of dependency files which are needed:

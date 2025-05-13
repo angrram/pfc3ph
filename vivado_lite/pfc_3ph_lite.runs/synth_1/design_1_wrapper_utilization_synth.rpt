@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Sun May  4 09:09:28 2025
+| Date         : Mon May 12 20:32:12 2025
 | Host         : AngelPC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -156,29 +156,27 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 8. Black Boxes
 --------------
 
-+--------------------------------+------+
-|            Ref Name            | Used |
-+--------------------------------+------+
-| design_1_vio_0_0               |    1 |
-| design_1_util_vector_logic_3_1 |    1 |
-| design_1_sine_3ph_0_0          |    1 |
-| design_1_rst_clk_wiz_1_6M_2    |    1 |
-| design_1_rst_clk_wiz_1_6M2_0   |    1 |
-| design_1_rst_clk_wiz_1_6M1_0   |    1 |
-| design_1_ila_0_0               |    1 |
-| design_1_clk_wiz_15            |    1 |
-| design_1_c_addsub_4_0          |    1 |
-| design_1_c_addsub_3_0          |    1 |
-| design_1_c_addsub_2_0          |    1 |
-| design_1_c_addsub_1_0          |    1 |
-| design_1_c_addsub_0_1          |    1 |
-| design_1_c_addsub_0_0          |    1 |
-| design_1_amc_simulator_1_0     |    1 |
-| design_1_amc_simulator_0_1     |    1 |
-| design_1_amc_simulator_0_0     |    1 |
-| design_1_PFC_Van_3ph_0_0       |    1 |
-| design_1_MCP_DRIVER_0_0        |    1 |
-+--------------------------------+------+
++------------------------------+------+
+|           Ref Name           | Used |
++------------------------------+------+
+| design_1_vio_0_0             |    1 |
+| design_1_sine_3ph_0_0        |    1 |
+| design_1_rst_clk_wiz_1_6M_2  |    1 |
+| design_1_rst_clk_wiz_1_6M1_0 |    1 |
+| design_1_ila_0_0             |    1 |
+| design_1_clk_wiz_15          |    1 |
+| design_1_c_addsub_4_0        |    1 |
+| design_1_c_addsub_3_0        |    1 |
+| design_1_c_addsub_2_0        |    1 |
+| design_1_c_addsub_1_0        |    1 |
+| design_1_c_addsub_0_1        |    1 |
+| design_1_c_addsub_0_0        |    1 |
+| design_1_amc_simulator_1_0   |    1 |
+| design_1_amc_simulator_0_1   |    1 |
+| design_1_amc_simulator_0_0   |    1 |
+| design_1_PFC_Van_3ph_0_0     |    1 |
+| design_1_MCP_DRIVER_0_0      |    1 |
++------------------------------+------+
 
 
 9. Instantiated Netlists

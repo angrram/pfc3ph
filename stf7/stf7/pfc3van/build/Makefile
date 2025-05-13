@@ -129,19 +129,6 @@ pfc3van/fast:
 .PHONY : pfc3van/fast
 
 #=============================================================================
-# Target rules for targets named dsogi_pll
-
-# Build rule for target.
-dsogi_pll: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dsogi_pll
-.PHONY : dsogi_pll
-
-# fast build rule for target.
-dsogi_pll/fast:
-	$(MAKE) $(MAKESILENT) -f Core\dsogi_3phpll\CMakeFiles\dsogi_pll.dir\build.make Core/dsogi_3phpll/CMakeFiles/dsogi_pll.dir/build
-.PHONY : dsogi_pll/fast
-
-#=============================================================================
 # Target rules for targets named ctrl_ez_rtwlib
 
 # Build rule for target.
@@ -166,6 +153,19 @@ rtwshared: cmake_check_build_system
 rtwshared/fast:
 	$(MAKE) $(MAKESILENT) -f ARMCortex-M\_shared\CMakeFiles\rtwshared.dir\build.make ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/build
 .PHONY : rtwshared/fast
+
+#=============================================================================
+# Target rules for targets named dsogi_3phpll_rtwlib
+
+# Build rule for target.
+dsogi_3phpll_rtwlib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dsogi_3phpll_rtwlib
+.PHONY : dsogi_3phpll_rtwlib
+
+# fast build rule for target.
+dsogi_3phpll_rtwlib/fast:
+	$(MAKE) $(MAKESILENT) -f dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll\CMakeFiles\dsogi_3phpll_rtwlib.dir\build.make dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/build
+.PHONY : dsogi_3phpll_rtwlib/fast
 
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
@@ -808,7 +808,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ctrl_ez_rtwlib
-	@echo ... dsogi_pll
+	@echo ... dsogi_3phpll_rtwlib
 	@echo ... pfc3van
 	@echo ... rtwshared
 	@echo ... Core/Src/main.obj

@@ -11,8 +11,8 @@ set proj=%1
  ::FOR /R ".\%proj%" %%i IN (*.h) DO MOVE "%%i" "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\%proj%\Inc"
  ::FOR /R ".\%proj%" %%i IN (*.c) DO MOVE "%%i" "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\%proj%\Src"
 
-RMDIR /S /Q "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\"
-xcopy /s /v  ".\%proj%\" "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\"
+RMDIR /S /Q "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\%proj%\"
+xcopy /s /v  ".\%proj%\" "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\%proj%\"
 
 RMDIR /S /Q ".\%proj%\"
 

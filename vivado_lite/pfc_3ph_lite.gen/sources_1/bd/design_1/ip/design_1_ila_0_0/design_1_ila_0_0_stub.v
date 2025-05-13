@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-// Date        : Sat May  3 22:10:11 2025
+// Date        : Sat May  3 22:10:10 2025
 // Host        : AngelPC running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_ila_0_0 -prefix
+//               design_1_ila_0_0_ design_1_ila_0_0_stub.v
 // Design      : design_1_ila_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7s25csga225-1

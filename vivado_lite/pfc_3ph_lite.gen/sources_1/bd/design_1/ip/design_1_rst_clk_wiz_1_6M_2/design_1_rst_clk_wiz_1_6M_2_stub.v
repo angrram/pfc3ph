@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
 // Date        : Sat May  3 13:20:17 2025
 // Host        : AngelPC running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_6M_2/design_1_rst_clk_wiz_1_6M_2_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_rst_clk_wiz_1_6M_2 -prefix
+//               design_1_rst_clk_wiz_1_6M_2_ design_1_rst_clk_wiz_1_6M_2_stub.v
 // Design      : design_1_rst_clk_wiz_1_6M_2
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7s25csga225-1

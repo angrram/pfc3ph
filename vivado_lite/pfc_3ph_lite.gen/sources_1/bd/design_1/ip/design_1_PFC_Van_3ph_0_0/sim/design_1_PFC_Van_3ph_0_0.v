@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:user:PFC_Van_3ph:1.0
-// IP Revision: 6
+// IP Revision: 12
 
 `timescale 1ns/1ps
 
@@ -76,7 +76,10 @@ module design_1_PFC_Van_3ph_0_0 (
   O_Vb,
   O_Va,
   O_Vout,
-  O_I_load
+  O_I_load,
+  O_Ia1,
+  O_Ib1,
+  O_Ic1
 );
 
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
@@ -107,6 +110,9 @@ output wire [15 : 0] O_Vb;
 output wire [15 : 0] O_Va;
 output wire [15 : 0] O_Vout;
 output wire [15 : 0] O_I_load;
+output wire [15 : 0] O_Ia1;
+output wire [15 : 0] O_Ib1;
+output wire [15 : 0] O_Ic1;
 
   simscape_system inst (
     .clk(clk),
@@ -130,6 +136,9 @@ output wire [15 : 0] O_I_load;
     .O_Vb(O_Vb),
     .O_Va(O_Va),
     .O_Vout(O_Vout),
-    .O_I_load(O_I_load)
+    .O_I_load(O_I_load),
+    .O_Ia1(O_Ia1),
+    .O_Ib1(O_Ib1),
+    .O_Ic1(O_Ic1)
   );
 endmodule

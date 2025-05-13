@@ -1,6 +1,5 @@
 CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj: \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\stm32f7xx_it.c \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/stm32f7xx_it.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/main.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/stm32f7xx_hal_conf.h \
@@ -41,8 +40,10 @@ CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj: \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_tim_ex.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_uart.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_uart_ex.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/stm32f7xx_it.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_ref\ctrl_ez/ctrl_ez.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/include/stdbool.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_ref\ctrl_ez/ctrl_ez_types.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\dsogi_3phpll\Inc/dsogi_3phpll.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll/dsogi_3phpll.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll/dsogi_3phpll_types.h \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include/stm32f767xx.h

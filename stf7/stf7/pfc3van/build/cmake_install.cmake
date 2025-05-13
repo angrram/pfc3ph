@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/Core/dsogi_3phpll/cmake_install.cmake")
+  include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/ctrl_ez/ARMCortex-M/_ref/ctrl_ez/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/ctrl_ez/ARMCortex-M/_ref/ctrl_ez/cmake_install.cmake")
+  include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

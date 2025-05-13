@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date             : Sun May  4 09:11:35 2025
+| Date             : Mon May 12 20:34:07 2025
 | Host             : AngelPC running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.434        |
+| Total On-Chip Power (W)  | 0.468        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.372        |
+| Dynamic (W)              | 0.407        |
 | Device Static (W)        | 0.062        |
 | Effective TJA (C/W)      | 3.7          |
-| Max Ambient (C)          | 83.4         |
-| Junction Temperature (C) | 26.6         |
+| Max Ambient (C)          | 83.3         |
+| Junction Temperature (C) | 26.7         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,22 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.043 |        9 |       --- |             --- |
-| Slice Logic              |     0.078 |    35606 |       --- |             --- |
-|   LUT as Logic           |     0.062 |     9592 |     14600 |           65.70 |
-|   Register               |     0.007 |    18797 |     29200 |           64.37 |
-|   CARRY4                 |     0.006 |     1256 |      3650 |           34.41 |
-|   LUT as Distributed RAM |     0.003 |      870 |      5000 |           17.40 |
-|   LUT as Shift Register  |    <0.001 |      225 |      5000 |            4.50 |
-|   F7/F8 Muxes            |    <0.001 |       39 |     14600 |            0.27 |
-|   Others                 |     0.000 |      609 |       --- |             --- |
-| Signals                  |     0.105 |    29072 |       --- |             --- |
+| Clocks                   |     0.044 |        8 |       --- |             --- |
+| Slice Logic              |     0.087 |    31839 |       --- |             --- |
+|   LUT as Logic           |     0.070 |     9197 |     14600 |           62.99 |
+|   Register               |     0.007 |    16481 |     29200 |           56.44 |
+|   CARRY4                 |     0.006 |     1371 |      3650 |           37.56 |
+|   LUT as Distributed RAM |     0.003 |      548 |      5000 |           10.96 |
+|   LUT as Shift Register  |    <0.001 |      224 |      5000 |            4.48 |
+|   F7/F8 Muxes            |    <0.001 |       40 |     14600 |            0.27 |
+|   Others                 |     0.000 |      575 |       --- |             --- |
+| Signals                  |     0.114 |    26716 |       --- |             --- |
 | Block RAM                |     0.006 |      4.5 |        45 |           10.00 |
 | MMCM                     |     0.094 |        1 |         3 |           33.33 |
 | DSPs                     |     0.044 |       61 |        80 |           76.25 |
-| I/O                      |     0.002 |       19 |       150 |           12.67 |
+| I/O                      |     0.017 |       19 |       150 |           12.67 |
 | Static Power             |     0.062 |          |           |                 |
-| Total                    |     0.434 |          |           |                 |
+| Total                    |     0.468 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,9 +77,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.281 |       0.276 |      0.005 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.062 |       0.052 |      0.009 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.300 |       0.295 |      0.005 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.062 |       0.053 |      0.009 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.006 |       0.005 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -133,7 +133,6 @@ Table of Contents
 +--------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-----------------+
 | clk_out1_design_1_clk_wiz_15                                                               | design_1_i/clk_wiz/inst/clk_out1_design_1_clk_wiz_15              |            10.5 |
 | clk_out2_design_1_clk_wiz_15                                                               | design_1_i/clk_wiz/inst/clk_out2_design_1_clk_wiz_15              |           210.2 |
-| clk_out3_design_1_clk_wiz_15                                                               | design_1_i/clk_wiz/inst/clk_out3_design_1_clk_wiz_15              |            32.8 |
 | clkfbout_design_1_clk_wiz_15                                                               | design_1_i/clk_wiz/inst/clkfbout_design_1_clk_wiz_15              |            83.3 |
 | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/TCK |            33.0 |
 | sys_clock                                                                                  | sys_clock                                                         |            83.3 |
@@ -149,21 +148,27 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| design_1_wrapper         |     0.372 |
-|   dbg_hub                |     0.002 |
-|     inst                 |     0.002 |
-|       BSCANID.u_xsdbm_id |     0.002 |
-|   design_1_i             |     0.368 |
-|     MCP_DRIVER_0         |     0.003 |
-|       inst               |     0.003 |
-|     PFC_Van_3ph_0        |     0.257 |
-|       inst               |     0.255 |
-|     clk_wiz              |     0.095 |
-|       inst               |     0.095 |
-|     ila_0                |     0.009 |
-|       inst               |     0.009 |
-|     vio_0                |     0.001 |
+| design_1_wrapper         |     0.407 |
+|   dbg_hub                |     0.003 |
+|     inst                 |     0.003 |
+|       BSCANID.u_xsdbm_id |     0.003 |
+|   design_1_i             |     0.387 |
+|     MCP_DRIVER_0         |     0.005 |
+|       inst               |     0.005 |
+|     PFC_Van_3ph_0        |     0.272 |
+|       inst               |     0.270 |
+|     amc_simulator_0      |     0.001 |
 |       inst               |     0.001 |
+|     amc_simulator_1      |     0.001 |
+|       inst               |     0.001 |
+|     amc_simulator_2      |     0.001 |
+|       inst               |     0.001 |
+|     clk_wiz              |     0.094 |
+|       inst               |     0.094 |
+|     ila_0                |     0.010 |
+|       inst               |     0.010 |
+|     vio_0                |     0.002 |
+|       inst               |     0.002 |
 +--------------------------+-----------+
 
 

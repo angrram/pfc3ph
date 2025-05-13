@@ -306,34 +306,28 @@
   "sid":"HDL_pfc_gold_fi_og:476",
   "inspector":{
    "params":[
-    "MatrixSource",
-    "constMatrix",
-    "MatrixSize",
-    "ColumnIndices",
-    "RowIndices",
-    "PropDataType",
-    "defWL",
-    "MaskDescription",
-    "Description"
+    "SourceBlock",
+    "SourceType",
+    "Description",
+    "SourceProductBaseCode",
+    "SourceProductName"
    ],
    "values":[
-    "Dialog",
-    "single([stateSpaceParameters_1.Ad stateSpaceParameters_1.Bd])",
-    "[1 1]",
-    "[1]",
-    "[1]",
-    "single",
-    "43",
+    "hdlssclib/NFPSparseConstMultiply",
+    "",
+    "",
     "",
     ""
    ],
    "tabs":[
     "Parameter Attributes",
-    "Documentation"
+    "Documentation",
+    "-Other"
    ],
    "tabs_idx":[
     0,
-    7
+    2,
+    3
    ]
   },
   "viewer":{
@@ -342,9 +336,8 @@
   "obj_viewer":[
   ],
   "finder":{
-   "blocktype":"SubSystem",
-   "masktype":"",
-   "referenceblock":"hdlssclib/NFPSparseConstMultiply"
+   "blocktype":"Reference",
+   "masktype":""
   }
  },
  {

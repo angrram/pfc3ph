@@ -1,6 +1,1541 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:30:07 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 11) to (Rev. 12)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_PFC_Van_3ph_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'O_Ia1'
+
+-Upgrade has added port 'O_Ib1'
+
+-Upgrade has added port 'O_Ic1'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:14:06 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:14:06 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:14:06 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:04:09 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:04:09 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 20:04:09 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:34 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 15)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:34 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 15)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:34 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 15)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:27 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:27 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:56:27 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:55:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:55:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:55:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:39:56 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0 (Rev. 11)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:39:48 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:26:34 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_MCP_DRIVER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_MCP_DRIVER_0_0 (xilinx.com:user:MCP_DRIVER:1.0 (Rev. 30)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:26:27 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_MCP_DRIVER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_MCP_DRIVER_0_0 (xilinx.com:user:MCP_DRIVER:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:25:52 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_MCP_DRIVER_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_MCP_DRIVER_0_0 (xilinx.com:user:MCP_DRIVER:1.0 (Rev. 29)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:00:59 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:00:50 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 19:00:15 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 18:52:55 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 18:51:53 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 18:44:08 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 7) to (Rev. 8)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_PFC_Van_3ph_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'O_I_load' width 16 differs from original width 12
+
+-Upgraded port 'O_Ia' width 16 differs from original width 12
+
+-Upgraded port 'O_Ib' width 16 differs from original width 12
+
+-Upgraded port 'O_Ic' width 16 differs from original width 12
+
+-Upgraded port 'O_Va' width 16 differs from original width 12
+
+-Upgraded port 'O_Vb' width 16 differs from original width 12
+
+-Upgraded port 'O_Vc' width 16 differs from original width 12
+
+-Upgraded port 'O_Vout' width 16 differs from original width 12
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon May 12 18:39:29 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_PFC_Van_3ph_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_PFC_Van_3ph_0_0 (xilinx.com:user:PFC_Van_3ph:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_PFC_Van_3ph_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'O_I_load' width 12 differs from original width 16
+
+-Upgraded port 'O_Ia' width 12 differs from original width 16
+
+-Upgraded port 'O_Ib' width 12 differs from original width 16
+
+-Upgraded port 'O_Ic' width 12 differs from original width 16
+
+-Upgraded port 'O_Va' width 12 differs from original width 16
+
+-Upgraded port 'O_Vb' width 12 differs from original width 16
+
+-Upgraded port 'O_Vc' width 12 differs from original width 16
+
+-Upgraded port 'O_Vout' width 12 differs from original width 16
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:38:11 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:38:11 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:38:11 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 14)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:37:13 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:37:13 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:37:13 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:36:39 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:36:39 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:36:39 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:51 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 13)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:36 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:36 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:36 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:03 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:03 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:25:03 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:32 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:32 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:32 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:26 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:26 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:18:26 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:17:10 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 11)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:17:10 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 11)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 20:17:10 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 11)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:47:02 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:47:02 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:47:02 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:46:24 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:46:24 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:46:24 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 10)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:38:12 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:38:12 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:38:12 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:37:37 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:37:37 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:37:37 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:14:31 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_1_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:14:31 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_1 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Sun May 11 19:14:31 2025
+| Host         : AngelPC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_amc_simulator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_amc_simulator_0_0 (xilinx.com:user:amc_simulator:1.0 (Rev. 9)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
 | Date         : Sun May  4 08:41:20 2025
 | Host         : AngelPC running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

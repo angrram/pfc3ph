@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-//Date        : Sun May  4 09:09:01 2025
+//Date        : Mon May 12 20:30:52 2025
 //Host        : AngelPC running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=20,numReposBlks=20,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=18,da_clkrst_cnt=48,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=18,numReposBlks=18,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=18,da_clkrst_cnt=48,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DW_L1_0,
     DW_L2_0,
@@ -74,6 +74,9 @@ module design_1
   wire [15:0]PFC3PH_0_O_Ib;
   wire [15:0]PFC3PH_0_O_Ic;
   wire [15:0]PFC3PH_0_O_Vout;
+  wire [15:0]PFC_Van_3ph_0_O_Ia1;
+  wire [15:0]PFC_Van_3ph_0_O_Ib1;
+  wire [15:0]PFC_Van_3ph_0_O_Ic1;
   wire [15:0]PFC_Van_3ph_0_O_Va;
   wire [15:0]PFC_Van_3ph_0_O_Vb;
   wire [15:0]PFC_Van_3ph_0_O_Vc;
@@ -92,7 +95,6 @@ module design_1
   wire [0:0]cero_0_dout;
   wire clk_wiz_clk_out1;
   wire clk_wiz_clk_out2;
-  wire clk_wiz_clk_out3;
   wire clk_wiz_locked;
   wire en;
   wire en_gd_1;
@@ -103,7 +105,6 @@ module design_1
   wire reset;
   wire [0:0]rst_clk_wiz_1_6M1_peripheral_reset;
   wire [0:0]rst_clk_wiz_1_6M2_peripheral_reset;
-  wire [0:0]rst_clk_wiz_1_6M3_peripheral_reset;
   wire [17:0]sine_3ph_0_alphaout_va;
   wire [17:0]sine_3ph_0_out_vb;
   wire [17:0]sine_3ph_0_out_vc;
@@ -118,7 +119,7 @@ module design_1
   design_1_MCP_DRIVER_0_0 MCP_DRIVER_0
        (.SCK(SCK),
         .SDI(SDI),
-        .clk(clk_wiz_clk_out3),
+        .clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .debug_0(MCP_DRIVER_0_debug_0),
         .debug_1(MCP_DRIVER_0_debug_1),
@@ -140,7 +141,7 @@ module design_1
         .nCS2(nCS2),
         .nCS3(nCS3),
         .nCS4(nCS4),
-        .rst(rst_clk_wiz_1_6M3_peripheral_reset),
+        .rst(rst_clk_wiz_1_6M1_peripheral_reset),
         .v1_1(PFC_Van_3ph_0_O_Va),
         .v1_2(PFC_Van_3ph_0_O_Vb),
         .v2_1(PFC_Van_3ph_0_O_Vc),
@@ -156,8 +157,11 @@ module design_1
         .I_load_in(vio_0_probe_out0),
         .O_I_load(PFC3PH_0_O_Vout),
         .O_Ia(PFC3PH_0_O_Ia),
+        .O_Ia1(PFC_Van_3ph_0_O_Ia1),
         .O_Ib(PFC3PH_0_O_Ib),
+        .O_Ib1(PFC_Van_3ph_0_O_Ib1),
         .O_Ic(PFC3PH_0_O_Ic),
+        .O_Ic1(PFC_Van_3ph_0_O_Ic1),
         .O_Va(PFC_Van_3ph_0_O_Va),
         .O_Vb(PFC_Van_3ph_0_O_Vb),
         .O_Vc(PFC_Van_3ph_0_O_Vc),
@@ -176,19 +180,19 @@ module design_1
         .clk_enable(en),
         .pwm(va),
         .rst(rst_clk_wiz_1_6M1_peripheral_reset),
-        .v(PFC3PH_0_O_Ia));
+        .v(PFC_Van_3ph_0_O_Ia1));
   design_1_amc_simulator_0_1 amc_simulator_1
        (.clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .pwm(vb),
         .rst(rst_clk_wiz_1_6M1_peripheral_reset),
-        .v(PFC3PH_0_O_Ib));
+        .v(PFC_Van_3ph_0_O_Ib1));
   design_1_amc_simulator_1_0 amc_simulator_2
        (.clk(clk_wiz_clk_out1),
         .clk_enable(en),
         .pwm(vc),
         .rst(rst_clk_wiz_1_6M1_peripheral_reset),
-        .v(PFC3PH_0_O_Ic));
+        .v(PFC_Van_3ph_0_O_Ic1));
   design_1_c_addsub_0_0 c_addsub_0
        (.A(UP_L1_0_1),
         .B(cero_0_dout),
@@ -231,7 +235,6 @@ module design_1
        (.clk_in1(sys_clock),
         .clk_out1(clk_wiz_clk_out1),
         .clk_out2(clk_wiz_clk_out2),
-        .clk_out3(clk_wiz_clk_out3),
         .locked(clk_wiz_locked),
         .reset(reset));
   design_1_ila_0_0 ila_0
@@ -275,13 +278,6 @@ module design_1
         .mb_debug_sys_rst(1'b0),
         .peripheral_reset(rst_clk_wiz_1_6M2_peripheral_reset),
         .slowest_sync_clk(clk_wiz_clk_out2));
-  design_1_rst_clk_wiz_1_6M2_0 rst_clk_wiz_1_6M3
-       (.aux_reset_in(1'b1),
-        .dcm_locked(clk_wiz_locked),
-        .ext_reset_in(reset),
-        .mb_debug_sys_rst(1'b0),
-        .peripheral_reset(rst_clk_wiz_1_6M3_peripheral_reset),
-        .slowest_sync_clk(clk_wiz_clk_out3));
   design_1_sine_3ph_0_0 sine_3ph_0
        (.alphaout_va(sine_3ph_0_alphaout_va),
         .clk(clk_wiz_clk_out2),
@@ -289,8 +285,6 @@ module design_1
         .out_vb(sine_3ph_0_out_vb),
         .out_vc(sine_3ph_0_out_vc),
         .reset(rst_clk_wiz_1_6M2_peripheral_reset));
-  design_1_util_vector_logic_3_1 util_vector_logic_5
-       (.Op1(nCS4));
   design_1_vio_0_0 vio_0
        (.clk(clk_wiz_clk_out1),
         .probe_in0(c_addsub_0_S),

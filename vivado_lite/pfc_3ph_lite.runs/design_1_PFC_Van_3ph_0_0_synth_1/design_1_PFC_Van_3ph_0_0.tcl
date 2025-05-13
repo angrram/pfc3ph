@@ -89,7 +89,7 @@ set_property ip_output_repo c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3p
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.srcs/sources_1/bd/design_1/ip/design_1_PFC_Van_3ph_0_0/design_1_PFC_Van_3ph_0_0.xci
+read_ip -quiet C:/Users/Angel/Desktop/hil/pfc3ph/vivado_lite/pfc_3ph_lite.srcs/sources_1/bd/design_1/ip/design_1_PFC_Van_3ph_0_0/design_1_PFC_Van_3ph_0_0.xci
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

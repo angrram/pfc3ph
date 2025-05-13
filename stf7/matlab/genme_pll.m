@@ -20,17 +20,17 @@ fwrite(fid, cmakeTxt);
 fclose(fid);
 
 
-cmakeTxt = fileread(strcat('.\',model,'\ARMCortex-M\_shared\CMakeLists.txt'));
-cmakeTxt = regexprep(cmakeTxt, 'set_target_properties','#');
-cmakeTxt = regexprep(cmakeTxt, 'POSITION_INDEPENDENT_CODE','#');
-cmakeTxt = regexprep(cmakeTxt, 'RUNTIME_OUTPUT_DIRECTORY','#');
-cmakeTxt = regexprep(cmakeTxt, 'LIBRARY_OUTPUT_DIRECTORY','#');
-cmakeTxt = regexprep(cmakeTxt, 'ARCHIVE_OUTPUT_DIRECTORY','#');
-fid = fopen(strcat('.\',model,'\ARMCortex-M\_shared\CMakeLists.txt'), 'w');
-fwrite(fid, cmakeTxt);
-fclose(fid);
+% cmakeTxt = fileread(strcat('.\',model,'\ARMCortex-M\_shared\CMakeLists.txt'));
+% cmakeTxt = regexprep(cmakeTxt, 'set_target_properties','#');
+% cmakeTxt = regexprep(cmakeTxt, 'POSITION_INDEPENDENT_CODE','#');
+% cmakeTxt = regexprep(cmakeTxt, 'RUNTIME_OUTPUT_DIRECTORY','#');
+% cmakeTxt = regexprep(cmakeTxt, 'LIBRARY_OUTPUT_DIRECTORY','#');
+% cmakeTxt = regexprep(cmakeTxt, 'ARCHIVE_OUTPUT_DIRECTORY','#');
+% fid = fopen(strcat('.\',model,'\ARMCortex-M\_shared\CMakeLists.txt'), 'w');
+% fwrite(fid, cmakeTxt);
+% fclose(fid);
 
-    
+
 system(append('call xcopy_ctrl_ez.bat ',model))
-  
+
         

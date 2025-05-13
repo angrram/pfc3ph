@@ -298,6 +298,15 @@ ctrl_ez_rtwlib_IS_TOP_LEVEL:STATIC=OFF
 ctrl_ez_rtwlib_SOURCE_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/ctrl_ez/ARMCortex-M/_ref/ctrl_ez
 
 //Value Computed by CMake
+dsogi_3phpll_rtwlib_BINARY_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll
+
+//Value Computed by CMake
+dsogi_3phpll_rtwlib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+dsogi_3phpll_rtwlib_SOURCE_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll
+
+//Value Computed by CMake
 pfc3van_BINARY_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build
 
 //Value Computed by CMake

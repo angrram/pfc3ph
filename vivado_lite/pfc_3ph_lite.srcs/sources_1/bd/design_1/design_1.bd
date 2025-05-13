@@ -28,9 +28,7 @@
       "c_addsub_4": "",
       "c_addsub_5": "",
       "ila_0": "",
-      "rst_clk_wiz_1_6M3": "",
-      "PFC_Van_3ph_0": "",
-      "util_vector_logic_5": ""
+      "PFC_Van_3ph_0": ""
     },
     "ports": {
       "va": {
@@ -191,16 +189,28 @@
             "value": "true"
           },
           "CLKOUT3_JITTER": {
-            "value": "714.278"
+            "value": "510.557"
           },
           "CLKOUT3_PHASE_ERROR": {
             "value": "600.446"
           },
           "CLKOUT3_REQUESTED_OUT_FREQ": {
-            "value": "30"
+            "value": "191.1"
           },
           "CLKOUT3_USED": {
-            "value": "true"
+            "value": "false"
+          },
+          "CLKOUT4_JITTER": {
+            "value": "557.902"
+          },
+          "CLKOUT4_PHASE_ERROR": {
+            "value": "600.446"
+          },
+          "CLKOUT4_REQUESTED_OUT_FREQ": {
+            "value": "191.1"
+          },
+          "CLKOUT4_USED": {
+            "value": "false"
           },
           "CLK_IN1_BOARD_INTERFACE": {
             "value": "sys_clock"
@@ -218,10 +228,13 @@
             "value": "128"
           },
           "MMCM_CLKOUT2_DIVIDE": {
-            "value": "20"
+            "value": "1"
+          },
+          "MMCM_CLKOUT3_DIVIDE": {
+            "value": "1"
           },
           "NUM_OUT_CLKS": {
-            "value": "3"
+            "value": "2"
           },
           "RESET_BOARD_INTERFACE": {
             "value": "reset"
@@ -248,28 +261,28 @@
       },
       "amc_simulator_0": {
         "vlnv": "xilinx.com:user:amc_simulator:1.0",
-        "ip_revision": "9",
+        "ip_revision": "17",
         "xci_name": "design_1_amc_simulator_0_0",
         "xci_path": "ip\\design_1_amc_simulator_0_0\\design_1_amc_simulator_0_0.xci",
         "inst_hier_path": "amc_simulator_0"
       },
       "MCP_DRIVER_0": {
         "vlnv": "xilinx.com:user:MCP_DRIVER:1.0",
-        "ip_revision": "29",
+        "ip_revision": "30",
         "xci_name": "design_1_MCP_DRIVER_0_0",
         "xci_path": "ip\\design_1_MCP_DRIVER_0_0\\design_1_MCP_DRIVER_0_0.xci",
         "inst_hier_path": "MCP_DRIVER_0"
       },
       "amc_simulator_1": {
         "vlnv": "xilinx.com:user:amc_simulator:1.0",
-        "ip_revision": "9",
+        "ip_revision": "17",
         "xci_name": "design_1_amc_simulator_0_1",
         "xci_path": "ip\\design_1_amc_simulator_0_1\\design_1_amc_simulator_0_1.xci",
         "inst_hier_path": "amc_simulator_1"
       },
       "amc_simulator_2": {
         "vlnv": "xilinx.com:user:amc_simulator:1.0",
-        "ip_revision": "9",
+        "ip_revision": "17",
         "xci_name": "design_1_amc_simulator_1_0",
         "xci_path": "ip\\design_1_amc_simulator_1_0\\design_1_amc_simulator_1_0.xci",
         "inst_hier_path": "amc_simulator_2"
@@ -647,42 +660,12 @@
           }
         }
       },
-      "rst_clk_wiz_1_6M3": {
-        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "ip_revision": "16",
-        "xci_name": "design_1_rst_clk_wiz_1_6M2_0",
-        "xci_path": "ip\\design_1_rst_clk_wiz_1_6M2_0\\design_1_rst_clk_wiz_1_6M2_0.xci",
-        "inst_hier_path": "rst_clk_wiz_1_6M3",
-        "parameters": {
-          "RESET_BOARD_INTERFACE": {
-            "value": "reset"
-          },
-          "USE_BOARD_FLOW": {
-            "value": "true"
-          }
-        }
-      },
       "PFC_Van_3ph_0": {
         "vlnv": "xilinx.com:user:PFC_Van_3ph:1.0",
-        "ip_revision": "6",
+        "ip_revision": "12",
         "xci_name": "design_1_PFC_Van_3ph_0_0",
         "xci_path": "ip\\design_1_PFC_Van_3ph_0_0\\design_1_PFC_Van_3ph_0_0.xci",
         "inst_hier_path": "PFC_Van_3ph_0"
-      },
-      "util_vector_logic_5": {
-        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
-        "ip_revision": "4",
-        "xci_name": "design_1_util_vector_logic_3_1",
-        "xci_path": "ip\\design_1_util_vector_logic_3_1\\design_1_util_vector_logic_3_1.xci",
-        "inst_hier_path": "util_vector_logic_5",
-        "parameters": {
-          "C_OPERATION": {
-            "value": "not"
-          },
-          "C_SIZE": {
-            "value": "1"
-          }
-        }
       }
     },
     "nets": {
@@ -839,7 +822,6 @@
         "ports": [
           "MCP_DRIVER_0/nCS4",
           "nCS4",
-          "util_vector_logic_5/Op1",
           "ila_0/probe20"
         ]
       },
@@ -848,7 +830,6 @@
           "PFC_Van_3ph_0/O_Ia",
           "vio_0/probe_in1",
           "ila_0/probe0",
-          "amc_simulator_0/v",
           "MCP_DRIVER_0/v3_1"
         ]
       },
@@ -856,7 +837,6 @@
         "ports": [
           "PFC_Van_3ph_0/O_Ib",
           "ila_0/probe1",
-          "amc_simulator_1/v",
           "MCP_DRIVER_0/v4_1"
         ]
       },
@@ -864,7 +844,6 @@
         "ports": [
           "PFC_Van_3ph_0/O_Ic",
           "ila_0/probe2",
-          "amc_simulator_2/v",
           "MCP_DRIVER_0/v4_2"
         ]
       },
@@ -873,6 +852,24 @@
           "PFC_Van_3ph_0/O_I_load",
           "vio_0/probe_in2",
           "MCP_DRIVER_0/v3_2"
+        ]
+      },
+      "PFC_Van_3ph_0_O_Ia1": {
+        "ports": [
+          "PFC_Van_3ph_0/O_Ia1",
+          "amc_simulator_0/v"
+        ]
+      },
+      "PFC_Van_3ph_0_O_Ib1": {
+        "ports": [
+          "PFC_Van_3ph_0/O_Ib1",
+          "amc_simulator_1/v"
+        ]
+      },
+      "PFC_Van_3ph_0_O_Ic1": {
+        "ports": [
+          "PFC_Van_3ph_0/O_Ic1",
+          "amc_simulator_2/v"
         ]
       },
       "PFC_Van_3ph_0_O_Va": {
@@ -988,11 +985,11 @@
         "ports": [
           "en",
           "sine_3ph_0/clk_enable",
-          "PFC_Van_3ph_0/clk_enable",
-          "amc_simulator_2/clk_enable",
-          "amc_simulator_1/clk_enable",
+          "MCP_DRIVER_0/clk_enable",
           "amc_simulator_0/clk_enable",
-          "MCP_DRIVER_0/clk_enable"
+          "amc_simulator_1/clk_enable",
+          "amc_simulator_2/clk_enable",
+          "PFC_Van_3ph_0/clk_enable"
         ]
       },
       "clk_wiz_clk_out1": {
@@ -1001,9 +998,10 @@
           "vio_0/clk",
           "rst_clk_wiz_1_6M1/slowest_sync_clk",
           "ila_0/clk",
-          "amc_simulator_2/clk",
+          "MCP_DRIVER_0/clk",
           "amc_simulator_1/clk",
           "amc_simulator_0/clk",
+          "amc_simulator_2/clk",
           "PFC_Van_3ph_0/clk"
         ]
       },
@@ -1020,19 +1018,11 @@
           "rst_clk_wiz_1_6M2/slowest_sync_clk"
         ]
       },
-      "clk_wiz_clk_out3": {
-        "ports": [
-          "clk_wiz/clk_out3",
-          "rst_clk_wiz_1_6M3/slowest_sync_clk",
-          "MCP_DRIVER_0/clk"
-        ]
-      },
       "clk_wiz_locked": {
         "ports": [
           "clk_wiz/locked",
           "rst_clk_wiz_1_6M1/dcm_locked",
-          "rst_clk_wiz_1_6M2/dcm_locked",
-          "rst_clk_wiz_1_6M3/dcm_locked"
+          "rst_clk_wiz_1_6M2/dcm_locked"
         ]
       },
       "en_gd_1": {
@@ -1052,16 +1042,16 @@
           "reset",
           "rst_clk_wiz_1_6M1/ext_reset_in",
           "clk_wiz/reset",
-          "rst_clk_wiz_1_6M2/ext_reset_in",
-          "rst_clk_wiz_1_6M3/ext_reset_in"
+          "rst_clk_wiz_1_6M2/ext_reset_in"
         ]
       },
       "rst_clk_wiz_1_6M1_peripheral_reset": {
         "ports": [
           "rst_clk_wiz_1_6M1/peripheral_reset",
+          "MCP_DRIVER_0/rst",
           "amc_simulator_1/rst",
-          "amc_simulator_2/rst",
           "amc_simulator_0/rst",
+          "amc_simulator_2/rst",
           "PFC_Van_3ph_0/reset"
         ]
       },
@@ -1069,12 +1059,6 @@
         "ports": [
           "rst_clk_wiz_1_6M2/peripheral_reset",
           "sine_3ph_0/reset"
-        ]
-      },
-      "rst_clk_wiz_1_6M3_peripheral_reset": {
-        "ports": [
-          "rst_clk_wiz_1_6M3/peripheral_reset",
-          "MCP_DRIVER_0/rst"
         ]
       },
       "sine_3ph_0_alphaout_va": {

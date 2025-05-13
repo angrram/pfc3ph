@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun May  4 09:09:01 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon May 12 20:30:52 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="spartan7" BOARD="digilentinc.com:cmod-s7-25:part0:1.0" DEVICE="7s25" NAME="design_1" PACKAGE="csga225" SPEEDGRADE="-1"/>
 
@@ -48,11 +48,11 @@
     <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_en">
       <CONNECTIONS>
         <CONNECTION INSTANCE="sine_3ph_0" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="amc_simulator_2" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="amc_simulator_1" PORT="clk_enable"/>
-        <CONNECTION INSTANCE="amc_simulator_0" PORT="clk_enable"/>
         <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="amc_simulator_0" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="amc_simulator_1" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="amc_simulator_2" PORT="clk_enable"/>
+        <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="clk_enable"/>
       </CONNECTIONS>
     </PORT>
     <PORT DIR="I" NAME="en_gd" POLARITY="ACTIVE_HIGH" SIGIS="ce" SIGNAME="External_Ports_en_gd">
@@ -91,7 +91,6 @@
         <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="ext_reset_in"/>
         <CONNECTION INSTANCE="clk_wiz" PORT="reset"/>
         <CONNECTION INSTANCE="rst_clk_wiz_1_6M2" PORT="ext_reset_in"/>
-        <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="ext_reset_in"/>
       </CONNECTIONS>
     </PORT>
     <PORT CLKFREQUENCY="12000000" DIR="I" NAME="sys_clock" SIGIS="clk" SIGNAME="External_Ports_sys_clock">
@@ -119,7 +118,7 @@
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE COREREVISION="29" FULLNAME="/MCP_DRIVER_0" HWVERSION="1.0" INSTANCE="MCP_DRIVER_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MCP_DRIVER" VLNV="xilinx.com:user:MCP_DRIVER:1.0">
+    <MODULE COREREVISION="30" FULLNAME="/MCP_DRIVER_0" HWVERSION="1.0" INSTANCE="MCP_DRIVER_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MCP_DRIVER" VLNV="xilinx.com:user:MCP_DRIVER:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_MCP_DRIVER_0_0"/>
@@ -139,9 +138,9 @@
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="ce_out" SIGIS="undef"/>
-        <PORT DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
+        <PORT DIR="I" NAME="clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz" PORT="clk_out3"/>
+            <CONNECTION INSTANCE="clk_wiz" PORT="clk_out1"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk_enable" SIGIS="undef" SIGNAME="External_Ports_en">
@@ -250,13 +249,12 @@
         <PORT DIR="O" NAME="nCS4" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS4">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="nCS4"/>
-            <CONNECTION INSTANCE="util_vector_logic_5" PORT="Op1"/>
             <CONNECTION INSTANCE="ila_0" PORT="probe20"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M3_peripheral_reset">
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M1_peripheral_reset">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="peripheral_reset"/>
+            <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="15" NAME="v1_1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Va">
@@ -302,7 +300,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="6" FULLNAME="/PFC_Van_3ph_0" HWVERSION="1.0" INSTANCE="PFC_Van_3ph_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="PFC_Van_3ph" VLNV="xilinx.com:user:PFC_Van_3ph:1.0">
+    <MODULE COREREVISION="12" FULLNAME="/PFC_Van_3ph_0" HWVERSION="1.0" INSTANCE="PFC_Van_3ph_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="PFC_Van_3ph" VLNV="xilinx.com:user:PFC_Van_3ph:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_PFC_Van_3ph_0_0"/>
@@ -339,22 +337,34 @@
           <CONNECTIONS>
             <CONNECTION INSTANCE="vio_0" PORT="probe_in1"/>
             <CONNECTION INSTANCE="ila_0" PORT="probe0"/>
-            <CONNECTION INSTANCE="amc_simulator_0" PORT="v"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v3_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="O_Ia1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amc_simulator_0" PORT="v"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="O_Ib" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_0" PORT="probe1"/>
-            <CONNECTION INSTANCE="amc_simulator_1" PORT="v"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v4_1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="O_Ib1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amc_simulator_1" PORT="v"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="O_Ic" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_0" PORT="probe2"/>
-            <CONNECTION INSTANCE="amc_simulator_2" PORT="v"/>
             <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="v4_2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="O_Ic1" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="amc_simulator_2" PORT="v"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="O_Va" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Va">
@@ -426,7 +436,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="9" FULLNAME="/amc_simulator_0" HWVERSION="1.0" INSTANCE="amc_simulator_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/amc_simulator_0" HWVERSION="1.0" INSTANCE="amc_simulator_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_amc_simulator_0_0"/>
@@ -454,15 +464,15 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ia1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ia1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="9" FULLNAME="/amc_simulator_1" HWVERSION="1.0" INSTANCE="amc_simulator_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/amc_simulator_1" HWVERSION="1.0" INSTANCE="amc_simulator_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_amc_simulator_0_1"/>
@@ -490,15 +500,15 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ib1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ib"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ib1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="9" FULLNAME="/amc_simulator_2" HWVERSION="1.0" INSTANCE="amc_simulator_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
+    <MODULE COREREVISION="17" FULLNAME="/amc_simulator_2" HWVERSION="1.0" INSTANCE="amc_simulator_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="amc_simulator" VLNV="xilinx.com:user:amc_simulator:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="Component_Name" VALUE="design_1_amc_simulator_1_0"/>
@@ -526,9 +536,9 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic">
+        <PORT DIR="I" LEFT="15" NAME="v" RIGHT="0" SIGIS="undef" SIGNAME="PFC_Van_3ph_0_O_Ic1">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ic"/>
+            <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="O_Ic1"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -1122,7 +1132,7 @@
         <PARAMETER NAME="C_CLKOUT1_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="C_CLKOUT2_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT2_2" VALUE="0000"/>
-        <PARAMETER NAME="C_CLKOUT2_ACTUAL_FREQ" VALUE="30.45000"/>
+        <PARAMETER NAME="C_CLKOUT2_ACTUAL_FREQ" VALUE="203.00000"/>
         <PARAMETER NAME="C_CLKOUT2_DRIVES" VALUE="BUFG"/>
         <PARAMETER NAME="C_CLKOUT2_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT2_MATCHED_ROUTING" VALUE="false"/>
@@ -1135,27 +1145,27 @@
         <PARAMETER NAME="C_CLKOUT2_USED" VALUE="1"/>
         <PARAMETER NAME="C_CLKOUT3_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT3_2" VALUE="0000"/>
-        <PARAMETER NAME="C_CLKOUT3_ACTUAL_FREQ" VALUE="100.000"/>
+        <PARAMETER NAME="C_CLKOUT3_ACTUAL_FREQ" VALUE="203.00000"/>
         <PARAMETER NAME="C_CLKOUT3_DRIVES" VALUE="BUFG"/>
         <PARAMETER NAME="C_CLKOUT3_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT3_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="C_CLKOUT3_OUT_FREQ" VALUE="30.45000"/>
+        <PARAMETER NAME="C_CLKOUT3_OUT_FREQ" VALUE="203.00000"/>
         <PARAMETER NAME="C_CLKOUT3_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT3_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="C_CLKOUT3_REQUESTED_OUT_FREQ" VALUE="30"/>
+        <PARAMETER NAME="C_CLKOUT3_REQUESTED_OUT_FREQ" VALUE="191.1"/>
         <PARAMETER NAME="C_CLKOUT3_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT3_SEQUENCE_NUMBER" VALUE="1"/>
-        <PARAMETER NAME="C_CLKOUT3_USED" VALUE="1"/>
+        <PARAMETER NAME="C_CLKOUT3_USED" VALUE="0"/>
         <PARAMETER NAME="C_CLKOUT4_1" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT4_2" VALUE="0000"/>
         <PARAMETER NAME="C_CLKOUT4_ACTUAL_FREQ" VALUE="100.000"/>
         <PARAMETER NAME="C_CLKOUT4_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="C_CLKOUT4_DUTY_CYCLE" VALUE="50.000"/>
+        <PARAMETER NAME="C_CLKOUT4_DUTY_CYCLE" VALUE="50.0"/>
         <PARAMETER NAME="C_CLKOUT4_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="C_CLKOUT4_OUT_FREQ" VALUE="100.000"/>
+        <PARAMETER NAME="C_CLKOUT4_OUT_FREQ" VALUE="203.00000"/>
         <PARAMETER NAME="C_CLKOUT4_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT4_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="C_CLKOUT4_REQUESTED_OUT_FREQ" VALUE="100.000"/>
+        <PARAMETER NAME="C_CLKOUT4_REQUESTED_OUT_FREQ" VALUE="191.1"/>
         <PARAMETER NAME="C_CLKOUT4_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_CLKOUT4_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="C_CLKOUT4_USED" VALUE="0"/>
@@ -1213,7 +1223,7 @@
         <PARAMETER NAME="C_DIVCLK" VALUE="0000"/>
         <PARAMETER NAME="C_DIVIDE1_AUTO" VALUE="1"/>
         <PARAMETER NAME="C_DIVIDE2_AUTO" VALUE="20.07843137254902"/>
-        <PARAMETER NAME="C_DIVIDE3_AUTO" VALUE="3.1372549019607843"/>
+        <PARAMETER NAME="C_DIVIDE3_AUTO" VALUE="0.1568627450980392"/>
         <PARAMETER NAME="C_DIVIDE4_AUTO" VALUE="0.1568627450980392"/>
         <PARAMETER NAME="C_DIVIDE5_AUTO" VALUE="0.1568627450980392"/>
         <PARAMETER NAME="C_DIVIDE6_AUTO" VALUE="0.1568627450980392"/>
@@ -1268,7 +1278,7 @@
         <PARAMETER NAME="C_MMCM_CLKOUT1_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="C_MMCM_CLKOUT1_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_MMCM_CLKOUT1_USE_FINE_PS" VALUE="FALSE"/>
-        <PARAMETER NAME="C_MMCM_CLKOUT2_DIVIDE" VALUE="20"/>
+        <PARAMETER NAME="C_MMCM_CLKOUT2_DIVIDE" VALUE="1"/>
         <PARAMETER NAME="C_MMCM_CLKOUT2_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="C_MMCM_CLKOUT2_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="C_MMCM_CLKOUT2_USE_FINE_PS" VALUE="FALSE"/>
@@ -1298,13 +1308,13 @@
         <PARAMETER NAME="C_MMCM_STARTUP_WAIT" VALUE="FALSE"/>
         <PARAMETER NAME="C_M_MAX" VALUE="64.000"/>
         <PARAMETER NAME="C_M_MIN" VALUE="2.000"/>
-        <PARAMETER NAME="C_NUM_OUT_CLKS" VALUE="3"/>
+        <PARAMETER NAME="C_NUM_OUT_CLKS" VALUE="2"/>
         <PARAMETER NAME="C_OPTIMIZE_CLOCKING_STRUCTURE_EN" VALUE="0"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW0A" VALUE="Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW0B" VALUE="Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW1" VALUE="clk_out1__95.52941______0.000______50.0______562.304____600.446"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW2" VALUE="clk_out2___4.75781______0.000______50.0______990.499____600.446"/>
-        <PARAMETER NAME="C_OUTCLK_SUM_ROW3" VALUE="clk_out3__30.45000______0.000______50.0______714.278____600.446"/>
+        <PARAMETER NAME="C_OUTCLK_SUM_ROW3" VALUE="no_CLK_OUT3_output"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW4" VALUE="no_CLK_OUT4_output"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW5" VALUE="no_CLK_OUT5_output"/>
         <PARAMETER NAME="C_OUTCLK_SUM_ROW6" VALUE="no_CLK_OUT6_output"/>
@@ -1442,20 +1452,20 @@
         <PARAMETER NAME="CLKOUT2_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="CLKOUT2_USED" VALUE="true"/>
         <PARAMETER NAME="CLKOUT3_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="CLKOUT3_JITTER" VALUE="714.278"/>
+        <PARAMETER NAME="CLKOUT3_JITTER" VALUE="510.557"/>
         <PARAMETER NAME="CLKOUT3_MATCHED_ROUTING" VALUE="false"/>
         <PARAMETER NAME="CLKOUT3_PHASE_ERROR" VALUE="600.446"/>
         <PARAMETER NAME="CLKOUT3_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="CLKOUT3_REQUESTED_OUT_FREQ" VALUE="30"/>
+        <PARAMETER NAME="CLKOUT3_REQUESTED_OUT_FREQ" VALUE="191.1"/>
         <PARAMETER NAME="CLKOUT3_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="CLKOUT3_SEQUENCE_NUMBER" VALUE="1"/>
-        <PARAMETER NAME="CLKOUT3_USED" VALUE="true"/>
+        <PARAMETER NAME="CLKOUT3_USED" VALUE="false"/>
         <PARAMETER NAME="CLKOUT4_DRIVES" VALUE="BUFG"/>
-        <PARAMETER NAME="CLKOUT4_JITTER" VALUE="0.0"/>
+        <PARAMETER NAME="CLKOUT4_JITTER" VALUE="557.902"/>
         <PARAMETER NAME="CLKOUT4_MATCHED_ROUTING" VALUE="false"/>
-        <PARAMETER NAME="CLKOUT4_PHASE_ERROR" VALUE="0.0"/>
+        <PARAMETER NAME="CLKOUT4_PHASE_ERROR" VALUE="600.446"/>
         <PARAMETER NAME="CLKOUT4_REQUESTED_DUTY_CYCLE" VALUE="50.000"/>
-        <PARAMETER NAME="CLKOUT4_REQUESTED_OUT_FREQ" VALUE="100.000"/>
+        <PARAMETER NAME="CLKOUT4_REQUESTED_OUT_FREQ" VALUE="191.1"/>
         <PARAMETER NAME="CLKOUT4_REQUESTED_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="CLKOUT4_SEQUENCE_NUMBER" VALUE="1"/>
         <PARAMETER NAME="CLKOUT4_USED" VALUE="false"/>
@@ -1548,7 +1558,7 @@
         <PARAMETER NAME="MMCM_CLKOUT1_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="MMCM_CLKOUT1_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="MMCM_CLKOUT1_USE_FINE_PS" VALUE="false"/>
-        <PARAMETER NAME="MMCM_CLKOUT2_DIVIDE" VALUE="20"/>
+        <PARAMETER NAME="MMCM_CLKOUT2_DIVIDE" VALUE="1"/>
         <PARAMETER NAME="MMCM_CLKOUT2_DUTY_CYCLE" VALUE="0.500"/>
         <PARAMETER NAME="MMCM_CLKOUT2_PHASE" VALUE="0.000"/>
         <PARAMETER NAME="MMCM_CLKOUT2_USE_FINE_PS" VALUE="false"/>
@@ -1576,7 +1586,7 @@
         <PARAMETER NAME="MMCM_REF_JITTER1" VALUE="0.010"/>
         <PARAMETER NAME="MMCM_REF_JITTER2" VALUE="0.010"/>
         <PARAMETER NAME="MMCM_STARTUP_WAIT" VALUE="false"/>
-        <PARAMETER NAME="NUM_OUT_CLKS" VALUE="3"/>
+        <PARAMETER NAME="NUM_OUT_CLKS" VALUE="2"/>
         <PARAMETER NAME="OPTIMIZE_CLOCKING_STRUCTURE_EN" VALUE="false"/>
         <PARAMETER NAME="OVERRIDE_MMCM" VALUE="false"/>
         <PARAMETER NAME="OVERRIDE_PLL" VALUE="false"/>
@@ -1675,9 +1685,10 @@
             <CONNECTION INSTANCE="vio_0" PORT="clk"/>
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="ila_0" PORT="clk"/>
-            <CONNECTION INSTANCE="amc_simulator_2" PORT="clk"/>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="clk"/>
             <CONNECTION INSTANCE="amc_simulator_1" PORT="clk"/>
             <CONNECTION INSTANCE="amc_simulator_0" PORT="clk"/>
+            <CONNECTION INSTANCE="amc_simulator_2" PORT="clk"/>
             <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
@@ -1693,17 +1704,10 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M2" PORT="slowest_sync_clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="30450000" DIR="O" NAME="clk_out3" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="slowest_sync_clk"/>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="clk"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" NAME="locked" SIGIS="undef" SIGNAME="clk_wiz_locked">
           <CONNECTIONS>
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M1" PORT="dcm_locked"/>
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M2" PORT="dcm_locked"/>
-            <CONNECTION INSTANCE="rst_clk_wiz_1_6M3" PORT="dcm_locked"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset">
@@ -5025,9 +5029,10 @@
         <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
         <PORT DIR="O" LEFT="0" NAME="peripheral_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M1_peripheral_reset">
           <CONNECTIONS>
+            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="rst"/>
             <CONNECTION INSTANCE="amc_simulator_1" PORT="rst"/>
-            <CONNECTION INSTANCE="amc_simulator_2" PORT="rst"/>
             <CONNECTION INSTANCE="amc_simulator_0" PORT="rst"/>
+            <CONNECTION INSTANCE="amc_simulator_2" PORT="rst"/>
             <CONNECTION INSTANCE="PFC_Van_3ph_0" PORT="reset"/>
           </CONNECTIONS>
         </PORT>
@@ -5088,55 +5093,6 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="16" FULLNAME="/rst_clk_wiz_1_6M3" HWVERSION="5.0" INSTANCE="rst_clk_wiz_1_6M3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
-      <DOCUMENTS>
-        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
-      </DOCUMENTS>
-      <PARAMETERS>
-        <PARAMETER NAME="C_AUX_RESET_HIGH" VALUE="0"/>
-        <PARAMETER NAME="C_AUX_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_EXT_RESET_HIGH" VALUE="1"/>
-        <PARAMETER NAME="C_EXT_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_FAMILY" VALUE="spartan7"/>
-        <PARAMETER NAME="C_NUM_BUS_RST" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_INTERCONNECT_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_RST" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_rst_clk_wiz_1_6M2_0"/>
-        <PARAMETER NAME="RESET_BOARD_INTERFACE" VALUE="reset"/>
-        <PARAMETER NAME="USE_BOARD_FLOW" VALUE="true"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="aux_reset_in" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="bus_struct_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="I" NAME="dcm_locked" SIGIS="undef" SIGNAME="clk_wiz_locked">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz" PORT="locked"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="ext_reset_in" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_reset">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="interconnect_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="I" NAME="mb_debug_sys_rst" POLARITY="ACTIVE_HIGH" SIGIS="rst"/>
-        <PORT DIR="O" NAME="mb_reset" POLARITY="ACTIVE_HIGH" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst" SIGNAME="rst_clk_wiz_1_6M3_peripheral_reset">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="rst"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="30450000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="clk_wiz_clk_out3">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="clk_wiz" PORT="clk_out3"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
     <MODULE COREREVISION="4" FULLNAME="/sine_3ph_0" HWVERSION="1.0" INSTANCE="sine_3ph_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sine_3ph" VLNV="xilinx.com:user:sine_3ph:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
@@ -5175,25 +5131,6 @@
             <CONNECTION INSTANCE="rst_clk_wiz_1_6M2" PORT="peripheral_reset"/>
           </CONNECTIONS>
         </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
-    <MODULE COREREVISION="4" FULLNAME="/util_vector_logic_5" HWVERSION="2.0" INSTANCE="util_vector_logic_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
-      <DOCUMENTS/>
-      <PARAMETERS>
-        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
-        <PARAMETER NAME="C_SIZE" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="design_1_util_vector_logic_3_1"/>
-        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="MCP_DRIVER_0_nCS4">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="MCP_DRIVER_0" PORT="nCS4"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef"/>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>

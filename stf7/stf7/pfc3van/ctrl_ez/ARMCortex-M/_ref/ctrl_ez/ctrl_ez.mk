@@ -2,7 +2,7 @@
 ## Makefile generated for component 'ctrl_ez'. 
 ## 
 ## Makefile     : ctrl_ez.mk
-## Generated on : Sun Apr 27 13:47:01 2025
+## Generated on : Sun May 11 11:43:14 2025
 ## Final product: ./ctrl_ez_rtwlib.lib
 ## Product type : static library
 ## 
@@ -28,7 +28,7 @@ START_DIR                 = C:/Users/Angel/Desktop/hil/pfc3ph/stf7/matlab/ctrl_e
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
-TGT_FCN_LIB               = ARM Cortex-M
+TGT_FCN_LIB               = ISO_C
 MODEL_HAS_DYNAMICALLY_LOADED_SFCNS = 0
 RELATIVE_PATH_TO_ANCHOR   = ../../..
 COMPILER_COMMAND_FILE     = ctrl_ez_comp.rsp
@@ -149,9 +149,9 @@ ECHO                = @echo
 MV                  = @move
 RUN                 =
 
-#--------------------------------------
-# "Faster Runs" Build Configuration
-#--------------------------------------
+#----------------------------------------
+# "Faster Builds" Build Configuration
+#----------------------------------------
 
 ARFLAGS              = ruvs
 ASFLAGS              = -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
@@ -166,7 +166,7 @@ CFLAGS               = $(FDATASECTIONS_FLG) \
                        -Wall \
                        -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
                        -c \
-                       -O3
+                       -O0
 CPPFLAGS             = -std=gnu++14 \
                        -fno-rtti \
                        -fno-exceptions \
@@ -174,7 +174,7 @@ CPPFLAGS             = -std=gnu++14 \
                        -Wall \
                        -MMD -MP -MF"$(@:%.o=%.dep)" -MT"$@"  \
                        -c \
-                       -O3
+                       -O0
 CPP_LDFLAGS          = -Wl,--gc-sections \
                        -Wl,-Map="$(PRODUCT_NAME).map"
 CPP_SHAREDLIB_LDFLAGS  =
@@ -213,12 +213,14 @@ INCLUDES = $(INCLUDES_BUILDINFO)
 ## DEFINES
 ###########################################################################
 
+DEFINES_ = -D__MW_TARGET_USE_HARDWARE_RESOURCES_H__ -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -DSTM32F767xx -DMW_TIMEBASESOURCE=TIM5 -DMW_CONNECTIVITY_UART=USART3_BASE -DMW_CONNECTIVITY_RX_DMA=DMA1 -DMW_USART3_RX_DMA_STREAM=1 -DMW_USART3_RX_DMA_ENABLED=DMA1_Stream1_IRQHandler -DMW_CONNECTIVITY_RX_DMAStream=LL_DMA_STREAM_1 -DMW_CONNECTIVITY_RX_BUFFER=GET_USART3_RECEIVE_BUFFER -DMW_USART3_RECEIVE_BUFFER_SIZE=1024 -DMW_USART3_ENABLED=1
 DEFINES_BUILD_ARGS = -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTERMFCN=0 -DONESTEPFCN=1 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=1
 DEFINES_CUSTOM = 
 DEFINES_OPTS = -DTID01EQ=0
+DEFINES_SKIPFORSIL = -DXCP_CUSTOM_PLATFORM -DXCP_MEM_DAQ_RESERVED_POOL_BLOCKS_NUMBER=10 -D__FPU_PRESENT=1U -D__FPU_USED=1U -DSTACK_SIZE=512 -DRT
 DEFINES_STANDARD = -DMODEL=ctrl_ez -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
 
-DEFINES = $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(DEFINES_STANDARD)
+DEFINES = $(DEFINES_) $(DEFINES_BUILD_ARGS) $(DEFINES_CUSTOM) $(DEFINES_OPTS) $(DEFINES_SKIPFORSIL) $(DEFINES_STANDARD)
 
 ###########################################################################
 ## SOURCE FILES
@@ -262,17 +264,43 @@ SYSTEM_LIBS =
 # C Compiler
 #---------------
 
+CFLAGS_SKIPFORSIL = -mcpu=cortex-m7 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv5-d16 -mfloat-abi=hard 
 CFLAGS_BASIC = $(DEFINES) $(INCLUDES) @$(COMPILER_COMMAND_FILE)
 
-CFLAGS += $(CFLAGS_BASIC)
+CFLAGS += $(CFLAGS_SKIPFORSIL) $(CFLAGS_BASIC)
 
 #-----------------
 # C++ Compiler
 #-----------------
 
+CPPFLAGS_SKIPFORSIL = -mcpu=cortex-m7 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv5-d16 -mfloat-abi=hard 
 CPPFLAGS_BASIC = $(DEFINES) $(INCLUDES) @$(COMPILER_COMMAND_FILE)
 
-CPPFLAGS += $(CPPFLAGS_BASIC)
+CPPFLAGS += $(CPPFLAGS_SKIPFORSIL) $(CPPFLAGS_BASIC)
+
+#---------------
+# C++ Linker
+#---------------
+
+CPP_LDFLAGS_SKIPFORSIL = --specs=nano.specs -mcpu=cortex-m7 -mthumb -mlittle-endian -mfloat-abi=hard -mfpu=fpv5-d16 --entry Reset_Handler --specs=nosys.specs 
+
+CPP_LDFLAGS += $(CPP_LDFLAGS_SKIPFORSIL)
+
+#------------------------------
+# C++ Shared Library Linker
+#------------------------------
+
+CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL = --specs=nano.specs -mcpu=cortex-m7 -mthumb -mlittle-endian -mfloat-abi=hard -mfpu=fpv5-d16 --entry Reset_Handler --specs=nosys.specs 
+
+CPP_SHAREDLIB_LDFLAGS += $(CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL)
+
+#-----------
+# Linker
+#-----------
+
+LDFLAGS_SKIPFORSIL = --specs=nano.specs -mcpu=cortex-m7 -mthumb -mlittle-endian -mfloat-abi=hard -mfpu=fpv5-d16 --entry Reset_Handler --specs=nosys.specs 
+
+LDFLAGS += $(LDFLAGS_SKIPFORSIL)
 
 #---------------------
 # MEX C++ Compiler
@@ -289,6 +317,14 @@ MEX_CPPFLAGS += $(MEX_CPP_Compiler_BASIC)
 MEX_Compiler_BASIC =  @$(COMPILER_COMMAND_FILE)
 
 MEX_CFLAGS += $(MEX_Compiler_BASIC)
+
+#--------------------------
+# Shared Library Linker
+#--------------------------
+
+SHAREDLIB_LDFLAGS_SKIPFORSIL = --specs=nano.specs -mcpu=cortex-m7 -mthumb -mlittle-endian -mfloat-abi=hard -mfpu=fpv5-d16 --entry Reset_Handler --specs=nosys.specs 
+
+SHAREDLIB_LDFLAGS += $(SHAREDLIB_LDFLAGS_SKIPFORSIL)
 
 ###########################################################################
 ## INLINED COMMANDS
