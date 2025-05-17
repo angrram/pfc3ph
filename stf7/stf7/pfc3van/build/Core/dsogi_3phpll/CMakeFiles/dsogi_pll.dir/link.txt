@@ -1,2 +1,0 @@
-C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-ar.exe qc libdsogi_pll.a CMakeFiles/dsogi_pll.dir/Src/dsogi_3phpll.c.obj CMakeFiles/dsogi_pll.dir/Src/rtGetNaN.c.obj CMakeFiles/dsogi_pll.dir/Src/rtGetInf.c.obj
-C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-ranlib.exe libdsogi_pll.a

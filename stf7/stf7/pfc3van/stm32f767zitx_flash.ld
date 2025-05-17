@@ -61,8 +61,10 @@ _Min_Stack_Size = 0x400; /* required amount of stack */
 /* Specify the memory areas */
 MEMORY
 {
-RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 512K
-FLASH (rx)      : ORIGIN = 0x00200000, LENGTH = 2048K
+RAM (xrw)       : ORIGIN = 0x20000000, LENGTH = 368K
+FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 2048K
+ITCM_RAM (xrw)  : ORIGIN = 0x00000000, LENGTH = 256K
+DTCM_RAM (xrw)  : ORIGIN = 0x20000000, LENGTH = 64K
 }
 
 /* Define output sections */
@@ -75,7 +77,8 @@ SECTIONS
     KEEP(*(.isr_vector)) /* Startup code */
     . = ALIGN(4);
   } >FLASH
-
+.itcm : { *(.itcm) } > ITCM_RAM
+.dtcm : { *(.dtcm) } > DTCM_RAM
   /* The program code and other data goes into FLASH */
   .text :
   {
@@ -109,20 +112,20 @@ SECTIONS
     __exidx_end = .;
   } >FLASH
 
-  .preinit_array     :
+  .preinit_array (READONLY)     :
   {
     PROVIDE_HIDDEN (__preinit_array_start = .);
     KEEP (*(.preinit_array*))
     PROVIDE_HIDDEN (__preinit_array_end = .);
   } >FLASH
-  .init_array :
+  .init_array (READONLY):
   {
     PROVIDE_HIDDEN (__init_array_start = .);
     KEEP (*(SORT(.init_array.*)))
     KEEP (*(.init_array*))
     PROVIDE_HIDDEN (__init_array_end = .);
   } >FLASH
-  .fini_array :
+  .fini_array (READONLY):
   {
     PROVIDE_HIDDEN (__fini_array_start = .);
     KEEP (*(SORT(.fini_array.*)))
@@ -134,7 +137,7 @@ SECTIONS
   _sidata = LOADADDR(.data);
 
   /* Initialized data sections goes into RAM, load LMA copy after code */
-  .data : 
+  .data (READONLY): 
   {
     . = ALIGN(4);
     _sdata = .;        /* create a global symbol at data start */
@@ -184,5 +187,3 @@ SECTIONS
   }
 
 }
-
-

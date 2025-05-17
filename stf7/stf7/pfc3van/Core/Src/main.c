@@ -642,7 +642,7 @@ static void MX_TIM8_Init(void)
   sConfigIC.ICPolarity = TIM_INPUTCHANNELPOLARITY_RISING;
   sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
   sConfigIC.ICPrescaler = TIM_ICPSC_DIV1;
-  sConfigIC.ICFilter = 3;
+  sConfigIC.ICFilter = 10;
   if (HAL_TIM_IC_ConfigChannel(&htim8, &sConfigIC, TIM_CHANNEL_1) != HAL_OK)
   {
     Error_Handler();
@@ -655,7 +655,7 @@ static void MX_TIM8_Init(void)
     Error_Handler();
   }
   sConfigIC.ICSelection = TIM_ICSELECTION_DIRECTTI;
-  sConfigIC.ICFilter = 3;
+  sConfigIC.ICFilter = 10;
   if (HAL_TIM_IC_ConfigChannel(&htim8, &sConfigIC, TIM_CHANNEL_3) != HAL_OK)
   {
     Error_Handler();

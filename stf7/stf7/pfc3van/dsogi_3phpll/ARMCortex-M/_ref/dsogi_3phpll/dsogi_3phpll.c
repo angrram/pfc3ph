@@ -22,58 +22,58 @@
 #include <stdbool.h>
 
 /* Block states (default storage) */
-DW_dsogi_3phpll_f_T dsogi_3phpll_DW;
+DW_dsogi_3phpll_f_T __attribute__((section(".dtcm"))) dsogi_3phpll_DW;
 
 /*
  * Output and update for atomic system:
  *    'alpha_sogi' (':28:2')
  *    'alpha_sogi' (':29:2')
  */
-void dsogi_3phpll_alpha_sogi(float rtu_v_ct_alpha, float rtu_v_ct_alpha_k_1,
-  float rtu_v_ct_alpha_k_2, float rtu_vd_sogi_alpha_k_1, float
-  rtu_vd_sogi_alpha_k_2, float rtu_vq_sogi_alpha_k_1, float
-  rtu_vq_sogi_alpha_k_2, float rtu_wolp, float *rty_vd_sogi_alpha, float
-  *rty_vq_sogi_alpha)
-{
+void __attribute__((section(".itcm"))) dsogi_3phpll_alpha_sogi(
+    float rtu_v_ct_alpha, float rtu_v_ct_alpha_k_1, float rtu_v_ct_alpha_k_2,
+    float rtu_vd_sogi_alpha_k_1, float rtu_vd_sogi_alpha_k_2,
+    float rtu_vq_sogi_alpha_k_1, float rtu_vq_sogi_alpha_k_2, float rtu_wolp,
+    float *rty_vd_sogi_alpha, float *rty_vq_sogi_alpha) {
   float tmp;
   float tmp_0;
   tmp = 6.25E-5F * rtu_wolp * rtu_wolp;
-  *rty_vd_sogi_alpha = ((0.5F * rtu_wolp * (rtu_v_ct_alpha - rtu_v_ct_alpha_k_2)
-    - (0.000125F * rtu_wolp * rtu_wolp - 32000.0F) * rtu_vd_sogi_alpha_k_1) -
-                        ((16000.0F - 0.5F * rtu_wolp) + tmp) *
-                        rtu_vd_sogi_alpha_k_2) / ((0.5F * rtu_wolp + 16000.0F) +
-    tmp);
+  *rty_vd_sogi_alpha =
+      ((0.5F * rtu_wolp * (rtu_v_ct_alpha - rtu_v_ct_alpha_k_2) -
+        (0.000125F * rtu_wolp * rtu_wolp - 32000.0F) * rtu_vd_sogi_alpha_k_1) -
+       ((16000.0F - 0.5F * rtu_wolp) + tmp) * rtu_vd_sogi_alpha_k_2) /
+      ((0.5F * rtu_wolp + 16000.0F) + tmp);
   tmp = 0.5F * rtu_wolp * rtu_wolp;
   tmp_0 = rtu_wolp * rtu_wolp;
-  *rty_vq_sogi_alpha = (((tmp * 2.0F * rtu_v_ct_alpha_k_1 + (rtu_v_ct_alpha_k_2
-    + rtu_v_ct_alpha) * tmp) - ((2.56E+8F - 8000.0F * rtu_wolp) + tmp_0) *
-    rtu_vq_sogi_alpha_k_2) - (2.0F * rtu_wolp * rtu_wolp - 5.12E+8F) *
-                        rtu_vq_sogi_alpha_k_1) / ((8000.0F * rtu_wolp + 2.56E+8F)
-    + tmp_0);
+  *rty_vq_sogi_alpha =
+      (((tmp * 2.0F * rtu_v_ct_alpha_k_1 +
+         (rtu_v_ct_alpha_k_2 + rtu_v_ct_alpha) * tmp) -
+        ((2.56E+8F - 8000.0F * rtu_wolp) + tmp_0) * rtu_vq_sogi_alpha_k_2) -
+       (2.0F * rtu_wolp * rtu_wolp - 5.12E+8F) * rtu_vq_sogi_alpha_k_1) /
+      ((8000.0F * rtu_wolp + 2.56E+8F) + tmp_0);
 }
 
 /* System initialize for referenced model: 'dsogi_3phpll' */
-void dsogi_3phpll_Init(void)
-{
-  /* SystemInitialize for RootInportFunctionCallGenerator generated from: 'trigger_pll_fcn' (':839') incorporates:
-   *  SubSystem: 'pll' (':212')
+void __attribute__((section(".itcm"))) dsogi_3phpll_Init(void) {
+  /* SystemInitialize for RootInportFunctionCallGenerator generated from:
+   * 'trigger_pll_fcn' (':839') incorporates: SubSystem: 'pll' (':212')
    */
-  /* InitializeConditions for DiscreteIntegrator: 'Integrator1' (':1073') incorporates:
-   *  Constant: 'Constant2' (':1071')
+  /* InitializeConditions for DiscreteIntegrator: 'Integrator1' (':1073')
+   * incorporates: Constant: 'Constant2' (':1071')
    */
   dsogi_3phpll_DW.Integrator1_DSTATE = 314.159271F;
 
   /* InitializeConditions for Memory: 'Memory2' (':108') */
   dsogi_3phpll_DW.Memory2_PreviousInput_l = 0.99F;
 
-  /* End of SystemInitialize for RootInportFunctionCallGenerator generated from: 'trigger_pll_fcn' (':839') */
+  /* End of SystemInitialize for RootInportFunctionCallGenerator generated from:
+   * 'trigger_pll_fcn' (':839') */
 }
 
 /* Output and update for referenced model: 'dsogi_3phpll' */
-void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
-  const float *rtu_vc, float *rty_angle, float *rty_pll_lock, float *rty_sine,
-  float *rty_cos, float *rty_va_flt, float *rty_vb_flt, float *rty_vc_flt)
-{
+void __attribute__((section(".itcm"))) dsogi_3phpll_trigger_pll_fcn(
+    const float *rtu_va, const float *rtu_vb, const float *rtu_vc,
+    float *rty_angle, float *rty_pll_lock, float *rty_sine, float *rty_cos,
+    float *rty_va_flt, float *rty_vb_flt, float *rty_vc_flt) {
   float rtb_Add1_idx_0;
   float rtb_Add1_idx_1;
   float rtb_Add1_idx_2;
@@ -97,8 +97,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   float y;
   bool rtb_y;
 
-  /* RootInportFunctionCallGenerator generated from: 'trigger_pll_fcn' (':839') incorporates:
-   *  SubSystem: 'pll' (':212')
+  /* RootInportFunctionCallGenerator generated from: 'trigger_pll_fcn' (':839')
+   * incorporates: SubSystem: 'pll' (':212')
    */
   /* Sum: 'Add1' (':862:360') incorporates:
    *  Product: 'Product' (':862:364')
@@ -116,8 +116,9 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   /* MATLAB Function: 'clark_trafo' (':9') incorporates:
    *  Gain: 'Gain' (':137')
    */
-  rtb_valpha = ((0.0032141218F * rtb_Add1_idx_0 - 0.5F * rtb_Gain_idx_1) - 0.5F *
-                rtb_Gain_idx_2) * 0.666666687F;
+  rtb_valpha = ((0.0032141218F * rtb_Add1_idx_0 - 0.5F * rtb_Gain_idx_1) -
+                0.5F * rtb_Gain_idx_2) *
+               0.666666687F;
   rtb_Gain_idx_1 = (rtb_Gain_idx_1 - rtb_Gain_idx_2) * 0.577350259F;
 
   /* Memory: 'Memory10' (':17') */
@@ -135,12 +136,15 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    *  Memory: 'Memory7' (':25')
    *  Memory: 'Memory9' (':27')
    */
-  dsogi_3phpll_alpha_sogi(rtb_Gain_idx_1, dsogi_3phpll_DW.Memory10_PreviousInput,
-    dsogi_3phpll_DW.Memory11_PreviousInput,
-    dsogi_3phpll_DW.Memory5_PreviousInput, dsogi_3phpll_DW.Memory7_PreviousInput,
-    dsogi_3phpll_DW.Memory9_PreviousInput,
-    dsogi_3phpll_DW.Memory12_PreviousInput, dsogi_3phpll_DW.Integrator1_DSTATE,
-    &rtb_vd_sogi_alpha_a, &rtb_vq_sogi_alpha_f);
+  dsogi_3phpll_alpha_sogi(rtb_Gain_idx_1,
+                          dsogi_3phpll_DW.Memory10_PreviousInput,
+                          dsogi_3phpll_DW.Memory11_PreviousInput,
+                          dsogi_3phpll_DW.Memory5_PreviousInput,
+                          dsogi_3phpll_DW.Memory7_PreviousInput,
+                          dsogi_3phpll_DW.Memory9_PreviousInput,
+                          dsogi_3phpll_DW.Memory12_PreviousInput,
+                          dsogi_3phpll_DW.Integrator1_DSTATE,
+                          &rtb_vd_sogi_alpha_a, &rtb_vq_sogi_alpha_f);
 
   /* Memory: 'Memory1' (':16') */
   rtb_Memory1 = dsogi_3phpll_DW.Memory1_PreviousInput;
@@ -161,10 +165,13 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    *  Memory: 'Memory8' (':26')
    */
   dsogi_3phpll_alpha_sogi(rtb_valpha, dsogi_3phpll_DW.Memory4_PreviousInput,
-    dsogi_3phpll_DW.Memory6_PreviousInput, dsogi_3phpll_DW.Memory1_PreviousInput,
-    dsogi_3phpll_DW.Memory2_PreviousInput, dsogi_3phpll_DW.Memory3_PreviousInput,
-    dsogi_3phpll_DW.Memory8_PreviousInput, dsogi_3phpll_DW.Integrator1_DSTATE,
-    &rtb_vd_sogi_alpha, &rtb_vq_sogi_alpha);
+                          dsogi_3phpll_DW.Memory6_PreviousInput,
+                          dsogi_3phpll_DW.Memory1_PreviousInput,
+                          dsogi_3phpll_DW.Memory2_PreviousInput,
+                          dsogi_3phpll_DW.Memory3_PreviousInput,
+                          dsogi_3phpll_DW.Memory8_PreviousInput,
+                          dsogi_3phpll_DW.Integrator1_DSTATE,
+                          &rtb_vd_sogi_alpha, &rtb_vq_sogi_alpha);
 
   /* Gain: 'Gain' (':875') incorporates:
    *  Sum: 'Add' (':874')
@@ -181,9 +188,9 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    *  Delay: 'Delay1' (':104')
    */
   rtb_vq_park = dsogi_3phpll_DW.Delay1_DSTATE * rtb_Switch1_idx_0 +
-    dsogi_3phpll_DW.Delay_DSTATE * rtb_vp_alpha;
+                dsogi_3phpll_DW.Delay_DSTATE * rtb_vp_alpha;
   rtb_vd_park = dsogi_3phpll_DW.Delay1_DSTATE * rtb_vp_alpha -
-    dsogi_3phpll_DW.Delay_DSTATE * rtb_Switch1_idx_0;
+                dsogi_3phpll_DW.Delay_DSTATE * rtb_Switch1_idx_0;
 
   /* MATLAB Function: 'pi_ctrl' (':115') incorporates:
    *  Memory: 'Memory1' (':107')
@@ -191,7 +198,7 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    */
   rtb_vp_alpha = (rtb_vq_park * 114.239738F +
                   dsogi_3phpll_DW.vq_park_k_1_PreviousInput * -114.232101F) +
-    dsogi_3phpll_DW.Memory1_PreviousInput_h;
+                 dsogi_3phpll_DW.Memory1_PreviousInput_h;
   if (rtb_vp_alpha * 40.0F > 1790.70789F) {
     rtb_vp_alpha = 534.07074F;
   }
@@ -211,7 +218,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    *  Memory: 'Memory4' (':110')
    */
   rtb_Switch1_idx_0 = dsogi_3phpll_DW.Memory2_PreviousInput_l *
-    dsogi_3phpll_DW.w_fdbk * 0.000125F + dsogi_3phpll_DW.Memory3_PreviousInput_m;
+                          dsogi_3phpll_DW.w_fdbk * 0.000125F +
+                      dsogi_3phpll_DW.Memory3_PreviousInput_m;
   if (rtb_Switch1_idx_0 < -1.0F) {
     rtb_Sum = -1.0F;
   } else {
@@ -219,7 +227,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   }
 
   rtb_Switch1_idx_0 = dsogi_3phpll_DW.Memory2_PreviousInput_l -
-    dsogi_3phpll_DW.Memory3_PreviousInput_m * dsogi_3phpll_DW.w_fdbk * 0.000125F;
+                      dsogi_3phpll_DW.Memory3_PreviousInput_m *
+                          dsogi_3phpll_DW.w_fdbk * 0.000125F;
   if (rtb_Switch1_idx_0 < -1.0F) {
     rtb_Switch1_idx_0 = -1.0F;
   }
@@ -235,7 +244,7 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   }
 
   rtb_Switch1_idx_0 = dsogi_3phpll_DW.w_fdbk * 0.000125F +
-    dsogi_3phpll_DW.Memory4_PreviousInput_b;
+                      dsogi_3phpll_DW.Memory4_PreviousInput_b;
   if ((rtb_Sum >= 0.0F) && (dsogi_3phpll_DW.Memory3_PreviousInput_m <= 0.0F)) {
     rtb_Switch1_idx_0 = 0.0F;
   }
@@ -261,7 +270,7 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
    *  Gain: 'Gain1' (':1051')
    */
   rtb_Sum = (dsogi_3phpll_DW.w_fdbk - dsogi_3phpll_DW.Integrator1_DSTATE) -
-    0.02F * dsogi_3phpll_DW.Integrator_DSTATE;
+            0.02F * dsogi_3phpll_DW.Integrator_DSTATE;
 
   /* MATLAB Function: 'MATLAB Function' (':1046') incorporates:
    *  DiscreteIntegrator: 'Integrator1' (':1073')
@@ -321,7 +330,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   /* Update for Memory: 'Memory12' (':19') incorporates:
    *  Memory: 'Memory9' (':27')
    */
-  dsogi_3phpll_DW.Memory12_PreviousInput = dsogi_3phpll_DW.Memory9_PreviousInput;
+  dsogi_3phpll_DW.Memory12_PreviousInput =
+      dsogi_3phpll_DW.Memory9_PreviousInput;
 
   /* Update for Memory: 'Memory5' (':23') */
   dsogi_3phpll_DW.Memory5_PreviousInput = rtb_vd_sogi_alpha_a;
@@ -335,8 +345,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   /* Update for DiscreteIntegrator: 'Integrator1' (':1073') incorporates:
    *  DiscreteIntegrator: 'Integrator' (':1072')
    */
-  dsogi_3phpll_DW.Integrator1_DSTATE += 0.000125F *
-    dsogi_3phpll_DW.Integrator_DSTATE;
+  dsogi_3phpll_DW.Integrator1_DSTATE +=
+      0.000125F * dsogi_3phpll_DW.Integrator_DSTATE;
 
   /* Update for Memory: 'Memory1' (':16') */
   dsogi_3phpll_DW.Memory1_PreviousInput = rtb_vd_sogi_alpha;
@@ -386,7 +396,8 @@ void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va, const float *rtu_vb,
   /* Update for Memory: 'cnt' (':854') */
   dsogi_3phpll_DW.cnt_PreviousInput = rtb_cnt_k;
 
-  /* End of Outputs for RootInportFunctionCallGenerator generated from: 'trigger_pll_fcn' (':839') */
+  /* End of Outputs for RootInportFunctionCallGenerator generated from:
+   * 'trigger_pll_fcn' (':839') */
 }
 
 /*

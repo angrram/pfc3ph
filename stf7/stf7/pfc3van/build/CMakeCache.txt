@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Prefer autovectorizable code to one using C intrinsics
-AUTOVECTORIZE:BOOL=OFF
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/arm-none-eabi-addr2line.exe
 
@@ -229,64 +226,10 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-CMSISDSP_BINARY_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/Drivers/CMSIS/Source
-
-//Value Computed by CMake
-CMSISDSP_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-CMSISDSP_SOURCE_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/CMSIS/Source
-
-//Disable building float16 kernels
-DISABLEFLOAT16:BOOL=OFF
-
-//Faster build
-FASTBUILD:BOOL=ON
-
 //Path to a library.
 FOUND_LIBM:FILEPATH=FOUND_LIBM-NOTFOUND
 
-//Helium acceleration (MVEF and MVEI supported)
-HELIUM:BOOL=OFF
-
-//Helium experimental acceleration
-HELIUMEXPERIMENTAL:BOOL=OFF
-
-//Build for host
-HOST:BOOL=OFF
-
-//Lax vector conversions
-LAXVECTORCONVERSIONS:BOOL=ON
-
-//Loop unrolling
-LOOPUNROLL:BOOL=ON
-
 MATLAB_ROOT:PATH=C:/Program Files/MATLAB/R2024b
-
-//Matrix Checks
-MATRIXCHECK:BOOL=OFF
-
-//MVEF intrinsics supported
-MVEF:BOOL=OFF
-
-//Float16 MVE intrinsics supported
-MVEFLOAT16:BOOL=OFF
-
-//MVEI intrinsics supported
-MVEI:BOOL=OFF
-
-//Neon acceleration
-NEON:BOOL=OFF
-
-//Neon experimental acceleration
-NEONEXPERIMENTAL:BOOL=OFF
-
-//Scaling of RIFFT with Neon
-NEON_RIFFT_SCALING:BOOL=ON
-
-//Rounding
-ROUNDING:BOOL=OFF
 
 //Value Computed by CMake
 ctrl_ez_rtwlib_BINARY_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/ctrl_ez/ARMCortex-M/_ref/ctrl_ez
