@@ -115,6 +115,236 @@ depend:
 	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+.PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+
+# Convenience name for target.
+STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+.PHONY : STM32_Drivers
+
+# fast build rule for target.
+STM32_Drivers/fast:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
+.PHONY : STM32_Drivers/fast
+
+__/__/Core/Src/system_stm32f7xx.obj: __/__/Core/Src/system_stm32f7xx.c.obj
+.PHONY : __/__/Core/Src/system_stm32f7xx.obj
+
+# target to build an object file
+__/__/Core/Src/system_stm32f7xx.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f7xx.c.obj
+.PHONY : __/__/Core/Src/system_stm32f7xx.c.obj
+
+__/__/Core/Src/system_stm32f7xx.i: __/__/Core/Src/system_stm32f7xx.c.i
+.PHONY : __/__/Core/Src/system_stm32f7xx.i
+
+# target to preprocess a source file
+__/__/Core/Src/system_stm32f7xx.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f7xx.c.i
+.PHONY : __/__/Core/Src/system_stm32f7xx.c.i
+
+__/__/Core/Src/system_stm32f7xx.s: __/__/Core/Src/system_stm32f7xx.c.s
+.PHONY : __/__/Core/Src/system_stm32f7xx.s
+
+# target to generate assembly for a file
+__/__/Core/Src/system_stm32f7xx.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f7xx.c.s
+.PHONY : __/__/Core/Src/system_stm32f7xx.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.s
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.obj: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.obj
+
+# target to build an object file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.i: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.i
+
+# target to preprocess a source file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.i:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.i
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.i
+
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.s: __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.s
+
+# target to generate assembly for a file
+__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.s:
+	cd /d C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build && $(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.s
+.PHONY : __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -123,6 +353,34 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... STM32_Drivers
+	@echo ... __/__/Core/Src/system_stm32f7xx.obj
+	@echo ... __/__/Core/Src/system_stm32f7xx.i
+	@echo ... __/__/Core/Src/system_stm32f7xx.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.s
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.obj
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.i
+	@echo ... __/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.s
 .PHONY : help
 
 

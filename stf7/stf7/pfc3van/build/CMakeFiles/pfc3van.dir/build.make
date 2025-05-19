@@ -96,318 +96,10 @@ CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.s"
 	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\stm32f7xx_it.c -o CMakeFiles\pfc3van.dir\Core\Src\stm32f7xx_it.c.s
 
-CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Core/Src/stm32f7xx_hal_msp.c
-CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj -MF CMakeFiles\pfc3van.dir\Core\Src\stm32f7xx_hal_msp.c.obj.d -o CMakeFiles\pfc3van.dir\Core\Src\stm32f7xx_hal_msp.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\stm32f7xx_hal_msp.c
-
-CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\stm32f7xx_hal_msp.c > CMakeFiles\pfc3van.dir\Core\Src\stm32f7xx_hal_msp.c.i
-
-CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\stm32f7xx_hal_msp.c -o CMakeFiles\pfc3van.dir\Core\Src\stm32f7xx_hal_msp.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_exti.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c.s
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj -MF CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c.obj.d -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c > CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c.i
-
-CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c -o CMakeFiles\pfc3van.dir\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart_ex.c.s
-
-CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj: CMakeFiles/pfc3van.dir/flags.make
-CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Core/Src/system_stm32f7xx.c
-CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj -MF CMakeFiles\pfc3van.dir\Core\Src\system_stm32f7xx.c.obj.d -o CMakeFiles\pfc3van.dir\Core\Src\system_stm32f7xx.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\system_stm32f7xx.c
-
-CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.i"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\system_stm32f7xx.c > CMakeFiles\pfc3van.dir\Core\Src\system_stm32f7xx.c.i
-
-CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.s"
-	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\system_stm32f7xx.c -o CMakeFiles\pfc3van.dir\Core\Src\system_stm32f7xx.c.s
-
 CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj: CMakeFiles/pfc3van.dir/flags.make
 CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Core/Src/sysmem.c
 CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj"
 	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\pfc3van.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\pfc3van.dir\Core\Src\sysmem.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\sysmem.c
 
 CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.i: cmake_force
@@ -421,7 +113,7 @@ CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj: CMakeFiles/pfc3van.dir/flags.make
 CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/Core/Src/syscalls.c
 CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj: CMakeFiles/pfc3van.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj"
 	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\pfc3van.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\pfc3van.dir\Core\Src\syscalls.c.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\syscalls.c
 
 CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.i: cmake_force
@@ -434,7 +126,7 @@ CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj: CMakeFiles/pfc3van.dir/flags.make
 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj: C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/startup_stm32f767xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building ASM object CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj"
 	C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\pfc3van.dir\startup_stm32f767xx.s.obj -c C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\startup_stm32f767xx.s
 
 CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.i: cmake_force
@@ -449,68 +141,41 @@ CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.s: cmake_force
 pfc3van_OBJECTS = \
 "CMakeFiles/pfc3van.dir/Core/Src/main.c.obj" \
 "CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj" \
-"CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj" \
-"CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj" \
-"CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj" \
 "CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj"
 
 # External object files for target pfc3van
-pfc3van_EXTERNAL_OBJECTS =
+pfc3van_EXTERNAL_OBJECTS = \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f7xx.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj" \
+"C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj"
 
 pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/main.c.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_it.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c.obj
-pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/system_stm32f7xx.c.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/sysmem.c.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/Core/Src/syscalls.c.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/startup_stm32f767xx.s.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f7xx.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_adc.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_dma.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_tim.c.obj
+pfc3van.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c.obj
 pfc3van.elf: CMakeFiles/pfc3van.dir/build.make
 pfc3van.elf: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/libctrl_ez_rtwlib.a
-pfc3van.elf: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/libdsogi_3phpll_rtwlib.a
 pfc3van.elf: ARMCortex-M/_shared/librtwshared.a
 pfc3van.elf: CMakeFiles/pfc3van.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable pfc3van.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable pfc3van.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pfc3van.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

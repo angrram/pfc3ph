@@ -65,20 +65,17 @@ CMAKE_BINARY_DIR = C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build
 all: CMakeFiles/pfc3van.dir/all
 all: cmake/stm32cubemx/all
 all: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/all
-all: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: cmake/stm32cubemx/preinstall
 preinstall: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/preinstall
-preinstall: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/pfc3van.dir/clean
 clean: cmake/stm32cubemx/clean
 clean: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/clean
-clean: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/clean
 .PHONY : clean
 
 #=============================================================================
@@ -100,7 +97,7 @@ ARMCortex-M/_shared/clean: ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/clean
 # Directory level rules for directory cmake/stm32cubemx
 
 # Recursive "all" directory target.
-cmake/stm32cubemx/all:
+cmake/stm32cubemx/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 .PHONY : cmake/stm32cubemx/all
 
 # Recursive "preinstall" directory target.
@@ -108,7 +105,7 @@ cmake/stm32cubemx/preinstall:
 .PHONY : cmake/stm32cubemx/preinstall
 
 # Recursive "clean" directory target.
-cmake/stm32cubemx/clean:
+cmake/stm32cubemx/clean: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
 .PHONY : cmake/stm32cubemx/clean
 
 #=============================================================================
@@ -129,35 +126,20 @@ ctrl_ez/ARMCortex-M/_ref/ctrl_ez/clean: ARMCortex-M/_shared/clean
 .PHONY : ctrl_ez/ARMCortex-M/_ref/ctrl_ez/clean
 
 #=============================================================================
-# Directory level rules for directory dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll
-
-# Recursive "all" directory target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/all: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/all
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/all
-
-# Recursive "preinstall" directory target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/preinstall:
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/preinstall
-
-# Recursive "clean" directory target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/clean: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/clean
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/pfc3van.dir
 
 # All Build rule for target.
+CMakeFiles/pfc3van.dir/all: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
 CMakeFiles/pfc3van.dir/all: ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/all
 CMakeFiles/pfc3van.dir/all: ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/all
-CMakeFiles/pfc3van.dir/all: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pfc3van.dir\build.make CMakeFiles/pfc3van.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pfc3van.dir\build.make CMakeFiles/pfc3van.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32 "Built target pfc3van"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=12,13,14,15,16,17 "Built target pfc3van"
 .PHONY : CMakeFiles/pfc3van.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pfc3van.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pfc3van.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 0
 .PHONY : CMakeFiles/pfc3van.dir/rule
@@ -172,13 +154,39 @@ CMakeFiles/pfc3van.dir/clean:
 .PHONY : CMakeFiles/pfc3van.dir/clean
 
 #=============================================================================
+# Target rules for target cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+
+# All Build rule for target.
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all:
+	$(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/depend
+	$(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target STM32_Drivers"
+.PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
+
+# Build rule for subdir invocation for target.
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 0
+.PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+
+# Convenience name for target.
+STM32_Drivers: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/rule
+.PHONY : STM32_Drivers
+
+# clean rule for target.
+cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
+.PHONY : cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/clean
+
+#=============================================================================
 # Target rules for target ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir
 
 # All Build rule for target.
 ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/all:
 	$(MAKE) $(MAKESILENT) -f ctrl_ez\ARMCortex-M\_ref\ctrl_ez\CMakeFiles\ctrl_ez_rtwlib.dir\build.make ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f ctrl_ez\ARMCortex-M\_ref\ctrl_ez\CMakeFiles\ctrl_ez_rtwlib.dir\build.make ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=1,2 "Built target ctrl_ez_rtwlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=10,11 "Built target ctrl_ez_rtwlib"
 .PHONY : ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -204,7 +212,7 @@ ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/clean:
 ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/all:
 	$(MAKE) $(MAKESILENT) -f ARMCortex-M\_shared\CMakeFiles\rtwshared.dir\build.make ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/depend
 	$(MAKE) $(MAKESILENT) -f ARMCortex-M\_shared\CMakeFiles\rtwshared.dir\build.make ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=33,34,35,36 "Built target rtwshared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=18,19,20,21 "Built target rtwshared"
 .PHONY : ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/all
 
 # Build rule for subdir invocation for target.
@@ -222,32 +230,6 @@ rtwshared: ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/rule
 ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ARMCortex-M\_shared\CMakeFiles\rtwshared.dir\build.make ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/clean
 .PHONY : ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/clean
-
-#=============================================================================
-# Target rules for target dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir
-
-# All Build rule for target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/all:
-	$(MAKE) $(MAKESILENT) -f dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll\CMakeFiles\dsogi_3phpll_rtwlib.dir\build.make dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/depend
-	$(MAKE) $(MAKESILENT) -f dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll\CMakeFiles\dsogi_3phpll_rtwlib.dir\build.make dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles --progress-num=3,4 "Built target dsogi_3phpll_rtwlib"
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/all
-
-# Build rule for subdir invocation for target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\build\CMakeFiles 0
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/rule
-
-# Convenience name for target.
-dsogi_3phpll_rtwlib: dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/rule
-.PHONY : dsogi_3phpll_rtwlib
-
-# clean rule for target.
-dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f dsogi_3phpll\ARMCortex-M\_ref\dsogi_3phpll\CMakeFiles\dsogi_3phpll_rtwlib.dir\build.make dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/clean
-.PHONY : dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

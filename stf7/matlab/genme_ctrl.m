@@ -32,6 +32,6 @@ fwrite(fid, cmakeTxt);
 fclose(fid);
 
     
-system(append('call xcopy_ctrl_ez.bat ',model))
+% system(append('call xcopy_ctrl_ez.bat ',model))
   
         

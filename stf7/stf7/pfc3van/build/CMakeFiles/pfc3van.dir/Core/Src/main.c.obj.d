@@ -1,92 +1,29 @@
 CMakeFiles/pfc3van.dir/Core/Src/main.c.obj: \
  C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Src\main.c \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/main.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Core\Inc/stm32f7xx_hal_conf.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_rcc.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_def.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include/stm32f7xx.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include/stm32f767xx.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/core_cm7.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Core\Inc/main.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_adc.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Device\ST\STM32F7xx\Include/stm32f7xx.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Device\ST\STM32F7xx\Include/stm32f767xx.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include/core_cm7.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/stdint.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/machine/_default_types.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/features.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/_newlib_version.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/_intsup.h \
  C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/_stdint.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/cmsis_version.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/cmsis_compiler.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/cmsis_gcc.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/mpu_armv7.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include/system_stm32f7xx.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_rcc_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_exti.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_gpio.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_gpio_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_dma.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_dma_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_cortex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_adc.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_adc_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_flash.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_flash_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_i2c.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_i2c_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_pwr.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_pwr_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_tim.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_tim_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_uart.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_hal_uart_ex.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/arm_math.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/arm_math_memory.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/arm_math_types.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/string.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/_ansi.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/newlib.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/config.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/machine/ieeefp.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/reent.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/_ansi.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/_types.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/machine/_types.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/lock.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/cdefs.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/_locale.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/strings.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/string.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/math.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/include/float.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/limits.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\arm-none-eabi\include/sys/syslimits.h \
- C:\ST\STM32CubeCLT_1.17.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/include-fixed/limits.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/none.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/arm_math_types.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/utils.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/basic_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/arm_math_memory.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/none.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/utils.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/bayes_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/statistics_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/basic_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/fast_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/complex_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/controller_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/distance_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/matrix_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/fast_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/filtering_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/support_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/interpolation_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/matrix_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/quaternion_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/statistics_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/support_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/svm_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/svm_defines.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/transform_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/complex_math_functions.h \
- C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\cmake\stm32cubemx\..\..\Drivers\CMSIS\Include/dsp/window_functions.h
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include/cmsis_version.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include/cmsis_compiler.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include/cmsis_gcc.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Include/mpu_armv7.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\CMSIS\Device\ST\STM32F7xx\Include/system_stm32f7xx.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_dma.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_rcc.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_bus.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_system.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_exti.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_cortex.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_utils.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_pwr.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_tim.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_usart.h \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\Drivers\STM32F7xx_HAL_Driver\Inc/stm32f7xx_ll_gpio.h

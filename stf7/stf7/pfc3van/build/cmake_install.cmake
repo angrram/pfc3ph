@@ -47,11 +47,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/ctrl_ez/ARMCortex-M/_ref/ctrl_ez/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/cmake_install.cmake")
-endif()
-
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

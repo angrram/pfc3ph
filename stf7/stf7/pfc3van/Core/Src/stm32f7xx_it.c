@@ -23,12 +23,16 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
 #include "ctrl_ez.h"
-#include "dsogi_3phpll.h"
+#include "stm32f7xx_ll_adc.h"
+
+// #include "dsogi_3phpll.h"
 #include "stm32f767xx.h"
-#include "stm32f7xx_hal.h"
-#include "stm32f7xx_hal_tim.h"
+// #include "stm32f7xx_hal.h"
+// #include "stm32f7xx_hal_tim.h"
+#include "stm32f7xx_ll_adc.h"
+#include "stm32f7xx_ll_dma.h"
+#include "stm32f7xx_ll_tim.h"
 #include <stdint.h>
 
 /* USER CODE END Includes */
@@ -41,17 +45,16 @@ extern void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va,
                                          float *rty_pll_lock, float *rty_sine,
                                          float *rty_cos, float *rty_va_flt,
                                          float *rty_vb_flt, float *rty_vc_flt);
-extern TIM_HandleTypeDef htim4, htim14;
-extern TIM_HandleTypeDef htim1;
-extern TIM_HandleTypeDef htim3;
-extern ADC_HandleTypeDef hadc1;
-extern ADC_HandleTypeDef hadc3;
-extern TIM_HandleTypeDef htim8;
+// extern TIM_HandleTypeDef htim4, htim14;
+// extern TIM_HandleTypeDef htim1;
+// extern TIM_HandleTypeDef htim3;
+// extern ADC_HandleTypeDef hadc1;
+// extern ADC_HandleTypeDef hadc3;
+// extern TIM_HandleTypeDef htim8;
 // extern ExtU_ctrl_ez_T ctrl_ez_U;
 // extern ExtY_ctrl_ez_T ctrl_ez_Y;
 extern uint32_t vacs[];
-extern uint32_t __attribute__((section(".dtcm"))) iac_data[3], dc_data[2],
-    vac_data[1], vac_1_data[1];
+extern uint32_t iac_data[3], dc_data[2], vac_data[1], vac_1_data[1];
 float __attribute__((section(".dtcm"))) v_ac_v = 0, ia_max = 0, ib_max = 0,
                                         idc_max = 0, vdc_max = 0,
                                         flt_iac_data[3], iacs[3];
@@ -76,7 +79,7 @@ static volatile uint32_t cnt = 0;
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-void start_my_pwm(TIM_HandleTypeDef *, uint32_t);
+// void start_my_pwm(TIM_HandleTypeDef *, uint32_t);
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -129,16 +132,7 @@ void ctrl_ez_Init2(float *rty_Qa);
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern DMA_HandleTypeDef hdma_adc1;
-extern DMA_HandleTypeDef hdma_adc3;
-extern DMA_HandleTypeDef hdma_tim8_ch1;
-extern DMA_HandleTypeDef hdma_tim8_ch2;
-extern DMA_HandleTypeDef hdma_tim8_ch3;
-extern DMA_HandleTypeDef hdma_tim8_ch4_trig_com;
-extern TIM_HandleTypeDef htim1;
-extern TIM_HandleTypeDef htim2;
-extern TIM_HandleTypeDef htim5;
-extern TIM_HandleTypeDef htim11;
+
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -254,7 +248,7 @@ void SysTick_Handler(void) {
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
-  HAL_IncTick();
+
   /* USER CODE BEGIN SysTick_IRQn 1 */
 
   /* USER CODE END SysTick_IRQn 1 */
@@ -271,117 +265,100 @@ void SysTick_Handler(void) {
  * @brief This function handles TIM1 trigger and commutation interrupts and
  * TIM11 global interrupt.
  */
-void __attribute__((section(".itcm"))) TIM1_TRG_COM_TIM11_IRQHandler(void) {
+void TIM1_TRG_COM_TIM11_IRQHandler(void) {
   /* USER CODE BEGIN TIM1_TRG_COM_TIM11_IRQn 0 */
-  __disable_irq();
-  uint32_t volatile odr = CAL_GPIO_Port->ODR;
-  CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr & CAL_Pin);
-  // static volatile float dc_vacs_max = 0.0f, vac_max, vac1[401], vac2[401],
-  //                          vac3[401];
-  //    uint32_t volatile odr = CAL_GPIO_Port->ODR;
-  //    CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) <<
-  //    GPIO_NUMBER) | (~odr & CAL_Pin);
+  //   __disable_irq();
+  //   uint32_t volatile odr = CAL_GPIO_Port->ODR;
+  //   CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr &
+  //   CAL_Pin);
+  //   // static volatile float dc_vacs_max = 0.0f, vac_max, vac1[401],
+  //   vac2[401],
+  //   //                          vac3[401];
+  //   //    uint32_t volatile odr = CAL_GPIO_Port->ODR;
+  //   //    CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) <<
+  //   //    GPIO_NUMBER) | (~odr & CAL_Pin);
 
-  /*
-  // if (cnt < 400U) {
-    //   vac1[cnt] = dsogi_3phpll_Y.va_flt;
-    //   vac2[cnt] = dsogi_3phpll_Y.vb_flt;
-    //   vac3[cnt] = dsogi_3phpll_Y.vc_flt;
-    //   cnt++;
-    // }
-  //   if (dc_vacs_max < dc_vacs[0]) {
-  //     vac_max = ((float)dc_data[1] * CONST_V_AC) - OFFSET_VOLTAGE;
-  //     dc_vacs_max = dc_vacs[0];
-  //   }
+  //   /*
+  //   // if (cnt < 400U) {
+  //     //   vac1[cnt] = dsogi_3phpll_Y.va_flt;
+  //     //   vac2[cnt] = dsogi_3phpll_Y.vb_flt;
+  //     //   vac3[cnt] = dsogi_3phpll_Y.vc_flt;
+  //     //   cnt++;
+  //     // }
+  //   //   if (dc_vacs_max < dc_vacs[0]) {
+  //   //     vac_max = ((float)dc_data[1] * CONST_V_AC) - OFFSET_VOLTAGE;
+  //   //     dc_vacs_max = dc_vacs[0];
+  //   //   }
 
-     53%     -> 0.9V   ~ 0   VRMS
-     0.90769 -> ?      ~ 316 VRMS
-     0.16666 -> ?      ~-314 VRMS
-           .90769-.16666
-     m = -------------------- = 1.176238095238095e-03 = .001176238095238095
-            316  + 314
-            */
+  //      53%     -> 0.9V   ~ 0   VRMS
+  //      0.90769 -> ?      ~ 316 VRMS
+  //      0.16666 -> ?      ~-314 VRMS
+  //            .90769-.16666
+  //      m = -------------------- = 1.176238095238095e-03 = .001176238095238095
+  //             316  + 314
+  //             */
 
   /* USER CODE END TIM1_TRG_COM_TIM11_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim1);
-  HAL_TIM_IRQHandler(&htim11);
   /* USER CODE BEGIN TIM1_TRG_COM_TIM11_IRQn 1 */
-  odr = CAL_GPIO_Port->ODR;
-  CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr & CAL_Pin);
-  __enable_irq();
+  //   odr = CAL_GPIO_Port->ODR;
+  //   CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr &
+  //   CAL_Pin);
+  //   __enable_irq();
   /* USER CODE END TIM1_TRG_COM_TIM11_IRQn 1 */
 }
 
 /**
  * @brief This function handles TIM1 capture compare interrupt.
  */
-void __attribute__((section(".itcm"))) TIM1_CC_IRQHandler(void) {
+void TIM1_CC_IRQHandler(void) {
   /* USER CODE BEGIN TIM1_CC_IRQn 0 */
   __disable_irq();
 
-  // if(htim1.Instance->CR1 & TIM_CR1_DIR == 0x1)
-  htim1.Instance->CCER |= (TIM_CCER_CC1NE | TIM_CCER_CC2NE | TIM_CCER_CC3NE);
-  htim1.Instance->DIER &= ~(TIM_DIER_CC1IE | TIM_DIER_CC2IE | TIM_DIER_CC3IE);
+  // if(TIM1->CR1 & TIM_CR1_DIR == 0x1)
+  TIM1->CCER |= (TIM_CCER_CC1NE | TIM_CCER_CC2NE | TIM_CCER_CC3NE);
+  TIM1->DIER &= ~(TIM_DIER_CC1IE | TIM_DIER_CC2IE | TIM_DIER_CC3IE);
 
   /* USER CODE END TIM1_CC_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim1);
   /* USER CODE BEGIN TIM1_CC_IRQn 1 */
-  HAL_NVIC_SetPriority(TIM2_IRQn, 0, 0);
-  HAL_NVIC_DisableIRQ(TIM1_CC_IRQn);
+  //   HAL_NVIC_SetPriority(TIM2_IRQn, 0, 0);
+  //   HAL_NVIC_DisableIRQ(TIM1_CC_IRQn);
+  NVIC_SetPriority(TIM2_IRQn, 0);
+  NVIC_DisableIRQ(TIM1_CC_IRQn);
+
   __enable_irq();
+
   /* USER CODE END TIM1_CC_IRQn 1 */
 }
 
 /**
  * @brief This function handles TIM2 global interrupt.
  */
-void __attribute__((section(".itcm"))) TIM2_IRQHandler(void) {
+void TIM2_IRQHandler(void) {
   /* USER CODE BEGIN TIM2_IRQn 0 */
-  htim5.Instance->CNT = 0;
+  // htim5.Instance->CNT = 0;
 
   //__disable_irq();
-  static volatile uint32_t tim1, tim2, tim3, tim4, tim12, tim34, tim14;
 
   // Read ADC 1
   uint32_t volatile odr = CAL_GPIO_Port->ODR;
   CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr & CAL_Pin);
   static volatile uint32_t cnt2 = 0;
+  static volatile uint32_t tim1, tim2, tim3, tim4, tim12, tim34, tim14;
+
   static volatile float dc_vacs[3];
   static volatile float vac1[401], vac2[401], vac3[401];
 
   if (cnt2 < 102U) {
     cnt2++;
   }
-  // if (vacs[0] > 0.0f && vacs[1] > 0.0f && vacs[2] > 0.0f && vacs[3] >0.0f) {
   if (cnt2 > 100U) {
-    tim1 = htim5.Instance->CNT;
+    // tim1 = htim5.Instance->CNT;
     static volatile float vac_rising;
     vac_rising = ((float)vacs[0]);
     dc_vacs[0] = ((float)vacs[1]) / vac_rising; // DC VA
     dc_vacs[1] = ((float)vacs[2]) / vac_rising; // DC VB
     dc_vacs[2] = ((float)vacs[3]) / vac_rising; // DC VC
 
-    /*
-    dsogi_3phpll_U.va = ((dc_vacs[0] - VAC_CAL_DC) / M_VAC_CAL) -
-     VAC_CAL_VAC; dsogi_3phpll_U.vb = ((dc_vacs[1] - VAC_CAL_DC) / M_VAC_CAL) -
-     VAC_CAL_VAC; dsogi_3phpll_U.vc = ((dc_vacs[2] - VAC_CAL_DC) / M_VAC_CAL) -
-     VAC_CAL_VAC;
-
-     dsogi_3phpll_U.va =
-         ((dc_vacs[0] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
-         VAC_CAL_12BITS_CONST;
-     dsogi_3phpll_U.vb =
-         ((dc_vacs[1] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
-         VAC_CAL_12BITS_CONST;
-     dsogi_3phpll_U.vc =
-         ((dc_vacs[2] * VAC_CAL_12BITS_FM3) - VAC_CAL_12BITS_FM2) -
-         VAC_CAL_12BITS_CONST;
-
-
-    rtu_ia = (((float)iac_data[0] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-    rtu_ib = (((float)iac_data[1] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-    rtu_ic = (((float)iac_data[2] * CONSTANT_VOLTS_2AMP) - OFFSET_CURRENT);
-*/
     rtu_ia = ((dc_vacs[0] * AC_CAL_12BITS_FM3)) - AC_CAL_12BITS_CONST;
     rtu_ib = ((dc_vacs[1] * AC_CAL_12BITS_FM3)) - AC_CAL_12BITS_CONST;
     rtu_ic = ((dc_vacs[2] * AC_CAL_12BITS_FM3)) - AC_CAL_12BITS_CONST;
@@ -390,23 +367,9 @@ void __attribute__((section(".itcm"))) TIM2_IRQHandler(void) {
     rtu_vb = (((float)iac_data[1] * CONSTANT_VOLTS_2AMP_VAC) - OFFSET_VAC);
     rtu_vc = (((float)iac_data[2] * CONSTANT_VOLTS_2AMP_VAC) - OFFSET_VAC);
 
-    // dsogi_3phpll_trigger_pll_fcn((const float *)&rtu_va, (const float
-    // *)&rtu_vb,
-    //                              (const float *)&rtu_vc, (float *)&rty_angle,
-    //                              (float *)&rty_pll_lock, (float *)&rty_sine,
-    //                              (float *)&rty_cos, (float *)&rty_va_flt,
-    //                              (float *)&rty_vb_flt, (float *)&rty_vc_flt);
-    tim2 = htim5.Instance->CNT;
+    // tim2 = htim5.Instance->CNT;
     rtu_ov_out = ((float)dc_data[0] * CONSTANT_VOLTS);
 
-    // v_ac_analog = ((float)dc_data[1] * CONST_V_AC) - OFFSET_VOLTAGE;
-    // rtu_va = rty_va_flt;
-    // rtu_vb = rty_vb_flt;
-    // rtu_vc = rty_vc_flt;
-    // rtu_cos = rty_cos;
-    // rtu_sine = rty_sine;
-    // rtu_w = rty_angle;
-    // rtu_lock_pll = rty_pll_lock;
     /*
        if (cnt < 400U) {
          // vac1[cnt] = v_ac_analog;
@@ -427,26 +390,14 @@ void __attribute__((section(".itcm"))) TIM2_IRQHandler(void) {
       ib_max = dc_vacs[0];
     }
     // Compute DC
-    tim3 = htim5.Instance->CNT;
+    //   tim3 = htim5.Instance->CNT;
     ctrl_ez_trigger_ctrl_ez(
         (const float *)&rtu_ia, (const float *)&rtu_ib, (const float *)&rtu_ic,
         (const float *)&rtu_ov_out, (const float *)&rtu_va,
         (const float *)&rtu_vc, (const float *)&rtu_vb, (float *)&rty_Qa,
         (float *)&rty_Qb, (float *)&rty_Qc, (bool *)&rty_lock);
 
-    // ctrl_ez_trigger_ctrl_ez(
-    //     (const float *)&rtu_ia, (const float
-    //     *)&rtu_ib, (const float
-    //     *)&rtu_ic, (const float *)&rtu_ov_out,
-    //     (const float *)&rtu_w, (const float
-    //     *)&rtu_lock_pll, (const float
-    //     *)&rtu_sine, (const float
-    //     *)&rtu_cos, (const float *)&rtu_va,
-    //     (const float *)&rtu_vc, (const float
-    //     *)&rtu_vb, (float *)&rty_Qa, (float
-    //     *)&rty_Qb, (float
-    //     *)&rty_Qc, (bool *)&rty_lock);
-    tim4 = htim5.Instance->CNT;
+    //   tim4 = htim5.Instance->CNT;
     // load DC
     if (cnt <= 400U && !rty_lock) {
       vac1[cnt] = rty_Qa;
@@ -457,34 +408,41 @@ void __attribute__((section(".itcm"))) TIM2_IRQHandler(void) {
     if (cnt > 400U) {
       cnt = 500U;
     }
-    htim1.Instance->CCR1 =
-        (uint32_t)((1.0f - rty_Qa) * (float)htim1.Instance->ARR);
-    htim1.Instance->CCR2 =
-        (uint32_t)((1.0f - rty_Qb) * (float)htim1.Instance->ARR);
-    htim1.Instance->CCR3 =
-        (uint32_t)((1.0f - rty_Qc) * (float)htim1.Instance->ARR);
+    TIM1->CCR1 = (uint32_t)((1.0f - rty_Qa) * (float)TIM1->ARR);
+    TIM1->CCR2 = (uint32_t)((1.0f - rty_Qb) * (float)TIM1->ARR);
+    TIM1->CCR3 = (uint32_t)((1.0f - rty_Qc) * (float)TIM1->ARR);
     if (first_timer && !rty_lock) {
       first_timer = false;
-      htim1.Instance->CCER |= (TIM_CCER_CC1E | TIM_CCER_CC2E | TIM_CCER_CC3E);
-      htim1.Instance->BDTR |= TIM_BDTR_AOE;
-      htim1.Instance->EGR |= TIM_EGR_UG;
-      htim1.Instance->DIER |=
-          (TIM_DIER_CC1IE | TIM_DIER_CC2IE | TIM_DIER_CC3IE);
-      HAL_TIM_OC_Start(&htim3, TIM_CHANNEL_1);
-      htim1.Instance->CR1 |= TIM_CR1_CEN;
+      TIM1->CCER |= (TIM_CCER_CC1E | TIM_CCER_CC2E | TIM_CCER_CC3E);
+      TIM1->BDTR |= TIM_BDTR_AOE;
+      TIM1->EGR |= TIM_EGR_UG;
+      TIM1->DIER |= (TIM_DIER_CC1IE | TIM_DIER_CC2IE | TIM_DIER_CC3IE);
+      // TIM3->CCMR1 |= 0x5UL;
+      LL_TIM_CC_EnableChannel(TIM3, LL_TIM_CHANNEL_CH1);
+      LL_TIM_EnableCounter(TIM2);
+      TIM1->CR1 |= TIM_CR1_CEN;
     }
+  }
+
+  //   tim12 = tim2 - tim1;
+  //   tim14 = tim4 - tim1;
+  //   tim34 = tim4 - tim3;
+  //   tim1 = tim2;
+  /* USER CODE END TIM2_IRQn 0 */
+  /* USER CODE BEGIN TIM2_IRQn 1 */
+
+  // __enable_irq();
+  if (LL_TIM_IsActiveFlag_UPDATE(TIM2)) {
+    // Clear the update flag so that the interrupt does not re-enter
+    // immediately.
+    LL_TIM_ClearFlag_UPDATE(TIM2);
+
+    // Insert your code here: for example, toggle an LED or update a
+    // counter. Example: Toggle LED (assuming proper GPIO config)
+    // LL_GPIO_TogglePin(GPIOx, LL_GPIO_PIN_y);
   }
   odr = CAL_GPIO_Port->ODR;
   CAL_GPIO_Port->BSRR = ((odr & CAL_Pin) << GPIO_NUMBER) | (~odr & CAL_Pin);
-  tim12 = tim2 - tim1;
-  tim14 = tim4 - tim1;
-  tim34 = tim4 - tim3;
-  tim1 = tim2;
-  /* USER CODE END TIM2_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim2);
-  /* USER CODE BEGIN TIM2_IRQn 1 */
-
-  //__enable_irq();
   /* USER CODE END TIM2_IRQn 1 */
 }
 
@@ -493,47 +451,41 @@ void __attribute__((section(".itcm"))) TIM2_IRQHandler(void) {
  */
 void EXTI15_10_IRQHandler(void) {
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
-  // htim1.Instance->CR2 |= (TIM_CR2_CCPC | TIM_CR2_CCUS);
   if (button_state == !BUTTON_ON) {
     button_state = BUTTON_ON;
-    htim1.Instance->CCMR1 |= (TIM_CCMR1_OC1PE | TIM_CCMR1_OC2PE);
-    htim1.Instance->CCMR2 |= TIM_CCMR2_OC3PE;
-    HAL_GPIO_WritePin(GPIOB, LD2_Pin, true);
-    // ctrl_ez_initialize();
-    // ctrl_ez_U.setpoint = 2.0f;
-    if (HAL_ADC_Start_DMA(&hadc3, iac_data, 3) == HAL_ERROR) {
-      Error_Handler();
-    }
-    if (HAL_ADC_Start_DMA(&hadc1, dc_data, 2) == HAL_ERROR) {
-      Error_Handler();
-    }
-    // if ( HAL_TIM_IC_Start_DMA(&htim4,TIM_CHANNEL_1,vac_data,VAC_LENGTH)
-    // == HAL_ERROR )
-    // {
-    //   //Error_Handler();
-    // }
-    // if (HAL_TIM_IC_Start_DMA(&htim4,TIM_CHANNEL_2,vac_1_data,VAC_LENGTH)
-    // == HAL_ERROR )
-    // {
-    //   //Error_Handler();
-    // }
+    TIM1->CCMR1 |= (TIM_CCMR1_OC1PE | TIM_CCMR1_OC2PE);
+    TIM1->CCMR2 |= TIM_CCMR2_OC3PE;
+
+    LL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
 
     __disable_irq();
-    HAL_TIM_Base_Start_IT(&htim2);
-    HAL_TIM_IC_Start_DMA(&htim8, TIM_CHANNEL_1, &vacs[0], 1U);
-    HAL_TIM_IC_Start_DMA(&htim8, TIM_CHANNEL_2, &vacs[1], 1U);
-    HAL_TIM_IC_Start_DMA(&htim8, TIM_CHANNEL_3, &vacs[2], 1U);
-    HAL_TIM_IC_Start_DMA(&htim8, TIM_CHANNEL_4, &vacs[3], 1U);
-    HAL_TIM_Base_Start(&htim5);
-    // dsogi_3phpll_Init();
-    //  ctrl_ez_initialize();
 
+    LL_ADC_ClearFlag_OVR(ADC1);
+    LL_ADC_Enable(ADC1);
+    LL_ADC_REG_StartConversionSWStart(ADC1);
+
+    LL_ADC_ClearFlag_OVR(ADC3);
+    LL_ADC_Enable(ADC3);
+    LL_ADC_REG_StartConversionSWStart(ADC3);
+    LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH1);
+    LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH2);
+    LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH3);
+    LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH4);
+    LL_TIM_EnableCounter(TIM8);
+
+    LL_TIM_EnableIT_UPDATE(TIM2);
+    LL_TIM_EnableCounter(TIM2);
     ctrl_ez_Init(&rty_Qa);
 
     __enable_irq();
   }
   /* USER CODE END EXTI15_10_IRQn 0 */
-  HAL_GPIO_EXTI_IRQHandler(USER_Btn_Pin);
+  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_13) != RESET) {
+    LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_13);
+    /* USER CODE BEGIN LL_EXTI_LINE_13 */
+
+    /* USER CODE END LL_EXTI_LINE_13 */
+  }
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
 
   /* USER CODE END EXTI15_10_IRQn 1 */
@@ -546,7 +498,6 @@ void TIM5_IRQHandler(void) {
   /* USER CODE BEGIN TIM5_IRQn 0 */
 
   /* USER CODE END TIM5_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim5);
   /* USER CODE BEGIN TIM5_IRQn 1 */
 
   /* USER CODE END TIM5_IRQn 1 */
@@ -555,11 +506,20 @@ void TIM5_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream0 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream0_IRQHandler(void) {
+void DMA2_Stream0_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream0_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC0(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC0(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE0(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE0(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME0(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME0(DMA2);
+  }
   /* USER CODE END DMA2_Stream0_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_adc1);
   /* USER CODE BEGIN DMA2_Stream0_IRQn 1 */
 
   /* USER CODE END DMA2_Stream0_IRQn 1 */
@@ -568,11 +528,20 @@ void __attribute__((section(".itcm"))) DMA2_Stream0_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream1 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream1_IRQHandler(void) {
+void DMA2_Stream1_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream1_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC1(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC1(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE1(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE1(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME1(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME1(DMA2);
+  }
   /* USER CODE END DMA2_Stream1_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_adc3);
   /* USER CODE BEGIN DMA2_Stream1_IRQn 1 */
 
   /* USER CODE END DMA2_Stream1_IRQn 1 */
@@ -581,11 +550,20 @@ void __attribute__((section(".itcm"))) DMA2_Stream1_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream2 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream2_IRQHandler(void) {
+void DMA2_Stream2_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream2_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC2(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC2(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE2(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE2(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME2(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME2(DMA2);
+  }
   /* USER CODE END DMA2_Stream2_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_tim8_ch1);
   /* USER CODE BEGIN DMA2_Stream2_IRQn 1 */
 
   /* USER CODE END DMA2_Stream2_IRQn 1 */
@@ -594,11 +572,20 @@ void __attribute__((section(".itcm"))) DMA2_Stream2_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream3 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream3_IRQHandler(void) {
+void DMA2_Stream3_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream3_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC3(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC3(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE3(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE3(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME3(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME3(DMA2);
+  }
   /* USER CODE END DMA2_Stream3_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_tim8_ch2);
   /* USER CODE BEGIN DMA2_Stream3_IRQn 1 */
 
   /* USER CODE END DMA2_Stream3_IRQn 1 */
@@ -607,11 +594,20 @@ void __attribute__((section(".itcm"))) DMA2_Stream3_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream4 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream4_IRQHandler(void) {
+void DMA2_Stream4_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream4_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC4(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC4(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE4(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE4(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME4(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME4(DMA2);
+  }
   /* USER CODE END DMA2_Stream4_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_tim8_ch3);
   /* USER CODE BEGIN DMA2_Stream4_IRQn 1 */
 
   /* USER CODE END DMA2_Stream4_IRQn 1 */
@@ -620,11 +616,20 @@ void __attribute__((section(".itcm"))) DMA2_Stream4_IRQHandler(void) {
 /**
  * @brief This function handles DMA2 stream7 global interrupt.
  */
-void __attribute__((section(".itcm"))) DMA2_Stream7_IRQHandler(void) {
+void DMA2_Stream7_IRQHandler(void) {
   /* USER CODE BEGIN DMA2_Stream7_IRQn 0 */
-
+  if (LL_DMA_IsActiveFlag_TC7(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TC7(DMA2);
+    // Process the completed transfer.
+    // For example, mark a flag or process data from adc_buffer.
+  } else if (LL_DMA_IsActiveFlag_TE7(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_TE7(DMA2);
+    // Handle the DMA transfer error, perhaps reset the DMA or log the
+    // error.
+  } else if (LL_DMA_IsActiveFlag_DME7(DMA2) == (uint32_t)1) {
+    LL_DMA_ClearFlag_DME7(DMA2);
+  }
   /* USER CODE END DMA2_Stream7_IRQn 0 */
-  HAL_DMA_IRQHandler(&hdma_tim8_ch4_trig_com);
   /* USER CODE BEGIN DMA2_Stream7_IRQn 1 */
 
   /* USER CODE END DMA2_Stream7_IRQn 1 */
@@ -661,13 +666,13 @@ void __attribute__((section(".itcm"))) DMA2_Stream7_IRQHandler(void) {
 
 
 
-  // htim1.Instance->CCR1 = ((ctrl_ez_Y.Qa) * (float)htim1.Instance->ARR);
-  // htim1.Instance->CCR2 = ((ctrl_ez_Y.Qb) * (float)htim1.Instance->ARR);
-  // htim1.Instance->CCR3 = ((ctrl_ez_Y.Qc) * (float)htim1.Instance->ARR);
+  // TIM1->CCR1 = ((ctrl_ez_Y.Qa) * (float)TIM1->ARR);
+  // TIM1->CCR2 = ((ctrl_ez_Y.Qb) * (float)TIM1->ARR);
+  // TIM1->CCR3 = ((ctrl_ez_Y.Qc) * (float)TIM1->ARR);
 
-  htim1.Instance->CCR1 = (float)(htim1.Instance->ARR) * (1.0f-.35f);
-  htim1.Instance->CCR2 = (float)(htim1.Instance->ARR) * (1.0f-.35f);
-  htim1.Instance->CCR3 = (float)(htim1.Instance->ARR) * (1.0f-.35f);
+  TIM1->CCR1 = (float)(TIM1->ARR) * (1.0f-.35f);
+  TIM1->CCR2 = (float)(TIM1->ARR) * (1.0f-.35f);
+  TIM1->CCR3 = (float)(TIM1->ARR) * (1.0f-.35f);
   if (!first_timer && flaggy)
   {
 
@@ -677,9 +682,9 @@ void __attribute__((section(".itcm"))) DMA2_Stream7_IRQHandler(void) {
   {
     first_timer = false;
 
-    htim1.Instance->CR1 &= ~TIM_CR1_CEN;
-    htim1.Instance->EGR |= TIM_EGR_UG; //update gen
-    htim1.Instance->CNT = 0x0;
+    TIM1->CR1 &= ~TIM_CR1_CEN;
+    TIM1->EGR |= TIM_EGR_UG; //update gen
+    TIM1->CNT = 0x0;
     // HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
     // HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
     // HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
@@ -690,15 +695,15 @@ void __attribute__((section(".itcm"))) DMA2_Stream7_IRQHandler(void) {
     //start_my_pwm(&htim1,TIM_CHANNEL_2);
     //start_my_pwm(&htim1,TIM_CHANNEL_3);
 
-    htim1.Instance->CCER |= 0x555; //enables OCxE & OCNxE
+    TIM1->CCER |= 0x555; //enables OCxE & OCNxE
 
-    //htim1.Instance->BDTR |= (TIM_BDTR_MOE);
+    //TIM1->BDTR |= (TIM_BDTR_MOE);
 
 
 
-    htim1.Instance->BDTR |=(TIM_BDTR_AOE);
-  //htim1.Instance->EGR  |= TIM_EGR_COMG;
-  htim1.Instance->CR1  |= TIM_CR1_CEN;
+    TIM1->BDTR |=(TIM_BDTR_AOE);
+  //TIM1->EGR  |= TIM_EGR_COMG;
+  TIM1->CR1  |= TIM_CR1_CEN;
   HAL_TIM_OC_Start(&htim2,TIM_CHANNEL_1);
 }
 

@@ -31,7 +31,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/cmake/stm32cubemx/CMakeLists.txt"
   "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeLists.txt"
   "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/ctrl_ez/ARMCortex-M/_shared/CMakeLists.txt"
-  "C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,13 +45,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "cmake/stm32cubemx/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ARMCortex-M/_shared/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pfc3van.dir/DependInfo.cmake"
+  "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/DependInfo.cmake"
   "ctrl_ez/ARMCortex-M/_ref/ctrl_ez/CMakeFiles/ctrl_ez_rtwlib.dir/DependInfo.cmake"
   "ARMCortex-M/_shared/CMakeFiles/rtwshared.dir/DependInfo.cmake"
-  "dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll/CMakeFiles/dsogi_3phpll_rtwlib.dir/DependInfo.cmake"
   )

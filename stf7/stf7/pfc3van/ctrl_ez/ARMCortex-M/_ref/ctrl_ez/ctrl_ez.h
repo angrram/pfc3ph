@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'ctrl_ez'.
  *
- * Model version                  : 1.661
+ * Model version                  : 1.670
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Sat May 17 17:24:18 2025
+ * C/C++ source code generated on : Sun May 18 12:01:47 2025
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -47,7 +47,6 @@ extern void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
 /*-
  * These blocks were eliminated from the model due to optimizations:
  *
- * Block 'Delay' (':869') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block 'Gain' (':1968') : Unused code path elimination
  * Block synthesized block : Unused code path elimination

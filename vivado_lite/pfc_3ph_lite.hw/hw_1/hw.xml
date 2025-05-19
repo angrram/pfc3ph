@@ -52,7 +52,7 @@
     <Object name="design_1_i/PFC3PH_0_O_Ia[11:0]" gui_info="hw_vios/hw_vio_1=4"/>
     <Object name="design_1_i/PFC3PH_0_O_Ia[15:0]" gui_info=""/>
     <Object name="design_1_i/PFC3PH_0_O_Ia[7:0]" gui_info="hw_vios/hw_vio_1=4"/>
-    <Object name="design_1_i/PFC3PH_0_O_Vout[15:0]" gui_info="hw_vios/hw_vio_1=1"/>
+    <Object name="design_1_i/PFC3PH_0_O_Vout[15:0]" gui_info=""/>
     <Object name="design_1_i/PFC3PH_0_O_Vout[7:0]" gui_info="hw_vios/hw_vio_1=5"/>
     <Object name="design_1_i/SCK" gui_info="Trigger Setup=2"/>
     <Object name="design_1_i/SDI" gui_info=""/>

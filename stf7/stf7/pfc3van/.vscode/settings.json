@@ -1,7 +1,7 @@
 {
     "editor.formatOnSave": true,
     "C_Cpp.errorSquiggles": "disabled",
-    "cortex-debug.variableUseNaturalFormat": true,
+    "cortex-debug.variableUseNaturalFormat": false,
     "files.associations": {
         "math.h": "c",
         "main.h": "c",
