@@ -38,11 +38,8 @@ add_executable(${CMAKE_PROJECT_NAME})
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
-#add_subdirectory(core/dsogi_3phpll)
-#add_subdirectory(core/ctrl_ez)
 add_subdirectory(ctrl_ez/ARMCortex-M/_ref/ctrl_ez)
-#add_subdirectory(dsogi_3phpll/ARMCortex-M/_ref/dsogi_3phpll)
-#add_subdirectory(Drivers/CMSIS/Source)
+
 
 
 # Link directories setup
@@ -54,8 +51,6 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-     ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/Core/Include
- ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/CMSIS/DSP/Include
 )
 
 # Add include paths
@@ -76,11 +71,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
 
     # Add user defined libraries
-    #ctrl_ez
-    #CMSISDSP
     ctrl_ez_rtwlib
-    #dsogi_pll
-    #dsogi_3phpll_rtwlib
 )
 
 add_custom_command(OUTPUT ${CMAKE_PROJECT_NAME} POST_BUILD arm-none-eabi-objdump -d ${CMAKE_PROJECT_NAME}.elf > ${CMAKE_PROJECT_NAME}.o.lst )

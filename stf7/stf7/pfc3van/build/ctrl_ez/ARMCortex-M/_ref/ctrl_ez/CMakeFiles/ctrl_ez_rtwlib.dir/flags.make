@@ -6,5 +6,5 @@ C_DEFINES = -DALLOCATIONFCN=0 -DCLASSIC_INTERFACE=0 -DHAVESTDIO -DINTEGER_CODE=0
 
 C_INCLUDES = -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_ref\ctrl_ez -IC:\PROGRA~1\MATLAB\R2024b\extern\include -IC:\PROGRA~1\MATLAB\R2024b\simulink\include -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\src\ext_mode\common -IC:\PROGRA~1\MATLAB\R2024b\rtw\c\ert -IC:\Users\Angel\Desktop\hil\pfc3ph\stf7\stf7\pfc3van\ctrl_ez\ARMCortex-M\_shared
 
-C_FLAGS =  -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O2 -g -DNDEBUG -std=gnu11
+C_FLAGS =  -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard  -Wall  -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unused-parameter -Wextra -Wpedantic -fdata-sections -ffunction-sections -O2 -g -DNDEBUG -std=gnu11
 

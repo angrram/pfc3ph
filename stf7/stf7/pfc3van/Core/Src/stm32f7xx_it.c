@@ -18,9 +18,8 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f7xx_it.h"
 #include "main.h"
-
+#include "stm32f7xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "ctrl_ez.h"
@@ -55,22 +54,11 @@ extern void dsogi_3phpll_trigger_pll_fcn(const float *rtu_va,
 // extern ExtY_ctrl_ez_T ctrl_ez_Y;
 extern uint32_t vacs[];
 extern uint32_t iac_data[3], dc_data[2], vac_data[1], vac_1_data[1];
-float __attribute__((section(".dtcm"))) v_ac_v = 0, ia_max = 0, ib_max = 0,
-                                        idc_max = 0, vdc_max = 0,
-                                        flt_iac_data[3], iacs[3];
-float __attribute__((section(".dtcm"))) rtu_ia, rtu_ib, rtu_ic, rtu_ov_out,
-    rtu_w, rtu_lock_pll, rtu_sine, rtu_cos, rtu_va, rtu_vc, rtu_vb, rty_Qb,
-    rty_Qc, rty_Qa, rty_angle, rty_pll_lock = 0.0f, rty_sine, rty_cos,
-                               rty_va_flt, rty_vb_flt, rty_vc_flt;
-struct ctrl_ez_inputs {
-  float rtu_ia, rtu_ib, rtu_ic, rtu_va, rtu_vb, rtu_vc, rtu_ov_out,
-      rtu_lock_pll, rtu_w, rtu_sine, rtu_cos;
-
-} *ctrl_ez_ins;
-struct ctrl_ez_outputs {
-  float rty_Qa, rty_Qb, rty_Qc, rty_lock;
-
-} *ctrl_ez_outs;
+float v_ac_v = 0, ia_max = 0, ib_max = 0, idc_max = 0, vdc_max = 0,
+      flt_iac_data[3], iacs[3];
+float rtu_ia, rtu_ib, rtu_ic, rtu_ov_out, rtu_w, rtu_lock_pll, rtu_sine,
+    rtu_cos, rtu_va, rtu_vc, rtu_vb, rty_Qb, rty_Qc, rty_Qa, rty_angle,
+    rty_pll_lock = 0.0f, rty_sine, rty_cos, rty_va_flt, rty_vb_flt, rty_vc_flt;
 bool volatile rty_lock = true;
 bool LED_CTRL = false;
 bool button_state = false;
@@ -141,9 +129,10 @@ void ctrl_ez_Init2(float *rty_Qa);
 /*           Cortex-M7 Processor Interruption and Exception Handlers          */
 /******************************************************************************/
 /**
- * @brief This function handles Non maskable interrupt.
- */
-void NMI_Handler(void) {
+  * @brief This function handles Non maskable interrupt.
+  */
+void NMI_Handler(void)
+{
   /* USER CODE BEGIN NonMaskableInt_IRQn 0 */
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
@@ -154,61 +143,70 @@ void NMI_Handler(void) {
 }
 
 /**
- * @brief This function handles Hard fault interrupt.
- */
-void HardFault_Handler(void) {
+  * @brief This function handles Hard fault interrupt.
+  */
+void HardFault_Handler(void)
+{
   /* USER CODE BEGIN HardFault_IRQn 0 */
 
   /* USER CODE END HardFault_IRQn 0 */
-  while (1) {
+  while (1)
+  {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
     /* USER CODE END W1_HardFault_IRQn 0 */
   }
 }
 
 /**
- * @brief This function handles Memory management fault.
- */
-void MemManage_Handler(void) {
+  * @brief This function handles Memory management fault.
+  */
+void MemManage_Handler(void)
+{
   /* USER CODE BEGIN MemoryManagement_IRQn 0 */
 
   /* USER CODE END MemoryManagement_IRQn 0 */
-  while (1) {
+  while (1)
+  {
     /* USER CODE BEGIN W1_MemoryManagement_IRQn 0 */
     /* USER CODE END W1_MemoryManagement_IRQn 0 */
   }
 }
 
 /**
- * @brief This function handles Pre-fetch fault, memory access fault.
- */
-void BusFault_Handler(void) {
+  * @brief This function handles Pre-fetch fault, memory access fault.
+  */
+void BusFault_Handler(void)
+{
   /* USER CODE BEGIN BusFault_IRQn 0 */
 
   /* USER CODE END BusFault_IRQn 0 */
-  while (1) {
+  while (1)
+  {
     /* USER CODE BEGIN W1_BusFault_IRQn 0 */
     /* USER CODE END W1_BusFault_IRQn 0 */
   }
 }
 
 /**
- * @brief This function handles Undefined instruction or illegal state.
- */
-void UsageFault_Handler(void) {
+  * @brief This function handles Undefined instruction or illegal state.
+  */
+void UsageFault_Handler(void)
+{
   /* USER CODE BEGIN UsageFault_IRQn 0 */
 
   /* USER CODE END UsageFault_IRQn 0 */
-  while (1) {
+  while (1)
+  {
     /* USER CODE BEGIN W1_UsageFault_IRQn 0 */
     /* USER CODE END W1_UsageFault_IRQn 0 */
   }
 }
 
 /**
- * @brief This function handles System service call via SWI instruction.
- */
-void SVC_Handler(void) {
+  * @brief This function handles System service call via SWI instruction.
+  */
+void SVC_Handler(void)
+{
   /* USER CODE BEGIN SVCall_IRQn 0 */
 
   /* USER CODE END SVCall_IRQn 0 */
@@ -218,9 +216,10 @@ void SVC_Handler(void) {
 }
 
 /**
- * @brief This function handles Debug monitor.
- */
-void DebugMon_Handler(void) {
+  * @brief This function handles Debug monitor.
+  */
+void DebugMon_Handler(void)
+{
   /* USER CODE BEGIN DebugMonitor_IRQn 0 */
 
   /* USER CODE END DebugMonitor_IRQn 0 */
@@ -230,9 +229,10 @@ void DebugMon_Handler(void) {
 }
 
 /**
- * @brief This function handles Pendable request for system service.
- */
-void PendSV_Handler(void) {
+  * @brief This function handles Pendable request for system service.
+  */
+void PendSV_Handler(void)
+{
   /* USER CODE BEGIN PendSV_IRQn 0 */
 
   /* USER CODE END PendSV_IRQn 0 */
@@ -242,9 +242,10 @@ void PendSV_Handler(void) {
 }
 
 /**
- * @brief This function handles System tick timer.
- */
-void SysTick_Handler(void) {
+  * @brief This function handles System tick timer.
+  */
+void SysTick_Handler(void)
+{
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
@@ -262,10 +263,10 @@ void SysTick_Handler(void) {
 /******************************************************************************/
 
 /**
- * @brief This function handles TIM1 trigger and commutation interrupts and
- * TIM11 global interrupt.
- */
-void TIM1_TRG_COM_TIM11_IRQHandler(void) {
+  * @brief This function handles TIM1 trigger and commutation interrupts and TIM11 global interrupt.
+  */
+void TIM1_TRG_COM_TIM11_IRQHandler(void)
+{
   /* USER CODE BEGIN TIM1_TRG_COM_TIM11_IRQn 0 */
   //   __disable_irq();
   //   uint32_t volatile odr = CAL_GPIO_Port->ODR;
@@ -308,9 +309,10 @@ void TIM1_TRG_COM_TIM11_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles TIM1 capture compare interrupt.
- */
-void TIM1_CC_IRQHandler(void) {
+  * @brief This function handles TIM1 capture compare interrupt.
+  */
+void TIM1_CC_IRQHandler(void)
+{
   /* USER CODE BEGIN TIM1_CC_IRQn 0 */
   __disable_irq();
 
@@ -331,9 +333,10 @@ void TIM1_CC_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles TIM2 global interrupt.
- */
-void TIM2_IRQHandler(void) {
+  * @brief This function handles TIM2 global interrupt.
+  */
+void TIM2_IRQHandler(void)
+{
   /* USER CODE BEGIN TIM2_IRQn 0 */
   // htim5.Instance->CNT = 0;
 
@@ -447,9 +450,10 @@ void TIM2_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles EXTI line[15:10] interrupts.
- */
-void EXTI15_10_IRQHandler(void) {
+  * @brief This function handles EXTI line[15:10] interrupts.
+  */
+void EXTI15_10_IRQHandler(void)
+{
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
   if (button_state == !BUTTON_ON) {
     button_state = BUTTON_ON;
@@ -467,6 +471,7 @@ void EXTI15_10_IRQHandler(void) {
     LL_ADC_ClearFlag_OVR(ADC3);
     LL_ADC_Enable(ADC3);
     LL_ADC_REG_StartConversionSWStart(ADC3);
+
     LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH1);
     LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH2);
     LL_TIM_CC_EnableChannel(TIM8, LL_TIM_CHANNEL_CH3);
@@ -480,7 +485,8 @@ void EXTI15_10_IRQHandler(void) {
     __enable_irq();
   }
   /* USER CODE END EXTI15_10_IRQn 0 */
-  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_13) != RESET) {
+  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_13) != RESET)
+  {
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_13);
     /* USER CODE BEGIN LL_EXTI_LINE_13 */
 
@@ -492,9 +498,10 @@ void EXTI15_10_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles TIM5 global interrupt.
- */
-void TIM5_IRQHandler(void) {
+  * @brief This function handles TIM5 global interrupt.
+  */
+void TIM5_IRQHandler(void)
+{
   /* USER CODE BEGIN TIM5_IRQn 0 */
 
   /* USER CODE END TIM5_IRQn 0 */
@@ -504,9 +511,10 @@ void TIM5_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream0 global interrupt.
- */
-void DMA2_Stream0_IRQHandler(void) {
+  * @brief This function handles DMA2 stream0 global interrupt.
+  */
+void DMA2_Stream0_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream0_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC0(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC0(DMA2);
@@ -526,9 +534,10 @@ void DMA2_Stream0_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream1 global interrupt.
- */
-void DMA2_Stream1_IRQHandler(void) {
+  * @brief This function handles DMA2 stream1 global interrupt.
+  */
+void DMA2_Stream1_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream1_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC1(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC1(DMA2);
@@ -548,9 +557,10 @@ void DMA2_Stream1_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream2 global interrupt.
- */
-void DMA2_Stream2_IRQHandler(void) {
+  * @brief This function handles DMA2 stream2 global interrupt.
+  */
+void DMA2_Stream2_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream2_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC2(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC2(DMA2);
@@ -570,9 +580,10 @@ void DMA2_Stream2_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream3 global interrupt.
- */
-void DMA2_Stream3_IRQHandler(void) {
+  * @brief This function handles DMA2 stream3 global interrupt.
+  */
+void DMA2_Stream3_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream3_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC3(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC3(DMA2);
@@ -592,9 +603,10 @@ void DMA2_Stream3_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream4 global interrupt.
- */
-void DMA2_Stream4_IRQHandler(void) {
+  * @brief This function handles DMA2 stream4 global interrupt.
+  */
+void DMA2_Stream4_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream4_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC4(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC4(DMA2);
@@ -614,9 +626,10 @@ void DMA2_Stream4_IRQHandler(void) {
 }
 
 /**
- * @brief This function handles DMA2 stream7 global interrupt.
- */
-void DMA2_Stream7_IRQHandler(void) {
+  * @brief This function handles DMA2 stream7 global interrupt.
+  */
+void DMA2_Stream7_IRQHandler(void)
+{
   /* USER CODE BEGIN DMA2_Stream7_IRQn 0 */
   if (LL_DMA_IsActiveFlag_TC7(DMA2) == (uint32_t)1) {
     LL_DMA_ClearFlag_TC7(DMA2);

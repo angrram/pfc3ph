@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "stm32f7xx_ll_dma.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -75,10 +74,11 @@ uint32_t vacs[4];
 /* USER CODE END 0 */
 
 /**
- * @brief  The application entry point.
- * @retval int
- */
-int main(void) {
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
 
   /* USER CODE BEGIN 1 */
 
@@ -94,8 +94,7 @@ int main(void) {
 
   /* MCU Configuration--------------------------------------------------------*/
 
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick.
-   */
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_PWR);
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_SYSCFG);
 
@@ -103,23 +102,17 @@ int main(void) {
   NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
 
   /* MemoryManagement_IRQn interrupt configuration */
-  NVIC_SetPriority(MemoryManagement_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(MemoryManagement_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
   /* BusFault_IRQn interrupt configuration */
-  NVIC_SetPriority(BusFault_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(BusFault_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
   /* UsageFault_IRQn interrupt configuration */
-  NVIC_SetPriority(UsageFault_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(UsageFault_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
   /* SVCall_IRQn interrupt configuration */
-  NVIC_SetPriority(SVCall_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(SVCall_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
   /* DebugMonitor_IRQn interrupt configuration */
-  NVIC_SetPriority(DebugMonitor_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(DebugMonitor_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
   /* PendSV_IRQn interrupt configuration */
-  NVIC_SetPriority(PendSV_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 4, 0));
+  NVIC_SetPriority(PendSV_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),4, 0));
 
   /* USER CODE BEGIN Init */
 
@@ -160,51 +153,60 @@ int main(void) {
 }
 
 /**
- * @brief System Clock Configuration
- * @retval None
- */
-void SystemClock_Config(void) {
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
   LL_FLASH_SetLatency(LL_FLASH_LATENCY_6);
-  while (LL_FLASH_GetLatency() != LL_FLASH_LATENCY_6) {
+  while(LL_FLASH_GetLatency()!= LL_FLASH_LATENCY_6)
+  {
   }
   LL_PWR_SetRegulVoltageScaling(LL_PWR_REGU_VOLTAGE_SCALE1);
   LL_PWR_EnableOverDriveMode();
   LL_RCC_HSE_EnableBypass();
   LL_RCC_HSE_Enable();
 
-  /* Wait till HSE is ready */
-  while (LL_RCC_HSE_IsReady() != 1) {
+   /* Wait till HSE is ready */
+  while(LL_RCC_HSE_IsReady() != 1)
+  {
+
   }
-  LL_RCC_PLL_ConfigDomain_SYS(LL_RCC_PLLSOURCE_HSE, LL_RCC_PLLM_DIV_16, 192,
-                              LL_RCC_PLLP_DIV_2);
+  LL_RCC_PLL_ConfigDomain_SYS(LL_RCC_PLLSOURCE_HSE, LL_RCC_PLLM_DIV_16, 192, LL_RCC_PLLP_DIV_2);
   LL_RCC_PLL_Enable();
 
-  /* Wait till PLL is ready */
-  while (LL_RCC_PLL_IsReady() != 1) {
+   /* Wait till PLL is ready */
+  while(LL_RCC_PLL_IsReady() != 1)
+  {
+
   }
-  while (LL_PWR_IsActiveFlag_VOS() == 0) {
+  while (LL_PWR_IsActiveFlag_VOS() == 0)
+  {
   }
   LL_RCC_SetAHBPrescaler(LL_RCC_SYSCLK_DIV_1);
   LL_RCC_SetAPB1Prescaler(LL_RCC_APB1_DIV_4);
   LL_RCC_SetAPB2Prescaler(LL_RCC_APB2_DIV_2);
   LL_RCC_SetSysClkSource(LL_RCC_SYS_CLKSOURCE_PLL);
 
-  /* Wait till System clock is ready */
-  while (LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_PLL) {
+   /* Wait till System clock is ready */
+  while(LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_PLL)
+  {
+
   }
   LL_Init1msTick(192000000);
   LL_SetSystemCoreClock(192000000);
 
-  /* Set Timers Clock Prescalers */
+   /* Set Timers Clock Prescalers */
   LL_RCC_SetTIMPrescaler(LL_RCC_TIM_PRESCALER_TWICE);
 }
 
 /**
- * @brief ADC1 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_ADC1_Init(void) {
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
 
   /* USER CODE BEGIN ADC1_Init 0 */
 
@@ -239,8 +241,7 @@ static void MX_ADC1_Init(void) {
   /* ADC1 Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_0, LL_DMA_CHANNEL_0);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_0,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_0, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
   LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_0, LL_DMA_PRIORITY_MEDIUM);
 
@@ -261,7 +262,7 @@ static void MX_ADC1_Init(void) {
   /* USER CODE END ADC1_Init 1 */
 
   /** Common config
-   */
+  */
   ADC_InitStruct.Resolution = LL_ADC_RESOLUTION_12B;
   ADC_InitStruct.DataAlignment = LL_ADC_DATA_ALIGN_RIGHT;
   ADC_InitStruct.SequencersScanMode = LL_ADC_SEQ_SCAN_ENABLE;
@@ -278,16 +279,14 @@ static void MX_ADC1_Init(void) {
   LL_ADC_CommonInit(__LL_ADC_COMMON_INSTANCE(ADC1), &ADC_CommonInitStruct);
 
   /** Configure Regular Channel
-   */
+  */
   LL_ADC_REG_SetSequencerRanks(ADC1, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_3);
-  LL_ADC_SetChannelSamplingTime(ADC1, LL_ADC_CHANNEL_3,
-                                LL_ADC_SAMPLINGTIME_480CYCLES);
+  LL_ADC_SetChannelSamplingTime(ADC1, LL_ADC_CHANNEL_3, LL_ADC_SAMPLINGTIME_480CYCLES);
 
   /** Configure Regular Channel
-   */
+  */
   LL_ADC_REG_SetSequencerRanks(ADC1, LL_ADC_REG_RANK_2, LL_ADC_CHANNEL_4);
-  LL_ADC_SetChannelSamplingTime(ADC1, LL_ADC_CHANNEL_4,
-                                LL_ADC_SAMPLINGTIME_480CYCLES);
+  LL_ADC_SetChannelSamplingTime(ADC1, LL_ADC_CHANNEL_4, LL_ADC_SAMPLINGTIME_480CYCLES);
   /* USER CODE BEGIN ADC1_Init 2 */
   LL_DMA_ConfigAddresses(
       DMA2, LL_DMA_STREAM_0,
@@ -304,14 +303,16 @@ static void MX_ADC1_Init(void) {
   LL_DMA_EnableIT_TE(DMA2, LL_DMA_STREAM_0);
   LL_DMA_EnableStream(DMA2, LL_DMA_STREAM_0);
   /* USER CODE END ADC1_Init 2 */
+
 }
 
 /**
- * @brief ADC3 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_ADC3_Init(void) {
+  * @brief ADC3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC3_Init(void)
+{
 
   /* USER CODE BEGIN ADC3_Init 0 */
 
@@ -352,11 +353,9 @@ static void MX_ADC3_Init(void) {
   /* ADC3 Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_1, LL_DMA_CHANNEL_2);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_1,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_1, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
-  LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_1,
-                                LL_DMA_PRIORITY_VERYHIGH);
+  LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_1, LL_DMA_PRIORITY_VERYHIGH);
 
   LL_DMA_SetMode(DMA2, LL_DMA_STREAM_1, LL_DMA_MODE_CIRCULAR);
 
@@ -388,7 +387,7 @@ static void MX_ADC3_Init(void) {
   /* USER CODE END ADC3_Init 1 */
 
   /** Common config
-   */
+  */
   ADC_InitStruct.Resolution = LL_ADC_RESOLUTION_12B;
   ADC_InitStruct.DataAlignment = LL_ADC_DATA_ALIGN_RIGHT;
   ADC_InitStruct.SequencersScanMode = LL_ADC_SEQ_SCAN_ENABLE;
@@ -402,33 +401,32 @@ static void MX_ADC3_Init(void) {
   LL_ADC_REG_SetFlagEndOfConversion(ADC3, LL_ADC_REG_FLAG_EOC_UNITARY_CONV);
 
   /** Configure Regular Channel
-   */
+  */
   LL_ADC_REG_SetSequencerRanks(ADC3, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_0);
-  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_0,
-                                LL_ADC_SAMPLINGTIME_144CYCLES);
+  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_0, LL_ADC_SAMPLINGTIME_144CYCLES);
 
   /** Configure Regular Channel
-   */
+  */
   LL_ADC_REG_SetSequencerRanks(ADC3, LL_ADC_REG_RANK_2, LL_ADC_CHANNEL_5);
-  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_5,
-                                LL_ADC_SAMPLINGTIME_144CYCLES);
+  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_5, LL_ADC_SAMPLINGTIME_144CYCLES);
 
   /** Configure Regular Channel
-   */
+  */
   LL_ADC_REG_SetSequencerRanks(ADC3, LL_ADC_REG_RANK_3, LL_ADC_CHANNEL_6);
-  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_6,
-                                LL_ADC_SAMPLINGTIME_144CYCLES);
+  LL_ADC_SetChannelSamplingTime(ADC3, LL_ADC_CHANNEL_6, LL_ADC_SAMPLINGTIME_144CYCLES);
   /* USER CODE BEGIN ADC3_Init 2 */
 
   /* USER CODE END ADC3_Init 2 */
+
 }
 
 /**
- * @brief TIM1 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM1_Init(void) {
+  * @brief TIM1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM1_Init(void)
+{
 
   /* USER CODE BEGIN TIM1_Init 0 */
 
@@ -444,11 +442,9 @@ static void MX_TIM1_Init(void) {
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_TIM1);
 
   /* TIM1 interrupt Init */
-  NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 0, 0));
+  NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
   NVIC_EnableIRQ(TIM1_TRG_COM_TIM11_IRQn);
-  NVIC_SetPriority(TIM1_CC_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 0, 0));
+  NVIC_SetPriority(TIM1_CC_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
   NVIC_EnableIRQ(TIM1_CC_IRQn);
 
   /* USER CODE BEGIN TIM1_Init 1 */
@@ -561,14 +557,16 @@ static void MX_TIM1_Init(void) {
   GPIO_InitStruct.Pull = LL_GPIO_PULL_DOWN;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_1;
   LL_GPIO_Init(UP_L3_GPIO_Port, &GPIO_InitStruct);
+
 }
 
 /**
- * @brief TIM2 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM2_Init(void) {
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
 
   /* USER CODE BEGIN TIM2_Init 0 */
 
@@ -580,8 +578,7 @@ static void MX_TIM2_Init(void) {
   LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_TIM2);
 
   /* TIM2 interrupt Init */
-  NVIC_SetPriority(TIM2_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 1, 0));
+  NVIC_SetPriority(TIM2_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),1, 0));
   NVIC_EnableIRQ(TIM2_IRQn);
 
   /* USER CODE BEGIN TIM2_Init 1 */
@@ -599,14 +596,16 @@ static void MX_TIM2_Init(void) {
   /* USER CODE BEGIN TIM2_Init 2 */
   LL_TIM_ClearFlag_UPDATE(TIM2);
   /* USER CODE END TIM2_Init 2 */
+
 }
 
 /**
- * @brief TIM3 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM3_Init(void) {
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
 
   /* USER CODE BEGIN TIM3_Init 0 */
 
@@ -653,14 +652,16 @@ static void MX_TIM3_Init(void) {
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_2;
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
 }
 
 /**
- * @brief TIM5 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM5_Init(void) {
+  * @brief TIM5 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM5_Init(void)
+{
 
   /* USER CODE BEGIN TIM5_Init 0 */
 
@@ -672,8 +673,7 @@ static void MX_TIM5_Init(void) {
   LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_TIM5);
 
   /* TIM5 interrupt Init */
-  NVIC_SetPriority(TIM5_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 15, 0));
+  NVIC_SetPriority(TIM5_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),15, 0));
   NVIC_EnableIRQ(TIM5_IRQn);
 
   /* USER CODE BEGIN TIM5_Init 1 */
@@ -691,14 +691,16 @@ static void MX_TIM5_Init(void) {
   /* USER CODE BEGIN TIM5_Init 2 */
 
   /* USER CODE END TIM5_Init 2 */
+
 }
 
 /**
- * @brief TIM8 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM8_Init(void) {
+  * @brief TIM8 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM8_Init(void)
+{
 
   /* USER CODE BEGIN TIM8_Init 0 */
 
@@ -746,8 +748,7 @@ static void MX_TIM8_Init(void) {
   /* TIM8_CH1 Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_2, LL_DMA_CHANNEL_7);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_2,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_2, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
   LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_2, LL_DMA_PRIORITY_HIGH);
 
@@ -766,8 +767,7 @@ static void MX_TIM8_Init(void) {
   /* TIM8_CH2 Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_3, LL_DMA_CHANNEL_7);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_3,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_3, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
   LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_3, LL_DMA_PRIORITY_HIGH);
 
@@ -786,8 +786,7 @@ static void MX_TIM8_Init(void) {
   /* TIM8_CH3 Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_4, LL_DMA_CHANNEL_7);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_4,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_4, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
   LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_4, LL_DMA_PRIORITY_HIGH);
 
@@ -806,8 +805,7 @@ static void MX_TIM8_Init(void) {
   /* TIM8_CH4_TRIG_COM Init */
   LL_DMA_SetChannelSelection(DMA2, LL_DMA_STREAM_7, LL_DMA_CHANNEL_7);
 
-  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_7,
-                                  LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
+  LL_DMA_SetDataTransferDirection(DMA2, LL_DMA_STREAM_7, LL_DMA_DIRECTION_PERIPH_TO_MEMORY);
 
   LL_DMA_SetStreamPriorityLevel(DMA2, LL_DMA_STREAM_7, LL_DMA_PRIORITY_HIGH);
 
@@ -843,22 +841,18 @@ static void MX_TIM8_Init(void) {
   LL_TIM_SetTriggerOutput(TIM8, LL_TIM_TRGO_RESET);
   LL_TIM_SetTriggerOutput2(TIM8, LL_TIM_TRGO2_RESET);
   LL_TIM_DisableMasterSlaveMode(TIM8);
-  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH1,
-                           LL_TIM_ACTIVEINPUT_DIRECTTI);
+  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH1, LL_TIM_ACTIVEINPUT_DIRECTTI);
   LL_TIM_IC_SetPrescaler(TIM8, LL_TIM_CHANNEL_CH1, LL_TIM_ICPSC_DIV1);
   LL_TIM_IC_SetFilter(TIM8, LL_TIM_CHANNEL_CH1, LL_TIM_IC_FILTER_FDIV16_N5);
-  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH2,
-                           LL_TIM_ACTIVEINPUT_INDIRECTTI);
+  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH2, LL_TIM_ACTIVEINPUT_INDIRECTTI);
   LL_TIM_IC_SetPrescaler(TIM8, LL_TIM_CHANNEL_CH2, LL_TIM_ICPSC_DIV1);
   LL_TIM_IC_SetFilter(TIM8, LL_TIM_CHANNEL_CH2, LL_TIM_IC_FILTER_FDIV1);
   LL_TIM_IC_SetPolarity(TIM8, LL_TIM_CHANNEL_CH2, LL_TIM_IC_POLARITY_FALLING);
-  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH3,
-                           LL_TIM_ACTIVEINPUT_DIRECTTI);
+  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH3, LL_TIM_ACTIVEINPUT_DIRECTTI);
   LL_TIM_IC_SetPrescaler(TIM8, LL_TIM_CHANNEL_CH3, LL_TIM_ICPSC_DIV1);
   LL_TIM_IC_SetFilter(TIM8, LL_TIM_CHANNEL_CH3, LL_TIM_IC_FILTER_FDIV16_N5);
   LL_TIM_IC_SetPolarity(TIM8, LL_TIM_CHANNEL_CH3, LL_TIM_IC_POLARITY_FALLING);
-  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH4,
-                           LL_TIM_ACTIVEINPUT_DIRECTTI);
+  LL_TIM_IC_SetActiveInput(TIM8, LL_TIM_CHANNEL_CH4, LL_TIM_ACTIVEINPUT_DIRECTTI);
   LL_TIM_IC_SetPrescaler(TIM8, LL_TIM_CHANNEL_CH4, LL_TIM_ICPSC_DIV1);
   LL_TIM_IC_SetFilter(TIM8, LL_TIM_CHANNEL_CH4, LL_TIM_IC_FILTER_FDIV16_N5);
   LL_TIM_IC_SetPolarity(TIM8, LL_TIM_CHANNEL_CH4, LL_TIM_IC_POLARITY_FALLING);
@@ -893,14 +887,16 @@ static void MX_TIM8_Init(void) {
   LL_TIM_EnableDMAReq_CC3(TIM8);
   LL_TIM_EnableDMAReq_CC4(TIM8);
   /* USER CODE END TIM8_Init 2 */
+
 }
 
 /**
- * @brief TIM11 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_TIM11_Init(void) {
+  * @brief TIM11 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM11_Init(void)
+{
 
   /* USER CODE BEGIN TIM11_Init 0 */
 
@@ -912,8 +908,7 @@ static void MX_TIM11_Init(void) {
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_TIM11);
 
   /* TIM11 interrupt Init */
-  NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 0, 0));
+  NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
   NVIC_EnableIRQ(TIM1_TRG_COM_TIM11_IRQn);
 
   /* USER CODE BEGIN TIM11_Init 1 */
@@ -928,14 +923,16 @@ static void MX_TIM11_Init(void) {
   /* USER CODE BEGIN TIM11_Init 2 */
 
   /* USER CODE END TIM11_Init 2 */
+
 }
 
 /**
- * @brief USART3 Initialization Function
- * @param None
- * @retval None
- */
-static void MX_USART3_UART_Init(void) {
+  * @brief USART3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART3_UART_Init(void)
+{
 
   /* USER CODE BEGIN USART3_Init 0 */
 
@@ -987,50 +984,48 @@ static void MX_USART3_UART_Init(void) {
   /* USER CODE BEGIN USART3_Init 2 */
 
   /* USER CODE END USART3_Init 2 */
+
 }
 
 /**
- * Enable DMA controller clock
- */
-static void MX_DMA_Init(void) {
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
 
   /* Init with LL driver */
   /* DMA controller clock enable */
+  LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_DMA2);
 
   /* DMA interrupt init */
-  /* LL_DMA_STREAM_0 interrupt configuration */
-  NVIC_SetPriority(LL_DMA_STREAM_0,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
-  NVIC_EnableIRQ(LL_DMA_STREAM_0);
+  /* DMA2_Stream0_IRQn interrupt configuration */
+  NVIC_SetPriority(DMA2_Stream0_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
+  NVIC_EnableIRQ(DMA2_Stream0_IRQn);
   /* DMA2_Stream1_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA2_Stream1_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
+  NVIC_SetPriority(DMA2_Stream1_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
   NVIC_EnableIRQ(DMA2_Stream1_IRQn);
   /* DMA2_Stream2_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA2_Stream2_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
+  NVIC_SetPriority(DMA2_Stream2_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
   NVIC_EnableIRQ(DMA2_Stream2_IRQn);
   /* DMA2_Stream3_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA2_Stream3_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
+  NVIC_SetPriority(DMA2_Stream3_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
   NVIC_EnableIRQ(DMA2_Stream3_IRQn);
   /* DMA2_Stream4_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA2_Stream4_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
+  NVIC_SetPriority(DMA2_Stream4_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
   NVIC_EnableIRQ(DMA2_Stream4_IRQn);
   /* DMA2_Stream7_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA2_Stream7_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 6, 0));
+  NVIC_SetPriority(DMA2_Stream7_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),6, 0));
   NVIC_EnableIRQ(DMA2_Stream7_IRQn);
-  LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_DMA2);
+
 }
 
 /**
- * @brief GPIO Initialization Function
- * @param None
- * @retval None
- */
-static void MX_GPIO_Init(void) {
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
   LL_EXTI_InitTypeDef EXTI_InitStruct = {0};
   LL_GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
@@ -1247,8 +1242,7 @@ static void MX_GPIO_Init(void) {
   LL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
-  NVIC_SetPriority(EXTI15_10_IRQn,
-                   NVIC_EncodePriority(NVIC_GetPriorityGrouping(), 15, 0));
+  NVIC_SetPriority(EXTI15_10_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),15, 0));
   NVIC_EnableIRQ(EXTI15_10_IRQn);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
@@ -1262,10 +1256,11 @@ static void Init_Ctrl(void) {}
 /* USER CODE END 4 */
 
 /**
- * @brief  This function is executed in case of error occurrence.
- * @retval None
- */
-void Error_Handler(void) {
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
@@ -1274,15 +1269,16 @@ void Error_Handler(void) {
   /* USER CODE END Error_Handler_Debug */
 }
 
-#ifdef USE_FULL_ASSERT
+#ifdef  USE_FULL_ASSERT
 /**
- * @brief  Reports the name of the source file and the source line number
- *         where the assert_param error has occurred.
- * @param  file: pointer to the source file name
- * @param  line: assert_param error line source number
- * @retval None
- */
-void assert_failed(uint8_t *file, uint32_t line) {
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line
      number, ex: printf("Wrong parameters value: file %s on line %d\r\n", file,

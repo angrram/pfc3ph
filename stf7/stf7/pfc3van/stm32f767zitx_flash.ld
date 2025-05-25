@@ -55,16 +55,17 @@ ENTRY(Reset_Handler)
 /* Highest address of the user mode stack */
 _estack = ORIGIN(RAM) + LENGTH(RAM);    /* end of RAM */
 /* Generate a link error if heap and stack don't fit into RAM */
-_Min_Heap_Size = 0x200;      /* required amount of heap  */
+_Min_Heap_Size =  0x200;      /* required amount of heap  */
 _Min_Stack_Size = 0x400; /* required amount of stack */
 
 /* Specify the memory areas */
 MEMORY
 {
-RAM (xrw)       : ORIGIN = 0x20000000, LENGTH = 368K
+RAM   (xrw)     : ORIGIN = 0x20000000, LENGTH = 384K  
+
 FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 2048K
-ITCM_RAM (xrw)  : ORIGIN = 0x00000000, LENGTH = 256K
-DTCM_RAM (xrw)  : ORIGIN = 0x20000000, LENGTH = 64K
+
+/*DTCM_RAM (xrw)  : ORIGIN = 0x20000000, LENGTH = 64K*/
 }
 
 /* Define output sections */
@@ -77,8 +78,7 @@ SECTIONS
     KEEP(*(.isr_vector)) /* Startup code */
     . = ALIGN(4);
   } >FLASH
-.itcm : { *(.itcm) } > ITCM_RAM
-.dtcm : { *(.dtcm) } > DTCM_RAM
+
   /* The program code and other data goes into FLASH */
   .text :
   {
@@ -137,7 +137,7 @@ SECTIONS
   _sidata = LOADADDR(.data);
 
   /* Initialized data sections goes into RAM, load LMA copy after code */
-  .data (READONLY): 
+  .data : 
   {
     . = ALIGN(4);
     _sdata = .;        /* create a global symbol at data start */
@@ -148,7 +148,7 @@ SECTIONS
     _edata = .;        /* define a global symbol at data end */
   } >RAM AT> FLASH
 
-  
+   
   /* Uninitialized data section */
   . = ALIGN(4);
   .bss :
@@ -176,8 +176,8 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
 
+  /* ITCM Sections (for code) */
   
-
   /* Remove information from the standard libraries */
   /DISCARD/ :
   {

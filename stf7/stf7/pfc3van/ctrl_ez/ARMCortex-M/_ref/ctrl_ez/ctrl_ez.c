@@ -31,15 +31,14 @@ float filter_IB; /* 'Data Store Memory1' (':2049') */
 float filter_IC; /* 'Data Store Memory2' (':2051') */
 
 /* Block states (default storage) */
-DW_ctrl_ez_f_T __attribute__((section(".dtcm"))) ctrl_ez_DW;
+DW_ctrl_ez_f_T ctrl_ez_DW;
 
 /*
  * Output and update for action system:
  *    'If Action Subsystem' (':2053:76:684')
  *    'If Action Subsystem' (':2056:76:684')
  */
-void __attribute__((section(".itcm")))
-ctrl_ez_IfActionSubsystem(float rtu_In1, float *rty_Out1) {
+void ctrl_ez_IfActionSubsystem(float rtu_In1, float *rty_Out1) {
   /* Sum: 'Sum' (':2053:76:693') incorporates:
    *  DataTypeConversion: 'Convert_back' (':2053:76:695')
    *  DataTypeConversion: 'Convert_uint16' (':2053:76:694')
@@ -52,8 +51,7 @@ ctrl_ez_IfActionSubsystem(float rtu_In1, float *rty_Out1) {
  *    'If Action Subsystem1' (':2053:76:688')
  *    'If Action Subsystem1' (':2056:76:688')
  */
-void __attribute__((section(".itcm")))
-ctrl_ez_IfActionSubsystem1(float rtu_In1, float *rty_Out1) {
+void ctrl_ez_IfActionSubsystem1(float rtu_In1, float *rty_Out1) {
   /* Sum: 'Sum' (':2053:76:700') incorporates:
    *  DataTypeConversion: 'Convert_back' (':2053:76:698')
    *  DataTypeConversion: 'Convert_uint16' (':2053:76:697')
@@ -66,12 +64,12 @@ ctrl_ez_IfActionSubsystem1(float rtu_In1, float *rty_Out1) {
  *    'alpha_sogi' (':2176:2')
  *    'alpha_sogi' (':2177:2')
  */
-void __attribute__((section(".itcm")))
-ctrl_ez_alpha_sogi(float rtu_v_ct_alpha, float rtu_v_ct_alpha_k_1,
-                   float rtu_v_ct_alpha_k_2, float rtu_vd_sogi_alpha_k_1,
-                   float rtu_vd_sogi_alpha_k_2, float rtu_vq_sogi_alpha_k_1,
-                   float rtu_vq_sogi_alpha_k_2, float rtu_wolp,
-                   float *rty_vd_sogi_alpha, float *rty_vq_sogi_alpha) {
+void ctrl_ez_alpha_sogi(float rtu_v_ct_alpha, float rtu_v_ct_alpha_k_1,
+                        float rtu_v_ct_alpha_k_2, float rtu_vd_sogi_alpha_k_1,
+                        float rtu_vd_sogi_alpha_k_2,
+                        float rtu_vq_sogi_alpha_k_1,
+                        float rtu_vq_sogi_alpha_k_2, float rtu_wolp,
+                        float *rty_vd_sogi_alpha, float *rty_vq_sogi_alpha) {
   float tmp;
   float tmp_0;
   tmp = 6.25E-5F * rtu_wolp * rtu_wolp;
@@ -91,7 +89,7 @@ ctrl_ez_alpha_sogi(float rtu_v_ct_alpha, float rtu_v_ct_alpha_k_1,
 }
 
 /* System initialize for referenced model: 'ctrl_ez' */
-void __attribute__((section(".itcm"))) ctrl_ez_Init(float *rty_Qa) {
+void ctrl_ez_Init(float *rty_Qa) {
   /* SystemInitialize for RootInportFunctionCallGenerator generated from:
    * 'trigger_ctrl_ez' (':21') incorporates: SubSystem: 'ctrl_ez_fcn' (':498')
    */
@@ -120,12 +118,11 @@ void __attribute__((section(".itcm"))) ctrl_ez_Init(float *rty_Qa) {
 }
 
 /* Output and update for referenced model: 'ctrl_ez' */
-void __attribute__((section(".itcm")))
-ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
-                        const float *rtu_ic, const float *rtu_ov_out,
-                        const float *rtu_va, const float *rtu_vc,
-                        const float *rtu_vb, float *rty_Qa, float *rty_Qb,
-                        float *rty_Qc, bool *rty_lock) {
+void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
+                             const float *rtu_ic, const float *rtu_ov_out,
+                             const float *rtu_va, const float *rtu_vc,
+                             const float *rtu_vb, float *rty_Qa, float *rty_Qb,
+                             float *rty_Qc, bool *rty_lock) {
   float rtb_Gain_h[3];
   float rtb_Add1_idx_0;
   float rtb_Add1_idx_1;

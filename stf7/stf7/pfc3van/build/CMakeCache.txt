@@ -121,7 +121,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:UNINITIALIZED=1
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/pfc3van
 
 //Path to a program.
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe
@@ -248,15 +248,6 @@ pfc3van_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 pfc3van_SOURCE_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van
-
-//Value Computed by CMake
-stm32cubemx_BINARY_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/build/cmake/stm32cubemx
-
-//Value Computed by CMake
-stm32cubemx_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-stm32cubemx_SOURCE_DIR:STATIC=C:/Users/Angel/Desktop/hil/pfc3ph/stf7/stf7/pfc3van/cmake/stm32cubemx
 
 
 ########################
