@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'ctrl_ez'.
  *
- * Model version                  : 1.671
+ * Model version                  : 1.674
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Sun May 25 13:29:49 2025
+ * C/C++ source code generated on : Wed May 28 18:53:01 2025
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -67,9 +67,9 @@ extern void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib,
  * Block 'Bias' (':1856') : Unused code path elimination
  * Block synthesized block : Unused code path elimination
  * Block synthesized block : Unused code path elimination
+ * Block synthesized block : Unused code path elimination
  * Block 'Gain1' (':2288') : Unused code path elimination
  * Block 'Gain2' (':2289') : Unused code path elimination
- * Block synthesized block : Unused code path elimination
  * Block synthesized block : Eliminate redundant data type conversion
  * Block synthesized block : Eliminate redundant data type conversion
  * Block synthesized block : Eliminate redundant data type conversion

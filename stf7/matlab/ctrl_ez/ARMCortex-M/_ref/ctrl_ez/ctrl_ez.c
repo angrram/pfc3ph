@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'ctrl_ez'.
  *
- * Model version                  : 1.671
+ * Model version                  : 1.674
  * Simulink Coder version         : 24.2 (R2024b) 21-Jun-2024
- * C/C++ source code generated on : Sun May 25 13:29:49 2025
+ * C/C++ source code generated on : Wed May 28 18:53:01 2025
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex-M
@@ -123,36 +123,34 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
   *rtu_vc, const float *rtu_vb, float *rty_Qa, float *rty_Qb, float *rty_Qc,
   bool *rty_lock)
 {
-  float rtb_Gain_h[3];
+  float rtb_Gain_0[3];
   float rtb_Add1_idx_0;
   float rtb_Add1_idx_1;
   float rtb_Add1_idx_2;
+  float rtb_DataTypeConversion;
   float rtb_Gain1_l;
-  float rtb_Gain_idx_0;
-  float rtb_Gain_idx_2;
-  float rtb_Gain_k;
-  float rtb_Kalphabeta0_d_idx_0;
-  float rtb_Kalphabeta0_d_idx_1;
+  float rtb_Gain_l_idx_0;
+  float rtb_Gain_l_idx_2;
+  float rtb_Kalphabeta0_idx_0;
   float rtb_Memory1;
   float rtb_Memory10;
   float rtb_Memory3;
-  float rtb_Memory4_c;
   float rtb_Memory5;
   float rtb_Memory9;
   float rtb_Saturation;
-  float rtb_Sum4_i;
   float rtb_Switch;
   float rtb_Switch1_idx_0;
   float rtb_cnt_i;
   float rtb_cos_th;
   float rtb_th;
-  float rtb_valpha;
-  float rtb_vd_ctrl;
-  float rtb_vd_park_c;
+  float rtb_vd_park;
+  float rtb_vd_park_l;
   float rtb_vd_sogi_alpha;
   float rtb_vd_sogi_alpha_m;
   float rtb_vp_alpha;
   float rtb_vp_betha;
+  float rtb_vq_park;
+  float rtb_vq_park_o;
   float rtb_vq_sogi_alpha;
   float rtb_vq_sogi_alpha_p;
   int32_t rtb_Accumulator_o2;
@@ -164,6 +162,8 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     0.0314164795F, 0.0414761603F, 0.0512081906F, 0.0605594702F, 0.0694913715F,
     0.0779791325F, 0.0860104337F, 0.0935835242F, 0.100705102F, 0.107388355F,
     0.113651067F, 0.11951407F, 0.125F };
+
+  float rtb_vd_park_p_tmp;
 
   /* RootInportFunctionCallGenerator generated from: 'trigger_ctrl_ez' (':21') incorporates:
    *  SubSystem: 'ctrl_ez_fcn' (':498')
@@ -187,18 +187,24 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
   filter_IC = rtb_Add1_idx_2;
 
   /* Gain: 'Gain' (':2256') */
+  rtb_Gain_l_idx_0 = 0.0032141218F * *rtu_va;
   rtb_Switch1_idx_0 = 0.0032141218F * *rtu_vb;
-  rtb_Gain_idx_2 = 0.0032141218F * *rtu_vc;
+  rtb_Gain_l_idx_2 = 0.0032141218F * *rtu_vc;
 
-  /* MATLAB Function: 'clark_trafo' (':2157') incorporates:
-   *  Gain: 'Gain' (':2256')
+  /* Gain: 'Kalphabeta0' (':2317:641') incorporates:
+   *  Gain: 'one_by_3' (':2317:648')
+   *  Gain: 'one_by_sqrt3_' (':2317:649')
+   *  Sum: 'Sum' (':2317:644')
+   *  Sum: 'Sum1' (':2317:645')
+   *  Sum: 'Sum2' (':2317:646')
    */
-  rtb_valpha = ((0.0032141218F * *rtu_va - 0.5F * rtb_Switch1_idx_0) - 0.5F *
-                rtb_Gain_idx_2) * 0.666666687F;
-  rtb_Gain_idx_2 = (rtb_Switch1_idx_0 - rtb_Gain_idx_2) * 0.577350259F;
+  rtb_Kalphabeta0_idx_0 = (rtb_Gain_l_idx_0 - ((rtb_Gain_l_idx_0 +
+    rtb_Switch1_idx_0) + rtb_Gain_l_idx_2) * 0.333333343F) * 1.22474492F;
+  rtb_Gain_l_idx_2 = (rtb_Switch1_idx_0 - rtb_Gain_l_idx_2) * 0.577350259F *
+    1.22474492F;
 
   /* Memory: 'Memory4' (':2170') */
-  rtb_Memory4_c = ctrl_ez_DW.Memory4_PreviousInput_f;
+  rtb_DataTypeConversion = ctrl_ez_DW.Memory4_PreviousInput_f;
 
   /* Memory: 'Memory1' (':2164') */
   rtb_Memory1 = ctrl_ez_DW.Memory1_PreviousInput;
@@ -215,7 +221,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  Memory: 'Memory6' (':2172')
    *  Memory: 'Memory8' (':2174')
    */
-  ctrl_ez_alpha_sogi(rtb_valpha, ctrl_ez_DW.Memory4_PreviousInput_f,
+  ctrl_ez_alpha_sogi(rtb_Kalphabeta0_idx_0, ctrl_ez_DW.Memory4_PreviousInput_f,
                      ctrl_ez_DW.Memory6_PreviousInput,
                      ctrl_ez_DW.Memory1_PreviousInput,
                      ctrl_ez_DW.Memory2_PreviousInput_i,
@@ -242,7 +248,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  Memory: 'Memory7' (':2173')
    *  Memory: 'Memory9' (':2175')
    */
-  ctrl_ez_alpha_sogi(rtb_Gain_idx_2, ctrl_ez_DW.Memory10_PreviousInput,
+  ctrl_ez_alpha_sogi(rtb_Gain_l_idx_2, ctrl_ez_DW.Memory10_PreviousInput,
                      ctrl_ez_DW.Memory11_PreviousInput,
                      ctrl_ez_DW.Memory5_PreviousInput,
                      ctrl_ez_DW.Memory7_PreviousInput,
@@ -265,16 +271,13 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  Delay: 'Delay' (':2284')
    *  Delay: 'Delay1' (':2285')
    */
-  rtb_vd_park_c = ctrl_ez_DW.Delay1_DSTATE * rtb_vp_alpha -
+  rtb_vq_park = ctrl_ez_DW.Delay1_DSTATE * rtb_vp_betha +
+    ctrl_ez_DW.Delay_DSTATE * rtb_vp_alpha;
+  rtb_vd_park = ctrl_ez_DW.Delay1_DSTATE * rtb_vp_alpha -
     ctrl_ez_DW.Delay_DSTATE * rtb_vp_betha;
 
-  /* Gain: 'Gain3' (':2290') incorporates:
-   *  Delay: 'Delay' (':2284')
-   *  Delay: 'Delay1' (':2285')
-   *  MATLAB Function: 'park_tf' (':2301')
-   */
-  rtb_vp_alpha = (ctrl_ez_DW.Delay1_DSTATE * rtb_vp_betha +
-                  ctrl_ez_DW.Delay_DSTATE * rtb_vp_alpha) * 300.0F;
+  /* Gain: 'Gain3' (':2290') */
+  rtb_vp_alpha = 300.0F * rtb_vq_park;
 
   /* DiscreteIntegrator: 'Integrator' (':2286:843') incorporates:
    *  Constant: 'Constant1' (':2281')
@@ -342,7 +345,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  RelationalOperator: 'Equal3' (':2245')
    */
   rtb_cnt_i = ctrl_ez_DW.cnt_PreviousInput;
-  if ((rtb_vd_park_c >= 0.75F) && (rtb_vd_park_c <= 1.4F)) {
+  if ((rtb_vd_park >= 0.75F) && (rtb_vd_park <= 1.4F)) {
     if (ctrl_ez_DW.cnt_PreviousInput <= 1000.0F) {
       rtb_cnt_i = ctrl_ez_DW.cnt_PreviousInput + 1.0F;
       rtb_y_n = false;
@@ -358,11 +361,11 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
 
   /* Saturate: 'Saturation' (':2208') */
   if (rtb_th > 6.28318548F) {
-    rtb_vd_ctrl = 6.28318548F;
+    rtb_Gain1_l = 6.28318548F;
   } else if (rtb_th < 0.0F) {
-    rtb_vd_ctrl = 0.0F;
+    rtb_Gain1_l = 0.0F;
   } else {
-    rtb_vd_ctrl = rtb_th;
+    rtb_Gain1_l = rtb_th;
   }
 
   /* Switch: 'Switch' (':562') incorporates:
@@ -373,19 +376,8 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  RelationalOperator: 'Equal' (':1807')
    *  Saturate: 'Saturation' (':2208')
    */
-  *rty_lock = (((rtb_vd_ctrl <= 0.0F) || (!rtb_y_n)) &&
+  *rty_lock = (((rtb_Gain1_l <= 0.0F) || (!rtb_y_n)) &&
                ctrl_ez_DW.Memory_PreviousInput);
-
-  /* Gain: 'Kalphabeta0' (':2058:641') incorporates:
-   *  Gain: 'one_by_3' (':2058:648')
-   *  Gain: 'one_by_sqrt3_' (':2058:649')
-   *  Sum: 'Sum' (':2058:644')
-   *  Sum: 'Sum1' (':2058:645')
-   *  Sum: 'Sum2' (':2058:646')
-   */
-  rtb_Gain_idx_0 = (*rtu_va - ((*rtu_va + *rtu_vb) + *rtu_vc) * 0.333333343F) *
-    1.22474492F;
-  rtb_Switch1_idx_0 = (*rtu_vb - *rtu_vc) * 0.577350259F * 1.22474492F;
 
   /* Outputs for Enabled SubSystem: 'ctrl' (':1270') incorporates:
    *  EnablePort: 'Enable' (':1272')
@@ -399,18 +391,18 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Sum: 'Sum1' (':1278:645')
      *  Sum: 'Sum2' (':1278:646')
      */
-    rtb_Kalphabeta0_d_idx_0 = (rtb_Add1_idx_0 - ((rtb_Add1_idx_0 +
-      rtb_Add1_idx_1) + rtb_Add1_idx_2) * 0.333333343F) * 1.22474492F;
-    rtb_Kalphabeta0_d_idx_1 = (rtb_Add1_idx_1 - rtb_Add1_idx_2) * 0.577350259F *
+    rtb_Gain_l_idx_0 = (rtb_Add1_idx_0 - ((rtb_Add1_idx_0 + rtb_Add1_idx_1) +
+      rtb_Add1_idx_2) * 0.333333343F) * 1.22474492F;
+    rtb_Switch1_idx_0 = (rtb_Add1_idx_1 - rtb_Add1_idx_2) * 0.577350259F *
       1.22474492F;
 
     /* MATLAB Function: 'park_tf' (':2017') incorporates:
      *  MATLAB Function: 'dco' (':2300')
      */
-    rtb_vd_park_c = rtb_vp_betha * rtb_Kalphabeta0_d_idx_1 + rtb_cos_th *
-      rtb_Kalphabeta0_d_idx_0;
-    rtb_Kalphabeta0_d_idx_0 = rtb_vp_betha * rtb_Kalphabeta0_d_idx_0 -
-      rtb_cos_th * rtb_Kalphabeta0_d_idx_1;
+    rtb_vq_park_o = rtb_vp_betha * rtb_Switch1_idx_0 + rtb_cos_th *
+      rtb_Gain_l_idx_0;
+    rtb_vd_park_l = rtb_vp_betha * rtb_Gain_l_idx_0 - rtb_cos_th *
+      rtb_Switch1_idx_0;
 
     /* DiscreteIntegrator: 'Accumulator' (':1374') */
     if (ctrl_ez_DW.Accumulator_DSTATE == 50.0F) {
@@ -427,24 +419,25 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Gain: 'Gain1' (':1378')
      *  Sum: 'Sum1' (':1323')
      */
-    rtb_Sum4_i = (650.0F - *rtu_ov_out) * 0.3F + ctrl_ez_DW.Accumulator_DSTATE;
+    rtb_Switch1_idx_0 = (650.0F - *rtu_ov_out) * 0.3F +
+      ctrl_ez_DW.Accumulator_DSTATE;
 
     /* Saturate: 'Saturation' (':1380') */
-    if (rtb_Sum4_i > 50.0F) {
+    if (rtb_Switch1_idx_0 > 50.0F) {
       /* Saturate: 'Saturation' (':1380') */
       ctrl_ez_DW.I_D_CTRL_VDC = 50.0F;
-    } else if (rtb_Sum4_i < -50.0F) {
+    } else if (rtb_Switch1_idx_0 < -50.0F) {
       /* Saturate: 'Saturation' (':1380') */
       ctrl_ez_DW.I_D_CTRL_VDC = -50.0F;
     } else {
       /* Saturate: 'Saturation' (':1380') */
-      ctrl_ez_DW.I_D_CTRL_VDC = rtb_Sum4_i;
+      ctrl_ez_DW.I_D_CTRL_VDC = rtb_Switch1_idx_0;
     }
 
     /* End of Saturate: 'Saturation' (':1380') */
 
     /* Sum: 'Sum2' (':1328') */
-    rtb_Kalphabeta0_d_idx_1 = ctrl_ez_DW.I_D_CTRL_VDC - rtb_Kalphabeta0_d_idx_0;
+    rtb_Switch1_idx_0 = ctrl_ez_DW.I_D_CTRL_VDC - rtb_vd_park_l;
 
     /* Switch: 'Switch' (':1934') incorporates:
      *  Constant: 'Constant' (':1935')
@@ -452,15 +445,15 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Gain: 'Gain2' (':1390')
      */
     if (ctrl_ez_DW.Delay_DSTATE_b[0U] > 0.0F) {
-      rtb_vd_ctrl = 0.0F;
+      rtb_Gain1_l = 0.0F;
     } else {
-      rtb_vd_ctrl = 0.00153846154F * rtb_Kalphabeta0_d_idx_1;
+      rtb_Gain1_l = 0.00153846154F * rtb_Switch1_idx_0;
     }
 
     /* DiscreteIntegrator: 'Accumulator' (':1385') incorporates:
      *  Switch: 'Switch' (':1934')
      */
-    rtb_Switch = ctrl_ez_DW.Accumulator_DSTATE_a + rtb_vd_ctrl;
+    rtb_Switch = ctrl_ez_DW.Accumulator_DSTATE_a + rtb_Gain1_l;
 
     /* DiscreteIntegrator: 'Accumulator' (':1385') */
     if (rtb_Switch > 100.0F) {
@@ -473,35 +466,33 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
 
     /* Sum: 'Sum3' (':1332') incorporates:
      *  Gain: 'Gain1' (':1389')
+     *  Gain: 'Gain4' (':2321')
      *  Gain: 'Gain' (':1333')
-     *  MATLAB Function: 'dco' (':2300')
-     *  MATLAB Function: 'park_tf' (':2016')
      *  Sum: 'Add2' (':1386')
      */
-    rtb_vd_ctrl = ((rtb_vp_betha * rtb_Gain_idx_0 - rtb_cos_th *
-                    rtb_Switch1_idx_0) + 0.0471238904F * rtb_vd_park_c) - (5.0F *
-      rtb_Kalphabeta0_d_idx_1 + rtb_Switch);
+    rtb_Gain_l_idx_0 = (311.126984F * rtb_vd_park + 0.0471238904F *
+                        rtb_vq_park_o) - (5.0F * rtb_Switch1_idx_0 + rtb_Switch);
 
     /* Sum: 'Sum4' (':1336') incorporates:
      *  Constant: 'Constant1' (':1337')
      */
-    rtb_Sum4_i = 0.0F - rtb_vd_park_c;
+    rtb_Switch1_idx_0 = 0.0F - rtb_vq_park_o;
 
     /* Gain: 'Gain1' (':1400') incorporates:
      *  Constant: 'Constant1' (':1337')
      *  Sum: 'Sum4' (':1336')
      */
-    rtb_Gain1_l = (0.0F - rtb_vd_park_c) * 5.0F;
+    rtb_Gain1_l = (0.0F - rtb_vq_park_o) * 5.0F;
 
     /* Delay: 'Delay1' (':1399') */
-    rtb_vd_park_c = ctrl_ez_DW.Delay1_DSTATE_b;
+    rtb_vd_park = ctrl_ez_DW.Delay1_DSTATE_b;
 
     /* Switch: 'Switch' (':1403') incorporates:
      *  Constant: 'Constant1' (':1398')
      *  Delay: 'Delay1' (':1399')
      */
     if (ctrl_ez_DW.Delay1_DSTATE_b > 0.0F) {
-      rtb_Sum4_i = 0.0F;
+      rtb_Switch1_idx_0 = 0.0F;
     }
 
     /* End of Switch: 'Switch' (':1403') */
@@ -517,109 +508,107 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     /* DiscreteIntegrator: 'Accumulator' (':1396') incorporates:
      *  Gain: 'Gain2' (':1401')
      */
-    rtb_Kalphabeta0_d_idx_1 = 0.00153846154F * rtb_Sum4_i +
+    rtb_vq_park_o = 0.00153846154F * rtb_Switch1_idx_0 +
       ctrl_ez_DW.Accumulator_DSTATE_p;
 
     /* DiscreteIntegrator: 'Accumulator' (':1396') */
-    if (rtb_Kalphabeta0_d_idx_1 > 500.0F) {
+    if (rtb_vq_park_o > 500.0F) {
       /* DiscreteIntegrator: 'Accumulator' (':1396') */
-      rtb_Kalphabeta0_d_idx_1 = 500.0F;
-    } else if (rtb_Kalphabeta0_d_idx_1 < -500.0F) {
+      rtb_vq_park_o = 500.0F;
+    } else if (rtb_vq_park_o < -500.0F) {
       /* DiscreteIntegrator: 'Accumulator' (':1396') */
-      rtb_Kalphabeta0_d_idx_1 = -500.0F;
+      rtb_vq_park_o = -500.0F;
     }
 
     /* Sum: 'Sum5' (':1341') incorporates:
+     *  Gain: 'Gain5' (':2322')
      *  Gain: 'Gain1' (':1342')
-     *  MATLAB Function: 'dco' (':2300')
-     *  MATLAB Function: 'park_tf' (':2016')
      *  Sum: 'Add2' (':1397')
      */
-    rtb_Sum4_i = ((rtb_vp_betha * rtb_Switch1_idx_0 + rtb_cos_th *
-                   rtb_Gain_idx_0) - 0.0471238904F * rtb_Kalphabeta0_d_idx_0) -
-      (rtb_Gain1_l + rtb_Kalphabeta0_d_idx_1);
+    rtb_vd_park_l = (311.126984F * rtb_vq_park - 0.0471238904F * rtb_vd_park_l)
+      - (rtb_Gain1_l + rtb_vq_park_o);
 
     /* MATLAB Function: 'mine_invpark_tf' (':2020') incorporates:
      *  MATLAB Function: 'dco' (':2300')
      */
     rtb_Switch1_idx_0 = rtb_cos_th * rtb_cos_th + rtb_vp_betha * rtb_vp_betha;
-    rtb_Kalphabeta0_d_idx_0 = -(rtb_cos_th * rtb_vd_ctrl - rtb_vp_betha *
-      rtb_Sum4_i) / rtb_Switch1_idx_0;
-    rtb_vd_ctrl = (rtb_cos_th * rtb_Sum4_i + rtb_vp_betha * rtb_vd_ctrl) /
-      rtb_Switch1_idx_0;
+    rtb_vq_park = -(rtb_cos_th * rtb_Gain_l_idx_0 - rtb_vp_betha * rtb_vd_park_l)
+      / rtb_Switch1_idx_0;
+    rtb_vd_park_l = (rtb_cos_th * rtb_vd_park_l + rtb_vp_betha *
+                     rtb_Gain_l_idx_0) / rtb_Switch1_idx_0;
 
     /* Outputs for Atomic SubSystem: 'atan2' (':2028') */
     /* Trigonometry: 'Atan2' (':2028:325') */
-    if ((rtb_vd_ctrl == 0.0F) && (rtb_Kalphabeta0_d_idx_0 == 0.0F)) {
-      rtb_Gain_k = 0.0F;
+    if ((rtb_vd_park_l == 0.0F) && (rtb_vq_park == 0.0F)) {
+      rtb_Gain1_l = 0.0F;
     } else {
       rtb_y_n = false;
-      if (rtb_Kalphabeta0_d_idx_0 < 0.0F) {
-        if (rtb_vd_ctrl < 0.0F) {
+      if (rtb_vq_park < 0.0F) {
+        if (rtb_vd_park_l < 0.0F) {
           quadrantInfo = 3U;
         } else {
           quadrantInfo = 4U;
         }
-      } else if (rtb_vd_ctrl < 0.0F) {
+      } else if (rtb_vd_park_l < 0.0F) {
         quadrantInfo = 2U;
       } else {
         quadrantInfo = 1U;
       }
 
-      rtb_Gain1_l = (float)fabs(rtb_vd_ctrl);
-      rtb_Gain_k = (float)fabs(rtb_Kalphabeta0_d_idx_0);
-      if (rtb_Gain_k > rtb_Gain1_l) {
-        rtb_Sum4_i = rtb_Gain_k;
-        rtb_Gain_k = rtb_Gain1_l;
+      rtb_Gain_l_idx_0 = (float)fabs(rtb_vd_park_l);
+      rtb_Gain1_l = (float)fabs(rtb_vq_park);
+      if (rtb_Gain1_l > rtb_Gain_l_idx_0) {
+        rtb_Switch1_idx_0 = rtb_Gain1_l;
+        rtb_Gain1_l = rtb_Gain_l_idx_0;
         rtb_y_n = true;
       } else {
-        rtb_Sum4_i = rtb_Gain1_l;
+        rtb_Switch1_idx_0 = rtb_Gain_l_idx_0;
       }
 
-      bpIdx = plook_u32ff_evenc(rtb_Gain_k / rtb_Sum4_i, 0.0F, 0.0666666701F,
-        15U, &rtb_Gain1_l);
-      rtb_Gain_k = intrp1d_fu32fl(bpIdx, rtb_Gain1_l, tableData_c);
+      bpIdx = plook_u32ff_evenc(rtb_Gain1_l / rtb_Switch1_idx_0, 0.0F,
+        0.0666666701F, 15U, &rtb_Gain_l_idx_0);
+      rtb_Gain1_l = intrp1d_fu32fl(bpIdx, rtb_Gain_l_idx_0, tableData_c);
       if (rtb_y_n) {
-        rtb_Gain_k = 0.25F - rtb_Gain_k;
+        rtb_Gain1_l = 0.25F - rtb_Gain1_l;
       }
 
       if (quadrantInfo == 2) {
-        rtb_Gain_k = 0.5F - rtb_Gain_k;
+        rtb_Gain1_l = 0.5F - rtb_Gain1_l;
       } else if (quadrantInfo == 3) {
-        rtb_Gain_k -= 0.5F;
+        rtb_Gain1_l -= 0.5F;
       } else if (quadrantInfo == 4) {
-        rtb_Gain_k = -rtb_Gain_k;
+        rtb_Gain1_l = -rtb_Gain1_l;
       }
     }
 
-    rtb_Gain_k *= 6.28318548F;
+    rtb_Gain1_l *= 6.28318548F;
 
     /* End of Trigonometry: 'Atan2' (':2028:325') */
 
     /* MATLAB Function: 'mod_fcn' (':2052') incorporates:
      *  AlgorithmDescriptorDelegate generated from: 'a16' (':2028:305')
      */
-    rtb_Gain_k -= (float)floor(rtb_Gain_k / 6.28318548F) * 6.28318548F;
+    rtb_Gain1_l -= (float)floor(rtb_Gain1_l / 6.28318548F) * 6.28318548F;
 
     /* End of Outputs for SubSystem: 'atan2' (':2028') */
 
     /* MATLAB Function: 'sector_selection' (':1809') */
-    if ((rtb_Gain_k >= 0.0F) && (rtb_Gain_k < 1.04719758F)) {
+    if ((rtb_Gain1_l >= 0.0F) && (rtb_Gain1_l < 1.04719758F)) {
       y = 0;
       rtb_y_n = true;
-    } else if ((rtb_Gain_k >= 1.04719758F) && (rtb_Gain_k < 2.09439516F)) {
+    } else if ((rtb_Gain1_l >= 1.04719758F) && (rtb_Gain1_l < 2.09439516F)) {
       y = 1;
       rtb_y_n = false;
-    } else if ((rtb_Gain_k >= 2.09439516F) && (rtb_Gain_k < 3.14159274F)) {
+    } else if ((rtb_Gain1_l >= 2.09439516F) && (rtb_Gain1_l < 3.14159274F)) {
       y = 2;
       rtb_y_n = true;
-    } else if ((rtb_Gain_k >= 3.14159274F) && (rtb_Gain_k < 4.18879032F)) {
+    } else if ((rtb_Gain1_l >= 3.14159274F) && (rtb_Gain1_l < 4.18879032F)) {
       y = 3;
       rtb_y_n = false;
-    } else if ((rtb_Gain_k >= 4.18879032F) && (rtb_Gain_k < 5.23598766F)) {
+    } else if ((rtb_Gain1_l >= 4.18879032F) && (rtb_Gain1_l < 5.23598766F)) {
       y = 4;
       rtb_y_n = true;
-    } else if ((rtb_Gain_k >= 5.23598766F) && (rtb_Gain_k < 6.28318548F)) {
+    } else if ((rtb_Gain1_l >= 5.23598766F) && (rtb_Gain1_l < 6.28318548F)) {
       y = 5;
       rtb_y_n = false;
     } else {
@@ -627,30 +616,30 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
       rtb_y_n = false;
     }
 
-    rtb_Gain_k -= (float)y * 1.04719758F;
+    rtb_Gain1_l -= (float)y * 1.04719758F;
 
     /* Gain: 'convert_pu' (':2053:76:652') incorporates:
      *  Constant: 'Constant' (':1789')
      *  Sum: 'Add1' (':1790')
      */
-    rtb_Gain1_l = (1.04719758F - rtb_Gain_k) * 0.159154937F;
+    rtb_Gain_l_idx_0 = (1.04719758F - rtb_Gain1_l) * 0.159154937F;
 
     /* If: 'If' (':2053:76:683') incorporates:
      *  Constant: 'Constant' (':2053:76:692:3')
      *  RelationalOperator: 'Compare' (':2053:76:692:2')
      */
-    if (rtb_Gain1_l < 0.0F) {
+    if (rtb_Gain_l_idx_0 < 0.0F) {
       /* Outputs for IfAction SubSystem: 'If Action Subsystem' (':2053:76:684') incorporates:
        *  ActionPort: 'Action Port' (':2053:76:686')
        */
-      ctrl_ez_IfActionSubsystem(rtb_Gain1_l, &rtb_Sum4_i);
+      ctrl_ez_IfActionSubsystem(rtb_Gain_l_idx_0, &rtb_Switch1_idx_0);
 
       /* End of Outputs for SubSystem: 'If Action Subsystem' (':2053:76:684') */
     } else {
       /* Outputs for IfAction SubSystem: 'If Action Subsystem1' (':2053:76:688') incorporates:
        *  ActionPort: 'Action Port' (':2053:76:690')
        */
-      ctrl_ez_IfActionSubsystem1(rtb_Gain1_l, &rtb_Sum4_i);
+      ctrl_ez_IfActionSubsystem1(rtb_Gain_l_idx_0, &rtb_Switch1_idx_0);
 
       /* End of Outputs for SubSystem: 'If Action Subsystem1' (':2053:76:688') */
     }
@@ -658,18 +647,13 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     /* End of If: 'If' (':2053:76:683') */
 
     /* Gain: 'indexing' (':2053:76:605') */
-    rtb_Sum4_i *= 800.0F;
-
-    /* DataTypeConversion: 'Data Type Conversion1' (':2053:76:653') incorporates:
-     *  DataTypeConversion: 'Get_Integer' (':2053:76:608')
-     */
-    rtb_Gain1_l = (uint16_t)rtb_Sum4_i;
+    rtb_Switch1_idx_0 *= 800.0F;
 
     /* Selector: 'Lookup' (':2053:76:557') incorporates:
      *  Constant: 'sine_table_values' (':2053:76:549')
      *  DataTypeConversion: 'Get_Integer' (':2053:76:608')
      */
-    rtb_Switch1_idx_0 = rtCP_sine_table_values_Value[(uint16_t)rtb_Sum4_i];
+    rtb_Gain_l_idx_0 = rtCP_sine_table_values_Value[(uint16_t)rtb_Switch1_idx_0];
 
     /* Sum: 'Sum4' (':2053:76:615') incorporates:
      *  Constant: 'offset' (':2053:76:657')
@@ -682,29 +666,29 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Sum: 'Sum2' (':2053:76:612')
      *  Sum: 'Sum3' (':2053:76:614')
      */
-    rtb_Sum4_i = (rtCP_sine_table_values_Value[(int32_t)((uint16_t)rtb_Sum4_i +
-      1U)] - rtb_Switch1_idx_0) * (rtb_Sum4_i - (float)(uint16_t)rtb_Sum4_i) +
-      rtb_Switch1_idx_0;
+    rtb_Switch1_idx_0 = (rtCP_sine_table_values_Value[(int32_t)((uint16_t)
+      rtb_Switch1_idx_0 + 1U)] - rtb_Gain_l_idx_0) * (rtb_Switch1_idx_0 - (float)
+      (uint16_t)rtb_Switch1_idx_0) + rtb_Gain_l_idx_0;
 
     /* Gain: 'convert_pu' (':2056:76:652') */
-    rtb_Gain_k *= 0.159154937F;
+    rtb_Gain1_l *= 0.159154937F;
 
     /* If: 'If' (':2056:76:683') incorporates:
      *  Constant: 'Constant' (':2056:76:692:3')
      *  RelationalOperator: 'Compare' (':2056:76:692:2')
      */
-    if (rtb_Gain_k < 0.0F) {
+    if (rtb_Gain1_l < 0.0F) {
       /* Outputs for IfAction SubSystem: 'If Action Subsystem' (':2056:76:684') incorporates:
        *  ActionPort: 'Action Port' (':2056:76:686')
        */
-      ctrl_ez_IfActionSubsystem(rtb_Gain_k, &rtb_Gain1_l);
+      ctrl_ez_IfActionSubsystem(rtb_Gain1_l, &rtb_Gain_l_idx_0);
 
       /* End of Outputs for SubSystem: 'If Action Subsystem' (':2056:76:684') */
     } else {
       /* Outputs for IfAction SubSystem: 'If Action Subsystem1' (':2056:76:688') incorporates:
        *  ActionPort: 'Action Port' (':2056:76:690')
        */
-      ctrl_ez_IfActionSubsystem1(rtb_Gain_k, &rtb_Gain1_l);
+      ctrl_ez_IfActionSubsystem1(rtb_Gain1_l, &rtb_Gain_l_idx_0);
 
       /* End of Outputs for SubSystem: 'If Action Subsystem1' (':2056:76:688') */
     }
@@ -712,31 +696,30 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     /* End of If: 'If' (':2056:76:683') */
 
     /* Gain: 'indexing' (':2056:76:605') */
-    rtb_Gain1_l *= 800.0F;
+    rtb_Gain_l_idx_0 *= 800.0F;
 
     /* Sqrt: 'Sqrt' (':2027') incorporates:
      *  Product: 'Product' (':2024')
      *  Product: 'Product1' (':2025')
      *  Sum: 'Add' (':2026')
      */
-    rtb_vd_ctrl = (float)sqrt(rtb_vd_ctrl * rtb_vd_ctrl +
-      rtb_Kalphabeta0_d_idx_0 * rtb_Kalphabeta0_d_idx_0);
+    rtb_vd_park_l = (float)sqrt(rtb_vd_park_l * rtb_vd_park_l + rtb_vq_park *
+      rtb_vq_park);
 
     /* Sum: 'Add1' (':1981:360') incorporates:
      *  Product: 'Product' (':1981:364')
      *  Product: 'Product1' (':1981:365')
      *  UnitDelay: 'Unit Delay' (':1981:366')
      */
-    rtb_Kalphabeta0_d_idx_0 = *rtu_ov_out * 0.01F + 0.99F *
-      ctrl_ez_DW.UnitDelay_DSTATE_f;
+    rtb_vq_park = *rtu_ov_out * 0.01F + 0.99F * ctrl_ez_DW.UnitDelay_DSTATE_f;
 
     /* Saturate: 'Saturation3' (':1853') */
-    if (rtb_Kalphabeta0_d_idx_0 > 2000.0F) {
-      rtb_Gain_k = 2000.0F;
-    } else if (rtb_Kalphabeta0_d_idx_0 < 100.0F) {
-      rtb_Gain_k = 100.0F;
+    if (rtb_vq_park > 2000.0F) {
+      rtb_Gain1_l = 2000.0F;
+    } else if (rtb_vq_park < 100.0F) {
+      rtb_Gain1_l = 100.0F;
     } else {
-      rtb_Gain_k = rtb_Kalphabeta0_d_idx_0;
+      rtb_Gain1_l = rtb_vq_park;
     }
 
     /* End of Saturate: 'Saturation3' (':1853') */
@@ -744,7 +727,8 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     /* Product: 'Divide1' (':1795') incorporates:
      *  Constant: 'Constant1' (':1792')
      */
-    rtb_Switch1_idx_0 = rtb_Sum4_i * rtb_vd_ctrl * 1.73205078F / rtb_Gain_k;
+    rtb_Switch1_idx_0 = rtb_Switch1_idx_0 * rtb_vd_park_l * 1.73205078F /
+      rtb_Gain1_l;
 
     /* Saturate: 'Saturation' (':1823') */
     if (rtb_Switch1_idx_0 > 1.0F) {
@@ -757,7 +741,8 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Constant: 'sine_table_values' (':2056:76:549')
      *  DataTypeConversion: 'Get_Integer' (':2056:76:608')
      */
-    rtb_Gain_idx_0 = rtCP_sine_table_values_Value_d[(uint16_t)rtb_Gain1_l];
+    rtb_vd_park_p_tmp = rtCP_sine_table_values_Value_d[(uint16_t)
+      rtb_Gain_l_idx_0];
 
     /* Product: 'Divide1' (':1795') incorporates:
      *  Constant: 'Constant1' (':1792')
@@ -772,26 +757,27 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Sum: 'Sum3' (':2056:76:614')
      *  Sum: 'Sum4' (':2056:76:615')
      */
-    rtb_vd_ctrl = ((rtCP_sine_table_values_Value_d[(int32_t)((uint16_t)
-      rtb_Gain1_l + 1U)] - rtb_Gain_idx_0) * (rtb_Gain1_l - (float)(uint16_t)
-      rtb_Gain1_l) + rtb_Gain_idx_0) * rtb_vd_ctrl * 1.73205078F / rtb_Gain_k;
+    rtb_vd_park_l = ((rtCP_sine_table_values_Value_d[(int32_t)((uint16_t)
+      rtb_Gain_l_idx_0 + 1U)] - rtb_vd_park_p_tmp) * (rtb_Gain_l_idx_0 - (float)
+      (uint16_t)rtb_Gain_l_idx_0) + rtb_vd_park_p_tmp) * rtb_vd_park_l *
+      1.73205078F / rtb_Gain1_l;
 
     /* Saturate: 'Saturation' (':1823') */
-    if (rtb_vd_ctrl > 1.0F) {
-      rtb_vd_ctrl = 1.0F;
-    } else if (rtb_vd_ctrl < 0.0F) {
-      rtb_vd_ctrl = 0.0F;
+    if (rtb_vd_park_l > 1.0F) {
+      rtb_vd_park_l = 1.0F;
+    } else if (rtb_vd_park_l < 0.0F) {
+      rtb_vd_park_l = 0.0F;
     }
 
     /* Sum: 'Sum of Elements' (':1941') */
-    rtb_Sum4_i = rtb_Switch1_idx_0 + rtb_vd_ctrl;
+    rtb_Gain1_l = rtb_Switch1_idx_0 + rtb_vd_park_l;
 
     /* Switch: 'Switch' (':1877') */
     if (rtb_y_n) {
-      rtb_Gain_idx_0 = rtb_Switch1_idx_0;
-      rtb_Switch1_idx_0 = rtb_vd_ctrl;
+      rtb_Gain_l_idx_0 = rtb_Switch1_idx_0;
+      rtb_Switch1_idx_0 = rtb_vd_park_l;
     } else {
-      rtb_Gain_idx_0 = rtb_vd_ctrl;
+      rtb_Gain_l_idx_0 = rtb_vd_park_l;
     }
 
     /* End of Switch: 'Switch' (':1877') */
@@ -800,23 +786,23 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Constant: 'Constant2' (':1797')
      *  Sum: 'Add2' (':1799')
      */
-    if (1.0F - rtb_Sum4_i < 0.0F) {
-      rtb_vd_ctrl = 0.0F;
+    if (1.0F - rtb_Gain1_l < 0.0F) {
+      rtb_Gain1_l = 0.0F;
     } else {
-      rtb_vd_ctrl = 1.0F - rtb_Sum4_i;
+      rtb_Gain1_l = 1.0F - rtb_Gain1_l;
     }
 
     /* Gain: 'Gain' (':1802') incorporates:
      *  Saturate: 'Saturation2' (':1825')
      */
-    rtb_Gain_k = 0.5F * rtb_vd_ctrl;
+    rtb_Gain1_l *= 0.5F;
 
     /* Sum: 'Add3' (':1803') */
-    rtb_vd_ctrl = rtb_Switch1_idx_0 + rtb_Gain_k;
+    rtb_vd_park_l = rtb_Switch1_idx_0 + rtb_Gain1_l;
 
     /* Saturate: 'Saturation4' (':1872') */
-    if (rtb_vd_ctrl > 1.0F) {
-      rtb_vd_ctrl = 1.0F;
+    if (rtb_vd_park_l > 1.0F) {
+      rtb_vd_park_l = 1.0F;
     }
 
     /* End of Saturate: 'Saturation4' (':1872') */
@@ -832,19 +818,19 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     y *= 3;
 
     /* Sum: 'Add4' (':1804') */
-    rtb_Sum4_i = rtb_Gain_idx_0 + rtb_vd_ctrl;
+    rtb_Switch1_idx_0 = rtb_Gain_l_idx_0 + rtb_vd_park_l;
 
     /* SignalConversion generated from: 'Selector' (':1810') */
-    rtb_Gain_h[0] = rtb_Gain_k;
-    rtb_Gain_h[1] = rtb_vd_ctrl;
+    rtb_Gain_0[0] = rtb_Gain1_l;
+    rtb_Gain_0[1] = rtb_vd_park_l;
 
     /* Saturate: 'Saturation5' (':1873') */
-    if (rtb_Sum4_i > 1.0F) {
+    if (rtb_Switch1_idx_0 > 1.0F) {
       /* SignalConversion generated from: 'Selector' (':1810') */
-      rtb_Gain_h[2] = 1.0F;
+      rtb_Gain_0[2] = 1.0F;
     } else {
       /* SignalConversion generated from: 'Selector' (':1810') */
-      rtb_Gain_h[2] = rtb_Sum4_i;
+      rtb_Gain_0[2] = rtb_Switch1_idx_0;
     }
 
     /* End of Saturate: 'Saturation5' (':1873') */
@@ -858,40 +844,43 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  which is contiguous for column-major array
      *     Remove protection against out-of-range input in generated code: 'on'
      *   */
-    rtb_Sum4_i = rtb_Gain_h[(int32_t)rtCP_DirectLookupTablenD_table[y] - 1];
-    if (rtb_Sum4_i > 0.97F) {
+    rtb_Switch1_idx_0 = rtb_Gain_0[(int32_t)rtCP_DirectLookupTablenD_table[y] -
+      1];
+    if (rtb_Switch1_idx_0 > 0.97F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[0] = 0.97F;
-    } else if (rtb_Sum4_i < 0.03F) {
+    } else if (rtb_Switch1_idx_0 < 0.03F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[0] = 0.03F;
     } else {
       /* Saturate: 'Saturation1' (':1937') */
-      ctrl_ez_DW.T2[0] = rtb_Sum4_i;
+      ctrl_ez_DW.T2[0] = rtb_Switch1_idx_0;
     }
 
-    rtb_Sum4_i = rtb_Gain_h[(int32_t)rtCP_DirectLookupTablenD_table[y + 1] - 1];
-    if (rtb_Sum4_i > 0.97F) {
+    rtb_Switch1_idx_0 = rtb_Gain_0[(int32_t)rtCP_DirectLookupTablenD_table[y + 1]
+      - 1];
+    if (rtb_Switch1_idx_0 > 0.97F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[1] = 0.97F;
-    } else if (rtb_Sum4_i < 0.03F) {
+    } else if (rtb_Switch1_idx_0 < 0.03F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[1] = 0.03F;
     } else {
       /* Saturate: 'Saturation1' (':1937') */
-      ctrl_ez_DW.T2[1] = rtb_Sum4_i;
+      ctrl_ez_DW.T2[1] = rtb_Switch1_idx_0;
     }
 
-    rtb_Sum4_i = rtb_Gain_h[(int32_t)rtCP_DirectLookupTablenD_table[y + 2] - 1];
-    if (rtb_Sum4_i > 0.97F) {
+    rtb_Switch1_idx_0 = rtb_Gain_0[(int32_t)rtCP_DirectLookupTablenD_table[y + 2]
+      - 1];
+    if (rtb_Switch1_idx_0 > 0.97F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[2] = 0.97F;
-    } else if (rtb_Sum4_i < 0.03F) {
+    } else if (rtb_Switch1_idx_0 < 0.03F) {
       /* Saturate: 'Saturation1' (':1937') */
       ctrl_ez_DW.T2[2] = 0.03F;
     } else {
       /* Saturate: 'Saturation1' (':1937') */
-      ctrl_ez_DW.T2[2] = rtb_Sum4_i;
+      ctrl_ez_DW.T2[2] = rtb_Switch1_idx_0;
     }
 
     /* End of Saturate: 'Saturation1' (':1937') */
@@ -909,16 +898,16 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
      *  Sum: 'Sum1' (':1323')
      */
     if (ctrl_ez_DW.Delay1_DSTATE_e > 0.0F) {
-      rtb_vd_ctrl = 0.0F;
+      rtb_Gain1_l = 0.0F;
     } else {
-      rtb_vd_ctrl = 650.0F - *rtu_ov_out;
+      rtb_Gain1_l = 650.0F - *rtu_ov_out;
     }
 
     /* Update for DiscreteIntegrator: 'Accumulator' (':1374') incorporates:
      *  Gain: 'Gain2' (':1379')
      *  Switch: 'Switch' (':1381')
      */
-    ctrl_ez_DW.Accumulator_DSTATE += 0.001F * rtb_vd_ctrl;
+    ctrl_ez_DW.Accumulator_DSTATE += 0.001F * rtb_Gain1_l;
     if (ctrl_ez_DW.Accumulator_DSTATE > 50.0F) {
       ctrl_ez_DW.Accumulator_DSTATE = 50.0F;
     } else if (ctrl_ez_DW.Accumulator_DSTATE < -50.0F) {
@@ -946,10 +935,10 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     ctrl_ez_DW.Accumulator_DSTATE_a = rtb_Switch;
 
     /* DiscreteIntegrator: 'Accumulator' (':1396') */
-    if (rtb_Kalphabeta0_d_idx_1 == 500.0F) {
+    if (rtb_vq_park_o == 500.0F) {
       /* Update for Delay: 'Delay1' (':1399') */
       ctrl_ez_DW.Delay1_DSTATE_b = 1.0F;
-    } else if (rtb_Kalphabeta0_d_idx_1 == -500.0F) {
+    } else if (rtb_vq_park_o == -500.0F) {
       /* Update for Delay: 'Delay1' (':1399') */
       ctrl_ez_DW.Delay1_DSTATE_b = -1.0F;
     } else {
@@ -958,12 +947,12 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     }
 
     /* Update for DiscreteIntegrator: 'Accumulator' (':1396') */
-    ctrl_ez_DW.Accumulator_DSTATE_p = rtb_Kalphabeta0_d_idx_1;
-    if (rtb_vd_park_c > 0.0F) {
+    ctrl_ez_DW.Accumulator_DSTATE_p = rtb_vq_park_o;
+    if (rtb_vd_park > 0.0F) {
       ctrl_ez_DW.Accumulator_PrevResetState = 1;
-    } else if (rtb_vd_park_c < 0.0F) {
+    } else if (rtb_vd_park < 0.0F) {
       ctrl_ez_DW.Accumulator_PrevResetState = -1;
-    } else if (rtb_vd_park_c == 0.0F) {
+    } else if (rtb_vd_park == 0.0F) {
       ctrl_ez_DW.Accumulator_PrevResetState = 0;
     } else {
       ctrl_ez_DW.Accumulator_PrevResetState = 2;
@@ -972,7 +961,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
     /* End of Update for DiscreteIntegrator: 'Accumulator' (':1396') */
 
     /* Update for UnitDelay: 'Unit Delay' (':1981:366') */
-    ctrl_ez_DW.UnitDelay_DSTATE_f = rtb_Kalphabeta0_d_idx_0;
+    ctrl_ez_DW.UnitDelay_DSTATE_f = rtb_vq_park;
 
     /* Update for Delay: 'Delay1' (':1377') */
     ctrl_ez_DW.Delay1_DSTATE_e = (float)rtb_Accumulator_o2;
@@ -988,9 +977,9 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  DiscreteIntegrator: 'Integrator1' (':2274')
    */
   if (ctrl_ez_DW.Integrator1_DSTATE >= 0.0001F) {
-    rtb_Switch1_idx_0 = ctrl_ez_DW.Integrator1_DSTATE;
+    rtb_vq_park = ctrl_ez_DW.Integrator1_DSTATE;
   } else {
-    rtb_Switch1_idx_0 = 0.0001F;
+    rtb_vq_park = 0.0001F;
   }
 
   /* Sum: 'Sum' (':2277') incorporates:
@@ -1018,10 +1007,10 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
   ctrl_ez_DW.Memory4_PreviousInput = rtb_th;
 
   /* Update for Memory: 'Memory4' (':2170') */
-  ctrl_ez_DW.Memory4_PreviousInput_f = rtb_valpha;
+  ctrl_ez_DW.Memory4_PreviousInput_f = rtb_Kalphabeta0_idx_0;
 
   /* Update for Memory: 'Memory6' (':2172') */
-  ctrl_ez_DW.Memory6_PreviousInput = rtb_Memory4_c;
+  ctrl_ez_DW.Memory6_PreviousInput = rtb_DataTypeConversion;
 
   /* Update for Memory: 'Memory1' (':2164') */
   ctrl_ez_DW.Memory1_PreviousInput = rtb_vd_sogi_alpha;
@@ -1041,7 +1030,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
   ctrl_ez_DW.Integrator1_DSTATE += 0.000125F * ctrl_ez_DW.Integrator_DSTATE_h;
 
   /* Update for Memory: 'Memory10' (':2165') */
-  ctrl_ez_DW.Memory10_PreviousInput = rtb_Gain_idx_2;
+  ctrl_ez_DW.Memory10_PreviousInput = rtb_Gain_l_idx_2;
 
   /* Update for Memory: 'Memory11' (':2166') */
   ctrl_ez_DW.Memory11_PreviousInput = rtb_Memory10;
@@ -1083,7 +1072,7 @@ void ctrl_ez_trigger_ctrl_ez(const float *rtu_ia, const float *rtu_ib, const
    *  MATLAB Function: 'MATLAB Function' (':2275')
    *  Product: 'Product' (':2276')
    */
-  ctrl_ez_DW.Integrator_DSTATE_h += 1.0F / rtb_Switch1_idx_0 * rtb_Saturation *
+  ctrl_ez_DW.Integrator_DSTATE_h += 1.0F / rtb_vq_park * rtb_Saturation *
     0.000125F;
 
   /* End of Outputs for RootInportFunctionCallGenerator generated from: 'trigger_ctrl_ez' (':21') */
