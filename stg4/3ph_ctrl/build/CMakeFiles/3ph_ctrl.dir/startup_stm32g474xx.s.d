@@ -1,0 +1,2 @@
+CMakeFiles\3ph_ctrl.dir\startup_stm32g474xx.s.obj: \
+ C:\Users\Angel\Desktop\hil\pfc3ph\stg4\3ph_ctrl\startup_stm32g474xx.s

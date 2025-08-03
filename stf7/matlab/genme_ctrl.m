@@ -19,7 +19,7 @@ cmakeTxt = regexprep(cmakeTxt, 'ARCHIVE_OUTPUT_DIRECTORY','#');
 fid = fopen(strcat('.\',model,'\ARMCortex-M\_ref\ctrl_ez\CMakeLists.txt'), 'w');
 fwrite(fid, cmakeTxt);
 fclose(fid);
-
+    
 
 cmakeTxt = fileread(strcat('.\',model,'\ARMCortex-M\_shared\CMakeLists.txt'));
 cmakeTxt = regexprep(cmakeTxt, 'set_target_properties','#');
@@ -32,6 +32,6 @@ fwrite(fid, cmakeTxt);
 fclose(fid);
 
     
-% system(append('call xcopy_ctrl_ez.bat ',model))
+ system(append('call xcopy_ctrl_ez.bat ',model))
   
         

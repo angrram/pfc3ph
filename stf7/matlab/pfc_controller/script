@@ -1,0 +1,10 @@
+config load "C:\Users\Angel\Desktop\hil\pfc3ph\stf7\matlab\pfc_controller\pfc_controller.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\Users\Angel\STM32Cube\Repository\STM32Cube_FW_G4_V1.5.0"
+
+project generate 
+
+exit wait
